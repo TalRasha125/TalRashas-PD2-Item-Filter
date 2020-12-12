@@ -1,15 +1,14 @@
 //TalRasha's PD2 Item Filter
 
-
 //Hide Gold Piles Smaller Than (<) X
 ItemDisplay[GOLD<100 CLVL<20]:
 ItemDisplay[GOLD<1000 (CLVL>19 AND CLVL<70)]:
 ItemDisplay[GOLD<4999 CLVL>69]:
 //Health & Mana Potions
-ItemDisplay[rvl]: %PURPLE%R %WHITE%65%
+ItemDisplay[rvl]: %PURPLE%R%WHITE%65%
 ItemDisplay[hp5]: %RED%!%WHITE%H+
 ItemDisplay[mp5]: %BLUE%!%WHITE%M+
-ItemDisplay[rvs]: %PURPLE%r %WHITE%35%
+ItemDisplay[rvs]: %PURPLE%r%WHITE%35%
 ItemDisplay[hp1 CLVL<15]: %RED%!%WHITE%Minor Heal
 ItemDisplay[hp2 CLVL<18]: %RED%!%WHITE%Light Heal
 ItemDisplay[hp3 CLVL<24]: %RED%!%WHITE%Healing
@@ -108,19 +107,19 @@ ItemDisplay[r23 OR r23s]: %NL%%RED%¤¤ %PURPLE%MAL 23%RED% ¤¤%NL%%DOT-76%%MAP
 //24-33
 ItemDisplay[r24 OR r24s]: %NL%%RED%¤¤¤ %PURPLE%IST 24%RED% ¤¤¤%NL%%DOT-76%%MAP-0B%%BORDER-50% 
 ItemDisplay[r25 OR r25s]: %NL%%RED%¤¤¤¤ %PURPLE%GUL 25%RED% ¤¤¤¤%NL%%DOT-76%%MAP-0B%%BORDER-50% 
-ItemDisplay[r26 OR r26s]: %NL%%RED%¤¤¤¤¤¤¤¤¤¤ %PURPLE%VEX 26%RED% ¤¤¤¤¤¤¤¤¤¤%NL%%DOT-76%%MAP-0B%%BORDER-50% 
-ItemDisplay[r27 OR r27s]: %NL%%RED%¤¤¤¤¤¤¤¤¤¤ %PURPLE%OHM 27%RED% ¤¤¤¤¤¤¤¤¤¤%NL%%DOT-76%%MAP-0B%%BORDER-50% 
-ItemDisplay[r28 OR r28s]: %NL%%RED%¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤ %PURPLE%LO 28%RED% ¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤%NL%%DOT-76%%MAP-0B%%BORDER-50% 
-ItemDisplay[r29 OR r29s]: %NL%%RED%¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤ %PURPLE%SUR 29%RED% ¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤%NL%%DOT-76%%MAP-0B%%BORDER-50% 
-ItemDisplay[r30 OR r30s]: %NL%%RED%¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤ %PURPLE%BER 30%RED% ¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤%NL%%DOT-76%%MAP-0B%%BORDER-50% 
-ItemDisplay[r31 OR r31s]: %NL%%RED%¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤ %PURPLE%JAH 31%RED% ¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤%NL%%DOT-76%%MAP-0B%%BORDER-50% 
-ItemDisplay[r32 OR r32s]: %NL%%RED%¤¤¤¤¤¤¤¤¤¤ %PURPLE%CHAM 32%RED% ¤¤¤¤¤¤¤¤¤¤%NL%%DOT-76%%MAP-0B%%BORDER-50% 
-ItemDisplay[r33 OR r33s]: %NL%%RED%¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤ %PURPLE%ZOD 33%RED% ¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤%NL%%DOT-76%%MAP-0B%%BORDER-50% 
+ItemDisplay[r26 OR r26s]: %RED%*%YELLOW%*%GREEN%*%BLUE%*%NL%%RED%¤¤¤ %PURPLE%VEX 26%RED% ¤¤¤%NL%%RED%*%YELLOW%*%GREEN%*%BLUE%*%DOT-76%%MAP-0B%%BORDER-50% 
+ItemDisplay[r27 OR r27s]: %RED%*%YELLOW%*%GREEN%*%BLUE%*%NL%%RED%¤¤¤¤ %PURPLE%OHM 27%RED% ¤¤¤¤%NL%%RED%*%YELLOW%*%GREEN%*%BLUE%*%DOT-76%%MAP-0B%%BORDER-50% 
+ItemDisplay[r28 OR r28s]: %RED%*%YELLOW%*%GREEN%*%BLUE%*%NL%%RED%¤¤¤¤¤ %PURPLE%LO 28%RED% ¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤%NL%%RED%*%YELLOW%*%GREEN%*%BLUE%*%DOT-76%%MAP-0B%%BORDER-50% 
+ItemDisplay[r29 OR r29s]: %RED%*%YELLOW%*%GREEN%*%BLUE%*%NL%%RED%¤¤¤¤¤¤%PURPLE%SUR 29%RED% ¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤%NL%%RED%*%YELLOW%*%GREEN%*%BLUE%*%DOT-76%%MAP-0B%%BORDER-50% 
+ItemDisplay[r30 OR r30s]: %RED%*%YELLOW%*%GREEN%*%BLUE%*%NL%%RED%¤¤¤¤¤¤¤¤¤¤¤¤ %PURPLE%BER 30%RED% ¤¤¤¤¤¤¤¤¤¤¤¤%NL%%RED%*%YELLOW%*%GREEN%*%BLUE%*%DOT-76%%MAP-0B%%BORDER-50% 
+ItemDisplay[r31 OR r31s]: %RED%*%YELLOW%*%GREEN%*%BLUE%*%NL%%RED%¤¤¤¤¤¤¤¤¤¤ %PURPLE%JAH 31%RED% ¤¤¤¤¤¤¤¤¤¤%NL%%RED%*%YELLOW%*%GREEN%*%BLUE%*%DOT-76%%MAP-0B%%BORDER-50% 
+ItemDisplay[r32 OR r32s]: %RED%*%YELLOW%*%GREEN%*%BLUE%*%NL%%RED%¤¤¤¤¤ %PURPLE%CHAM 32%RED% ¤¤¤¤¤%NL%%RED%*%YELLOW%*%GREEN%*%BLUE%*%DOT-76%%MAP-0B%%BORDER-50% 
+ItemDisplay[r33 OR r33s]: %RED%*%YELLOW%*%GREEN%*%BLUE%*%NL%%RED%¤¤¤¤¤ %PURPLE%ZOD 33%RED% ¤¤¤¤¤%NL%%RED%*%YELLOW%*%GREEN%*%BLUE%*%DOT-76%%MAP-0B%%BORDER-50% 
 
 // Essences
 ItemDisplay[bet]: %GOLD%%NAME%%MAP-00% // Burning Essence of Terror
 ItemDisplay[ceh]: %GOLD%%NAME%%MAP-00% // Charged Essence of Hatred
-ItemDisplay[fed]: %NL%%RED%¤ %PURPLE%Festering Essence of Destruction%RED% ¤%NL%%DOT-76%%MAP-0B%%BORDER-50%
+ItemDisplay[fed]: %RED%*%YELLOW%*%GREEN%*%BLUE%*%NL%%RED%¤ %PURPLE%Festering Essence of Destruction%RED% ¤%NL%%RED%*%YELLOW%*%GREEN%*%BLUE%*%DOT-76%%MAP-0B%%BORDER-50%
 ItemDisplay[tes]: %GOLD%%NAME%%MAP-00% // Twisted Essence of Suffering
 
 // Tokens
@@ -134,14 +133,14 @@ ItemDisplay[bey]: %PURPLE%Baal's Eye%MAP-68%
 ItemDisplay[mbr]: %PURPLE%Mephisto's Brain%MAP-68%
 
 //Diablo clone
-ItemDisplay[dcma]: %NL%%RED%¤ %PURPLE%Vision of Terror %RED%¤%NL%%DOT-76%%MAP-0B%%BORDER-50% 
-ItemDisplay[dcbl]: %NL%%RED%¤ %PURPLE%Pure Demonic Essence %RED%¤%NL%%DOT-76%%MAP-0B%%BORDER-50%
-ItemDisplay[dcho]: %NL%%PURPLE%Black Soulstone%NL%
-ItemDisplay[dcso]: %NL%%RED%¤ %PURPLE%Prime Evil Soul %RED%¤%NL%%DOT-76%%MAP-0B%%BORDER-50% 
+ItemDisplay[dcma]: %RED%*%YELLOW%*%GREEN%*%BLUE%*%NL%%RED%¤ %PURPLE%Vision of Terror %RED%¤%NL%%RED%*%YELLOW%*%GREEN%*%BLUE%*%DOT-76%%MAP-0B%%BORDER-50% 
+ItemDisplay[dcbl]: %RED%*%YELLOW%*%GREEN%*%BLUE%*%NL%%RED%¤ %PURPLE%Pure Demonic Essence %RED%¤%NL%%RED%*%YELLOW%*%GREEN%*%BLUE%*%DOT-76%%MAP-0B%%BORDER-50%
+ItemDisplay[dcho]: %RED%*%YELLOW%*%GREEN%*%BLUE%*%NL%%PURPLE%Black Soulstone%NL%%RED%*%YELLOW%*%GREEN%*%BLUE%*
+ItemDisplay[dcso]: %RED%*%YELLOW%*%GREEN%*%BLUE%*%NL%%RED%¤ %PURPLE%Prime Evil Soul %RED%¤%NL%%RED%*%YELLOW%*%GREEN%*%BLUE%*%DOT-76%%MAP-0B%%BORDER-50% 
 
 //  Corruption Items
-ItemDisplay[wss]: %NL%%RED%*%PURPLE%Worldstone Shard%RED%*%NL%%MAP-62%
-ItemDisplay[lbox]: %NL%%RED%¤¤¤¤¤¤¤¤¤¤ %PURPLE%Larzuk's Puzzle Box %RED%¤¤¤¤¤¤¤¤¤¤%NL% %DOT-76%%MAP-0B%%BORDER-50% 
+ItemDisplay[wss]: %RED%*%NL%%RED%¤%PURPLE%Worldstone Shard%RED%¤%NL%%RED%*%MAP-62%
+ItemDisplay[lbox]: %RED%*%YELLOW%*%GREEN%*%BLUE%*%NL%%RED%¤¤¤¤¤¤¤¤¤¤ %PURPLE%Larzuk's Puzzle Box %RED%¤¤¤¤¤¤¤¤¤¤%NL%%RED%*%YELLOW%*%GREEN%*%BLUE%*%DOT-76%%MAP-0B%%BORDER-50% 
 
 // Map Items
 ItemDisplay[rera]: %PURPLE% %NAME%%DOT-80% // Reroll Rare Map (Horadrim Orb)
@@ -211,13 +210,13 @@ ItemDisplay[gsb OR gsbs CLVL>50]:
 ItemDisplay[gsy OR gsys CLVL>50]:
 ItemDisplay[sku OR skus CLVL>50]:
 //Gems flawless
-ItemDisplay[gzv OR gzvs]:%ORANGE%Amethyst
-ItemDisplay[glw OR glws]:%ORANGE%Diamond
-ItemDisplay[glg OR glgs]:%ORANGE%Emerald
-ItemDisplay[glr OR glrs]:%ORANGE%Ruby
-ItemDisplay[glb OR glbs]:%ORANGE%Sapphire
-ItemDisplay[gly OR glys]:%ORANGE%Topaz
-ItemDisplay[skl OR skls]:%ORANGE%Skull
+ItemDisplay[gzv OR gzvs]:%PURPLE%*%NL%%ORANGE%Amethyst%NL%%PURPLE%*
+ItemDisplay[glw OR glws]:%WHITE%*%NL%%ORANGE%Diamond%NL%%WHITE%*
+ItemDisplay[glg OR glgs]:%GREEN%*%NL%%ORANGE%Emerald%NL%%GREEN%*
+ItemDisplay[glr OR glrs]:%RED%*%NL%%ORANGE%Ruby%NL%%RED%*
+ItemDisplay[glb OR glbs]:%BLUE%*%NL%%ORANGE%Sapphire%NL%%BLUE%*
+ItemDisplay[gly OR glys]:%YELLOW%*%NL%%ORANGE%Topaz%NL%%YELLOW%*
+ItemDisplay[skl OR skls]:%BLACK%*%NL%%ORANGE%Skull%NL%%BLACK%*
 //Gems Perfect
 ItemDisplay[gpv OR gpvs]: %ORANGE%P AMETHYST
 ItemDisplay[gpw OR gpws]: %ORANGE%P DIAMOND
@@ -275,7 +274,6 @@ ItemDisplay[SET !ETH !ID uth]: %NL%%RED%¤¤¤ %PURPLE%Tal Armor%RED% ¤¤¤%NL%
 //Immortal King Armour
 ItemDisplay[SET !ETH !ID uar]: %NL%%RED%¤¤¤ %PURPLE%IK Armor%RED% ¤¤¤%NL%%DOT-76%%MAP-84%%BORDER-50%
 
-
 //Gloves
 //Dracul's Grasp
 ItemDisplay[UNI !ETH !ID uvg]: %RED%¤ %PURPLE%Dracul's %RED%¤%DOT-76%%MAP-84%%BORDER-50%
@@ -283,7 +281,6 @@ ItemDisplay[UNI !ETH !ID uvg]: %RED%¤ %PURPLE%Dracul's %RED%¤%DOT-76%%MAP-84%%
 ItemDisplay[UNI !ETH !ID uhg]: %NAME%%MAP-84%
 //Soul Drainer
 ItemDisplay[UNI !ETH !ID umg]: %NAME%%MAP-84%
-
 
 //Belts
 //Arachnid Mesh
@@ -296,7 +293,6 @@ ItemDisplay[UNI !ETH !ID zlb]: %PURPLE%String of Ears%DOT-76%%MAP-84%%BORDER-50%
 ItemDisplay[UNI !ETH !ID zvb]: %NAME%%MAP-84%
 //Thundergod's Vigor
 ItemDisplay[UNI !ETH !ID zhb]: %PURPLE%Thundergods Vigor%DOT-76%%MAP-84%%BORDER-50%
-
 
 //Boots
 //War Traveler
@@ -365,9 +361,9 @@ ItemDisplay[UNI !ETH !ID xow]: %NL%%RED%¤ %PURPLE%Gerke's %RED%¤%NL%%DOT-76%%M
 ItemDisplay[UNI !ETH !ID uts]: %NL%%RED%¤ %PURPLE%Spirit Ward %RED%¤%NL%%DOT-76%%MAP-84%%BORDER-50%
 
 //UNIQUE Rings Amulets Jewels Charms
-ItemDisplay[UNI !ID rin]: %NL%%RED%¤¤¤¤¤ %PURPLE%Unique Ring Hype %RED%¤¤¤¤¤%NL%%DOT-76%%MAP-84%%BORDER-50% 
-ItemDisplay[UNI !ID amu]: %NL%%RED%¤¤¤¤¤ %PURPLE%Unique Amulet Hype %RED%¤¤¤¤¤%NL%%DOT-76%%MAP-84%%BORDER-50% 
-ItemDisplay[UNI !ID jew]: %NL%%RED%¤%YELLOW%¤%GREEN%¤%BLUE%¤ %PURPLE%Rainbow Facet %BLUE%¤%GREEN%¤%YELLOW%¤%RED%¤%NL%%DOT-76%%MAP-84%%BORDER-50% 
+ItemDisplay[UNI !ID rin]: %RED%*%YELLOW%*%GREEN%*%BLUE%*%NL%%RED%¤¤¤¤¤ %PURPLE%Unique Ring Hype %RED%¤¤¤¤¤%NL%%RED%*%YELLOW%*%GREEN%*%BLUE%*%DOT-76%%MAP-84%%BORDER-50% 
+ItemDisplay[UNI !ID amu]: %RED%*%YELLOW%*%GREEN%*%BLUE%*%NL%%RED%¤¤¤¤¤ %PURPLE%Unique Amulet Hype %RED%¤¤¤¤¤%NL%%RED%*%YELLOW%*%GREEN%*%BLUE%*%DOT-76%%MAP-84%%BORDER-50% 
+ItemDisplay[UNI !ID jew]: %RED%*%YELLOW%*%GREEN%*%BLUE%*%NL%%RED%¤%YELLOW%¤%GREEN%¤%BLUE%¤ %PURPLE%Rainbow Facet %BLUE%¤%GREEN%¤%YELLOW%¤%RED%¤%NL%%RED%*%YELLOW%*%GREEN%*%BLUE%*%DOT-76%%MAP-84%%BORDER-50% 
 ItemDisplay[UNI !ID cm3]: %RED%¤ %PURPLE%Gheed's %RED%¤%DOT-76%%MAP-84%%BORDER-50% 
 ItemDisplay[SET !ID amu]: %GREEN%¤ Set Amulet ¤%MAP-84% 
 
@@ -388,7 +384,6 @@ ItemDisplay[UNI SOCK>0]: %NAME%%MAP-84% [%SOCKETS%]
 ItemDisplay[SET SOCK>0]: %NAME%%MAP-84% [%SOCKETS%]
 ItemDisplay[UNI]: %NAME%%MAP-84%
 ItemDisplay[SET]: %NAME%%MAP-84%
-//
 
 //LivEisJeebus shop lines big thanks to him for these lines
 ItemDisplay[CL5 (CLSK6>0 AND SK271>2)]: %RED%¤¤¤¤¤ %PURPLE%LIGHT CLAW%RED% ¤¤¤¤¤
@@ -459,7 +454,7 @@ ItemDisplay[MAG rin ILVL=85]: %BLUE%%NAME%%DOT-97%%ORANGE% [CLVL 85-]
 ItemDisplay[MAG rin]: %BLUE%%NAME%%GRAY%[%ILVL%]
 
 //Blue Jewels for crafting
-ItemDisplay[MAG !ID jew]: Jewel
+ItemDisplay[MAG !ID jew]: %RED%*%NL%%BLUE%Jewel%NL%%RED%*
 
 //Gloves
 //Blood Gloves (Heavy Gloves/Sharkskin/Vampirebone) + NEF + RUBY + JEWEL
@@ -519,11 +514,10 @@ ItemDisplay[MAG cm1 ILVL=47]: %NAME%%DOT-97% %ORANGE%[L%ILVL%]
 ItemDisplay[RW]: %NAME%
 
 //Charms
-ItemDisplay[!UNI cm2 CLVL<97]:%NAME%%DOT-97%%GRAY%[%ILVL%] 
-ItemDisplay[!UNI (cm1 OR cm3)]: %NL%%NAME%%DOT-97%%GRAY%[%ILVL%]%NL%
-ItemDisplay[UNI (cm1 OR cm2 OR cm3)]: %NL%%NAME%%DOT-97%%NL%
+ItemDisplay[!UNI !ID cm2 CLVL<97]:%NAME%%DOT-97%%GRAY%[%ILVL%] 
+ItemDisplay[MAG !ID (cm1 OR cm3)]: %WHITE%%RED%*%NL%%BLUE%%NAME%%DOT-97%%GRAY%[%ILVL%]%NL%%RED%*%WHITE%
+//ItemDisplay[UNI !ID(cm1 OR cm2 OR cm3)]: %RED%*%NL%%BLUE%%NAME%%DOT-97%%NL%%RED%*
 ItemDisplay[MAG !ID cm2]:
-
 
 //BASES
 //Armor
@@ -663,7 +657,7 @@ ItemDisplay[uth NMAG SOCK=1]:
 ItemDisplay[uul NMAG SOCK=1]: 
 ItemDisplay[uar NMAG SOCK=1]: 
 ItemDisplay[utp NMAG SOCK=1]: 
-//
+
 ItemDisplay[uui NMAG SUP SOCK>1]: %NAME%[%SOCKETS%]
 ItemDisplay[uea NMAG SUP SOCK>1]: %NAME%[%SOCKETS%]
 ItemDisplay[ula NMAG SUP SOCK>1]: %NAME%[%SOCKETS%]
@@ -933,7 +927,6 @@ ItemDisplay[7ws NMAG SOCK=0]: %GRAY%%NAME%
 ItemDisplay[fla NMAG ETH SOCK=4]: %DARK_GREEN%ETH %NAME%%MAP-97% %YELLOW%[%SOCKETS%]
 ItemDisplay[fla NMAG !ETH SOCK=4]: %DARK_GREEN%%NAME%%MAP-97% %GRAY%[%SOCKETS%]
 
-
 //5os Phase Blade, Zerker Axe = Grief
 ItemDisplay[7cr NMAG SOCK=5]: %DARK_GREEN%%NAME%%MAP-97% %YELLOW%[%SOCKETS%]
 ItemDisplay[7wa NMAG !ETH SOCK=5]: %DARK_GREEN%%NAME% %YELLOW%[%SOCKETS%]
@@ -1027,7 +1020,6 @@ ItemDisplay[NMAG 7cr !ETH SOCK=6]: %DARK_GREEN%%NAME% %GRAY%[%SOCKETS%]
 ItemDisplay[NMAG 7wa !ETH SOCK=6]: %DARK_GREEN%%NAME% %GRAY%[%SOCKETS%]
 ItemDisplay[NMAG 7gm !ETH SOCK=6]: 
 
-
 //Lawbringer
 ItemDisplay[7cr NMAG SOCK=3]: %DARK_GREEN%%NAME% %YELLOW%[%SOCKETS%]
 ItemDisplay[72h ETH NMAG SOCK=3]: %DARK_GREEN%ETH %NAME% %YELLOW%[%SOCKETS%]
@@ -1042,7 +1034,6 @@ ItemDisplay[7wd ETH NMAG SOCK=3]:
 ItemDisplay[7wd ETH NMAG SOCK=0]: 
 ItemDisplay[7wd NMAG SOCK=3]: 
 
-
 //Oath
 ItemDisplay[7wa ETH NMAG SOCK=4]: %DARK_GREEN%ETH %NAME% %YELLOW%[%SOCKETS%]
 ItemDisplay[7fb ETH NMAG SOCK=4]: %DARK_GREEN%ETH %NAME% %YELLOW%[%SOCKETS%]
@@ -1050,7 +1041,6 @@ ItemDisplay[7gd ETH NMAG SOCK=4]: %DARK_GREEN%ETH %NAME% %YELLOW%[%SOCKETS%]
 
 //Fortitude Weapon
 ItemDisplay[72a ETH NMAG SOCK=4]: %DARK_GREEN%ETH %NAME% %YELLOW%[%SOCKETS%]
-
 
 //non-magic wands 
 ItemDisplay[WP12 NMAG !wnd !ywn !9wn !SOCK=1 (SK74=3)]: %DARK_GREEN%+3 Corpse Explosion wand%GRAY%[%SOCKETS%]
@@ -1130,16 +1120,16 @@ ItemDisplay[RARE lbl !ID CLVL>40]:
 
 //RARES
 //Best Rares (Circlets, Amulets, Rings, Gloves, Boots, Belts, Jewels)
-ItemDisplay[RARE ci0 !ID]: %NL%%YELLOW%¤%NAME%¤%NL%%MAP-97%
-ItemDisplay[RARE ci1 !ID]: %NL%%YELLOW%¤%NAME%¤%NL%%MAP-97% 
-ItemDisplay[RARE ci2 !ID]: %NL%%YELLOW%¤%NAME%¤%NL%%MAP-97%
-ItemDisplay[RARE ci3 !ID]: %NL%%YELLOW%¤%NAME%¤%NL%%MAP-97% 
-ItemDisplay[RARE amu !ID]: %NL%%YELLOW%¤%NAME%¤%NL%%MAP-97% 
-ItemDisplay[RARE rin !ID]: %NL%%YELLOW%¤%NAME%¤%NL%%MAP-97% 
-ItemDisplay[RARE EQ4 !ID]: %NL%%YELLOW%%NAME%%NL%
-ItemDisplay[RARE EQ5 !ID]: %NL%%YELLOW%%NAME%%NL%
-ItemDisplay[RARE EQ6 !ID]: %NL%%YELLOW%%NAME%%NL%
-ItemDisplay[RARE jew !ID]: %NL%%YELLOW%JEWEL%NL%MAP-97%
+ItemDisplay[RARE ci0 !ID]: %WHITE%%RED%*%NL%%YELLOW%¤%NAME%¤%NL%%RED%*%WHITE%%MAP-97%
+ItemDisplay[RARE ci1 !ID]: %WHITE%%RED%*%NL%%YELLOW%¤%NAME%¤%NL%%RED%*%WHITE%%MAP-97% 
+ItemDisplay[RARE ci2 !ID]: %WHITE%%RED%*%NL%%YELLOW%¤%NAME%¤%NL%%RED%*%WHITE%%MAP-97%
+ItemDisplay[RARE ci3 !ID]: %WHITE%%RED%*%NL%%YELLOW%¤%NAME%¤%NL%%RED%*%WHITE%%MAP-97% 
+ItemDisplay[RARE amu !ID]: %WHITE%%RED%*%NL%%YELLOW%¤%NAME%¤%NL%%RED%*%WHITE%%MAP-97% 
+ItemDisplay[RARE rin !ID]: %WHITE%%RED%*%NL%%YELLOW%¤%NAME%¤%NL%%RED%*%WHITE%%MAP-97% 
+ItemDisplay[RARE EQ4 !ID]: %WHITE%%RED%*%NL%%YELLOW%%NAME%%NL%%RED%*%WHITE%%MAP-97%
+ItemDisplay[RARE EQ5 !ID]: %WHITE%%RED%*%NL%%YELLOW%%NAME%%NL%%RED%*%WHITE%%MAP-97%
+ItemDisplay[RARE EQ6 !ID]: %WHITE%%RED%*%NL%%YELLOW%%NAME%%NL%%RED%*%WHITE%%MAP-97%
+ItemDisplay[RARE jew !ID]: %WHITE%%RED%*%NL%%YELLOW%Jewel%NL%%RED%*%WHITE%%MAP-97%
 
 //Class Specific Rares (Druid Pelts, Barb Helms, Paladin Shields, Necro Heads, Assassin Claws, Sorc Orbs
 ItemDisplay[RARE CL1 !ID]: %YELLOW%%NAME%
