@@ -1139,7 +1139,7 @@ ItemDisplay[RARE rin !ID]: %NL%%YELLOW%¤%NAME%¤%NL%%MAP-97%
 ItemDisplay[RARE EQ4 !ID]: %NL%%YELLOW%%NAME%%NL%
 ItemDisplay[RARE EQ5 !ID]: %NL%%YELLOW%%NAME%%NL%
 ItemDisplay[RARE EQ6 !ID]: %NL%%YELLOW%%NAME%%NL%
-ItemDisplay[RARE jew !ID]: %NL%%YELLOW%JEWEL%%NL%MAP-97%
+ItemDisplay[RARE jew !ID]: %NL%%YELLOW%JEWEL%NL%MAP-97%
 
 //Class Specific Rares (Druid Pelts, Barb Helms, Paladin Shields, Necro Heads, Assassin Claws, Sorc Orbs
 ItemDisplay[RARE CL1 !ID]: %YELLOW%%NAME%
