@@ -229,6 +229,8 @@ ItemDisplay[skz OR skzs]: %ORANGE%P SKULL
 //Uniques
 //
 //Helms
+//Halaberd's Reign
+ItemDisplay[UNI !ETH !ID bae]: %NL%%RED%¤ %PURPLE%Halaberd's Reign %RED%¤%NL%%DOT-76%%MAP-84%%BORDER-50%
 //Griffon's Eye
 ItemDisplay[UNI !ETH !ID ci3]: %NL%%RED%¤¤¤¤¤¤¤¤¤¤ %PURPLE%Griff's%RED% ¤¤¤¤¤¤¤¤¤¤%NL%%DOT-76%%MAP-84%%BORDER-50% 
 //Shako
@@ -248,7 +250,7 @@ ItemDisplay[UNI !ETH !ID dre]: %RED%¤ %PURPLE%Ravenlore %RED%¤%DOT-76%%MAP-84%
 //G Face
 ItemDisplay[SET !ETH !ID xhm]: G face%MAP-84%
 //STEEL SHADE
-ItemDisplay[UNI !ID ulm]: %NL% %PURPLE%Steel Shade%DOT-76%%MAP-84%%BORDER-50% %NL% 
+ItemDisplay[UNI !ID ulm]: %NL%%PURPLE%Steel Shade%DOT-76%%MAP-84%%BORDER-50%%NL% 
 //Trangs Helm
 ItemDisplay[SET !ETH !ID uh9]: Trang-Oul's Helm%MAP-84%
 //Stealskull
@@ -257,6 +259,8 @@ ItemDisplay[UNI !ETH !ID xlm]: Stealskull%MAP-84%
 //Armor
 //Viper Magi
 ItemDisplay[UNI !ETH !ID xea]: %NL%%RED%¤ %PURPLE%Vipermagi %RED%¤%NL%%DOT-76%%MAP-84%%BORDER-50%
+//Leviathan
+ItemDisplay[UNI !ID uld]: %NL%%RED%¤ %PURPLE%Leviathan %RED%¤%NL%%DOT-76%%MAP-84%%BORDER-50%
 //Naj's Chest
 ItemDisplay[SET !ETH !ID ult]: NAJ'S PLATE%MAP-84%
 //Duriel's Shell
@@ -275,6 +279,14 @@ ItemDisplay[SET !ETH !ID uth]: %NL%%RED%¤¤¤ %PURPLE%Tal Armor%RED% ¤¤¤%NL%
 ItemDisplay[SET !ETH !ID uar]: %NL%%RED%¤¤¤ %PURPLE%IK Armor%RED% ¤¤¤%NL%%DOT-76%%MAP-84%%BORDER-50%
 
 //Gloves
+//Chance Guards
+ItemDisplay[UNI !ETH !ID mgl]: %RED%¤ %PURPLE%Chancies %RED%¤%DOT-76%%MAP-84%%BORDER-50%
+//Trang's
+ItemDisplay[SET !ETH !ID xmg]: %RED%¤ %PURPLE%Trang's %RED%¤%DOT-76%%MAP-84%%BORDER-50%
+//Magefist
+ItemDisplay[UNI !ETH !ID tgl]: %RED%¤ %PURPLE%Magefist %RED%¤%DOT-76%%MAP-84%%BORDER-50%
+//Laying of Hands
+ItemDisplay[SET !ETH !ID ulg]: %RED%¤ %PURPLE%Laying of Hands %RED%¤%DOT-76%%MAP-84%%BORDER-50%
 //Dracul's Grasp
 ItemDisplay[UNI !ETH !ID uvg]: %RED%¤ %PURPLE%Dracul's %RED%¤%DOT-76%%MAP-84%%BORDER-50%
 //Steelrend
@@ -283,8 +295,10 @@ ItemDisplay[UNI !ETH !ID uhg]: %NAME%%MAP-84%
 ItemDisplay[UNI !ETH !ID umg]: %NAME%%MAP-84%
 
 //Belts
+//Gloom's Trap
+ItemDisplay[UNI !ETH !ID zmb]: %NL%%RED%¤ %PURPLE%Gloom's Trap %RED%¤%NL%%DOT-76%%MAP-84%%BORDER-50%
 //Arachnid Mesh
-ItemDisplay[UNI !ETH !ID ulc]: %NL%%RED%¤¤¤¤¤¤¤¤ %PURPLE%Arachnid Mesh%RED% ¤¤¤¤¤¤¤¤¤%NL%%DOT-76%%MAP-84%%BORDER-50%
+ItemDisplay[UNI !ETH !ID ulc]: %RED%*%YELLOW%*%GREEN%*%BLUE%*%NL%%RED%¤¤¤ %PURPLE%Arachnid Mesh%RED% ¤¤¤%NL%%RED%*%YELLOW%*%GREEN%*%BLUE%*%DOT-76%%MAP-84%%BORDER-50%
 //Verdungo's Hearty Cord
 ItemDisplay[UNI !ETH !ID umc]: %RED%¤ %PURPLE%Dungo's %RED%¤%DOT-76%%MAP-84%%BORDER-50%
 //String of Ears
@@ -295,26 +309,29 @@ ItemDisplay[UNI !ETH !ID zvb]: %NAME%%MAP-84%
 ItemDisplay[UNI !ETH !ID zhb]: %PURPLE%Thundergods Vigor%DOT-76%%MAP-84%%BORDER-50%
 
 //Boots
+//Silkweave
+ItemDisplay[UNI !ETH !ID xmb]: %NL%%RED%¤ %PURPLE%Silkweave %RED%¤%NL%%DOT-76%%MAP-84%%BORDER-50%
 //War Traveler
-ItemDisplay[UNI !ETH !ID xtb]: %NL%%RED%¤¤¤ %PURPLE%War Traveler %RED% ¤¤¤%NL%%DOT-76%%MAP-84%%BORDER-50%
+ItemDisplay[UNI !ETH !ID xtb]: %RED%*%YELLOW%*%GREEN%*%BLUE%*%NL%%RED%¤¤¤ %PURPLE%War Traveler %RED% ¤¤¤%NL%%RED%*%YELLOW%*%GREEN%*%BLUE%*%DOT-76%%MAP-84%%BORDER-50%
 //Shadow Dancer
-ItemDisplay[UNI !ETH !ID uhb]: %NL%%RED%¤ %PURPLE%Shadow Dancer %RED%¤%NL%%DOT-76%%MAP-84%%BORDER-50%
+ItemDisplay[UNI !ETH !ID uhb]: %RED%*%YELLOW%*%GREEN%*%BLUE%*%NL%%RED%¤ %PURPLE%Shadow Dancer %RED%¤%NL%%RED%*%YELLOW%*%GREEN%*%BLUE%*%DOT-76%%MAP-84%%BORDER-50%
 //Sandstorm Trek
 ItemDisplay[UNI !ETH !ID uvb]: %NL%%RED%¤ %PURPLE%Sandstorm Trek %RED%¤%NL%%DOT-76%%MAP-84%%BORDER-50%
 //Gore Rider
 ItemDisplay[UNI !ETH !ID xhb]: %NL%%RED%¤ %PURPLE%Gore Rider %RED%¤%NL%%DOT-76%%MAP-84%%BORDER-50%
 //Aldur's
-ItemDisplay[SET !ETH !ID xtb]: %NL%%RED%¤ %PURPLE%Aldur's Boots %RED%¤%NL%%DOT-76%%MAP-84%%BORDER-50%
+ItemDisplay[SET !ETH !ID xtb]: %NL%%RED%¤ %PURPLE%Aldur's %RED%¤%NL%%DOT-76%%MAP-84%%BORDER-50%
 
 //Weapons
-//Death's Fathom, Death's Web, Eschuta's, Windforce, Reaper's Toll, Lacerator, Azurewrath
+//Shadow Killer
+ItemDisplay[UNI !ID 7cs]: %NL%%RED%¤ %PURPLE%Shadow Killer %RED%¤%NL%%DOT-76%%MAP-84%%BORDER-50%
 ItemDisplay[UNI !ETH !ID obf]: %NL%%RED%¤ %PURPLE%Death's Fathom %RED%¤%NL%%DOT-76%%MAP-84%%BORDER-50%
 //Death's Web
 ItemDisplay[UNI !ETH !ID 7gw]: %NL%%RED%¤ %PURPLE%Death's Web %RED%¤%NL%%DOT-76%%MAP-84%%BORDER-50%
 //Eschuta's
 ItemDisplay[UNI !ETH !ID obc]: %NL%%RED%¤ %PURPLE%Eschuta's %RED%¤%NL%%DOT-76%%MAP-84%%BORDER-50%
 //Windforce
-ItemDisplay[UNI !ID 6lw]: %NL%%RED%¤¤¤¤  %PURPLE%WINDFORCE%RED% ¤¤¤¤%NL%%DOT-76%%MAP-84%%BORDER-50% %NL%
+ItemDisplay[UNI !ID 6lw]: %RED%*%YELLOW%*%GREEN%*%BLUE%*%NL%%RED%¤¤¤¤  %PURPLE%Windforce%RED% ¤¤¤¤%NL%%RED%*%YELLOW%*%GREEN%*%BLUE%*%DOT-76%%MAP-84%%BORDER-50%
 //Reaper's Toll
 ItemDisplay[UNI !ETH !ID 7s8]: %PURPLE%Reaper's Toll %DOT-76%%MAP-84%%BORDER-50%
 //ETH Reaper's Toll
@@ -340,7 +357,7 @@ ItemDisplay[UNI !ID 9sb]: Hexfire%MAP-84%
 
 //Shields
 //Stormshield, Homunculus, Herald of Zakarum, Darkforce Spawn(+3PNB), Medusa's Gaze, Radament's Sphere
-ItemDisplay[UNI !ETH !ID uit]: %NL%%RED%¤¤¤¤¤ %PURPLE%Stormshield%RED% ¤¤¤¤¤%NL%%DOT-76%%MAP-84%%BORDER-50%
+ItemDisplay[UNI !ETH !ID uit]: %NL%%RED%¤¤¤ %PURPLE%Stormshield%RED% ¤¤¤%NL%%DOT-76%%MAP-84%%BORDER-50%
 //Homunculus
 ItemDisplay[UNI !ETH !ID nea]: %PURPLE%Homunculus%DOT-76%%MAP-84%%BORDER-50%
 //Herald of Zakarum
@@ -514,7 +531,7 @@ ItemDisplay[MAG cm1 ILVL=47]: %NAME%%DOT-97% %ORANGE%[L%ILVL%]
 ItemDisplay[RW]: %NAME%
 
 //Charms
-ItemDisplay[!UNI !ID cm2 CLVL<97]:%NAME%%DOT-97%%GRAY%[%ILVL%] 
+ItemDisplay[!UNI !ID cm2 CLVL<97]:%NAME%%GRAY%[%ILVL%] 
 ItemDisplay[MAG !ID (cm1 OR cm3)]: %WHITE%%RED%*%NL%%BLUE%%NAME%%DOT-97%%GRAY%[%ILVL%]%NL%%RED%*%WHITE%
 //ItemDisplay[UNI !ID(cm1 OR cm2 OR cm3)]: %RED%*%NL%%BLUE%%NAME%%DOT-97%%NL%%RED%*
 ItemDisplay[MAG !ID cm2]:
@@ -1132,17 +1149,17 @@ ItemDisplay[RARE EQ6 !ID]: %WHITE%%RED%*%NL%%YELLOW%%NAME%%NL%%RED%*%WHITE%%MAP-
 ItemDisplay[RARE jew !ID]: %WHITE%%RED%*%NL%%YELLOW%Jewel%NL%%RED%*%WHITE%%MAP-97%
 
 //Class Specific Rares (Druid Pelts, Barb Helms, Paladin Shields, Necro Heads, Assassin Claws, Sorc Orbs
-ItemDisplay[RARE CL1 !ID]: %YELLOW%%NAME%
-ItemDisplay[RARE CL2 !ID]: %YELLOW%%NAME%
-ItemDisplay[RARE CL3 !ID]: %YELLOW%%NAME%
-ItemDisplay[RARE CL4 !ID]: %YELLOW%%NAME%
-ItemDisplay[RARE CL5 !ID]: %YELLOW%%NAME%
-ItemDisplay[RARE CL6 !ID]: %YELLOW%%NAME%
+ItemDisplay[RARE CL1 !ID]: %YELLOW%%NAME%%MAP-97%
+ItemDisplay[RARE CL2 !ID]: //%YELLOW%%NAME%
+ItemDisplay[RARE CL3 !ID]: //%YELLOW%%NAME%
+ItemDisplay[RARE CL4 !ID]: //%YELLOW%%NAME%
+ItemDisplay[RARE CL5 !ID]: %YELLOW%%NAME%%MAP-97%
+ItemDisplay[RARE CL6 !ID]: %YELLOW%%NAME%%MAP-97%
 
 //Caster Rares (Staff, Wand, Scepter)
-ItemDisplay[RARE WP11 !ID]: %YELLOW%%NAME%
-ItemDisplay[RARE WP12 !ID]: %YELLOW%%NAME%
-ItemDisplay[RARE WP13 !ID]: %YELLOW%%NAME%
+ItemDisplay[RARE WP11 !ID]: //%YELLOW%%NAME%
+ItemDisplay[RARE WP12 !ID]: //%YELLOW%%NAME%
+ItemDisplay[RARE WP13 !ID]: //%YELLOW%%NAME%
 
 //None of the Above
 //Weapons: Axe, Mace, Sword, Dagger, Throwing Weapon, Javelin, Spear, Polearm, Bow, Crossbow
@@ -1162,21 +1179,21 @@ ItemDisplay[ELT RARE ARMOR !ID ILVL>84)]:
 
 //MAGIC
 //Magic Diadems
-ItemDisplay[MAG ci3 !ETH !ID]: %BLUE%%NAME%
+ItemDisplay[MAG ci3 !ETH !ID]: %BLUE%*%BLUE%%NAME%%BLUE%*
 //Magic Circlets
-ItemDisplay[MAG ci0 !ETH !ID]: %BLUE%%NAME%
-ItemDisplay[MAG ci1 !ETH !ID]: %BLUE%%NAME%
-ItemDisplay[MAG ci2 !ETH !ID]: %BLUE%%NAME%
+ItemDisplay[MAG ci0 !ETH !ID]: %BLUE%*%BLUE%%NAME%%BLUE%*
+ItemDisplay[MAG ci1 !ETH !ID]: %BLUE%*%BLUE%%NAME%%BLUE%*
+ItemDisplay[MAG ci2 !ETH !ID]: %BLUE%*%BLUE%%NAME%%BLUE%*
 //Magic Vendor (Staff, Wand, Scepter)
-ItemDisplay[MAG WP11 !ID]: %BLUE%%NAME%
-ItemDisplay[MAG WP12 !ID]: %BLUE%%NAME%
-ItemDisplay[MAG WP13 !ID]: %BLUE%%NAME%
+ItemDisplay[MAG WP11 !ID]: //%BLUE%%NAME%%BLUE%*
+ItemDisplay[MAG WP12 !ID]: //%BLUE%%NAME%%BLUE%*
+ItemDisplay[MAG WP13 !ID]: //%BLUE%%NAME%%BLUE%*
 //Magic Maybe (Druid Pelt, Elite Assassin Claws, Sorceress Orbs
-ItemDisplay[MAG CL1 !ID]: %BLUE%%NAME%
-ItemDisplay[MAG ELT CL5 !ID]: %BLUE%%NAME%
-ItemDisplay[MAG CL6 !ID]: %BLUE%%NAME%
+ItemDisplay[MAG CL1 !ID]: %BLUE%*%BLUE%%NAME%%BLUE%*
+ItemDisplay[MAG ELT CL5 !ID]: %BLUE%*%BLUE%%NAME%%BLUE%*
+ItemDisplay[MAG CL6 !ID]: %BLUE%*%BLUE%%NAME%%BLUE%*
 //Magic Amazon Weapons >ILVL55
-ItemDisplay[MAG CL7 !ID ILVL>55]: %BLUE%%NAME%
+ItemDisplay[MAG CL7 !ID ILVL>55]: //%BLUE%*%BLUE%%NAME%%BLUE%*
 
 //Leveling - Generic
 ItemDisplay[RARE ILVL<15]: %NAME%
