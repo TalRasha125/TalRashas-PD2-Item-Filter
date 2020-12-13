@@ -1651,8 +1651,8 @@ ItemDisplay[NMAG !RW ILVL>60 6rx]:
 //Helms
 //Dream Delirium
 //Low Str 3SOC Masks (NON ETH)
-ItemDisplay[NMAG SOCK=3 !ETH msk]: %NAME% [%SOCKETS%]
-ItemDisplay[NMAG SOCK=3 !ETH xsk]: %NAME% [%SOCKETS%]
+ItemDisplay[NMAG SOCK=3 !ETH msk]: //%NAME% [%SOCKETS%]
+ItemDisplay[NMAG SOCK=3 !ETH xsk]: //%NAME% [%SOCKETS%]
 //103-106 str helms for archon plate builds
 ItemDisplay[NMAG SOCK=3 !ETH usk]: %NAME% [%SOCKETS%]
 ItemDisplay[NMAG SOCK=3 !ETH uh9]: %DARK_GREEN%%NAME% %YELLOW%[%SOCKETS%]
