@@ -109,8 +109,8 @@ ItemDisplay[r24 OR r24s]: %NL%%RED%¤¤¤ %PURPLE%IST 24%RED% ¤¤¤%NL%%DOT-76%
 ItemDisplay[r25 OR r25s]: %NL%%RED%¤¤¤¤ %PURPLE%GUL 25%RED% ¤¤¤¤%NL%%DOT-76%%MAP-0B%%BORDER-50% 
 ItemDisplay[r26 OR r26s]: %RED%*%YELLOW%*%GREEN%*%BLUE%*%NL%%RED%¤¤¤ %PURPLE%VEX 26%RED% ¤¤¤%NL%%RED%*%YELLOW%*%GREEN%*%BLUE%*%DOT-76%%MAP-0B%%BORDER-50% 
 ItemDisplay[r27 OR r27s]: %RED%*%YELLOW%*%GREEN%*%BLUE%*%NL%%RED%¤¤¤¤ %PURPLE%OHM 27%RED% ¤¤¤¤%NL%%RED%*%YELLOW%*%GREEN%*%BLUE%*%DOT-76%%MAP-0B%%BORDER-50% 
-ItemDisplay[r28 OR r28s]: %RED%*%YELLOW%*%GREEN%*%BLUE%*%NL%%RED%¤¤¤¤¤ %PURPLE%LO 28%RED% ¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤%NL%%RED%*%YELLOW%*%GREEN%*%BLUE%*%DOT-76%%MAP-0B%%BORDER-50% 
-ItemDisplay[r29 OR r29s]: %RED%*%YELLOW%*%GREEN%*%BLUE%*%NL%%RED%¤¤¤¤¤¤%PURPLE%SUR 29%RED% ¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤%NL%%RED%*%YELLOW%*%GREEN%*%BLUE%*%DOT-76%%MAP-0B%%BORDER-50% 
+ItemDisplay[r28 OR r28s]: %RED%*%YELLOW%*%GREEN%*%BLUE%*%NL%%RED%¤¤¤¤¤ %PURPLE%LO 28%RED% ¤¤¤¤¤NL%%RED%*%YELLOW%*%GREEN%*%BLUE%*%DOT-76%%MAP-0B%%BORDER-50% 
+ItemDisplay[r29 OR r29s]: %RED%*%YELLOW%*%GREEN%*%BLUE%*%NL%%RED%¤¤¤¤¤¤%PURPLE%SUR 29%RED% ¤¤¤¤¤¤%NL%%RED%*%YELLOW%*%GREEN%*%BLUE%*%DOT-76%%MAP-0B%%BORDER-50% 
 ItemDisplay[r30 OR r30s]: %RED%*%YELLOW%*%GREEN%*%BLUE%*%NL%%RED%¤¤¤¤¤¤¤¤¤¤¤¤ %PURPLE%BER 30%RED% ¤¤¤¤¤¤¤¤¤¤¤¤%NL%%RED%*%YELLOW%*%GREEN%*%BLUE%*%DOT-76%%MAP-0B%%BORDER-50% 
 ItemDisplay[r31 OR r31s]: %RED%*%YELLOW%*%GREEN%*%BLUE%*%NL%%RED%¤¤¤¤¤¤¤¤¤¤ %PURPLE%JAH 31%RED% ¤¤¤¤¤¤¤¤¤¤%NL%%RED%*%YELLOW%*%GREEN%*%BLUE%*%DOT-76%%MAP-0B%%BORDER-50% 
 ItemDisplay[r32 OR r32s]: %RED%*%YELLOW%*%GREEN%*%BLUE%*%NL%%RED%¤¤¤¤¤ %PURPLE%CHAM 32%RED% ¤¤¤¤¤%NL%%RED%*%YELLOW%*%GREEN%*%BLUE%*%DOT-76%%MAP-0B%%BORDER-50% 
