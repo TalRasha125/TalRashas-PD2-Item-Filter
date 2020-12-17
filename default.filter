@@ -2,7 +2,7 @@
 //TalRasha's PD2 Item Filter//
 //++++++++++++++++++++++++++//
 //Version 2.0
-//Updated 12/15/2020
+//Updated 12/17/2020
 //
 //╔══════╗
 //║ Gold ║
@@ -368,27 +368,27 @@ ItemDisplay[UNI !ID xhb]: %PURPLE%Gore Rider%MAP-84%%BORDER-50%
 //Weapons//
 ///////////
 //Gull
-ItemDisplay[UNI !ID dgr]: %RED%* %PURPLE%Gull!%RED *%MAP-84%%BORDER-50%
+ItemDisplay[UNI !ID dgr]: %RED%* %PURPLE%Gull!%RED% *%MAP-84%%BORDER-50%
 //Death Cleaver
-ItemDisplay[UNI !ID 7wa]: %RED%* %PURPLE%Death Cleaver%RED *%MAP-84%%BORDER-50%
+ItemDisplay[UNI !ID 7wa]: %RED%* %PURPLE%Death Cleaver%RED% *%MAP-84%%BORDER-50%
 //Horizon's Tornado/Stormlash
-ItemDisplay[UNI !ID 7fl]: %RED%* %PURPLE%Stormlash or Horizon's Tornado%RED *%MAP-84%%BORDER-50%
+ItemDisplay[UNI !ID 7fl]: %RED%* %PURPLE%Stormlash or Horizon's Tornado%RED% *%MAP-84%%BORDER-50%
 //Windhammer
 ItemDisplay[UNI !ID 7m7]: %PURPLE%Windhammer%MAP-84%%BORDER-50%
 //The Cranium Basher/Earth shifter
-ItemDisplay[UNI !ID 7gm]: %RED%* %PURPLE%Earth Shifter or The Cranium Basher%RED *%MAP-84%%BORDER-50%
+ItemDisplay[UNI !ID 7gm]: %RED%* %PURPLE%Earth Shifter or The Cranium Basher%RED% *%MAP-84%%BORDER-50%
 //Hand of Blessed Light
-ItemDisplay[UNI !ID 9ws]: %RED%* %PURPLE%Hand of Blessed Light%RED *%MAP-84%%BORDER-50%
+ItemDisplay[UNI !ID 9ws]: %RED%* %PURPLE%Hand of Blessed Light%RED% *%MAP-84%%BORDER-50%
 //Astreon's Iron Ward
-ItemDisplay[UNI !ID 7ws]: %RED%* %PURPLE%Astreon's Iron Ward%RED *%MAP-84%%BORDER-50%
+ItemDisplay[UNI !ID 7ws]: %RED%* %PURPLE%Astreon's Iron Ward%RED% *%MAP-84%%BORDER-50%
 //Steel Pillar
-ItemDisplay[UNI !ID 7p7]: %RED%* %PURPLE%Steel Pillar%RED *%MAP-84%%BORDER-50%
+ItemDisplay[UNI !ID 7p7]: %RED%* %PURPLE%Steel Pillar%RED% *%MAP-84%%BORDER-50%
 //Skull Collector
-ItemDisplay[UNI !ID 8ws]: %RED%* %PURPLE%Skull Collector%RED *%MAP-84%%BORDER-50%
+ItemDisplay[UNI !ID 8ws]: %RED%* %PURPLE%Skull Collector%RED% *%MAP-84%%BORDER-50%
 //Mang Song's Lesson
-ItemDisplay[UNI !ID 6ws]: %RED%* %PURPLE%Mang Song's Lesson%RED *%MAP-84%%BORDER-50%
+ItemDisplay[UNI !ID 6ws]: %RED%* %PURPLE%Mang Song's Lesson%RED% *%MAP-84%%BORDER-50%
 //The Grandfather
-ItemDisplay[UNI !ID 7gd]: %RED%* %PURPLE%The Grandfather%RED *%MAP-84%%BORDER-50%
+ItemDisplay[UNI !ID 7gd]: %RED%* %PURPLE%The Grandfather%RED% *%MAP-84%%BORDER-50%
 //Boneshade
 ItemDisplay[UNI !ID 7bw]: %PURPLE%Boneshade%MAP-84%%BORDER-50%
 //Jade Talon
