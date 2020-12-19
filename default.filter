@@ -8,8 +8,8 @@
 //║ Gold ║
 //╚══════╝
 //35K
-ItemDisplay[NMAG (wnd OR ywn OR 9wn) !ETH (SK83>2 OR SK85>2 OR SK87>2 OR SK88>2 OR SK90>1)]: %WHITE%%PRICE%%TAN%G
-ItemDisplay[NMAG (wnd OR ywn OR 9wn) !ETH (SK91>1 OR SK92>0 OR SK93>1 OR SK94>1 OR SK95>0)]: %WHITE%%PRICE%%TAN%G
+ItemDisplay[NMAG (wnd OR ywn OR 9wn) !ETH (SK83>2 OR SK85>2 OR SK87>2 OR SK88>2 OR SK90>1)]: %DARK_GREEN%Wand %WHITE%%PRICE%%TAN%G
+ItemDisplay[NMAG (wnd OR ywn OR 9wn) !ETH (SK91>1 OR SK92>0 OR SK93>1 OR SK94>1 OR SK95>0)]: %DARK_GREEN%Wand %WHITE%%PRICE%%TAN%G
 //
 ItemDisplay[GOLD<100 CLVL<20]:
 ItemDisplay[GOLD<1000 (CLVL>19 AND CLVL<70)]:
@@ -332,11 +332,11 @@ ItemDisplay[UNI !ID umg]: %PURPLE%Soul Drainer%DOT-76%%MAP-84%%BORDER-50%
 //Belts//
 /////////
 //Goldwrap
-ItemDisplay[UNI !ID tbl]: %PURPLE%Goldwrap%%MAP-84%%BORDER-50%
+ItemDisplay[UNI !ID tbl]: %PURPLE%Goldwrap%MAP-84%%BORDER-50%
 //Snowclash
-ItemDisplay[UNI !ID ztb]: %PURPLE%Snowclash%%MAP-84%%BORDER-50%
+ItemDisplay[UNI !ID ztb]: %PURPLE%Snowclash%MAP-84%%BORDER-50%
 //Nosferatu's Coil
-ItemDisplay[UNI !ID uvc]: %PURPLE%Nosferatur's Coil%%MAP-84%%BORDER-50%
+ItemDisplay[UNI !ID uvc]: %PURPLE%Nosferatu's Coil%MAP-84%%BORDER-50%
 //Gloom's Trap
 ItemDisplay[UNI !ID zmb]: %PURPLE%Gloom's Trap%MAP-84%%BORDER-50%
 //Arachnid Mesh
@@ -348,12 +348,12 @@ ItemDisplay[UNI !ID zlb]: %PURPLE%String of Ears%DOT-76%%MAP-84%%BORDER-50%
 //Razortail
 ItemDisplay[UNI !ID zvb]: %PURPLE%Razortail%MAP-84%%BORDER-50%
 //Thundergod's Vigor
-ItemDisplay[UNI !ID zhb]: %PURPLE%Thundergod's Vigor%%MAP-84%%BORDER-50%
+ItemDisplay[UNI !ID zhb]: %PURPLE%Thundergod's Vigor%MAP-84%%BORDER-50%
 /////////
 //Boots//
 /////////
 //Waterwalk
-ItemDisplay[UNI !ID xvb]: %PURPLE%Waterwalk%%MAP-84%%BORDER-50%
+ItemDisplay[UNI !ID xvb]: %PURPLE%Waterwalk%MAP-84%%BORDER-50%
 //Silkweave
 ItemDisplay[UNI !ID xmb]: %PURPLE%Silkweave%MAP-84%%BORDER-50%
 //War Traveler
@@ -974,8 +974,8 @@ ItemDisplay[CL5 (SK273<0)]: %GRAY%Mind Blast Claw[%SOCKETS%]
 //SPIRIT
 //4os Crystal Sword, Broad Sword, Larzuk Gaurantee = SPIRIT 
 ItemDisplay[crs ETH NMAG SOCK=4]: %DARK_GREEN%ETH %NAME%%MAP-97% %YELLOW%[%SOCKETS%]
-ItemDisplay[crs !ETH NMAG SOCK=4 CLVL<95]: %DARK_GREEN%%NAME%%MAP-97% %GRAY%[%SOCKETS%]
-ItemDisplay[bsd NMAG SOCK=4 CLVL<95]: %DARK_GREEN%%NAME%%MAP-97% %GRAY%[%SOCKETS%]
+ItemDisplay[crs !ETH NMAG SOCK=4]: %DARK_GREEN%%NAME%%MAP-97% %GRAY%[%SOCKETS%]
+ItemDisplay[bsd NMAG SOCK=4]: %DARK_GREEN%%NAME%%MAP-97% %GRAY%[%SOCKETS%]
 ItemDisplay[crs NMAG SOCK=4 CLVL>92]: 
 ItemDisplay[bsd NMAG SOCK=4 CLVL>92]: 
 ItemDisplay[crs NMAG SOCK=0 (ILVL>25 AND ILVL<41)]: %DARK_GREEN%%NAME%%WHITE% 4 soc from larzuk
