@@ -2,7 +2,7 @@
 //TalRasha's PD2 Item Filter//
 //++++++++++++++++++++++++++//
 //Version 2.0
-//Updated 12/20/2020
+//Updated 12/23/2020
 //
 //╔══════╗
 //║ Gold ║
@@ -308,7 +308,8 @@ ItemDisplay[UNI !ID xrs]: %PURPLE%Duriel's Shell%MAP-84%%BORDER-50%
 //Shaftstop
 ItemDisplay[UNI !ID xhn]: %PURPLE%Shaftstop%DOT-76%%MAP-84%%BORDER-50%
 //Tyrael's Might
-ItemDisplay[UNI !ID uar]: %RED%*%YELLOW%*%GREEN%*%BLUE%*%NL%%RED%¤¤¤¤¤ %PURPLE%Tyrael's or Templar's %RED% ¤¤¤¤¤%NL%%RED%*%YELLOW%*%GREEN%*%BLUE%*%DOT-76%%MAP-0B%%BORDER-50%
+ItemDisplay[UNI !ETH !ID uar]: %RED%*%YELLOW%*%GREEN%*%BLUE%*%NL%%RED%¤¤¤¤¤ %PURPLE%Tyrael's or Templar's %RED% ¤¤¤¤¤%NL%%RED%*%YELLOW%*%GREEN%*%BLUE%*%DOT-76%%MAP-0B%%BORDER-50%
+ItemDisplay[UNI ETH !ID uar]: %RED%*%YELLOW%*%GREEN%*%BLUE%*%NL%%RED%¤¤¤¤¤ %PURPLE%Eth Templar's %RED% ¤¤¤¤¤%NL%%RED%*%YELLOW%*%GREEN%*%BLUE%*%DOT-76%%MAP-0B%%BORDER-50%
 //Guardian Angel
 ItemDisplay[UNI !ID xlt]: %PURPLE%Guardian Angel%DOT-76%%MAP-84%%BORDER-50%
 //////////
@@ -367,6 +368,10 @@ ItemDisplay[UNI !ID xhb]: %PURPLE%Gore Rider%MAP-84%%BORDER-50%
 ///////////
 //Weapons//
 ///////////
+//Gavel of Pain
+ItemDisplay[UNI !ETH !ID 9gm]: %PURPLE%Gavel of Pain%MAP-84%%BORDER-50%
+//Gavel of Pain Eth
+ItemDisplay[UNI ETH !ID 9gm]: %RED%* %PURPLE%Gavel of Pain %RED%*%MAP-84%%BORDER-50%
 //Gull
 ItemDisplay[UNI !ID dgr]: %RED%* %PURPLE%Gull!%RED% *%MAP-84%%BORDER-50%
 //Death Cleaver
@@ -374,7 +379,7 @@ ItemDisplay[UNI !ID 7wa]: %RED%* %PURPLE%Death Cleaver%RED% *%MAP-84%%BORDER-50%
 //Horizon's Tornado/Stormlash
 ItemDisplay[UNI !ID 7fl]: %RED%* %PURPLE%Stormlash or Horizon's Tornado%RED% *%MAP-84%%BORDER-50%
 //Windhammer
-ItemDisplay[UNI !ID 7m7]: %PURPLE%Windhammer%MAP-84%%BORDER-50%
+//ItemDisplay[UNI !ID 7m7]: %PURPLE%Windhammer%MAP-84%%BORDER-50%
 //The Cranium Basher/Earth shifter
 ItemDisplay[UNI !ID 7gm]: %RED%* %PURPLE%Earth Shifter or The Cranium Basher%RED% *%MAP-84%%BORDER-50%
 //Hand of Blessed Light
@@ -416,7 +421,7 @@ ItemDisplay[UNI ETH !ID 7b8]: %RED%* %PURPLE%ETH Lacerator%RED *%MAP-84%%BORDER-
 //Azurewrath & Lightsabre
 ItemDisplay[UNI !ID 7cr]: %NL%%RED%¤ %PURPLE%Lightsabre or Azurewrath %RED%¤%NL%%DOT-76%%MAP-84%%BORDER-50%
 //Tombreaver
-ItemDisplay[UNI !ID 7pa]: %NL%%RED%¤ %PURPLE%Tomb Reaver %RED%¤%NL%%DOT-76%%MAP-84%%BORDER-50%
+ItemDisplay[UNI ETH !ID 7pa]: %RED%¤ %PURPLE%Eth Tomb Reaver %RED%¤%DOT-76%%MAP-84%%BORDER-50%
 //Thunderstroke
 ItemDisplay[UNI !ID amf]: %RED%¤ %PURPLE%Thunderstroke %RED%¤%DOT-76%%MAP-84%%BORDER-50%
 //Titan's Revenge
@@ -430,7 +435,7 @@ ItemDisplay[UNI !ID 7bk]: %PURPLE%Warshrike%DOT-76%%MAP-84%%BORDER-50%
 // Warshrike
 ItemDisplay[UNI ETH !ID 7bk]: %RED%* %PURPLE%ETH Warshrike%RED% *%DOT-76%%MAP-84%%BORDER-50%
 //Hexfire
-ItemDisplay[UNI !ID 9sb]: %PURPLE%Hexfire%MAP-84%%BORDER-50%
+//ItemDisplay[UNI !ID 9sb]: %PURPLE%Hexfire%MAP-84%%BORDER-50%
 ///////////
 //Shields//
 ///////////
@@ -491,10 +496,10 @@ ItemDisplay[SET !ID xmg]: %GREEN%¤ Trang-Oul's Gloves ¤%MAP-84%%BORDER-50%
 ItemDisplay[SET !ID 6cs]: %GREEN%Naj's Puzzler%MAP-84%%BORDER-50% 
 ItemDisplay[SET !ID ult]: %GREEN%Naj's Light Plate%MAP-84%%BORDER-50%
 //
-ItemDisplay[SET !ID xar]: %GREEN%Griswold's Heart%MAP-84%%BORDER-50% 
-ItemDisplay[SET !ID 7ws]: %GREEN%Griswold's Redemption%MAP-84%%BORDER-50% 
-ItemDisplay[SET !ID urn]: %GREEN%Griswold's Valor%MAP-84%%BORDER-50% 
-ItemDisplay[SET !ID paf]: %GREEN%Griswold's Honor%MAP-84%%BORDER-50% 
+ItemDisplay[SET !ID xar]: %GREEN%Griswold's Armor%MAP-84%%BORDER-50% 
+ItemDisplay[SET !ID 7ws]: %GREEN%Griswold's Weapon%MAP-84%%BORDER-50% 
+ItemDisplay[SET !ID urn]: %GREEN%Griswold's Helm%MAP-84%%BORDER-50% 
+ItemDisplay[SET !ID paf]: %GREEN%Griswold's Shield%MAP-84%%BORDER-50% 
 //
 ItemDisplay[SET !ID xtb]: %GREEN%¤ Aldur's Boots ¤%MAP-84%%BORDER-50% 
 ItemDisplay[SET !ID dr8]: %GREEN%Aldur's Helm%MAP-84%%BORDER-50% 
@@ -507,26 +512,26 @@ ItemDisplay[SET !ID amc]: %GREEN%M'avina's Bow%MAP-84%%BORDER-50%
 ItemDisplay[SET !ID uld]: %GREEN%M'avina's Armor%MAP-84%%BORDER-50% 
 ItemDisplay[SET !ID xtg]: %GREEN%M'avina's Gloves%MAP-84%%BORDER-50% 
 //
-ItemDisplay[SET !ID lbl]: %GREEN%Death's Hand%MAP-84%%BORDER-50% 
-ItemDisplay[SET !ID lgl]: %GREEN%Death's Guard%MAP-84%%BORDER-50% 
-ItemDisplay[SET !ID vbt]: %GREEN%Cow Kings or Sanders%MAP-84%%BORDER-50% 
-ItemDisplay[SET !ID uui]: %GREEN%Dark Adherent%MAP-84%%BORDER-50% 
-ItemDisplay[SET !ID xlb]: %GREEN%Rite of Passage%MAP-84%%BORDER-50% 
-ItemDisplay[SET !ID umc]: %GREEN%Credendum%MAP-84%%BORDER-50% 
-ItemDisplay[SET !ID 7ma]: %GREEN%Dangoon's Teaching%MAP-84%%BORDER-50% 
-ItemDisplay[SET !ID uhm]: %GREEN%Ondal's Almighty%MAP-84%%BORDER-50% 
-ItemDisplay[SET !ID xrs]: %GREEN%Haemosu's Adament%MAP-84%%BORDER-50% 
-ItemDisplay[SET !ID uts]: %GREEN%Taebaek's Glory%MAP-84%%BORDER-50% 
-ItemDisplay[SET !ID ci0]: %GREEN%Naj's Circlet%MAP-84%%BORDER-50% 
-ItemDisplay[SET !ID xvg]: %GREEN%Magnus' Skin%MAP-84%%BORDER-50% 
-ItemDisplay[SET !ID xml]: %GREEN%Whitsan's Guard%MAP-84%%BORDER-50% 
-ItemDisplay[SET !ID ztb]: %GREEN%Wilhem's Pride%MAP-84%%BORDER-50% 
-ItemDisplay[SET !ID xhl]: %GREEN%Sazabi's Mental Sheath%MAP-84%%BORDER-50% 
-ItemDisplay[SET !ID 7ls]: %GREEN%Sazabi's Cobalt Redeemer%MAP-84%%BORDER-50% 
-ItemDisplay[SET !ID upl]: %GREEN%Sazabi's Ghost Liberator%MAP-84%%BORDER-50% 
-ItemDisplay[SET !ID 7wd]: %GREEN%Bul-Kathos' Tribal Guardian%MAP-84%%BORDER-50% 
-ItemDisplay[SET !ID 7gd]: %GREEN%Bul-Kathos' Sacred Charge%MAP-84%%BORDER-50% 
-ItemDisplay[SET !ID tbt]: %GREEN%Vidala's Fetlock%MAP-84%%BORDER-50% 
+ItemDisplay[SET !ID lbl]: //%GREEN%Death's Hand%MAP-84%%BORDER-50% 
+ItemDisplay[SET !ID lgl]: //%GREEN%Death's Guard%MAP-84%%BORDER-50% 
+ItemDisplay[SET !ID vbt]: //%GREEN%Cow Kings or Sanders%MAP-84%%BORDER-50% 
+ItemDisplay[SET !ID uui]: //%GREEN%Dark Adherent%MAP-84%%BORDER-50% 
+ItemDisplay[SET !ID xlb]: //%GREEN%Rite of Passage%MAP-84%%BORDER-50% 
+ItemDisplay[SET !ID umc]: //%GREEN%Credendum%MAP-84%%BORDER-50% 
+ItemDisplay[SET !ID 7ma]: //%GREEN%Dangoon's Teaching%MAP-84%%BORDER-50% 
+ItemDisplay[SET !ID uhm]: //%GREEN%Ondal's Almighty%MAP-84%%BORDER-50% 
+ItemDisplay[SET !ID xrs]: //%GREEN%Haemosu's Adament%MAP-84%%BORDER-50% 
+ItemDisplay[SET !ID uts]: //%GREEN%Taebaek's Glory%MAP-84%%BORDER-50% 
+ItemDisplay[SET !ID ci0]: //%GREEN%Naj's Circlet%MAP-84%%BORDER-50% 
+ItemDisplay[SET !ID xvg]: //%GREEN%Magnus' Skin%MAP-84%%BORDER-50% 
+ItemDisplay[SET !ID xml]: //%GREEN%Whitsan's Guard%MAP-84%%BORDER-50% 
+ItemDisplay[SET !ID ztb]: //%GREEN%Wilhem's Pride%MAP-84%%BORDER-50% 
+ItemDisplay[SET !ID xhl]: //%GREEN%Sazabi's Mental Sheath%MAP-84%%BORDER-50% 
+ItemDisplay[SET !ID 7ls]: //%GREEN%Sazabi's Cobalt Redeemer%MAP-84%%BORDER-50% 
+ItemDisplay[SET !ID upl]: //%GREEN%Sazabi's Ghost Liberator%MAP-84%%BORDER-50% 
+ItemDisplay[SET !ID 7wd]: //%GREEN%Bul-Kathos' Tribal Guardian%MAP-84%%BORDER-50% 
+ItemDisplay[SET !ID 7gd]: //%GREEN%Bul-Kathos' Sacred Charge%MAP-84%%BORDER-50% 
+ItemDisplay[SET !ID tbt]: //%GREEN%Vidala's Fetlock%MAP-84%%BORDER-50% 
 //
 //UNIQUE&SET Eth/Socket Catchall
 ItemDisplay[UNI ETH SOCK>0 !ID]: ETH %NAME%%MAP-84% [%SOCKETS%]
@@ -596,7 +601,8 @@ ItemDisplay[MAG amu !ID ILVL=96]: %BLUE%*%NL%%BLUE%%NAME%%DOT-97%%ORANGE%[CLVL 8
 ItemDisplay[MAG amu !ID ILVL=97]: %BLUE%*%NL%%BLUE%%NAME%%DOT-97%%ORANGE%[CLVL 84+]%NL%%BLUE%*%WHITE%
 ItemDisplay[MAG amu !ID ILVL=98]: %BLUE%*%NL%%BLUE%%NAME%%DOT-97%%ORANGE%[CLVL 82+]%NL%%BLUE%*%WHITE%
 ItemDisplay[MAG amu !ID ILVL=99]: %BLUE%*%NL%%BLUE%%NAME%%DOT-97%%ORANGE%[CLVL 82+]%NL%%BLUE%*%WHITE%
-ItemDisplay[MAG amu !ID ILVL<85]: %BLUE%*%NL%%BLUE%%NAME%%DOT-97%%GRAY%[%ILVL%]%NL%%BLUE%*%WHITE%
+ItemDisplay[MAG amu !ID ILVL<85]: %BLUE%*%NAME%%DOT-97%%GRAY%[%ILVL%]%BLUE%*%WHITE%
+ItemDisplay[MAG amu ID]: %NAME% %GRAY%[%ILVL%]%WHITE%
 //
 //Rings
 ItemDisplay[MAG rin !ID ILVL=71]: %BLUE%%NAME%%ORANGE%[CLVL 99-]
@@ -620,11 +626,11 @@ ItemDisplay[MAG !ID rin]: %BLUE%%NAME%%GRAY%[%ILVL%]
 ItemDisplay[MAG !ID jew]: %BLUE%*%NL%%BLUE%Jewel%NL%%BLUE%*
 //
 //Magic Diadems
-ItemDisplay[MAG ci3 !ETH !ID]: %BLUE%*%NL%%BLUE%%NAME%%NL%%BLUE%*
+ItemDisplay[MAG ci3 !ETH !ID]: %BLUE%*%NAME%*
 //Magic Circlets
-ItemDisplay[MAG ci0 !ETH !ID]: %BLUE%*%NL%%BLUE%%NAME%%NL%%BLUE%*
-ItemDisplay[MAG ci1 !ETH !ID]: %BLUE%*%NL%%BLUE%%NAME%%NL%%BLUE%*
-ItemDisplay[MAG ci2 !ETH !ID]: %BLUE%*%NL%%BLUE%%NAME%%NL%%BLUE%*
+ItemDisplay[MAG ci0 !ETH !ID]: %BLUE%*%NAME%*
+ItemDisplay[MAG ci1 !ETH !ID]: %BLUE%*%NAME%*
+ItemDisplay[MAG ci2 !ETH !ID]: %BLUE%*%NAME%*
 //
 //Magic Vendor (Staff, Wand, Scepter)
 ItemDisplay[MAG WP11 !ID]: //%BLUE%%NAME%%BLUE%*
@@ -632,9 +638,9 @@ ItemDisplay[MAG WP12 !ID]: //%BLUE%%NAME%%BLUE%*
 ItemDisplay[MAG WP13 !ID]: //%BLUE%%NAME%%BLUE%*
 //
 //Magic Maybe (Druid Pelt, Elite Assassin Claws, Sorceress Orbs
-ItemDisplay[MAG CL1 !ID]: %BLUE%*%NL%%BLUE%%NAME%%NL%%BLUE%*
-ItemDisplay[MAG ELT CL5 !ID]: %BLUE%*%NL%%BLUE%%NAME%%NL%%BLUE%*
-ItemDisplay[MAG CL6 !ID]: %BLUE%*%NL%%BLUE%%NAME%%NL%%BLUE%*
+ItemDisplay[MAG CL1 !ID]: %BLUE%*%NAME%*
+ItemDisplay[MAG ELT CL5 !ID]: %BLUE%*%NAME%*
+ItemDisplay[MAG CL6 !ID]: %BLUE%*%NAME%*
 //
 //Magic Amazon Weapons >ILVL55
 ItemDisplay[MAG CL7 !ID ILVL>55]: //%BLUE%*%BLUE%%NAME%%BLUE%*
@@ -678,23 +684,27 @@ ItemDisplay[MAG lbt ILVL>84]:
 ////////////////
 ItemDisplay[MAG ID cm3 TABSK8=1]:%PURPLE%Fire Skiller%WHITE%[%ILVL%]
 ItemDisplay[MAG ID cm3 TABSK10=1]:%PURPLE%Cold Skiller%WHITE%[%ILVL%]
+ItemDisplay[MAG ID cm3 TABSK9=1]:%PURPLE%Light Skiller%WHITE%[%ILVL%]
 ItemDisplay[MAG ID cm3 TABSK17=1]:%PURPLE%PnB Skiller%WHITE%[%ILVL%]
+ItemDisplay[MAG ID cm3 TABSK18=1]:%PURPLE%Nsum Skiller%WHITE%[%ILVL%]
 ItemDisplay[MAG ID cm3 TABSK24=1]:%PURPLE%Pcomb Skiller%WHITE%[%ILVL%]
 ItemDisplay[MAG ID cm3 TABSK48=1]:%PURPLE%Trap Skiller%WHITE%[%ILVL%]
+ItemDisplay[MAG ID cm3 TABSK49=1]:%PURPLE%Shadow Skiller%WHITE%[%ILVL%]
+ItemDisplay[MAG ID cm3 TABSK34=1]:%PURPLE%Warcries Skiller%WHITE%[%ILVL%]
 ItemDisplay[MAG ID cm3 TABSK42=1]:%PURPLE%Ele Skiller%WHITE%[%ILVL%]
 ItemDisplay[MAG ID cm3 TABSK41=1]:%PURPLE%SS Skiller%WHITE%[%ILVL%]
 ItemDisplay[MAG ID cm3 TABSK40=1]:%PURPLE%Dsum Skiller%WHITE%[%ILVL%]
-ItemDisplay[MAG ID cm3 TABSK18=1]:%PURPLE%Nsum Skiller%WHITE%[%ILVL%]
-ItemDisplay[MAG ID cm3 TABSK9=1]:%PURPLE%Lite Skiller%WHITE%[%ILVL%]
 ItemDisplay[MAG ID cm3 TABSK2=1]:%PURPLE%Java Skiller%WHITE%[%ILVL%]
 ItemDisplay[MAG ID cm3 TABSK0=1]:%PURPLE%Bow Skiller%WHITE%[%ILVL%]
 ItemDisplay[MAG ID cm1 LIFE>15]:%PURPLE%Life Small Charm%WHITE%[%ILVL%]
 ItemDisplay[MAG ID cm1 MANA>13]:%PURPLE%Mana Small Charm%WHITE%[%ILVL%]
+ItemDisplay[MAG ID cm1 RES>2]:%PURPLE%Res Small Charm%WHITE%[%ILVL%]
+ItemDisplay[MAG ID cm1 MFIND>5]:%PURPLE%Mf Small Charm%WHITE%[%ILVL%]
 /////////////
 //Rerolling//
 /////////////
-ItemDisplay[MAG cm3 ILVL>90]: %NAME%%DOT-97%%ORANGE%[L%ILVL%]
-ItemDisplay[MAG cm1 ILVL=47]: %NAME%%DOT-97%%ORANGE%[L%ILVL%]
+ItemDisplay[MAG cm3 ILVL>90]: %NAME%%DOT-97%%ORANGE%[%ILVL%]
+ItemDisplay[MAG cm1 ILVL=47]: %NAME%%DOT-97%%ORANGE%[%ILVL%]
 /////////////
 //Runewords//
 /////////////
@@ -919,12 +929,10 @@ ItemDisplay[ama !ID CLVL<91]: %NAME%
 ItemDisplay[amf !ID CLVL<91]: %NAME%
 //
 //Paladin Shields Top Tier Elite non-eth, Medium-High Eth, Basic (ILVL restriction)
-ItemDisplay[NMAG pab !ETH RES>35 SOCK=4]: %GREEN%Res %NAME%%MAP-97%%RED%[%SOCKETS%]
-ItemDisplay[NMAG pab !ETH RES>35 SOCK=3]: %GREEN%Res %NAME%%MAP-97%%RED%[%SOCKETS%]
-ItemDisplay[NMAG pab !ETH RES>35 SOCK=0]: %GREEN%Res %NAME%%MAP-97%
-ItemDisplay[NMAG pab ETH RES>35 SOCK=4]: %DARK_GREEN%ETH Res %NAME%%MAP-97%%GRAY%[%SOCKETS%]
-ItemDisplay[NMAG pab ETH RES>35 SOCK=3]: %DARK_GREEN%ETH Res %NAME%%MAP-97%%GRAY%[%SOCKETS%]
-ItemDisplay[NMAG pab ETH RES>35 SOCK=0]: %DARK_GREEN%ETH Res %NAME%%MAP-97%
+ItemDisplay[NMAG pab !ETH (RES>35 AND RES<45) !SOCK=1]: %GREEN%Res %NAME%%MAP-97%%RED%[%SOCKETS%]
+ItemDisplay[NMAG pab !ETH RES=45 !SOCK=1]: %GREEN%45 Res %NAME%%MAP-97%%RED%[%SOCKETS%]
+ItemDisplay[NMAG pab ETH (RES>35 AND RES<45) !SOCK=1]: %DARK_GREEN%ETH Res %NAME%%MAP-97%%GRAY%[%SOCKETS%]
+ItemDisplay[NMAG pab ETH RES=45 !SOCK=1]: %DARK_GREEN%ETH 45 Res %NAME%%MAP-97%%GRAY%[%SOCKETS%]
 ItemDisplay[NMAG CL3 RES>35 SOCK=2 !ETH CLVL<85]: %DARK_GREEN%%NAME% %YELLOW%[%SOCKETS%]
 ItemDisplay[NMAG CL3 RES>35 SOCK=0 !ETH CLVL<85]: %DARK_GREEN%%NAME% %YELLOW%[%SOCKETS%]
 ItemDisplay[NMAG CL3 RES>35 SOCK=4 !ETH CLVL<85]: %DARK_GREEN%%NAME% %YELLOW%[%SOCKETS%]
@@ -1337,9 +1345,9 @@ ItemDisplay[RARE ci2 !ID]: %WHITE%%YELLOW%*%NL%%YELLOW%¤%NAME%¤%NL%%YELLOW%*%W
 ItemDisplay[RARE ci3 !ID]: %WHITE%%YELLOW%*%NL%%YELLOW%¤%NAME%¤%NL%%YELLOW%*%WHITE%%MAP-97% 
 ItemDisplay[RARE amu !ID]: %WHITE%%YELLOW%*%NL%%YELLOW%¤%NAME%¤%NL%%YELLOW%*%WHITE%%MAP-97% 
 ItemDisplay[RARE rin !ID]: %WHITE%%YELLOW%*%NL%%YELLOW%¤%NAME%¤%NL%%YELLOW%*%WHITE%%MAP-97% 
-ItemDisplay[RARE EQ4 !ID]: %WHITE%%YELLOW%*%NL%%YELLOW%%NAME%%NL%%YELLOW%*%WHITE%%MAP-97%
+ItemDisplay[RARE EQ4 !ID]: %WHITE%%YELLOW%*%NAME%*%WHITE%%MAP-97%
 ItemDisplay[RARE EQ5 !ID]: %WHITE%%YELLOW%*%NL%%YELLOW%%NAME%%NL%%YELLOW%*%WHITE%%MAP-97%
-ItemDisplay[RARE EQ6 !ID]: %WHITE%%YELLOW%*%NL%%YELLOW%%NAME%%NL%%YELLOW%*%WHITE%%MAP-97%
+ItemDisplay[RARE EQ6 !ID]: %WHITE%%YELLOW%*%NAME%*%WHITE%%MAP-97%
 ItemDisplay[RARE jew !ID]: %WHITE%%YELLOW%*%NL%%YELLOW%Jewel%NL%%YELLOW%*%WHITE%%MAP-97%
 //
 //stop scuffed rare belts showing
@@ -1347,17 +1355,17 @@ ItemDisplay[RARE vbl !ID CLVL>40]:
 ItemDisplay[RARE lbl !ID CLVL>40]:
 //
 //Merc Rares
-ItemDisplay[RARE WP3 !ID CLVL<85]: %NAME%
-ItemDisplay[RARE WP7 !ID CLVL<85]: %NAME%
-ItemDisplay[RARE WP8 !ID CLVL<85]: %NAME%
+ItemDisplay[RARE WP3 !ID]: //%NAME%
+ItemDisplay[RARE WP7 !ID]: //%NAME%
+ItemDisplay[RARE WP8 !ID]: //%NAME%
 //
 //Class Specific Rares (Druid Pelts, Barb Helms, Paladin Shields, Necro Heads, Assassin Claws, Sorc Orbs
-ItemDisplay[RARE CL1 !ID]: %YELLOW%*%NL%%YELLOW%%NAME%%NL%%YELLOW%*%WHITE%%MAP-97%
+ItemDisplay[RARE CL1 !ID]: %YELLOW%*%NAME%*%WHITE%%MAP-97%
 ItemDisplay[RARE CL2 !ID]: //%YELLOW%*%NL%%YELLOW%%NAME%%NL%%YELLOW%*%WHITE%%MAP-97%
 ItemDisplay[RARE CL3 !ID]: //%YELLOW%*%NL%%YELLOW%%NAME%%NL%%YELLOW%*%WHITE%%MAP-97%
 ItemDisplay[RARE CL4 !ID]: //%YELLOW%*%NL%%YELLOW%%NAME%%NL%%YELLOW%*%WHITE%%MAP-97%
-ItemDisplay[RARE CL5 !ID]: %YELLOW%*%NL%%YELLOW%%NAME%%NL%%YELLOW%*%WHITE%%MAP-97%
-ItemDisplay[RARE CL6 !ID]: %YELLOW%*%NL%%YELLOW%%NAME%%NL%%YELLOW%*%WHITE%%MAP-97%
+ItemDisplay[RARE CL5 !ID]: %YELLOW%*%NAME%*%WHITE%%MAP-97%
+ItemDisplay[RARE CL6 !ID]: %YELLOW%*%NAME%*%WHITE%%MAP-97%
 //
 //Caster Rares (Staff, Wand, Scepter)
 ItemDisplay[RARE WP11 !ID]: //%YELLOW%%NAME%
@@ -1366,21 +1374,23 @@ ItemDisplay[RARE WP13 !ID]: //%YELLOW%%NAME%
 //
 //None of the Above
 //Weapons: Axe, Mace, Sword, Dagger, Throwing Weapon, Javelin, Spear, Polearm, Bow, Crossbow
-ItemDisplay[RARE WP1 !ID ILVL>65]:
-ItemDisplay[RARE WP2 !ID ILVL>65]:
-ItemDisplay[RARE WP4 !ID ILVL>65]:
-ItemDisplay[RARE WP5 !ID ILVL>65]:
-ItemDisplay[RARE WP6 !ID ILVL>65]:
-ItemDisplay[RARE WP9 !ID ILVL>65]:
-ItemDisplay[RARE WP10 !ID ILVL>65]:
+ItemDisplay[RARE WP1 !ID]:
+ItemDisplay[RARE WP2 !ID]:
+ItemDisplay[RARE WP4 !ID]:
+ItemDisplay[RARE WP5 !ID]:
+ItemDisplay[RARE WP6 !ID]:
+ItemDisplay[RARE WP9 !ID]:
+ItemDisplay[RARE WP10 !ID]:
 //Armor: Helm (Not Circlet), Body, Shield (ilvl 66+)
-ItemDisplay[RARE EQ1 !ID (ILVL>65 AND ILVL<85)]: 
-ItemDisplay[RARE EQ2 !ID (ILVL>65 AND ILVL<85)]: 
-ItemDisplay[RARE EQ3 !ID (ILVL>65 AND ILVL<85)]: 
+ItemDisplay[RARE EQ1 !ID]: 
+ItemDisplay[RARE EQ2 !ID]: 
+ItemDisplay[RARE EQ3 !ID]: 
 //Show Rare Elite Armor
-ItemDisplay[ELT RARE ARMOR !ID ILVL>84)]: 
-//
-//Leveling - Generic
+ItemDisplay[ELT RARE ARMOR !ID]: 
+//╔══════════╗
+//║ Leveling ║
+//╚══════════╝
+//Generic
 ItemDisplay[RARE ILVL<15]: %NAME%
 ItemDisplay[!RW NORM NMAG ILVL<15 SOCK>0 ETH (ARMOR OR WEAPON)]: ETH %NAME% [%SOCKETS%]
 ItemDisplay[!RW NORM NMAG ILVL<15 SOCK=0 ETH (ARMOR OR WEAPON)]: ETH %NAME%
@@ -1406,16 +1416,16 @@ ItemDisplay[ILVL<66 ELT RARE (ARMOR OR WEAPON)]: %NAME%
 //
 //None of the Above
 //Weapons: Axe, Mace, Sword, Dagger, Throwing Weapon, Javelin, Spear, Polearm, Bow, Crossbow
-ItemDisplay[MAG WP1 !ID ILVL>25]:
-ItemDisplay[MAG WP2 !ID ILVL>25]:
-ItemDisplay[MAG WP3 !ID ILVL>25]:
-ItemDisplay[MAG WP4 !ID ILVL>25]:
-ItemDisplay[MAG WP5 !ID ILVL>25]:
-ItemDisplay[MAG WP6 !ID ILVL>25]:
-ItemDisplay[MAG WP7 !ID ILVL>25]:
-ItemDisplay[MAG WP8 !ID ILVL>25]:
-ItemDisplay[MAG WP9 !ID ILVL>25]:
-ItemDisplay[MAG WP10 !ID ILVL>25]:
+ItemDisplay[MAG WP1 !ID]:
+ItemDisplay[MAG WP2 !ID]:
+ItemDisplay[MAG WP3 !ID]:
+ItemDisplay[MAG WP4 !ID]:
+ItemDisplay[MAG WP5 !ID]:
+ItemDisplay[MAG WP6 !ID]:
+ItemDisplay[MAG WP7 !ID]:
+ItemDisplay[MAG WP8 !ID]:
+ItemDisplay[MAG WP9 !ID]:
+ItemDisplay[MAG WP10 !ID]:
 //
 //Armor: Helm, Body, Shield, Boot, Belt (ilvl 61+)
 //Elite Helm - Shown
