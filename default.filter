@@ -2,7 +2,7 @@
 //TalRasha's PD2 Item Filter//
 //++++++++++++++++++++++++++//
 //Version 2.0
-//Updated 12/23/2020
+//Updated 12/20/2020
 //
 //╔══════╗
 //║ Gold ║
@@ -371,29 +371,29 @@ ItemDisplay[UNI !ID xhb]: %PURPLE%Gore Rider%MAP-84%%BORDER-50%
 //Gavel of Pain
 ItemDisplay[UNI !ETH !ID 9gm]: %PURPLE%Gavel of Pain%MAP-84%%BORDER-50%
 //Gavel of Pain Eth
-ItemDisplay[UNI ETH !ID 9gm]: %RED%* %PURPLE%Gavel of Pain %RED%*%MAP-84%%BORDER-50%
+ItemDisplay[UNI ETH !ID 9gm]: %RED%¤ %PURPLE%Eth Gavel of Pain %RED%¤%MAP-84%%BORDER-50%
 //Gull
-ItemDisplay[UNI !ID dgr]: %RED%* %PURPLE%Gull!%RED% *%MAP-84%%BORDER-50%
+ItemDisplay[UNI !ID dgr]: %RED%¤ %PURPLE%Gull!%RED% ¤%MAP-84%%BORDER-50%
 //Death Cleaver
-ItemDisplay[UNI !ID 7wa]: %RED%* %PURPLE%Death Cleaver%RED% *%MAP-84%%BORDER-50%
+ItemDisplay[UNI !ID 7wa]: %RED%¤ %PURPLE%Death Cleaver%RED% *%MAP-84%%BORDER-50%
 //Horizon's Tornado/Stormlash
-ItemDisplay[UNI !ID 7fl]: %RED%* %PURPLE%Stormlash or Horizon's Tornado%RED% *%MAP-84%%BORDER-50%
+ItemDisplay[UNI !ID 7fl]: %RED%¤ %PURPLE%Stormlash or Horizon's Tornado%RED% *%MAP-84%%BORDER-50%
 //Windhammer
 //ItemDisplay[UNI !ID 7m7]: %PURPLE%Windhammer%MAP-84%%BORDER-50%
 //The Cranium Basher/Earth shifter
-ItemDisplay[UNI !ID 7gm]: %RED%* %PURPLE%Earth Shifter or The Cranium Basher%RED% *%MAP-84%%BORDER-50%
+ItemDisplay[UNI !ID 7gm]: %RED%¤ %PURPLE%Earth Shifter or The Cranium Basher%RED% ¤%MAP-84%%BORDER-50%
 //Hand of Blessed Light
-ItemDisplay[UNI !ID 9ws]: %RED%* %PURPLE%Hand of Blessed Light%RED% *%MAP-84%%BORDER-50%
+ItemDisplay[UNI !ID 9ws]: %RED%¤ %PURPLE%Hand of Blessed Light%RED% ¤%MAP-84%%BORDER-50%
 //Astreon's Iron Ward
-ItemDisplay[UNI !ID 7ws]: %RED%* %PURPLE%Astreon's Iron Ward%RED% *%MAP-84%%BORDER-50%
+ItemDisplay[UNI !ID 7ws]: %RED%¤ %PURPLE%Astreon's Iron Ward%RED% ¤%MAP-84%%BORDER-50%
 //Steel Pillar
-ItemDisplay[UNI !ID 7p7]: %RED%* %PURPLE%Steel Pillar%RED% *%MAP-84%%BORDER-50%
+ItemDisplay[UNI !ID 7p7]: %RED%¤ %PURPLE%Steel Pillar%RED% ¤%MAP-84%%BORDER-50%
 //Skull Collector
-ItemDisplay[UNI !ID 8ws]: %RED%* %PURPLE%Skull Collector%RED% *%MAP-84%%BORDER-50%
+ItemDisplay[UNI !ID 8ws]: %RED%¤ %PURPLE%Skull Collector%RED% ¤%MAP-84%%BORDER-50%
 //Mang Song's Lesson
-ItemDisplay[UNI !ID 6ws]: %RED%* %PURPLE%Mang Song's Lesson%RED% *%MAP-84%%BORDER-50%
+ItemDisplay[UNI !ID 6ws]: %RED%¤ %PURPLE%Mang Song's Lesson%RED% ¤%MAP-84%%BORDER-50%
 //The Grandfather
-ItemDisplay[UNI !ID 7gd]: %RED%* %PURPLE%The Grandfather%RED% *%MAP-84%%BORDER-50%
+ItemDisplay[UNI !ID 7gd]: %RED%¤ %PURPLE%The Grandfather%RED% ¤%MAP-84%%BORDER-50%
 //Boneshade
 ItemDisplay[UNI !ID 7bw]: %PURPLE%Boneshade%MAP-84%%BORDER-50%
 //Jade Talon
@@ -401,7 +401,7 @@ ItemDisplay[UNI !ID 7wb]: %PURPLE%Jade Talon%MAP-84%%BORDER-50%
 //Firelizard's Talons
 ItemDisplay[UNI !ID 7lw]: %PURPLE%Firelizard's Talons%MAP-84%%BORDER-50%
 //The Oculus
-ItemDisplay[UNI !ID oba]: %RED%* %PURPLE%The Oculus%RED% *%MAP-84%%BORDER-50%
+ItemDisplay[UNI !ID oba]: %RED%¤ %PURPLE%The Oculus%RED% ¤%MAP-84%%BORDER-50%
 //Shadow Killer
 ItemDisplay[UNI !ID 7cs]: %NL%%RED%¤ %PURPLE%Shadow Killer %RED%¤%NL%%DOT-76%%MAP-84%%BORDER-50%
 //Death's Fathom
@@ -415,9 +415,9 @@ ItemDisplay[UNI !ID 6lw]: %RED%*%YELLOW%*%GREEN%*%BLUE%*%NL%%RED%¤¤¤¤¤ %PUR
 //Reaper's Toll
 ItemDisplay[UNI !ID 7s8]: %PURPLE%Reaper's Toll%DOT-76%%MAP-84%%BORDER-50%
 //Lacerator
-ItemDisplay[UNI !ID 7b8]: %PURPLE%Lacerator%MAP-84%%BORDER-50%
+ItemDisplay[UNI !ETH !ID 7b8]: %PURPLE%Lacerator%MAP-84%%BORDER-50%
 //Lacerator
-ItemDisplay[UNI ETH !ID 7b8]: %RED%* %PURPLE%ETH Lacerator%RED *%MAP-84%%BORDER-50%
+ItemDisplay[UNI ETH !ID 7b8]: %RED%¤ %PURPLE%ETH Lacerator%RED ¤%MAP-84%%BORDER-50%
 //Azurewrath & Lightsabre
 ItemDisplay[UNI !ID 7cr]: %NL%%RED%¤ %PURPLE%Lightsabre or Azurewrath %RED%¤%NL%%DOT-76%%MAP-84%%BORDER-50%
 //Tombreaver
@@ -431,9 +431,9 @@ ItemDisplay[UNI !ID 6cs]: %NL%%RED%¤ %PURPLE%Ondal's Wisdom %RED%¤%NL%%DOT-76%
 // Schaefer's Hammer
 ItemDisplay[UNI !ID 7wh]: %NL%%RED%¤ %PURPLE%Schaefer's or Stone Crusher %RED%¤%NL%%DOT-76%%MAP-84%%BORDER-50%
 // Warshrike
-ItemDisplay[UNI !ID 7bk]: %PURPLE%Warshrike%DOT-76%%MAP-84%%BORDER-50%
+ItemDisplay[UNI !ETH !ID 7bk]: %PURPLE%Warshrike%DOT-76%%MAP-84%%BORDER-50%
 // Warshrike
-ItemDisplay[UNI ETH !ID 7bk]: %RED%* %PURPLE%ETH Warshrike%RED% *%DOT-76%%MAP-84%%BORDER-50%
+ItemDisplay[UNI ETH !ID 7bk]: %RED%¤ %PURPLE%ETH Warshrike%RED% ¤%DOT-76%%MAP-84%%BORDER-50%
 //Hexfire
 //ItemDisplay[UNI !ID 9sb]: %PURPLE%Hexfire%MAP-84%%BORDER-50%
 ///////////
@@ -464,14 +464,14 @@ ItemDisplay[UNI !ID uts]: %NL%%RED%¤ %PURPLE%Spirit Ward %RED%¤%NL%%DOT-76%%MA
 //╔══════╗
 //║ Sets ║
 //╚══════╝
-ItemDisplay[SET !ID uar]: %GREEN%¤%NL%%GREEN%Immortal King's Armor%NL%%GREEN%¤%MAP-84%%BORDER-50% 
+ItemDisplay[SET !ID uar]: %RED%*%YELLOW%*%GREEN%*%BLUE%*%NL%%PURPLE%¤¤¤%GREEN%Immortal King's Armor%PURPLE%¤¤¤%NL%%RED%*%YELLOW%*%GREEN%*%BLUE%*%MAP-84%%BORDER-50% 
 ItemDisplay[SET !ID xhb]: %GREEN%Immortal King's Boots%MAP-84%%BORDER-50% 
 ItemDisplay[SET !ID zhb]: %GREEN%Immortal King's Belt%MAP-84%%BORDER-50% 
 ItemDisplay[SET !ID ba5]: %GREEN%Immortal King's Helm%MAP-84%%BORDER-50% 
 ItemDisplay[SET !ID xhg]: %GREEN%Immortal King's Gloves%MAP-84%%BORDER-50% 
 ItemDisplay[SET !ID 7m7]: %GREEN%Immortal King's Maul%MAP-84%%BORDER-50% 
 //
-ItemDisplay[SET !ID uth]: %GREEN%¤%NL%%GREEN%Tal Rasha's Armor%NL%%GREEN%¤%MAP-84%%BORDER-50% 
+ItemDisplay[SET !ID uth]: %RED%*%YELLOW%*%GREEN%*%BLUE%*%NL%%PURPLE%¤¤¤%GREEN%Tal Rasha's Armor%PURPLE%¤¤¤%NL%%RED%*%YELLOW%*%GREEN%*%BLUE%*%MAP-84%%BORDER-50% 
 ItemDisplay[SET !ID oba]: %GREEN%Tal Rasha's Orb%MAP-84%%BORDER-50% 
 ItemDisplay[SET !ID zmb]: %GREEN%Tal Rasha's Belt%MAP-84%%BORDER-50% 
 ItemDisplay[SET !ID xsk]: %GREEN%Tal Rasha's Helm%MAP-84%%BORDER-50%
