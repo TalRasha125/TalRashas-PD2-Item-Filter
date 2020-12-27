@@ -2,7 +2,7 @@
 //TalRasha's PD2 Item Filter//
 //++++++++++++++++++++++++++//
 //Version 2.0
-//Updated 12/26/2020
+//Updated 12/20/2020
 //
 //╔══════╗
 //║ Gold ║
@@ -276,11 +276,11 @@ ItemDisplay[UNI !ID urn]: %PURPLE%Crown of Ages%DOT-76%%MAP-84%%BORDER-50%
 //Andariel's Visage
 ItemDisplay[UNI !ID usk]: %NL%%RED%¤¤¤ %PURPLE%Andariel's Visage%RED% ¤¤¤%NL%%DOT-76%%MAP-84%%BORDER-50%
 //Vampire Gaze
-ItemDisplay[UNI !ID xh9]: %NL%%RED%¤¤ %PURPLE%Vampire Gaze%%RED% ¤¤%NL%%DOT-76%%MAP-84%%BORDER-50%
+ItemDisplay[UNI !ID xh9]: %NL%%RED%¤¤ %PURPLE%Vampire Gaze%RED% ¤¤%NL%%DOT-76%%MAP-84%%BORDER-50%
 //Arreat's Face
 ItemDisplay[UNI !ID baa]: %RED%¤ %PURPLE%Arreat's Face%RED% ¤%DOT-76%%MAP-84%%BORDER-50%
 //Jalal's Mane
-ItemDisplay[UNI !ID dra]: %RED%¤ %PURPLE%%Jalal's Mane%%RED% ¤%DOT-76%%MAP-84%%BORDER-50%
+ItemDisplay[UNI !ID dra]: %RED%¤ %PURPLE%Jalal's Mane%RED% ¤%DOT-76%%MAP-84%%BORDER-50%
 //Ravenlore
 ItemDisplay[UNI !ID dre]: %RED%¤ %PURPLE%Ravenlore %RED%¤%DOT-76%%MAP-84%%BORDER-50%
 //STEEL SHADE
