@@ -2,7 +2,7 @@
 //TalRasha's PD2 Item Filter//
 //++++++++++++++++++++++++++//
 //Version 2.0
-//Updated 12/20/2020
+//Updated 12/26/2020
 //
 //╔══════╗
 //║ Gold ║
@@ -754,7 +754,7 @@ ItemDisplay[NMAG CHEST !ETH !SOCK=1 ELT ED=15]: %RED%*%NL%%DARK_GREEN%%NAME%%PUR
 ItemDisplay[NMAG CHEST !ETH !SOCK=1 ELT]: %DARK_GREEN%%NAME%%GRAY%[%SOCKETS%]
 ItemDisplay[NMAG CHEST ETH !SOCK=1 ELT (ED>4 AND ED<15)]:%DARK_GREEN%Eth %NAME%%ORANGE% ED%GRAY%[%SOCKETS%]%MAP-97%
 ItemDisplay[NMAG CHEST ETH !SOCK=1 ELT ED=15]: %RED%*%NL%%DARK_GREEN%Eth %NAME%%PURPLE% 15 ED%GRAY%[%SOCKETS%]%NL%%RED%*%MAP-97%
-ItemDisplay[NMAG CHEST ETH !SOCK=1 ELT]: %DARK_GREEN%%NAME%%GRAY%[%SOCKETS%]
+ItemDisplay[NMAG CHEST ETH !SOCK=1 ELT]: %DARK_GREEN%Eth %NAME%%GRAY%[%SOCKETS%]
 //Any Elite Armor ETH
 //ItemDisplay[uui ETH NMAG !SUP SOCK=0]: ETH %NAME%
 //ItemDisplay[uea ETH NMAG !SUP SOCK=0]: ETH %NAME%
