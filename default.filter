@@ -284,7 +284,7 @@ ItemDisplay[UNI !ID dra]: %RED%¤ %PURPLE%Jalal's Mane%RED% ¤%DOT-76%%MAP-84%%B
 //Ravenlore
 ItemDisplay[UNI !ID dre]: %RED%¤ %PURPLE%Ravenlore %RED%¤%DOT-76%%MAP-84%%BORDER-50%
 //STEEL SHADE
-ItemDisplay[UNI !ID ulm]: %NL%%PURPLE%Steel Shade%DOT-76%%MAP-84%%BORDER-50%%NL% 
+ItemDisplay[UNI !ID ulm]: %NL%%RED%¤ %PURPLE%Steel Shade %%RED%¤DOT-76%%MAP-84%%BORDER-50%%NL% 
 //Stealskull
 ItemDisplay[UNI !ID xlm]: Stealskull%MAP-84%
 /////////
@@ -387,7 +387,9 @@ ItemDisplay[UNI !ID 9ws]: %RED%¤ %PURPLE%Hand of Blessed Light%RED% ¤%MAP-84%%
 //Astreon's Iron Ward
 ItemDisplay[UNI !ID 7ws]: %RED%¤ %PURPLE%Astreon's Iron Ward%RED% ¤%MAP-84%%BORDER-50%
 //Steel Pillar
-ItemDisplay[UNI !ID 7p7]: %RED%¤ %PURPLE%Steel Pillar%RED% ¤%MAP-84%%BORDER-50%
+ItemDisplay[UNI !ID 7p7]: %PURPLE%Steel Pillar%MAP-84%%BORDER-50%
+//Eth Steel Pillar
+ItemDisplay[UNI !ID 7p7]: %RED%¤ %PURPLE%Eth Steel Pillar%RED% ¤%MAP-84%%BORDER-50%
 //Skull Collector
 ItemDisplay[UNI !ID 8ws]: %RED%¤ %PURPLE%Skull Collector%RED% ¤%MAP-84%%BORDER-50%
 //Mang Song's Lesson
@@ -512,26 +514,26 @@ ItemDisplay[SET !ID amc]: %GREEN%M'avina's Bow%MAP-84%%BORDER-50%
 ItemDisplay[SET !ID uld]: %GREEN%M'avina's Armor%MAP-84%%BORDER-50% 
 ItemDisplay[SET !ID xtg]: %GREEN%M'avina's Gloves%MAP-84%%BORDER-50% 
 //
-ItemDisplay[SET !ID lbl]: //%GREEN%Death's Hand%MAP-84%%BORDER-50% 
-ItemDisplay[SET !ID lgl]: //%GREEN%Death's Guard%MAP-84%%BORDER-50% 
-ItemDisplay[SET !ID vbt]: //%GREEN%Cow Kings or Sanders%MAP-84%%BORDER-50% 
-ItemDisplay[SET !ID uui]: //%GREEN%Dark Adherent%MAP-84%%BORDER-50% 
-ItemDisplay[SET !ID xlb]: //%GREEN%Rite of Passage%MAP-84%%BORDER-50% 
-ItemDisplay[SET !ID umc]: //%GREEN%Credendum%MAP-84%%BORDER-50% 
-ItemDisplay[SET !ID 7ma]: //%GREEN%Dangoon's Teaching%MAP-84%%BORDER-50% 
-ItemDisplay[SET !ID uhm]: //%GREEN%Ondal's Almighty%MAP-84%%BORDER-50% 
-ItemDisplay[SET !ID xrs]: //%GREEN%Haemosu's Adament%MAP-84%%BORDER-50% 
-ItemDisplay[SET !ID uts]: //%GREEN%Taebaek's Glory%MAP-84%%BORDER-50% 
-ItemDisplay[SET !ID ci0]: //%GREEN%Naj's Circlet%MAP-84%%BORDER-50% 
-ItemDisplay[SET !ID xvg]: //%GREEN%Magnus' Skin%MAP-84%%BORDER-50% 
-ItemDisplay[SET !ID xml]: //%GREEN%Whitsan's Guard%MAP-84%%BORDER-50% 
-ItemDisplay[SET !ID ztb]: //%GREEN%Wilhem's Pride%MAP-84%%BORDER-50% 
-ItemDisplay[SET !ID xhl]: //%GREEN%Sazabi's Mental Sheath%MAP-84%%BORDER-50% 
-ItemDisplay[SET !ID 7ls]: //%GREEN%Sazabi's Cobalt Redeemer%MAP-84%%BORDER-50% 
-ItemDisplay[SET !ID upl]: //%GREEN%Sazabi's Ghost Liberator%MAP-84%%BORDER-50% 
-ItemDisplay[SET !ID 7wd]: //%GREEN%Bul-Kathos' Tribal Guardian%MAP-84%%BORDER-50% 
-ItemDisplay[SET !ID 7gd]: //%GREEN%Bul-Kathos' Sacred Charge%MAP-84%%BORDER-50% 
-ItemDisplay[SET !ID tbt]: //%GREEN%Vidala's Fetlock%MAP-84%%BORDER-50% 
+//ItemDisplay[SET !ID lbl]: %GREEN%Death's Hand%MAP-84%%BORDER-50% 
+//ItemDisplay[SET !ID lgl]: %GREEN%Death's Guard%MAP-84%%BORDER-50% 
+//ItemDisplay[SET !ID vbt]: %GREEN%Cow Kings or Sanders%MAP-84%%BORDER-50% 
+//ItemDisplay[SET !ID uui]: %GREEN%Dark Adherent%MAP-84%%BORDER-50% 
+//ItemDisplay[SET !ID xlb]: %GREEN%Rite of Passage%MAP-84%%BORDER-50% 
+//ItemDisplay[SET !ID umc]: %GREEN%Credendum%MAP-84%%BORDER-50% 
+//ItemDisplay[SET !ID 7ma]: %GREEN%Dangoon's Teaching%MAP-84%%BORDER-50% 
+//ItemDisplay[SET !ID uhm]: %GREEN%Ondal's Almighty%MAP-84%%BORDER-50% 
+//ItemDisplay[SET !ID xrs]: %GREEN%Haemosu's Adament%MAP-84%%BORDER-50% 
+//ItemDisplay[SET !ID uts]: %GREEN%Taebaek's Glory%MAP-84%%BORDER-50% 
+//ItemDisplay[SET !ID ci0]: %GREEN%Naj's Circlet%MAP-84%%BORDER-50% 
+//ItemDisplay[SET !ID xvg]: %GREEN%Magnus' Skin%MAP-84%%BORDER-50% 
+//ItemDisplay[SET !ID xml]: %GREEN%Whitsan's Guard%MAP-84%%BORDER-50% 
+//ItemDisplay[SET !ID ztb]: %GREEN%Wilhem's Pride%MAP-84%%BORDER-50% 
+//ItemDisplay[SET !ID xhl]: %GREEN%Sazabi's Mental Sheath%MAP-84%%BORDER-50% 
+//ItemDisplay[SET !ID 7ls]: %GREEN%Sazabi's Cobalt Redeemer%MAP-84%%BORDER-50% 
+//ItemDisplay[SET !ID upl]: %GREEN%Sazabi's Ghost Liberator%MAP-84%%BORDER-50% 
+//ItemDisplay[SET !ID 7wd]: %GREEN%Bul-Kathos' Tribal Guardian%MAP-84%%BORDER-50% 
+//ItemDisplay[SET !ID 7gd]: %GREEN%Bul-Kathos' Sacred Charge%MAP-84%%BORDER-50% 
+//ItemDisplay[SET !ID tbt]: %GREEN%Vidala's Fetlock%MAP-84%%BORDER-50% 
 //
 //UNIQUE&SET Eth/Socket Catchall
 ItemDisplay[UNI ETH SOCK>0 !ID]: ETH %NAME%%MAP-84% [%SOCKETS%]
@@ -1329,6 +1331,9 @@ ItemDisplay[WP13 NMAG (SK121=3 AND SK123=3 AND SK115=3) !SOCK=1 !SOCK=2]: %NAME%
 //CTA staff
 ItemDisplay[WP11 NMAG SOCK=5 (SK58>1 AND SK57>0)]: %NAME% %YELLOW%[%SOCKETS%]
 ItemDisplay[WP11 NMAG SOCK=5 (SK58>1 AND SK50>0)]: %NAME% %YELLOW%[%SOCKETS%]
+ItemDisplay[WP11 NMAG SOCK=5 (SK57>0 AND SK50>0)]: %NAME% %YELLOW%[%SOCKETS%]
+ItemDisplay[WP11 NMAG SOCK=5 SK57>0]: %NAME% %YELLOW%[%SOCKETS%]
+ItemDisplay[WP11 NMAG SOCK=5 SK50>0]: %NAME% %YELLOW%[%SOCKETS%]
 ItemDisplay[WP11 NMAG SOCK=5 (SK58=3)]:%DARK_GREEN% +3 Energy Shield CTA base%MAP-97% %YELLOW%[%SOCKETS%]
 //
 //Amazon Leveling
