@@ -537,8 +537,8 @@ ItemDisplay[SET !ID xtg]: %GREEN%M'avina's Gloves%MAP-84%%BORDER-50%
 //UNIQUE&SET Eth/Socket Catchall
 ItemDisplay[UNI !ID]: %GOLD%* %NAME% *%MAP-84%
 ItemDisplay[SET !ID]: %GREEN%* %NAME% *%MAP-84%
-ItemDisplay[UNI ETH !ID]: %GOLD%* %NAME% *%MAP-84%
-ItemDisplay[SET ETH !ID]: %GREEN%* %NAME% *%MAP-84%
+ItemDisplay[UNI ETH !ID]: %GOLD%* Eth %NAME% *%MAP-84%
+ItemDisplay[SET ETH !ID]: %GREEN%* Eth %NAME% *%MAP-84%
 ItemDisplay[UNI]: %NAME%%MAP-84%
 ItemDisplay[SET]: %NAME%%MAP-84%
 ItemDisplay[UNI ETH]: ETH %NAME%%MAP-84%
