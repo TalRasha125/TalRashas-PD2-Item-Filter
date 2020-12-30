@@ -2,7 +2,7 @@
 //TalRasha's PD2 Item Filter//
 //++++++++++++++++++++++++++//
 //Version 2.0
-//Updated 12/29/2020
+//Updated 12/20/2020
 //
 //╔══════╗
 //║ Gold ║
@@ -535,24 +535,24 @@ ItemDisplay[SET !ID xtg]: %GREEN%M'avina's Gloves%MAP-84%%BORDER-50%
 //ItemDisplay[SET !ID tbt]: %GREEN%Vidala's Fetlock%MAP-84%%BORDER-50% 
 //
 //UNIQUE&SET Eth/Socket Catchall
+ItemDisplay[UNI !ID]: %GOLD%* %NAME% *%MAP-84%
+ItemDisplay[SET !ID]: %GREEN%* %NAME% *%MAP-84%
+ItemDisplay[UNI ETH !ID]: %GOLD%* %NAME% *%MAP-84%
+ItemDisplay[SET ETH !ID]: %GREEN%* %NAME% *%MAP-84%
+ItemDisplay[UNI]: %NAME%%MAP-84%
+ItemDisplay[SET]: %NAME%%MAP-84%
+ItemDisplay[UNI ETH]: ETH %NAME%%MAP-84%
+ItemDisplay[SET ETH]: ETH %NAME%%MAP-84%
 ItemDisplay[UNI ETH SOCK>0 !ID]: ETH %NAME%%MAP-84% [%SOCKETS%]
 ItemDisplay[SET ETH SOCK>0 !ID]: ETH %NAME%%MAP-84% [%SOCKETS%]
 ItemDisplay[UNI ETH !ID]: ETH %NAME%%MAP-84%
 ItemDisplay[SET ETH !ID]: ETH %NAME%%MAP-84%
 ItemDisplay[UNI SOCK>0 !ID]: %NAME%%MAP-84% [%SOCKETS%]
 ItemDisplay[SET SOCK>0 !ID]: %NAME%%MAP-84% [%SOCKETS%]	
-//ItemDisplay[UNI !ID]: %NAME%%MAP-84%
-//ItemDisplay[SET !ID]: %NAME%%MAP-84%
 ItemDisplay[UNI ETH SOCK>0]: ETH %NAME%%MAP-84% [%SOCKETS%]
 ItemDisplay[SET ETH SOCK>0]: ETH %NAME%%MAP-84% [%SOCKETS%]
-ItemDisplay[UNI ETH]: ETH %NAME%%MAP-84%
-ItemDisplay[SET ETH]: ETH %NAME%%MAP-84%
 ItemDisplay[UNI SOCK>0]: %NAME%%MAP-84% [%SOCKETS%]
 ItemDisplay[SET SOCK>0]: %NAME%%MAP-84% [%SOCKETS%]
-ItemDisplay[UNI !ID]: %GOLD%* %NAME% *%MAP-84%
-ItemDisplay[SET !ID]: %GREEN%* %NAME% *%MAP-84%
-ItemDisplay[UNI]: %NAME%%MAP-84%
-ItemDisplay[SET]: %NAME%%MAP-84%
 //╔══════════════╗
 //║ Vendor Items ║
 //╚══════════════╝
