@@ -381,9 +381,9 @@ ItemDisplay[UNI ETH !ID 9gm]: %RED%o %PURPLE%Eth Gavel of Pain %RED%o%MAP-84%%BO
 //Gull
 ItemDisplay[UNI !ID dgr]: %RED%o %PURPLE%Gull!%RED% o%MAP-84%%BORDER-50%
 //Death Cleaver
-ItemDisplay[UNI !ID 7wa]: %RED%o %PURPLE%Death Cleaver%RED% *%MAP-84%%BORDER-50%
+ItemDisplay[UNI !ID 7wa]: %RED%o %PURPLE%Death Cleaver%RED% o%MAP-84%%BORDER-50%
 //Horizon's Tornado/Stormlash
-ItemDisplay[UNI !ID 7fl]: %RED%o %PURPLE%Stormlash or Horizon's Tornado%RED% *%MAP-84%%BORDER-50%
+ItemDisplay[UNI !ID 7fl]: %RED%o %PURPLE%Stormlash or Horizon's Tornado%RED% o%MAP-84%%BORDER-50%
 //Windhammer
 //ItemDisplay[UNI !ID 7m7]: %RED%* %PURPLE%Windhammer %RED%*%MAP-84%%BORDER-50%
 //The Cranium Basher/Earth shifter
@@ -474,54 +474,54 @@ ItemDisplay[UNI !ID uts]: %NL%%RED%o %PURPLE%Spirit Ward %RED%o%NL%%DOT-76%%MAP-
 //╔══════╗
 //║ Sets ║
 //╚══════╝
-ItemDisplay[SET !ID uar]: %GREEN%o %NAME% o%MAP-84%%BORDER-50% 
-ItemDisplay[SET !ID xhb]: %GREEN%* IK Boots *%MAP-84%%BORDER-50% 
-ItemDisplay[SET !ID zhb]: %GREEN%* IK Belt *%MAP-84%%BORDER-50% 
-ItemDisplay[SET !ID ba5]: %GREEN%* IK Helm *%MAP-84%%BORDER-50% 
-ItemDisplay[SET !ID xhg]: %GREEN%*IK Gloves%MAP-84%%BORDER-50% 
-ItemDisplay[SET !ID 7m7]: %GREEN%* IK Maul *%MAP-84%%BORDER-50% 
+ItemDisplay[SET !ID uar]: %RED%*%YELLOW%*%GREEN%*%BLUE%*%NL%%PURPLE%ooo %GREEN%%NAME%%PURPLE% ooo%NL%%RED%*%YELLOW%*%GREEN%*%BLUE%*%MAP-84%%BORDER-50% 
+ItemDisplay[SET !ID xhb]: %GREEN%o IK Boots o%MAP-84%%BORDER-50% 
+ItemDisplay[SET !ID zhb]: %GREEN%o IK Belt o%MAP-84%%BORDER-50% 
+ItemDisplay[SET !ID ba5]: %GREEN%o IK Helm o%MAP-84%%BORDER-50% 
+ItemDisplay[SET !ID xhg]: %GREEN%o IK Gloves o%MAP-84%%BORDER-50% 
+ItemDisplay[SET !ID 7m7]: %GREEN%o IK Maul o%MAP-84%%BORDER-50% 
 //
 ItemDisplay[SET !ID uth]: %RED%*%YELLOW%*%GREEN%*%BLUE%*%NL%%PURPLE%ooo %GREEN%%NAME%%PURPLE% ooo%NL%%RED%*%YELLOW%*%GREEN%*%BLUE%*%MAP-84%%BORDER-50% 
-ItemDisplay[SET !ID oba]: %GREEN%* Tal's Orb *%MAP-84%%BORDER-50% 
-ItemDisplay[SET !ID zmb]: %GREEN%* Tal's Belt *%MAP-84%%BORDER-50% 
-ItemDisplay[SET !ID xsk]: %GREEN%* Tal's Helm *%MAP-84%%BORDER-50%
+ItemDisplay[SET !ID oba]: %GREEN%o Tal's Orb o%MAP-84%%BORDER-50% 
+ItemDisplay[SET !ID zmb]: %GREEN%o Tal's Belt o%MAP-84%%BORDER-50% 
+ItemDisplay[SET !ID xsk]: %GREEN%o Tal's Helm o%MAP-84%%BORDER-50%
 //
-ItemDisplay[SET !ID 7qr]: %GREEN%* Nat's Claw *%MAP-84%%BORDER-50% 
-ItemDisplay[SET !ID xmb]: %GREEN%* Nat's Boots *%MAP-84%%BORDER-50% 
-ItemDisplay[SET !ID xh9]: %GREEN%* Nat's Helm *%MAP-84%%BORDER-50% 
-ItemDisplay[SET !ID ucl]: %GREEN%* Nat's Armor *%MAP-84%%BORDER-50% 
+ItemDisplay[SET !ID 7qr]: %GREEN%o Nat's Claw o%MAP-84%%BORDER-50% 
+ItemDisplay[SET !ID xmb]: %GREEN%o Nat's Boots o%MAP-84%%BORDER-50% 
+ItemDisplay[SET !ID xh9]: %GREEN%o Nat's Helm o%MAP-84%%BORDER-50% 
+ItemDisplay[SET !ID ucl]: %GREEN%o Nat's Armor o%MAP-84%%BORDER-50% 
 //
 ItemDisplay[SET !ID ulg]: %GREEN%o Laying of Hands o%MAP-84%%BORDER-50% 
 ItemDisplay[SET !ID xhm]: %GREEN%o G Face o%MAP-84%%BORDER-50% 
 //
-ItemDisplay[SET !ID xap]: %GREEN%* Cow King's Horns *%MAP-84%%BORDER-50% 
-ItemDisplay[SET !ID stu]: %GREEN%* Cow King's Hide *%MAP-84%%BORDER-50% 
-ItemDisplay[SET !ID vbt]: %GREEN%* Cow Kings or Sanders *%MAP-84%%BORDER-50% 
+ItemDisplay[SET !ID xap]: %GREEN%o Cow King's Horns o%MAP-84%%BORDER-50% 
+ItemDisplay[SET !ID stu]: %GREEN%o Cow King's Hide o%MAP-84%%BORDER-50% 
+ItemDisplay[SET !ID vbt]: %GREEN%o Cow Kings or Sanders o%MAP-84%%BORDER-50% 
 //
-ItemDisplay[SET !ID xul]: %GREEN%* Trang's Armor *%MAP-84%%BORDER-50% 
-ItemDisplay[SET !ID uh9]: %GREEN%* Trang's Helm *%MAP-84%%BORDER-50% 
-ItemDisplay[SET !ID utc]: %GREEN%* Trang's Belt *%MAP-84%%BORDER-50% 
-ItemDisplay[SET !ID ne9]: %GREEN%* Trang's Shield *%MAP-84%%BORDER-50% 
+ItemDisplay[SET !ID xul]: %GREEN%o Trang's Armor o%MAP-84%%BORDER-50% 
+ItemDisplay[SET !ID uh9]: %GREEN%o Trang's Helm o%MAP-84%%BORDER-50% 
+ItemDisplay[SET !ID utc]: %GREEN%o Trang's Belt o%MAP-84%%BORDER-50% 
+ItemDisplay[SET !ID ne9]: %GREEN%o Trang's Shield o%MAP-84%%BORDER-50% 
 ItemDisplay[SET !ID xmg]: %GREEN%o Trang's Gloves o%MAP-84%%BORDER-50% 
 //
-ItemDisplay[SET !ID 6cs]: %GREEN%* Naj's Puzzler *%MAP-84%%BORDER-50% 
-ItemDisplay[SET !ID ult]: %GREEN%* Naj's Light Plate *%MAP-84%%BORDER-50%
+ItemDisplay[SET !ID 6cs]: %GREEN%o Naj's Puzzler o%MAP-84%%BORDER-50% 
+ItemDisplay[SET !ID ult]: %GREEN%o Naj's Light Plate o%MAP-84%%BORDER-50%
 //
-ItemDisplay[SET !ID xar]: %GREEN%* Gris Armor *%MAP-84%%BORDER-50% 
-ItemDisplay[SET !ID 7ws]: %GREEN%* Gris Weapon *%MAP-84%%BORDER-50% 
-ItemDisplay[SET !ID urn]: %GREEN%* Gris Helm *%MAP-84%%BORDER-50% 
-ItemDisplay[SET !ID paf]: %GREEN%* Gris Shield *%MAP-84%%BORDER-50% 
+ItemDisplay[SET !ID xar]: %GREEN%o Gris Armor o%MAP-84%%BORDER-50% 
+ItemDisplay[SET !ID 7ws]: %GREEN%o Gris Weapon o%MAP-84%%BORDER-50% 
+ItemDisplay[SET !ID urn]: %GREEN%o Gris Helm o%MAP-84%%BORDER-50% 
+ItemDisplay[SET !ID paf]: %GREEN%o Gris Shield o%MAP-84%%BORDER-50% 
 //
 ItemDisplay[SET !ID xtb]: %GREEN%o Aldur's Boots o%MAP-84%%BORDER-50% 
-ItemDisplay[SET !ID dr8]: %GREEN%* Aldur's Helm *%MAP-84%%BORDER-50% 
-ItemDisplay[SET !ID uul]: %GREEN%* Aldur's Armor *%MAP-84%%BORDER-50% 
-ItemDisplay[SET !ID 9mt]: %GREEN%* Aldur's Weapon *%MAP-84%%BORDER-50% 
+ItemDisplay[SET !ID dr8]: %GREEN%o Aldur's Helm o%MAP-84%%BORDER-50% 
+ItemDisplay[SET !ID uul]: %GREEN%o Aldur's Armor o%MAP-84%%BORDER-50% 
+ItemDisplay[SET !ID 9mt]: %GREEN%o Aldur's Weapon o%MAP-84%%BORDER-50% 
 //
-ItemDisplay[SET !ID zvb]: %GREEN%* Mav's Belt *%MAP-84%%BORDER-50% 
-ItemDisplay[SET !ID ci3]: %GREEN%* Mav's Helm *%MAP-84%%BORDER-50% 
-ItemDisplay[SET !ID amc]: %GREEN%* Mav's Bow *%MAP-84%%BORDER-50% 
-ItemDisplay[SET !ID uld]: %GREEN%* Mav's Armor *%MAP-84%%BORDER-50% 
-ItemDisplay[SET !ID xtg]: %GREEN%* Mav's Gloves *%MAP-84%%BORDER-50% 
+ItemDisplay[SET !ID zvb]: %GREEN%o Mav's Belt o%MAP-84%%BORDER-50% 
+ItemDisplay[SET !ID ci3]: %GREEN%o Mav's Helm o%MAP-84%%BORDER-50% 
+ItemDisplay[SET !ID amc]: %GREEN%o Mav's Bow o%MAP-84%%BORDER-50% 
+ItemDisplay[SET !ID uld]: %GREEN%o Mav's Armor o%MAP-84%%BORDER-50% 
+ItemDisplay[SET !ID xtg]: %GREEN%o Mav's Gloves o%MAP-84%%BORDER-50% 
 //
 //ItemDisplay[SET !ID lbl]: %GREEN%Death's Hand%MAP-84%%BORDER-50% 
 //ItemDisplay[SET !ID lgl]: %GREEN%Death's Guard%MAP-84%%BORDER-50% 
@@ -548,10 +548,10 @@ ItemDisplay[SET !ID xtg]: %GREEN%* Mav's Gloves *%MAP-84%%BORDER-50%
 //Hide normal and exceptional tier set items
 ItemDisplay[SET !ID !ELT CLVL>85]:
 //
-ItemDisplay[UNI !ETH !ID]: %GOLD%* %NAME% *%MAP-84%
-ItemDisplay[SET !ETH !ID]: %GREEN%* %NAME% *%MAP-84%
-ItemDisplay[UNI ETH !ID]: %GOLD%* Eth %NAME% *%MAP-84%
-ItemDisplay[SET ETH !ID]: %GREEN%* Eth %NAME% *%MAP-84%
+ItemDisplay[UNI !ETH !ID]: %GOLD%o %NAME% o%MAP-84%
+ItemDisplay[SET !ETH !ID]: %GREEN%o %NAME% o%MAP-84%
+ItemDisplay[UNI ETH !ID]: %GOLD%o Eth %NAME% o%MAP-84%
+ItemDisplay[SET ETH !ID]: %GREEN%o Eth %NAME% o%MAP-84%
 ItemDisplay[UNI ETH ID]: ETH %NAME%%MAP-84%
 ItemDisplay[SET ETH ID]: ETH %NAME%%MAP-84%
 ItemDisplay[UNI ETH SOCK>0 !ID]: ETH %NAME%%MAP-84% [%SOCKETS%]
