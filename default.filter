@@ -2,7 +2,7 @@
 //TalRasha's PD2 Item Filter//
 //++++++++++++++++++++++++++//
 //Version 2.0
-//Updated 1/10/2021
+//Updated 12/20/2020
 //
 //╔══════╗
 //║ Gold ║
@@ -548,8 +548,8 @@ ItemDisplay[SET !ID xtg]: %GREEN%* Mav's Gloves *%MAP-84%%BORDER-50%
 //Hide normal and exceptional tier set items
 ItemDisplay[SET !ID !ELT CLVL>85]:
 //
-ItemDisplay[UNI !ID]: %GOLD%* %NAME% *%MAP-84%
-ItemDisplay[SET !ID]: %GREEN%* %NAME% *%MAP-84%
+ItemDisplay[UNI !ETH !ID]: %GOLD%* %NAME% *%MAP-84%
+ItemDisplay[SET !ETH !ID]: %GREEN%* %NAME% *%MAP-84%
 ItemDisplay[UNI ETH !ID]: %GOLD%* Eth %NAME% *%MAP-84%
 ItemDisplay[SET ETH !ID]: %GREEN%* Eth %NAME% *%MAP-84%
 ItemDisplay[UNI ETH ID]: ETH %NAME%%MAP-84%
