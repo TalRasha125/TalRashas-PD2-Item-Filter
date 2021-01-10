@@ -275,15 +275,15 @@ ItemDisplay[UNI !ID uhm]: %RED%o %PURPLE%Nightwings or Veil %RED%o%MAP-84%%BORDE
 //Halaberd's Reign
 ItemDisplay[UNI !ID bae]: %RED%o %PURPLE%Halaberd's Reign %RED%o%DOT-76%%MAP-84%%BORDER-50%
 //Griffon's Eye
-ItemDisplay[UNI !ID ci3]: %NL%%RED%ooooo %PURPLE%Griffon's Eye%RED% ooooo%NL%%DOT-76%%MAP-84%%BORDER-50% 
+ItemDisplay[UNI !ID ci3]: %RED%*%YELLOW%*%GREEN%*%BLUE%*%NL%%RED%ooooo %PURPLE%Griffon's Eye%RED% ooooo%NL%%RED%*%YELLOW%*%GREEN%*%BLUE%*%DOT-76%%MAP-84%%BORDER-50% 
 //Shako
-ItemDisplay[UNI !ID uap]: %NL%%RED%oooooo %PURPLE%Harlequin Crest%RED% oooooo%NL%%DOT-76%%MAP-84%%BORDER-50%
+ItemDisplay[UNI !ID uap]: %RED%*%YELLOW%*%GREEN%*%BLUE%*%NL%%RED%oooooo %PURPLE%Harlequin Crest%RED% oooooo%NL%%RED%*%YELLOW%*%GREEN%*%BLUE%*%DOT-76%%MAP-84%%BORDER-50%
 //Crown of Ages
 ItemDisplay[UNI !ID urn]: %RED%* %PURPLE%Crown of Ages %RED%*%DOT-76%%MAP-84%%BORDER-50%
 //Andariel's Visage
-ItemDisplay[UNI !ID usk]: %NL%%RED%ooo %PURPLE%Andariel's Visage%RED% ooo%NL%%DOT-76%%MAP-84%%BORDER-50%
+ItemDisplay[UNI !ID usk]: %RED%*%YELLOW%*%GREEN%*%BLUE%*%NL%%RED%ooo %PURPLE%Andariel's Visage%RED% ooo%NL%%RED%*%YELLOW%*%GREEN%*%BLUE%*%DOT-76%%MAP-84%%BORDER-50%
 //Vampire Gaze
-ItemDisplay[UNI !ID xh9]: %NL%%RED%oo %PURPLE%Vampire Gaze%RED% oo%NL%%DOT-76%%MAP-84%%BORDER-50%
+ItemDisplay[UNI !ID xh9]: %RED%*%YELLOW%*%GREEN%*%BLUE%*%NL%%RED%oo %PURPLE%Vampire Gaze%RED% oo%NL%%RED%*%YELLOW%*%GREEN%*%BLUE%*%DOT-76%%MAP-84%%BORDER-50%
 //Arreat's Face
 ItemDisplay[UNI !ID baa]: %RED%o %PURPLE%Arreat's Face%RED% o%DOT-76%%MAP-84%%BORDER-50%
 //Jalal's Mane
@@ -291,7 +291,7 @@ ItemDisplay[UNI !ID dra]: %RED%o %PURPLE%Jalal's Mane%RED% o%DOT-76%%MAP-84%%BOR
 //Ravenlore
 ItemDisplay[UNI !ID dre]: %RED%o %PURPLE%Ravenlore %RED%o%DOT-76%%MAP-84%%BORDER-50%
 //STEEL SHADE
-ItemDisplay[UNI !ID ulm]: %NL%%RED%o %PURPLE%Steel Shade %%RED%oDOT-76%%MAP-84%%BORDER-50%%NL% 
+ItemDisplay[UNI !ID ulm]: %RED%*%YELLOW%*%GREEN%*%BLUE%*%NL%%RED%o %PURPLE%Steel Shade %RED%o%DOT-76%%MAP-84%%BORDER-50%%NL%%RED%*%YELLOW%*%GREEN%*%BLUE%* 
 //Stealskull
 ItemDisplay[UNI !ID xlm]: %RED%* %PURPLE%Stealskull %RED%*%MAP-84%
 /////////
@@ -306,7 +306,7 @@ ItemDisplay[UNI !ID utu]: %RED%o %PURPLE%Gladiator's Bane %RED%o%MAP-84%%BORDER-
 //Ormus' Robes
 ItemDisplay[UNI !ID uui]: %RED%o %PURPLE%Ormus' Robes %RED%o%MAP-84%%BORDER-50%
 //Viper Magi
-ItemDisplay[UNI !ID xea]: %NL%%RED%o %PURPLE%Skin of the Vipermagi %RED%o%NL%%DOT-76%%MAP-84%%BORDER-50%
+ItemDisplay[UNI !ID xea]: %RED%*%YELLOW%*%GREEN%*%BLUE%*%NL%%RED%o %PURPLE%Skin of the Vipermagi %RED%o%NL%%RED%*%YELLOW%*%GREEN%*%BLUE%*%DOT-76%%MAP-84%%BORDER-50%
 //Leviathan
 ItemDisplay[UNI !ID uld]: %RED%o %PURPLE%Leviathan %RED%o%MAP-84%%BORDER-50%
 //Duriel's Shell
@@ -411,25 +411,25 @@ ItemDisplay[UNI !ID 7lw]: %RED%* %PURPLE%Firelizard's Talons %RED%*%MAP-84%%BORD
 //The Oculus
 ItemDisplay[UNI !ID oba]: %RED%o %PURPLE%The Oculus%RED% o%MAP-84%%BORDER-50%
 //Shadow Killer
-ItemDisplay[UNI !ID 7cs]: %NL%%RED%o %PURPLE%Shadow Killer %RED%o%NL%%DOT-76%%MAP-84%%BORDER-50%
+ItemDisplay[UNI !ID 7cs]: %RED%*%YELLOW%*%GREEN%*%BLUE%*%NL%%RED%o %PURPLE%Shadow Killer %RED%o%NL%%RED%*%YELLOW%*%GREEN%*%BLUE%*%DOT-76%%MAP-84%%BORDER-50%
 //Death's Fathom
-ItemDisplay[UNI !ID obf]: %NL%%RED%o %PURPLE%Death's Fathom %RED%o%NL%%DOT-76%%MAP-84%%BORDER-50%
+ItemDisplay[UNI !ID obf]: %RED%*%YELLOW%*%GREEN%*%BLUE%*%NL%%RED%o %PURPLE%Death's Fathom %RED%o%NL%%RED%*%YELLOW%*%GREEN%*%BLUE%*%DOT-76%%MAP-84%%BORDER-50%
 //Death's Web
-ItemDisplay[UNI !ID 7gw]: %NL%%RED%o %PURPLE%Death's Web %RED%o%NL%%DOT-76%%MAP-84%%BORDER-50%
+ItemDisplay[UNI !ID 7gw]: %RED%*%YELLOW%*%GREEN%*%BLUE%*%NL%%RED%o %PURPLE%Death's Web %RED%o%NL%%RED%*%YELLOW%*%GREEN%*%BLUE%*%DOT-76%%MAP-84%%BORDER-50%
 //Eschuta's Temper
-ItemDisplay[UNI !ID obc]: %NL%%RED%o %PURPLE%Eschuta's Temper %RED%o%NL%%DOT-76%%MAP-84%%BORDER-50%
+ItemDisplay[UNI !ID obc]: %RED%*%YELLOW%*%GREEN%*%BLUE%*%NL%%RED%o %PURPLE%Eschuta's Temper %RED%o%NL%%RED%*%YELLOW%*%GREEN%*%BLUE%*%DOT-76%%MAP-84%%BORDER-50%
 //Windforce
 ItemDisplay[UNI !ID 6lw]: %RED%*%YELLOW%*%GREEN%*%BLUE%*%NL%%RED%ooooo %PURPLE%Windforce%RED% ooooo%NL%%RED%*%YELLOW%*%GREEN%*%BLUE%*%DOT-76%%MAP-84%%BORDER-50%
 //Reaper's Toll
 ItemDisplay[UNI !ETH !ID 7s8]: %RED%* %PURPLE%Reaper's Toll %RED%*%DOT-76%%MAP-84%%BORDER-50%
 //Eth Reaper's Toll
-ItemDisplay[UNI ETH !ID 7s8]: %NL%%RED%o %PURPLE%Eth Reaper's Toll %RED%o%NL%
+ItemDisplay[UNI ETH !ID 7s8]: %RED%*%YELLOW%*%GREEN%*%BLUE%*%NL%%RED%o %PURPLE%Eth Reaper's Toll %RED%o%NL%%RED%*%YELLOW%*%GREEN%*%BLUE%*%MAP-84%%BORDER-50%
 //Lacerator
 ItemDisplay[UNI !ETH !ID 7b8]: %RED%* %PURPLE%Lacerator %RED%*%MAP-84%%BORDER-50%
 //Lacerator
 ItemDisplay[UNI ETH !ID 7b8]: %RED%o %PURPLE%ETH Lacerator%RED o%MAP-84%%BORDER-50%
 //Azurewrath & Lightsabre
-ItemDisplay[UNI !ID 7cr]: %NL%%RED%o %PURPLE%Lightsabre or Azurewrath %RED%o%NL%%DOT-76%%MAP-84%%BORDER-50%
+ItemDisplay[UNI !ID 7cr]: %RED%*%YELLOW%*%GREEN%*%BLUE%*%NL%%RED%o %PURPLE%Lightsabre or Azurewrath %RED%o%NL%%RED%*%YELLOW%*%GREEN%*%BLUE%*%DOT-76%%MAP-84%%BORDER-50%
 //Tombreaver
 ItemDisplay[UNI ETH !ID 7pa]: %RED%o %PURPLE%Eth Tomb Reaver %RED%o%DOT-76%%MAP-84%%BORDER-50%
 //Thunderstroke
@@ -437,9 +437,9 @@ ItemDisplay[UNI !ID amf]: %RED%o %PURPLE%Thunderstroke %RED%o%DOT-76%%MAP-84%%BO
 //Titan's Revenge
 ItemDisplay[UNI !ID ama]: %RED%o %PURPLE%Titan's Revenge %RED%o%DOT-76%%MAP-84%%BORDER-50%
 // Ondal's Wisdom
-ItemDisplay[UNI !ID 6cs]: %NL%%RED%o %PURPLE%Ondal's Wisdom %RED%o%NL%%DOT-76%%MAP-84%%BORDER-50%
+ItemDisplay[UNI !ID 6cs]: %RED%*%YELLOW%*%GREEN%*%BLUE%*%NL%%RED%o %PURPLE%Ondal's Wisdom %RED%o%NL%%RED%*%YELLOW%*%GREEN%*%BLUE%*%DOT-76%%MAP-84%%BORDER-50%
 // Schaefer's Hammer
-ItemDisplay[UNI !ID 7wh]: %NL%%RED%o %PURPLE%Schaefer's or Stone Crusher %RED%o%NL%%DOT-76%%MAP-84%%BORDER-50%
+ItemDisplay[UNI !ID 7wh]: %RED%*%YELLOW%*%GREEN%*%BLUE%*%NL%%RED%o %PURPLE%Schaefer's or Stone Crusher %RED%o%NL%%RED%*%YELLOW%*%GREEN%*%BLUE%*%DOT-76%%MAP-84%%BORDER-50%
 // Warshrike
 ItemDisplay[UNI !ETH !ID 7bk]: %RED%* %PURPLE%Warshrike %RED%*%DOT-76%%MAP-84%%BORDER-50%
 // Warshrike
@@ -452,7 +452,7 @@ ItemDisplay[UNI ETH !ID 7bk]: %RED%o %PURPLE%ETH Warshrike%RED% o%DOT-76%%MAP-84
 //Boneflame
 ItemDisplay[UNI !ID nef]: %RED%* %PURPLE%Boneflame %RED%*%DOT-76%%MAP-84%%BORDER-50%
 //Stormshield
-ItemDisplay[UNI !ID uit]: %NL%%RED%o %PURPLE%Stormshield%RED% o%NL%%DOT-76%%MAP-84%%BORDER-50%
+ItemDisplay[UNI !ID uit]: %RED%*%YELLOW%*%GREEN%*%BLUE%*%NL%%RED%o %PURPLE%Stormshield%RED% o%NL%%RED%*%YELLOW%*%GREEN%*%BLUE%*%DOT-76%%MAP-84%%BORDER-50%
 //Homunculus
 ItemDisplay[UNI !ID nea]: %RED%* %PURPLE%Homunculus %RED%*%DOT-76%%MAP-84%%BORDER-50%
 //Herald of Zakarum
@@ -466,11 +466,11 @@ ItemDisplay[UNI !ID pac]: %RED%* %PURPLE%Alma Negra %RED%*%DOT-76%%MAP-84%%BORDE
 //Radament's Sphere
 ItemDisplay[UNI !ID xts]: %RED%* %PURPLE%Radament's Sphere %RED%*%DOT-76%%MAP-84%%BORDER-50% 
 //Lidless Wall
-ItemDisplay[UNI !ID xsh]: %NL%%RED%o %PURPLE%Lidless Wall %RED%o%NL%%DOT-76%%MAP-84%%BORDER-50%
+ItemDisplay[UNI !ID xsh]: %RED%*%YELLOW%*%GREEN%*%BLUE%*%NL%%RED%o %PURPLE%Lidless Wall %RED%o%NL%%RED%*%YELLOW%*%GREEN%*%BLUE%*%DOT-76%%MAP-84%%BORDER-50%
 //Gerke's Sanctuary
-ItemDisplay[UNI !ID xow]: %NL%%RED%o %PURPLE%Gerke's Sanctuary%RED%o%NL%%DOT-76%%MAP-84%%BORDER-50%
+ItemDisplay[UNI !ID xow]: %RED%*%YELLOW%*%GREEN%*%BLUE%*%NL%%RED%o %PURPLE%Gerke's Sanctuary%RED%o%NL%%RED%*%YELLOW%*%GREEN%*%BLUE%*%DOT-76%%MAP-84%%BORDER-50%
 //Spirit Ward
-ItemDisplay[UNI !ID uts]: %NL%%RED%o %PURPLE%Spirit Ward %RED%o%NL%%DOT-76%%MAP-84%%BORDER-50%
+ItemDisplay[UNI !ID uts]: %RED%*%YELLOW%*%GREEN%*%BLUE%*%NL%%RED%o %PURPLE%Spirit Ward %RED%o%NL%%RED%*%YELLOW%*%GREEN%*%BLUE%*%DOT-76%%MAP-84%%BORDER-50%
 //╔══════╗
 //║ Sets ║
 //╚══════╝
