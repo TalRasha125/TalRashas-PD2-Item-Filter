@@ -2,7 +2,7 @@
 //TalRasha's PD2 Item Filter//
 //++++++++++++++++++++++++++//
 //Version 2.0
-//Updated 12/20/2020
+//Updated 1/15/2021
 //
 //╔══════╗
 //║ Gold ║
@@ -730,7 +730,7 @@ ItemDisplay[RW]: %NAME%
 //////////
 //Charms//
 //////////
-ItemDisplay[!UNI !ID cm2 CLVL<97]:%NAME%%GRAY%[%ILVL%] 
+ItemDisplay[!UNI !ID cm2]:%NAME%%GRAY%[%ILVL%] 
 ItemDisplay[MAG !ID (cm1 OR cm3)]: %WHITE%%BLUE%*%NL%%BLUE%%NAME%%DOT-97%%GRAY%[%ILVL%]%NL%%BLUE%*%WHITE%
 //╔═══════╗
 //║ Bases ║
@@ -844,7 +844,7 @@ ItemDisplay[NMAG CHEST !SUP SOCK=0]:
 //ItemDisplay[ucl NMAG !SUP SOCK=0]: 
 //ItemDisplay[uhn NMAG !SUP SOCK=0]: %GRAY%%NAME%
 //ItemDisplay[urs NMAG !SUP SOCK=0]: %GRAY%%NAME%
-//ItemDisplay[upl NMAG !SUP SOCK=0]: 
+//ItemDisplay[upl NMAG !SUP SOCK=0] 
 //ItemDisplay[ult NMAG !SUP SOCK=0]: 
 //ItemDisplay[uld NMAG !SUP SOCK=0]: 
 //ItemDisplay[uth NMAG !SUP SOCK=0]: 
@@ -919,7 +919,7 @@ ItemDisplay[NMAG SOCK>1 ltp]:
 ItemDisplay[NMAG SOCK=0 ltp]: 
 ItemDisplay[NMAG SOCK=1 ltp]:
 //0 soc 2soc 3soc Mage Plate 
-ItemDisplay[NMAG !SOCK=1 xtp]: %GRAY%%NAME%[%SOCKETS%]
+ItemDisplay[NMAG !SOCK=1 xtp (ED>4 AND ED<15)]: %DARK_GREEN%%NAME%%MAP-97%%ORANGE%ed %YELLOW%[%SOCKETS%] 
 ItemDisplay[NMAG SOCK=1 xtp]:
 ItemDisplay[NMAG SOCK=3 ED=15 xtp]: %DARK_GREEN%%NAME%%MAP-97%%ORANGE%15 ed %YELLOW%[%SOCKETS%] 
 //
@@ -927,8 +927,8 @@ ItemDisplay[NMAG SOCK=3 ED=15 xtp]: %DARK_GREEN%%NAME%%MAP-97%%ORANGE%15 ed %YEL
 //4os Monarch, Monarch
 ItemDisplay[uit !ETH SOCK=4 NMAG]: %DARK_GREEN%%NAME%%MAP-97% %YELLOW%[%SOCKETS%] 
 ItemDisplay[uit !ETH SOCK=0 DEF>146 NMAG]: %DARK_GREEN%%NAME%%MAP-97%%YELLOW%[%SOCKETS%] 
-ItemDisplay[uit !ETH SOCK=0 NMAG CLVL<94]: %WHITE%%NAME%
-ItemDisplay[uit !ETH SOCK=0 NMAG CLVL>95]:
+ItemDisplay[uit !ETH SOCK=0 NMAG CLVL<86]: %WHITE%%NAME%
+ItemDisplay[uit !ETH SOCK=0 NMAG CLVL>85]:
 //
 //Magic Monarch
 ItemDisplay[uit !ETH MAG !ID]: //%NAME% 
@@ -949,8 +949,12 @@ ItemDisplay[amf !ID CLVL<91]: %NAME%
 //Paladin Shields Top Tier Elite non-eth, Medium-High Eth, Basic (ILVL restriction)
 ItemDisplay[NMAG pab !ETH (RES>35 AND RES<45) !SOCK=1]: %GREEN%Res %NAME%%MAP-97%%RED%[%SOCKETS%]
 ItemDisplay[NMAG pab !ETH RES=45 !SOCK=1]: %GREEN%45 Res %NAME%%MAP-97%%RED%[%SOCKETS%]
-ItemDisplay[NMAG pab ETH (RES>35 AND RES<45) !SOCK=1]: %DARK_GREEN%ETH Res %NAME%%MAP-97%%GRAY%[%SOCKETS%]
-ItemDisplay[NMAG pab ETH RES=45 !SOCK=1]: %DARK_GREEN%ETH 45 Res %NAME%%MAP-97%%GRAY%[%SOCKETS%]
+ItemDisplay[NMAG pab ETH (RES>35 AND RES<45) !SOCK=1]: %GREEN%ETH Res %NAME%%MAP-97%%RED%[%SOCKETS%]
+ItemDisplay[NMAG pab ETH RES=45 !SOCK=1]: %GREEN%ETH 45 Res %NAME%%MAP-97%%RED%[%SOCKETS%]
+ItemDisplay[NMAG CL3 ELT !ETH (RES>35 AND RES<45) !SOCK=1]: %GREEN%Res %NAME%%MAP-97%%RED%[%SOCKETS%]
+ItemDisplay[NMAG CL3 ELT !ETH RES=45 !SOCK=1]: %GREEN%45 Res %NAME%%MAP-97%%RED%[%SOCKETS%]
+ItemDisplay[NMAG CL3 ELT ETH (RES>35 AND RES<45) !SOCK=1]: %GREEN%ETH Res %NAME%%MAP-97%%RED%[%SOCKETS%]
+ItemDisplay[NMAG CL3 ELT ETH RES=45 !SOCK=1]: %GREEN%ETH 45 Res %NAME%%MAP-97%%RED%[%SOCKETS%]
 ItemDisplay[NMAG CL3 RES>35 SOCK=2 !ETH CLVL<85]: %DARK_GREEN%%NAME% %YELLOW%[%SOCKETS%]
 ItemDisplay[NMAG CL3 RES>35 SOCK=0 !ETH CLVL<85]: %DARK_GREEN%%NAME% %YELLOW%[%SOCKETS%]
 ItemDisplay[NMAG CL3 RES>35 SOCK=4 !ETH CLVL<85]: %DARK_GREEN%%NAME% %YELLOW%[%SOCKETS%]
@@ -1166,12 +1170,16 @@ ItemDisplay[7cr ETH NMAG SOCK=6]: %DARK_GREEN%ETH %NAME% %GRAY%[%SOCKETS%]
 //Breath of the Dying = BotD
 ItemDisplay[7wa ETH NMAG SOCK=0]: %GREEN%ETH %NAME%%MAP-97% %RED%[%SOCKETS%]
 ItemDisplay[7wa ETH NMAG SOCK=6]: %GREEN%ETH %NAME%%MAP-97% %RED%[%SOCKETS%]
+ItemDisplay[7wa ETH NMAG SOCK=5]: %GREEN%ETH %NAME%%MAP-97% %RED%[%SOCKETS%]
 ItemDisplay[7gd ETH NMAG SOCK=0]: %DARK_GREEN%ETH %NAME%%MAP-97% %YELLOW%[%SOCKETS%]
 ItemDisplay[7gd ETH NMAG SOCK=6]: %DARK_GREEN%ETH %NAME%%MAP-97% %YELLOW%[%SOCKETS%]
+ItemDisplay[7gd ETH NMAG SOCK=5]: %DARK_GREEN%ETH %NAME%%MAP-97% %YELLOW%[%SOCKETS%]
 ItemDisplay[7p7 ETH NMAG SOCK=0]: %GREEN%ETH %NAME%%MAP-97% %RED%[%SOCKETS%]
 ItemDisplay[7p7 ETH NMAG SOCK=6]: %GREEN%ETH %NAME%%MAP-97% %RED%[%SOCKETS%]
+ItemDisplay[7p7 ETH NMAG SOCK=5]: %GREEN%ETH %NAME%%MAP-97% %RED%[%SOCKETS%]
 ItemDisplay[7gm ETH NMAG SOCK=0]: %GREEN%ETH %NAME%%MAP-97% %RED%[%SOCKETS%]
 ItemDisplay[7gm ETH NMAG SOCK=6]: %GREEN%ETH %NAME%%MAP-97% %RED%[%SOCKETS%]
+ItemDisplay[7gm ETH NMAG SOCK=5]: %GREEN%ETH %NAME%%MAP-97% %RED%[%SOCKETS%]
 ItemDisplay[ame ETH NMAG TABSK2=3 SOCK=0]: %DARK_GREEN%ETH %NAME% %YELLOW%[%SOCKETS%]
 ItemDisplay[ame ETH NMAG TABSK2=3 SOCK=6]: %DARK_GREEN%ETH %NAME% %YELLOW%[%SOCKETS%]
 ItemDisplay[ame ETH NMAG SOCK=0]: %DARK_GREEN%ETH %NAME% %GRAY%[%SOCKETS%]
