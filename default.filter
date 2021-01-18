@@ -567,6 +567,10 @@ ItemDisplay[SET !ID xtg]: %GREEN%o Mav's Gloves o%DOT-62%%BORDER-84%
 //ItemDisplay[SET !ID 7gd]: %GREEN%Bul-Kathos' Sacred Charge%DOT-62%%BORDER-84%  
 //ItemDisplay[SET !ID tbt]: %GREEN%Vidala's Fetlock%DOT-62%%BORDER-84%  
 //
+//
+//Hide normal and exceptional set items
+ItemDisplay[SET !ID !ELT CLVL>90]:
+//
 //UNIQUE&SET Eth/Socket Catchall
 ItemDisplay[UNI !ETH !ID]: %GOLD%o %NAME% o%BORDER-A5%%DOT-62% 
 ItemDisplay[SET !ETH !ID]: %GREEN%o %NAME% o%DOT-62%%BORDER-84%  
@@ -586,9 +590,6 @@ ItemDisplay[UNI SOCK>0]: %NAME%%BORDER-A5%%DOT-62% [%SOCKETS%]
 ItemDisplay[SET SOCK>0]: %NAME%%DOT-62%%BORDER-84% [%SOCKETS%]
 ItemDisplay[UNI]: %NAME%%MAP-A5% 
 ItemDisplay[SET]: %NAME%%MAP-84% 
-//
-//Hide normal and exceptional set items
-ItemDisplay[SET !ID !ELT CLVL>90]:
 //
 //╔═════════════╗
 //║ Magic Items ║
