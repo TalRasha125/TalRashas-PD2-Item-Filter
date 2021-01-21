@@ -2,7 +2,7 @@
 //TalRasha's PD2 Item Filter//
 //++++++++++++++++++++++++++//
 //Version 2.0
-//Updated 1/18/2021
+//Updated 1/21/2021
 //
 //╔═══════════════════╗
 //║ Table of Contents ║
@@ -276,7 +276,6 @@ ItemDisplay[UNI !ID rin]: %RED%*%YELLOW%*%GREEN%*%BLUE%*%NL%%RED%ooooo %PURPLE%U
 ItemDisplay[UNI !ID amu]: %RED%*%YELLOW%*%GREEN%*%BLUE%*%NL%%RED%ooooo %PURPLE%Unique Amulet Hype %RED%ooooo%NL%%RED%*%YELLOW%*%GREEN%*%BLUE%*%DOT-0C%%BORDER-4B%
 ItemDisplay[UNI !ID jew]: %RED%*%YELLOW%*%GREEN%*%BLUE%*%NL%%RED%o%YELLOW%o%GREEN%o%BLUE%o %PURPLE%Rainbow Facet %BLUE%o%GREEN%o%YELLOW%o%RED%o%NL%%RED%*%YELLOW%*%GREEN%*%BLUE%*%DOT-0C%%BORDER-4B%
 ItemDisplay[UNI !ID cm3]: %RED%o %PURPLE%Gheed's %RED%o%DOT-0C%%BORDER-4B%
-ItemDisplay[SET !ID amu]: %GREEN%o Set Amulet o%DOT-84% 
 ItemDisplay[UNI ID cm1]:%RED%%NAME%%DOT-0C%%BORDER-4B%
 ItemDisplay[UNI ID cm2]:%RED%%NAME%%DOT-0C%%BORDER-4B%
 ItemDisplay[UNI ID cm3]:%RED%%NAME%%DOT-0C%%BORDER-4B%
@@ -497,6 +496,10 @@ ItemDisplay[UNI !ID uts]: %RED%*%YELLOW%*%GREEN%*%BLUE%*%NL%%RED%o %PURPLE%Spiri
 //╔══════╗
 //║ Sets ║
 //╚══════╝
+//Jewelry
+ItemDisplay[SET !ID amu]: %GREEN%o Amulet o%DOT-84% 
+ItemDisplay[SET !ID rin]: %GREEN%o Ring o%DOT-84% 
+//
 ItemDisplay[SET !ID uar]: %RED%*%YELLOW%*%GREEN%*%BLUE%*%NL%%PURPLE%ooo %GREEN%%NAME%%PURPLE% ooo%NL%%RED%*%YELLOW%*%GREEN%*%BLUE%*%DOT-84%%BORDER-4B%
 ItemDisplay[SET !ID xhb]: %GREEN%o IK Boots o%DOT-62%%BORDER-84%  
 ItemDisplay[SET !ID zhb]: %GREEN%o IK Belt o%DOT-62%%BORDER-84%  
@@ -569,7 +572,7 @@ ItemDisplay[SET !ID xtg]: %GREEN%o Mav's Gloves o%DOT-62%%BORDER-84%
 //
 //
 //Hide normal and exceptional set items
-ItemDisplay[SET !ID !ELT CLVL>90]:
+//ItemDisplay[SET !ID !ELT CLVL>90]:
 //
 //UNIQUE&SET Eth/Socket Catchall
 ItemDisplay[UNI !ETH !ID]: %GOLD%o %NAME% o%BORDER-A5%%DOT-62% 
@@ -857,9 +860,9 @@ ItemDisplay[NMAG SOCK>1 ltp]:
 ItemDisplay[NMAG SOCK=0 ltp]: 
 ItemDisplay[NMAG SOCK=1 ltp]:
 //0 soc 2soc 3soc Mage Plate 
-ItemDisplay[NMAG !SOCK=1 xtp (ED>4 AND ED<15)]: %DARK_GREEN%%NAME%%MAP-97%%ORANGE%ed %YELLOW%[%SOCKETS%] 
+ItemDisplay[NMAG !SOCK=1 xtp (ED>4 AND ED<15)]: %DARK_GREEN%%NAME%%MAP-97%%ORANGE% ed %YELLOW%[%SOCKETS%] 
 ItemDisplay[NMAG SOCK=1 xtp]:
-ItemDisplay[NMAG SOCK=3 ED=15 xtp]: %DARK_GREEN%%NAME%%MAP-97%%ORANGE%15 ed %YELLOW%[%SOCKETS%]%MAP-97% 
+ItemDisplay[NMAG SOCK=3 ED=15 xtp]: %DARK_GREEN%%NAME%%MAP-97%%ORANGE% 15 ed %YELLOW%[%SOCKETS%]%MAP-97% 
 //
 //Shields
 //4os Monarch, Monarch
