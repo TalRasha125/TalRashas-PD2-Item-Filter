@@ -192,7 +192,7 @@ ItemDisplay[dcso]:%RED%*%YELLOW%*%GREEN%*%BLUE%*%NL%%RED%o %PURPLE%Prime Evil So
 //║ Corruption Items ║
 //╚══════════════════╝
 ItemDisplay[wss]:%RED%*%NL%%RED%o %PURPLE%Worldstone Shard%RED% o%NL%%RED%*%MAP-62%%PX-20%
-ItemDisplay[lbox]:%RED%*%YELLOW%*%GREEN%*%BLUE%*%NL%%RED%ooooo %PURPLE%Larzuk's Puzzle Box %RED%ooooo%NL%%RED%*%YELLOW%*%GREEN%*%BLUE%*%DOT-62%%BORDER-4B%
+ItemDisplay[lbox]:%RED%*%YELLOW%*%GREEN%*%BLUE%*%NL%%RED%oooooooooo %PURPLE%Larzuk's Puzzle Box %RED%oooooooooo%NL%%RED%*%YELLOW%*%GREEN%*%BLUE%*%DOT-62%%BORDER-4B%
 //╔══════════════╗
 //║ Map Upgrades ║
 //╚══════════════╝
