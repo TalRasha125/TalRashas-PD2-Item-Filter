@@ -586,45 +586,45 @@ ItemDisplay[SET]:%NAME%%MAP-84%
 //╚═════════════╝
 //
 //Amulets
-ItemDisplay[MAG amu !ID ILVL=85]:%BLUE%***%NL%%BLUE%o %NAME%%MAP-97%%PX-62%%ORANGE%[CLVL 96+]%BLUE% o%NL%%BLUE%***%WHITE%
-ItemDisplay[MAG amu !ID ILVL=86]:%BLUE%***%NL%%BLUE%o %NAME%%MAP-97%%PX-62%%ORANGE%[CLVL 94+]%BLUE% o%NL%%BLUE%***%WHITE%
-ItemDisplay[MAG amu !ID ILVL=87]:%BLUE%***%NL%%BLUE%o %NAME%%MAP-97%%PX-62%%ORANGE%[CLVL 94+]%BLUE% o%NL%%BLUE%***%WHITE%
-ItemDisplay[MAG amu !ID ILVL=88]:%BLUE%***%NL%%BLUE%o %NAME%%MAP-97%%PX-62%%ORANGE%[CLVL 92+]%BLUE% o%NL%%BLUE%***%WHITE%
-ItemDisplay[MAG amu !ID ILVL=89]:%BLUE%***%NL%%BLUE%o %NAME%%MAP-97%%PX-62%%ORANGE%[CLVL 92+]%BLUE% o%NL%%BLUE%***%WHITE%
-ItemDisplay[MAG amu !ID ILVL=90]:%BLUE%***%NL%%BLUE%o %NAME%%MAP-97%%PX-62%%ORANGE%[CLVL 90+]%BLUE% o%NL%%BLUE%***%WHITE%
-ItemDisplay[MAG amu !ID ILVL=91]:%BLUE%***%NL%%BLUE%o %NAME%%MAP-97%%PX-62%%ORANGE%[CLVL 90+]%BLUE% o%NL%%BLUE%***%WHITE%
-ItemDisplay[MAG amu !ID ILVL=92]:%BLUE%***%NL%%BLUE%o %NAME%%MAP-97%%PX-62%%ORANGE%[CLVL 88+]%BLUE% o%NL%%BLUE%***%WHITE%
-ItemDisplay[MAG amu !ID ILVL=93]:%BLUE%***%NL%%BLUE%o %NAME%%MAP-97%%PX-62%%ORANGE%[CLVL 88+]%BLUE% o%NL%%BLUE%***%WHITE%
-ItemDisplay[MAG amu !ID ILVL=94]:%BLUE%***%NL%%BLUE%o %NAME%%MAP-97%%PX-62%%ORANGE%[CLVL 86+]%BLUE% o%NL%%BLUE%***%WHITE%
-ItemDisplay[MAG amu !ID ILVL=95]:%BLUE%***%NL%%BLUE%o %NAME%%MAP-97%%PX-62%%ORANGE%[CLVL 86+]%BLUE% o%NL%%BLUE%***%WHITE%
-ItemDisplay[MAG amu !ID ILVL=96]:%BLUE%***%NL%%BLUE%o %NAME%%MAP-97%%PX-62%%ORANGE%[CLVL 84+]%BLUE% o%NL%%BLUE%***%WHITE%
-ItemDisplay[MAG amu !ID ILVL=97]:%BLUE%***%NL%%BLUE%o %NAME%%MAP-97%%PX-62%%ORANGE%[CLVL 84+]%BLUE% o%NL%%BLUE%***%WHITE%
-ItemDisplay[MAG amu !ID ILVL=98]:%BLUE%***%NL%%BLUE%o %NAME%%MAP-97%%PX-62%%ORANGE%[CLVL 82+]%BLUE% o%NL%%BLUE%***%WHITE%
-ItemDisplay[MAG amu !ID ILVL=99]:%BLUE%***%NL%%BLUE%o %NAME%%MAP-97%%PX-62%%ORANGE%[CLVL 82+]%BLUE% o%NL%%BLUE%***%WHITE%
-ItemDisplay[MAG amu !ID ILVL<85]:%BLUE%*** %NAME%%MAP-97%%PX-62%%WHITE%[%ILVL%]%BLUE% ***%WHITE%
+ItemDisplay[MAG amu !ID ILVL=85]://%BLUE%***%NL%%BLUE%o %NAME%%MAP-97%%PX-62%%ORANGE%[CLVL 96+]%BLUE% o%NL%%BLUE%***%WHITE%
+ItemDisplay[MAG amu !ID ILVL=86]://%BLUE%***%NL%%BLUE%o %NAME%%MAP-97%%PX-62%%ORANGE%[CLVL 94+]%BLUE% o%NL%%BLUE%***%WHITE%
+ItemDisplay[MAG amu !ID ILVL=87]://%BLUE%***%NL%%BLUE%o %NAME%%MAP-97%%PX-62%%ORANGE%[CLVL 94+]%BLUE% o%NL%%BLUE%***%WHITE%
+ItemDisplay[MAG amu !ID ILVL=88]://%BLUE%***%NL%%BLUE%o %NAME%%MAP-97%%PX-62%%ORANGE%[CLVL 92+]%BLUE% o%NL%%BLUE%***%WHITE%
+ItemDisplay[MAG amu !ID ILVL=89]://%BLUE%***%NL%%BLUE%o %NAME%%MAP-97%%PX-62%%ORANGE%[CLVL 92+]%BLUE% o%NL%%BLUE%***%WHITE%
+ItemDisplay[MAG amu !ID ILVL=90]://%BLUE%***%NL%%BLUE%o %NAME%%MAP-97%%PX-62%%ORANGE%[CLVL 90+]%BLUE% o%NL%%BLUE%***%WHITE%
+ItemDisplay[MAG amu !ID ILVL=91]://%BLUE%***%NL%%BLUE%o %NAME%%MAP-97%%PX-62%%ORANGE%[CLVL 90+]%BLUE% o%NL%%BLUE%***%WHITE%
+ItemDisplay[MAG amu !ID ILVL=92]://%BLUE%***%NL%%BLUE%o %NAME%%MAP-97%%PX-62%%ORANGE%[CLVL 88+]%BLUE% o%NL%%BLUE%***%WHITE%
+ItemDisplay[MAG amu !ID ILVL=93]://%BLUE%***%NL%%BLUE%o %NAME%%MAP-97%%PX-62%%ORANGE%[CLVL 88+]%BLUE% o%NL%%BLUE%***%WHITE%
+ItemDisplay[MAG amu !ID ILVL=94]://%BLUE%***%NL%%BLUE%o %NAME%%MAP-97%%PX-62%%ORANGE%[CLVL 86+]%BLUE% o%NL%%BLUE%***%WHITE%
+ItemDisplay[MAG amu !ID ILVL=95]://%BLUE%***%NL%%BLUE%o %NAME%%MAP-97%%PX-62%%ORANGE%[CLVL 86+]%BLUE% o%NL%%BLUE%***%WHITE%
+ItemDisplay[MAG amu !ID ILVL=96]://%BLUE%***%NL%%BLUE%o %NAME%%MAP-97%%PX-62%%ORANGE%[CLVL 84+]%BLUE% o%NL%%BLUE%***%WHITE%
+ItemDisplay[MAG amu !ID ILVL=97]://%BLUE%***%NL%%BLUE%o %NAME%%MAP-97%%PX-62%%ORANGE%[CLVL 84+]%BLUE% o%NL%%BLUE%***%WHITE%
+ItemDisplay[MAG amu !ID ILVL=98]://%BLUE%***%NL%%BLUE%o %NAME%%MAP-97%%PX-62%%ORANGE%[CLVL 82+]%BLUE% o%NL%%BLUE%***%WHITE%
+ItemDisplay[MAG amu !ID ILVL=99]://%BLUE%***%NL%%BLUE%o %NAME%%MAP-97%%PX-62%%ORANGE%[CLVL 82+]%BLUE% o%NL%%BLUE%***%WHITE%
+ItemDisplay[MAG amu !ID ILVL<85]://%BLUE%*** %NAME%%MAP-97%%PX-62%%WHITE%[%ILVL%]%BLUE% ***%WHITE%
 ItemDisplay[MAG amu ID]:%NAME% %WHITE%[%ILVL%]%WHITE%{%YELLOW%Blood Amulet:%ORANGE%Amn %WHITE%+ %RED%P Ruby %WHITE%+ %BLUE%Jewel%NL%%YELLOW%Caster Amulet:%ORANGE%Ral %WHITE%+ %PURPLE%P Amethyst %WHITE%+ %BLUE%Jewel}
 //
 //Rings
-ItemDisplay[MAG rin !ID ILVL=71]:%BLUE%%NAME%%ORANGE%[CLVL 99-]
-ItemDisplay[MAG rin !ID ILVL=72]:%BLUE%%NAME%%ORANGE%[CLVL 98-]
-ItemDisplay[MAG rin !ID ILVL=73]:%BLUE%%NAME%%ORANGE%[CLVL 97-]
-ItemDisplay[MAG rin !ID ILVL=74]:%BLUE%%NAME%%ORANGE%[CLVL 96-]
-ItemDisplay[MAG rin !ID ILVL=75]:%BLUE%%NAME%%ORANGE%[CLVL 95-]
-ItemDisplay[MAG rin !ID ILVL=76]:%BLUE%%NAME%%ORANGE%[CLVL 94-]
-ItemDisplay[MAG rin !ID ILVL=77]:%BLUE%%NAME%%ORANGE%[CLVL 93-]
-ItemDisplay[MAG rin !ID ILVL=78]:%BLUE%%NAME%%ORANGE%[CLVL 92-]
-ItemDisplay[MAG rin !ID ILVL=79]:%BLUE%%NAME%%ORANGE%[CLVL 91-]
-ItemDisplay[MAG rin !ID ILVL=80]:%BLUE%%NAME%%ORANGE%[CLVL 90-]
-ItemDisplay[MAG rin !ID ILVL=81]:%BLUE%%NAME%%ORANGE%[CLVL 89-]
-ItemDisplay[MAG rin !ID ILVL=82]:%BLUE%%NAME%%ORANGE%[CLVL 88-]
-ItemDisplay[MAG rin !ID ILVL=83]:%BLUE%%NAME%%ORANGE%[CLVL 87-]
-ItemDisplay[MAG rin !ID ILVL=84]:%BLUE%%NAME%%ORANGE%[CLVL 86-]
-ItemDisplay[MAG rin !ID ILVL=85]:%BLUE%%NAME%%ORANGE%[CLVL 85-]
-ItemDisplay[MAG !ID rin]:%BLUE%%NAME%%WHITE%[%ILVL%]
+ItemDisplay[MAG rin !ID ILVL=71]://%BLUE%%NAME%%ORANGE%[CLVL 99-]
+ItemDisplay[MAG rin !ID ILVL=72]://%BLUE%%NAME%%ORANGE%[CLVL 98-]
+ItemDisplay[MAG rin !ID ILVL=73]://%BLUE%%NAME%%ORANGE%[CLVL 97-]
+ItemDisplay[MAG rin !ID ILVL=74]://%BLUE%%NAME%%ORANGE%[CLVL 96-]
+ItemDisplay[MAG rin !ID ILVL=75]://%BLUE%%NAME%%ORANGE%[CLVL 95-]
+ItemDisplay[MAG rin !ID ILVL=76]://%BLUE%%NAME%%ORANGE%[CLVL 94-]
+ItemDisplay[MAG rin !ID ILVL=77]://%BLUE%%NAME%%ORANGE%[CLVL 93-]
+ItemDisplay[MAG rin !ID ILVL=78]://%BLUE%%NAME%%ORANGE%[CLVL 92-]
+ItemDisplay[MAG rin !ID ILVL=79]://%BLUE%%NAME%%ORANGE%[CLVL 91-]
+ItemDisplay[MAG rin !ID ILVL=80]://%BLUE%%NAME%%ORANGE%[CLVL 90-]
+ItemDisplay[MAG rin !ID ILVL=81]://%BLUE%%NAME%%ORANGE%[CLVL 89-]
+ItemDisplay[MAG rin !ID ILVL=82]://%BLUE%%NAME%%ORANGE%[CLVL 88-]
+ItemDisplay[MAG rin !ID ILVL=83]://%BLUE%%NAME%%ORANGE%[CLVL 87-]
+ItemDisplay[MAG rin !ID ILVL=84]://%BLUE%%NAME%%ORANGE%[CLVL 86-]
+ItemDisplay[MAG rin !ID ILVL=85]://%BLUE%%NAME%%ORANGE%[CLVL 85-]
+ItemDisplay[MAG !ID rin]://%BLUE%%NAME%%WHITE%[%ILVL%]
 ItemDisplay[MAG rin ID]:%NAME%%WHITE%[%ILVL%]%WHITE%{%YELLOW%Blood Ring:%ORANGE%Sol %WHITE%+ %RED%P Ruby %WHITE%+ %BLUE%Jewel%NL%%YELLOW%Caster Ring:%ORANGE%Amn %WHITE%+ %PURPLE%P Amethyst %WHITE%+ %BLUE%Jewel}
 //
 //Blue Jewels for crafting
-ItemDisplay[MAG !ID jew]:%BLUE%***%NL%%BLUE%o Jewel o%NL%%BLUE%***%MAP-97%%PX-62%
+ItemDisplay[MAG !ID jew]://%BLUE%***%NL%%BLUE%o Jewel o%NL%%BLUE%***%MAP-97%%PX-62%
 //
 //Magic Diadems
 ItemDisplay[MAG ci3 !ETH !ID]://%BLUE%* %NAME% *%MAP-97%%PX-62%
