@@ -31,11 +31,11 @@
 //║ Global Filters ║
 //╚════════════════╝
 //Show me that item is etheral
-ItemDisplay[ETH !ID UNI]:%GOLD%Eth %NAME%%CONTINUE%
-ItemDisplay[ETH !ID RARE]:%YELLOW%Eth %NAME%%CONTINUE%
-ItemDisplay[ETH !ID MAG]:%BLUE%Eth %NAME%%CONTINUE%
-ItemDisplay[ETH !ID NMAG]:%GRAY%Eth %NAME%%CONTINUE%
-ItemDisplay[ETH !ID CRAFT]:%ORANGE%Eth %NAME%%CONTINUE%
+ItemDisplay[ETH UNI]:%GOLD%Eth %NAME%%CONTINUE%
+ItemDisplay[ETH RARE]:%YELLOW%Eth %NAME%%CONTINUE%
+ItemDisplay[ETH MAG]:%BLUE%Eth %NAME%%CONTINUE%
+ItemDisplay[ETH NMAG]:%GRAY%Eth %NAME%%CONTINUE%
+ItemDisplay[ETH CRAFT]:%ORANGE%Eth %NAME%%CONTINUE%
 //╔══════╗
 //║ Gold ║
 //╚══════╝
