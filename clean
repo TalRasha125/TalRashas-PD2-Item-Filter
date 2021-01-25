@@ -349,7 +349,7 @@ ItemDisplay[UNI !ID xhn]:%RED%* %PURPLE%Shaftstop %RED%*%BORDER-A5%%DOT-62%
 //Tyrael's Might
 ItemDisplay[UNI !ETH !ID ILVL>86 uar]:%RED%*%YELLOW%*%GREEN%*%BLUE%*%NL%%RED%ooooo %PURPLE%Tyrael's Might!?%RED% ooooo%NL%%RED%*%YELLOW%*%GREEN%*%BLUE%*%DOT-0C%%BORDER-4B%
 ItemDisplay[UNI !ETH !ID ILVL<87 uar]:%RED%*%YELLOW%*%GREEN%*%BLUE%*%NL%%RED%ooooo %PURPLE%Templar's Might%RED% ooooo%NL%%RED%*%YELLOW%*%GREEN%*%BLUE%*%DOT-0C%%BORDER-4B%
-ItemDisplay[UNI ETH !ID uar]:%RED%*%YELLOW%*%GREEN%*%BLUE%*%NL%%RED%ooooo %PURPLE%Templar's Might%RED% ooooo%NL%%RED%*%YELLOW%*%GREEN%*%BLUE%*%DOT-0C%%BORDER-4B%
+ItemDisplay[UNI ETH !ID uar]:%RED%*%YELLOW%*%GREEN%*%BLUE%*%NL%%RED%ooooo %PURPLE%Eth Templar's Might%RED% ooooo%NL%%RED%*%YELLOW%*%GREEN%*%BLUE%*%DOT-0C%%BORDER-4B%
 //Guardian Angel
 ItemDisplay[UNI !ID xlt]:%RED%* %PURPLE%Guardian Angel %RED%*%BORDER-A5%%DOT-62% 
 //////////
@@ -457,10 +457,10 @@ ItemDisplay[UNI !ID obc]:%RED%*%YELLOW%*%GREEN%*%BLUE%*%NL%%RED%o %PURPLE%Eschut
 ItemDisplay[UNI !ID 6lw]:%RED%*%YELLOW%*%GREEN%*%BLUE%*%NL%%RED%ooo %PURPLE%Windforce%RED% ooo%NL%%RED%*%YELLOW%*%GREEN%*%BLUE%*%DOT-0C%%BORDER-4B%
 //Reaper's Toll
 ItemDisplay[UNI !ETH !ID 7s8]:%RED%* %PURPLE%Reaper's Toll %RED%*%BORDER-A5%%DOT-62% 
-ItemDisplay[UNI ETH !ID 7s8]:%RED%o %PURPLE%Reaper's Toll %RED%o%DOT-0C%%BORDER-4B%
+ItemDisplay[UNI ETH !ID 7s8]:%RED%o %PURPLE%Eth Reaper's Toll %RED%o%DOT-0C%%BORDER-4B%
 //Lacerator
 ItemDisplay[UNI !ETH !ID 7b8]:%RED%* %PURPLE%Lacerator %RED%*%BORDER-A5%%DOT-62% 
-ItemDisplay[UNI ETH !ID 7b8]:%RED%o %PURPLE%Lacerator%RED o%BORDER-A5%%DOT-62% 
+ItemDisplay[UNI ETH !ID 7b8]:%RED%o %PURPLE%Eth Lacerator%RED o%BORDER-A5%%DOT-62% 
 //Azurewrath & Lightsabre
 ItemDisplay[UNI !ID ILVL<87 7cr]:%RED%*%YELLOW%*%GREEN%*%BLUE%*%NL%%RED%o %PURPLE%Lightsabre %RED%o%NL%%RED%*%YELLOW%*%GREEN%*%BLUE%*%DOT-0C%%BORDER-4B%
 ItemDisplay[UNI !ID ILVL>86 7cr]:%RED%*%YELLOW%*%GREEN%*%BLUE%*%NL%%RED%o %PURPLE%Azurewrath? %RED%o%NL%%RED%*%YELLOW%*%GREEN%*%BLUE%*%DOT-0C%%BORDER-4B%
@@ -475,10 +475,10 @@ ItemDisplay[UNI !ID ama]:%RED%o %PURPLE%Titan's Revenge %RED%o%BORDER-A5%%DOT-62
 ItemDisplay[UNI !ID 6cs]:%RED%*%YELLOW%*%GREEN%*%BLUE%*%NL%%RED%o %PURPLE%Ondal's Wisdom %RED%o%NL%%RED%*%YELLOW%*%GREEN%*%BLUE%*%DOT-0C%%BORDER-4B%
 // Schaefer's Hammer
 ItemDisplay[UNI !ETH !ID 7wh]:%RED%o %PURPLE%Schaefer's or Stone Crusher %RED%o%DOT-0C%%BORDER-4B%
-ItemDisplay[UNI ETH !ID 7wh]:%RED%*%YELLOW%*%GREEN%*%BLUE%*%NL%%RED%o %PURPLE%Schaefer's or Stone Crusher %RED%o%NL%%RED%*%YELLOW%*%GREEN%*%BLUE%*%DOT-0C%%BORDER-4B%
+ItemDisplay[UNI ETH !ID 7wh]:%RED%*%YELLOW%*%GREEN%*%BLUE%*%NL%%RED%o %PURPLE%Eth Schaefer's or Stone Crusher %RED%o%NL%%RED%*%YELLOW%*%GREEN%*%BLUE%*%DOT-0C%%BORDER-4B%
 // Warshrike
 ItemDisplay[UNI !ETH !ID 7bk]:%RED%* %PURPLE%Warshrike %RED%*%BORDER-A5%%DOT-62% 
-ItemDisplay[UNI ETH !ID 7bk]:%RED%o %PURPLE%Warshrike%RED% o%BORDER-A5%%DOT-62% 
+ItemDisplay[UNI ETH !ID 7bk]:%RED%o %PURPLE%Eth Warshrike%RED% o%BORDER-A5%%DOT-62% 
 //Hexfire
 //ItemDisplay[UNI !ID 9sb]:%RED%* %PURPLE%Hexfire %RED%*%BORDER-A5%%DOT-62% 
 ///////////
