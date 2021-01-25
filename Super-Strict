@@ -725,8 +725,8 @@ ItemDisplay[RW]:%GOLD%%NAME%%MAP-60%
 //Charms//
 //////////
 ItemDisplay[MAG !ID cm1]:%WHITE%%BLUE%*%NL%%BLUE%o %NAME%%GRAY%[%ILVL%]%BLUE% o%NL%%BLUE%*%WHITE%%MAP-97%%PX-62%
-ItemDisplay[MAG !ID cm2 CLVL<90]:%WHITE%%BLUE%*%NL%%BLUE%o %NAME%%GRAY%[%ILVL%]%BLUE% o%NL%%BLUE%*%WHITE%%MAP-97%%PX-62%
-ItemDisplay[MAG !ID cm2 CLVL>89]:%WHITE%%BLUE%* %NAME% %GRAY%[%ILVL%]%BLUE% *%WHITE%
+ItemDisplay[MAG !ID cm2 CLVL<90]://%WHITE%%BLUE%*%NL%%BLUE%o %NAME%%GRAY%[%ILVL%]%BLUE% o%NL%%BLUE%*%WHITE%%MAP-97%%PX-62%
+ItemDisplay[MAG !ID cm2 CLVL>89]://%WHITE%%BLUE%* %NAME% %GRAY%[%ILVL%]%BLUE% *%WHITE%
 ItemDisplay[MAG !ID ILVL<91 cm3]:%WHITE%%BLUE%*%NL%%BLUE%o %NAME%%GRAY%[%ILVL%]%BLUE% o%NL%%BLUE%*%WHITE%%MAP-97%%PX-62%
 ItemDisplay[MAG !ID ILVL>90 cm3]:%WHITE%%BLUE%*%NL%%BLUE%o %ORANGE%Reroll %BLUE%%NAME%%ORANGE%[%ILVL%]%BLUE% o%NL%%BLUE%*%WHITE%%MAP-97%%PX-62%
 //╔═══════╗
