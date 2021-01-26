@@ -742,7 +742,7 @@ ItemDisplay[RARE rin !ID]:%WHITE%%YELLOW%*%NL%%YELLOW%o %NAME% o%NL%%YELLOW%*%WH
 ItemDisplay[RARE EQ4 !ID]://%WHITE%%YELLOW%* %NAME% *%WHITE%%MAP-A8%
 ItemDisplay[RARE EQ5 !ID]:%WHITE%%YELLOW%*%NL%%YELLOW%o %NAME% o%NL%%YELLOW%*%WHITE%%MAP-A8%
 ItemDisplay[RARE EQ6 !ID]://%WHITE%%YELLOW%* %NAME% *%WHITE%%MAP-A8%
-ItemDisplay[RARE jew !ID]:%WHITE%%YELLOW%*%NL%%YELLOW%o Jewel o%NL%%YELLOW%*%WHITE%%MAP-A8%%BORDER-62%
+ItemDisplay[RARE jew !ID]:%WHITE%%YELLOW%***%NL%%YELLOW%o Jewel o%NL%%YELLOW%***%WHITE%%MAP-A8%%BORDER-62%
 //
 //stop scuffed rare belts showing
 ItemDisplay[RARE vbl !ID CLVL>40]:
