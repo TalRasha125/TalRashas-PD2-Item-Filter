@@ -757,7 +757,7 @@ ItemDisplay[RARE !ETH ELT WP7 !ID]://%NAME%
 ItemDisplay[RARE !ETH ELT WP8 !ID]://%NAME%
 //
 //Class Specific Rares (Druid Pelts, Barb Helms, Paladin Shields, Necro Heads, Assassin Claws, Sorc Orbs)
-ItemDisplay[RARE CL1 !ID]:%YELLOW%* %NAME% *%WHITE%%MAP-A8%
+ItemDisplay[RARE CL1 !ID]://%YELLOW%* %NAME% *%WHITE%%MAP-A8%
 ItemDisplay[RARE CL2 !ID]://%YELLOW%* %NAME% *%WHITE%%MAP-A8%
 ItemDisplay[RARE CL3 !ID]://%YELLOW%* %NAME% *%WHITE%%MAP-A8%
 ItemDisplay[RARE CL4 !ID]://%YELLOW%* %NAME% *%WHITE%%MAP-A8%
