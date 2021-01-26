@@ -828,11 +828,15 @@ ItemDisplay[NMAG CL3 CLVL>70]:
 ItemDisplay[NMAG CL5]:
 //
 //Tiara/Diadem Imbue Charsi
-//Tiara
-ItemDisplay[NMAG ci2 !ETH SOCK=0]:%NAME%
+ItemDisplay[NMAG ci2 !ETH SOCK=0]://%NAME%
+ItemDisplay[NMAG ci2 !ETH SOCK=1]://%NAME%
+ItemDisplay[NMAG ci2 !ETH SOCK=2]://%NAME%
+ItemDisplay[NMAG ci2 !ETH SOCK=3]://%NAME%
 //Diadem
-ItemDisplay[NMAG ci3 !ETH SOCK=0]:%NAME%
-ItemDisplay[NMAG ci3 !ETH SOCK=3]:%NAME%[%SOCKETS%]
+ItemDisplay[NMAG ci3 !ETH SOCK=0]://%NAME%
+ItemDisplay[NMAG ci3 !ETH SOCK=1]://%NAME%
+ItemDisplay[NMAG ci3 !ETH SOCK=2]://%NAME%
+ItemDisplay[NMAG ci3 !ETH SOCK=3]://%NAME%[%SOCKETS%]
 //
 //Armor
 //Hide Non Eth Medium and Heavy Bases
