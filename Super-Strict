@@ -264,13 +264,13 @@ ItemDisplay[gsb OR gsbs CLVL>50]:
 ItemDisplay[gsy OR gsys CLVL>50]:
 ItemDisplay[sku OR skus CLVL>50]:
 //Gems flawless
-ItemDisplay[gzv OR gzvs]:%PURPLE%*%NL%%ORANGE%Amethyst%NL%%PURPLE%*%WHITE%
-ItemDisplay[glw OR glws]:%WHITE%*%NL%%ORANGE%Diamond%NL%%WHITE%*%WHITE%
-ItemDisplay[glg OR glgs]:%GREEN%*%NL%%ORANGE%Emerald%NL%%GREEN%*%WHITE%
-ItemDisplay[glr OR glrs]:%RED%*%NL%%ORANGE%Ruby%NL%%RED%*%WHITE%
-ItemDisplay[glb OR glbs]:%BLUE%*%NL%%ORANGE%Sapphire%NL%%BLUE%*%WHITE%
-ItemDisplay[gly OR glys]:%YELLOW%*%NL%%ORANGE%Topaz%NL%%YELLOW%*%WHITE%
-ItemDisplay[skl OR skls]:%GRAY%*%NL%%ORANGE%Skull%NL%%GRAY%*%WHITE%
+ItemDisplay[gzv OR gzvs]://%PURPLE%*%NL%%ORANGE%Amethyst%NL%%PURPLE%*%WHITE%
+ItemDisplay[glw OR glws]://%WHITE%*%NL%%ORANGE%Diamond%NL%%WHITE%*%WHITE%
+ItemDisplay[glg OR glgs]://%GREEN%*%NL%%ORANGE%Emerald%NL%%GREEN%*%WHITE%
+ItemDisplay[glr OR glrs]://%RED%*%NL%%ORANGE%Ruby%NL%%RED%*%WHITE%
+ItemDisplay[glb OR glbs]://%BLUE%*%NL%%ORANGE%Sapphire%NL%%BLUE%*%WHITE%
+ItemDisplay[gly OR glys]://%YELLOW%*%NL%%ORANGE%Topaz%NL%%YELLOW%*%WHITE%
+ItemDisplay[skl OR skls]://%GRAY%*%NL%%ORANGE%Skull%NL%%GRAY%*%WHITE%
 //Gems Perfect
 ItemDisplay[gpv OR gpvs]:%ORANGE%P AMETHYST
 ItemDisplay[gpw OR gpws]:%ORANGE%P DIAMOND
