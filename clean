@@ -678,7 +678,7 @@ ItemDisplay[MAG umg]:%NAME%
 ItemDisplay[MAG uvc ILVL>84]:%ORANGE%Caster Belt+ {%ORANGE%Ith %WHITE%+ %PURPLE%P Amethyst %WHITE%+ %BLUE%Jewel}
 ItemDisplay[MAG zvb ILVL>84]:%ORANGE%Caster Belt {%ORANGE%Ith %WHITE%+ %PURPLE%P Amethyst %WHITE%+ %BLUE%Jewel}
 ItemDisplay[MAG uvc]:%NAME%
-ItemDisplay[MAG zvb]%NAME%
+ItemDisplay[MAG zvb]:%NAME%
 //Blood Belts (Mithril Coil/Mesh Belt) + TAL + RUBY + JEWEL
 ItemDisplay[MAG umc ILVL>84]:%ORANGE%Blood Belt+ {%ORANGE%Tal %WHITE%+ %RED%P Ruby %WHITE%+ %BLUE%Jewel}
 ItemDisplay[MAG zmb ILVL>84]:%ORANGE%Blood Belt {%ORANGE%Tal %WHITE%+ %RED%P Ruby %WHITE%+ %BLUE%Jewel}
