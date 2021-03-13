@@ -432,7 +432,7 @@ ItemDisplay[UNI !ID 7ws]:%RED%o %PURPLE%Astreon's Iron Ward%RED% o%BORDER-A5%%DO
 //Steel Pillar
 ItemDisplay[UNI !ID 7p7]:%RED%* %PURPLE%Steel Pillar %RED%*%BORDER-A5%%DOT-62% 
 //Eth Steel Pillar
-ItemDisplay[UNI !ID 7p7]:%RED%o %PURPLE%Eth Steel Pillar%RED% o%BORDER-A5%%DOT-62% 
+ItemDisplay[UNI !ID ETH 7p7]:%RED%o %PURPLE%Eth Steel Pillar%RED% o%BORDER-A5%%DOT-62% 
 //Skull Collector
 ItemDisplay[UNI !ID 8ws]:%RED%o %PURPLE%Skull Collector%RED% o%BORDER-A5%%DOT-62% 
 //Mang Song's Lesson
@@ -487,7 +487,7 @@ ItemDisplay[UNI ETH !ID 7bk]:%RED%o %PURPLE%Eth Warshrike%RED% o%BORDER-A5%%DOT-
 //Shields//
 ///////////
 //Boneflame
-ItemDisplay[UNI !ID nef]:%RED%* %PURPLE%Boneflame %RED%*%BORDER-A5%%DOT-62% 
+ItemDisplay[UNI !ID nee]:%RED%* %PURPLE%Boneflame %RED%*%BORDER-A5%%DOT-62% 
 //Stormshield
 ItemDisplay[UNI !ID uit]:%RED%*%YELLOW%*%GREEN%*%BLUE%*%NL%%RED%o %PURPLE%Stormshield%RED% o%NL%%RED%*%YELLOW%*%GREEN%*%BLUE%*%DOT-0C%%BORDER-4B%
 //Homunculus
