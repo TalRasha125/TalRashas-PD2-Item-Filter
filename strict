@@ -202,7 +202,7 @@ ItemDisplay[upma]:%PURPLE% %NAME%%DOT-80% // Upgrade Magic Map to Rare Map (Ange
 ItemDisplay[imma]:%PURPLE% %NAME%%DOT-80% // Imbue Magic Map (Arcane Orb)
 ItemDisplay[scou]:%PURPLE% %NAME%%DOT-80% // Purge Map (Removes Mods and Reverts back to a White Map) (Orb of Destruction)
 ItemDisplay[upmp]:%PURPLE% %NAME%%DOT-80% // Combine maps into higher tiers (Cartographer's Orb)
-ItemDisplay[scou]:%PURPLE% %NAME%%DOT-80% // turns t3 maps into dungeons (Horadrim Scarab)
+ItemDisplay[scrb]:%PURPLE% %NAME%%DOT-80% // turns t3 maps into dungeons (Horadrim Scarab)
 //╔══════╗
 //║ Maps ║
 //╚══════╝
