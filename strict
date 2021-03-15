@@ -47,7 +47,7 @@ ItemDisplay[RARE PRICE>34999]:%GREEN%$$$ %YELLOW%%NAME%%CONTINUE%
 //Gold
 ItemDisplay[GOLD<100 CLVL<20]:
 ItemDisplay[GOLD<1000 (CLVL>19 AND CLVL<70)]:
-ItemDisplay[GOLD<4999 CLVL>80]:
+ItemDisplay[GOLD<4999 CLVL>70]:
 //╔═════════╗
 //║ Potions ║
 //╚═════════╝
