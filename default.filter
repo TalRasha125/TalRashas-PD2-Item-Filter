@@ -2,7 +2,7 @@
 //TalRasha's PD2 Item Filter Clean Version
 //++++++++++++++++++++++++++
 //Version 2.0
-//Updated 13/3/2021
+//Updated 19/3/2021
 //
 //╔═══════════════════╗
 //║ Table of Contents ║
@@ -30,7 +30,10 @@
 //╔════════════════╗
 //║ Global Filters ║
 //╚════════════════╝
-//Show me that item is etheral
+//ED
+ItemDisplay[WEAPON !RW NMAG (ED>0 AND ED<15)]:%WHITE%%NAME% %GREEN%ED
+ItemDisplay[WEAPON !RW NMAG ED=15]:%PURPLE%%NAME% %GREEN%15 ED
+//Show me item is etheral
 ItemDisplay[ETH UNI]:%GOLD%Eth %NAME%%CONTINUE%
 ItemDisplay[ETH RARE]:%YELLOW%Eth %NAME%%CONTINUE%
 ItemDisplay[ETH MAG]:%BLUE%Eth %NAME%%CONTINUE%
@@ -206,9 +209,9 @@ ItemDisplay[scrb]:%PURPLE% %NAME%%DOT-80% // turns t3 maps into dungeons (Horadr
 //╔══════╗
 //║ Maps ║
 //╚══════╝
-ItemDisplay[NMAG (t16 OR t18 OR t17 OR t11 OR t12 OR t13 OR t14 OR t15 OR t21 OR t22 OR t23 OR t24 OR t31 OR t32 OR t33 OR t34 OR t35 OR t41)]:%NL% %WHITE%%NAME%%CONTINUE% %NL%
-ItemDisplay[MAG (t16 OR t18 OR t17 OR t11 OR t12 OR t13 OR t14 OR t15 OR t21 OR t22 OR t23 OR t24 OR t31 OR t32 OR t33 OR t34 OR t35 OR t41)]:%NL% %BLUE%%NAME%%CONTINUE% %NL%
-ItemDisplay[RARE (t16 OR t18 OR t17 OR t11 OR t12 OR t13 OR t14 OR t15 OR t21 OR t22 OR t23 OR t24 OR t31 OR t32 OR t33 OR t34 OR t35 OR t41)]:%NL% %YELLOW%%NAME%%CONTINUE% %NL%
+ItemDisplay[NMAG (t16 OR t18 OR t17 OR t11 OR t12 OR t13 OR t14 OR t15 OR t21 OR t22 OR t23 OR t24 OR t31 OR t32 OR t33 OR t34 OR t35 OR t41)]:*%NL% %WHITE%%NAME%%CONTINUE% %NL%*
+ItemDisplay[MAG (t16 OR t18 OR t17 OR t11 OR t12 OR t13 OR t14 OR t15 OR t21 OR t22 OR t23 OR t24 OR t31 OR t32 OR t33 OR t34 OR t35 OR t41)]:*%NL% %BLUE%%NAME%%CONTINUE% %NL%*
+ItemDisplay[RARE (t16 OR t18 OR t17 OR t11 OR t12 OR t13 OR t14 OR t15 OR t21 OR t22 OR t23 OR t24 OR t31 OR t32 OR t33 OR t34 OR t35 OR t41)]:*%NL% %YELLOW%%NAME%%CONTINUE% %NL%*
 //ItemDisplay[t16]:%DARK_GREEN%+ %NAME% %DARK_GREEN%[T1]%WHITE%%MAP-80%{%TAN%Right-click in Act 5 town to open%NL%Requires level 75} // Ruins of Viz-jun [T1]
 //ItemDisplay[t18]:%DARK_GREEN%+ %NAME% %DARK_GREEN%[T2]%WHITE%%MAP-80%{%TAN%Right-click in Act 5 town to open%NL%Requires level 75} // Phlegethon Map [T2]
 //ItemDisplay[t17]:%YELLOW%+ %NAME% %YELLOW%[T3]%WHITE%%MAP-A8%{%TAN%Right-click in Act 5 town to open%NL%Requires level 75} // River of Blood [T3]
@@ -880,11 +883,11 @@ ItemDisplay[uit !ETH SOCK=0 NMAG CLVL<86]:%WHITE%%NAME%
 ItemDisplay[uit !ETH SOCK=0 NMAG CLVL>85]:
 //
 //All Polearms/Spears ED
-ItemDisplay[NMAG WP8 OR WP7 ELT !ETH CLVL>90]:
-ItemDisplay[NMAG WP8 OR WP7 ETH ELT ED=15 SOCK=4]:%NL%%PURPLE%o %GREEN%%NAME% %ORANGE%15 ed %RED%[%SOCKETS%] %PURPLE%o%NL%
-ItemDisplay[NMAG WP8 OR WP7 ETH ELT (ED>4 AND ED<15) SOCK=4]:%PURPLE%o %GREEN%%NAME% %ORANGE% ed %RED%[%SOCKETS%] %PURPLE%o
-ItemDisplay[NMAG WP8 OR WP7 ETH ELT SOCK>3]:%GREEN%%NAME% %ORANGE% %RED%[%SOCKETS%]
-ItemDisplay[NMAG WP8 OR WP7 !ELT !ETH]:
+ItemDisplay[NMAG (WP8 OR WP7) ELT !ETH CLVL>80]:
+ItemDisplay[NMAG (WP8 OR WP7) ETH ELT ED=15 SOCK=4]:%NL%%PURPLE%o %GREEN%%NAME% %ORANGE%15 ed %RED%[%SOCKETS%] %PURPLE%o%NL%
+ItemDisplay[NMAG (WP8 OR WP7) ETH ELT (ED>4 AND ED<15) SOCK=4]:%PURPLE%o %GREEN%%NAME% %ORANGE% ed %RED%[%SOCKETS%] %PURPLE%o
+ItemDisplay[NMAG (WP8 OR WP7) ETH ELT]:%GREEN%%NAME% %ORANGE% %RED%[%SOCKETS%]
+ItemDisplay[NMAG (WP8 OR WP7) !ELT]:
 //
 //Paladin Shields Top Tier Elite non-eth, Medium-High Eth, Basic (ILVL restriction)
 ItemDisplay[NMAG pab !ETH (RES>35 AND RES<45) !SOCK=1]:%GREEN%Res %NAME%%MAP-97%%RED%[%SOCKETS%]
@@ -1136,7 +1139,7 @@ ItemDisplay[NMAG SOCK=3 !ETH uh9]:%DARK_GREEN%%NAME% %YELLOW%[%SOCKETS%]
 //Low STR LORE base - ILVL appropriate
 ItemDisplay[NMAG SOCK=2 !ETH cap ILVL<20]:%NAME% [%SOCKETS%]
 ItemDisplay[NMAG SOCK=2 !ETH skp ILVL<20]:%NAME% [%SOCKETS%]
-ItemDisplay[NMAG SOCK=2 !ETH helm ILVL<20]:%NAME% [%SOCKETS%]
+ItemDisplay[NMAG SOCK=2 !ETH hlm ILVL<20]:%NAME% [%SOCKETS%]
 ItemDisplay[NMAG SOCK=2 !ETH msk ILVL<45]:%NAME% [%SOCKETS%]
 ItemDisplay[NMAG SOCK=2 !ETH bhm ILVL<45]:%NAME% [%SOCKETS%]
 ItemDisplay[NMAG SOCK=2 !ETH xap ILVL<45]:%NAME% [%SOCKETS%]
@@ -1357,7 +1360,7 @@ ItemDisplay[MAG EQ3 !ID !uit !ush ILVL>60]:
 //Elite Boots - Shown
 ItemDisplay[ELT MAG EQ5 !ID ILVL>60]:
 //Non Elite Boots - Hidden
-ItemDisplay[MAG ubh !ID ILVL>60]:
+ItemDisplay[MAG uhb !ID ILVL>60]:
 ItemDisplay[MAG xhb !ID ILVL>60]:
 ItemDisplay[MAG hbt !ID ILVL>60]:
 ItemDisplay[MAG utb !ID ILVL>60]:
@@ -1453,7 +1456,6 @@ ItemDisplay[NMAG !RW ILVL>60 7ma]:
 ItemDisplay[NMAG !RW ILVL>14 mst]:
 ItemDisplay[NMAG !RW ILVL>60 7mt]:
 ItemDisplay[NMAG !RW ILVL>25 9mt]:
-ItemDisplay[NMAG !RW ILVL>60 7mf]:
 ItemDisplay[NMAG !RW ILVL<26 SOCK=0 fla]:
 ItemDisplay[NMAG !RW ILVL>40 SOCK=0 fla]:
 ItemDisplay[NMAG !RW ILVL>14 SOCK=1 fla]:
