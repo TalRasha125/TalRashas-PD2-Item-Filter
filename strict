@@ -30,6 +30,9 @@
 //╔════════════════╗
 //║ Global Filters ║
 //╚════════════════╝
+//ED
+ItemDisplay[WEAPON !RW NMAG (ED>0 AND ED<15)]:%WHITE%%NAME% %GREEN%ED
+ItemDisplay[WEAPON !RW NMAG ED=15]:%PURPLE%%NAME% %GREEN%15 ED
 //Show me that item is etheral
 ItemDisplay[ETH UNI]:%GOLD%Eth %NAME%%CONTINUE%
 ItemDisplay[ETH RARE]:%YELLOW%Eth %NAME%%CONTINUE%
@@ -879,11 +882,11 @@ ItemDisplay[uit !ETH SOCK=0 NMAG CLVL<86]:%WHITE%%NAME%
 ItemDisplay[uit !ETH SOCK=0 NMAG CLVL>85]:
 //
 //All Polearms/Spears ED
-ItemDisplay[NMAG WP8 OR WP7 ELT !ETH CLVL>90]:
-ItemDisplay[NMAG WP8 OR WP7 ETH ELT ED=15 SOCK=4]:%NL%%PURPLE%o %GREEN%%NAME% %ORANGE%15 ed %RED%[%SOCKETS%] %PURPLE%o%NL%
-ItemDisplay[NMAG WP8 OR WP7 ETH ELT (ED>4 AND ED<15) SOCK=4]:%PURPLE%o %GREEN%%NAME% %ORANGE% ed %RED%[%SOCKETS%] %PURPLE%o
-ItemDisplay[NMAG WP8 OR WP7 ETH ELT SOCK>3]:%GREEN%%NAME% %ORANGE% %RED%[%SOCKETS%]
-ItemDisplay[NMAG WP8 OR WP7 !ELT !ETH]:
+ItemDisplay[NMAG (WP8 OR WP7) ELT !ETH CLVL>90]:
+ItemDisplay[NMAG (WP8 OR WP7) ETH ELT ED=15 SOCK=4]:%NL%%PURPLE%o %GREEN%%NAME% %ORANGE%15 ed %RED%[%SOCKETS%] %PURPLE%o%NL%
+ItemDisplay[NMAG (WP8 OR WP7) ETH ELT (ED>4 AND ED<15) SOCK=4]:%PURPLE%o %GREEN%%NAME% %ORANGE% ed %RED%[%SOCKETS%] %PURPLE%o
+ItemDisplay[NMAG (WP8 OR WP7) ETH ELT SOCK>3]:%GREEN%%NAME% %ORANGE% %RED%[%SOCKETS%]
+ItemDisplay[NMAG (WP8 OR WP7) !ELT !ETH]:
 //
 //Paladin Shields Top Tier Elite non-eth, Medium-High Eth, Basic (ILVL restriction)
 ItemDisplay[NMAG pab !ETH (RES>35 AND RES<45) !SOCK=1]:%GREEN%Res %NAME%%MAP-97%%RED%[%SOCKETS%]
@@ -1135,7 +1138,7 @@ ItemDisplay[NMAG SOCK=3 !ETH uh9]:%DARK_GREEN%%NAME% %YELLOW%[%SOCKETS%]
 //Low STR LORE base - ILVL appropriate
 ItemDisplay[NMAG SOCK=2 !ETH cap ILVL<20]:%NAME% [%SOCKETS%]
 ItemDisplay[NMAG SOCK=2 !ETH skp ILVL<20]:%NAME% [%SOCKETS%]
-ItemDisplay[NMAG SOCK=2 !ETH helm ILVL<20]:%NAME% [%SOCKETS%]
+ItemDisplay[NMAG SOCK=2 !ETH hlm ILVL<20]:%NAME% [%SOCKETS%]
 ItemDisplay[NMAG SOCK=2 !ETH msk ILVL<45]:%NAME% [%SOCKETS%]
 ItemDisplay[NMAG SOCK=2 !ETH bhm ILVL<45]:%NAME% [%SOCKETS%]
 ItemDisplay[NMAG SOCK=2 !ETH xap ILVL<45]:%NAME% [%SOCKETS%]
