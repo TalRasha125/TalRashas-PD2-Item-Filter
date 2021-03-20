@@ -1,6 +1,8 @@
 # TalRashas-PD2-Item-Filter <br>
 TalRasha's PD2 Item Filter version 2.0 updated March 19, 2021 <br>
 
+Added crafting info
+
 Added ED weapon filter
 
 Updated to include new maps and map upgrade items.
