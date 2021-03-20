@@ -639,11 +639,6 @@ ItemDisplay[MAG ci0 !ETH !ID]:%BLUE%* %NAME% *%MAP-97%%PX-62%
 ItemDisplay[MAG ci1 !ETH !ID]:%BLUE%* %NAME% *%MAP-97%%PX-62%
 ItemDisplay[MAG ci2 !ETH !ID]:%BLUE%* %NAME% *%MAP-97%%PX-62%
 //
-//Magic Vendor (Staff, Wand, Scepter)
-ItemDisplay[MAG WP11 !ID]:%BLUE%* %NAME% *%MAP-97%%PX-62%
-ItemDisplay[MAG WP12 !ID]:%BLUE%* %NAME% *%MAP-97%%PX-62%
-ItemDisplay[MAG WP13 !ID]:%BLUE%* %NAME% *%MAP-97%%PX-62%
-//
 //////////////////////
 //(Crafting section)//
 //////////////////////
