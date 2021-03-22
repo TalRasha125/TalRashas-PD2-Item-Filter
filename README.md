@@ -1,10 +1,14 @@
 # TalRashas-PD2-Item-Filter <br>
-TalRasha's PD2 Item Filter version 2.0 updated March 19, 2021 <br>
+TalRasha's PD2 Item Filter version 2.0 updated March 22, 2021 <br>
 
+3/22
+Fixed some uniques showing wrong name and double "eth"
+Made IK armor filter less impressive ;)
+3/19
 Added crafting info
-
+3/18
 Added ED weapon filter
-
+3/11
 Updated to include new maps and map upgrade items.
 
 There are three versions: default, strict, super strict. The default version will show most things. The strict version hides more things but keeps good magic and rare items. The super strict version shows all uniques, hides norm and exceptional set items, doesn't show gems, and only shows magic small and grand charms and only shows rare circlets, amulets, and rings. Use at your own risk.
