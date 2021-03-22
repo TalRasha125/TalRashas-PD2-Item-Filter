@@ -2,7 +2,7 @@
 //TalRasha's PD2 Item Filter Default Version
 //++++++++++++++++++++++++++
 //Version 2.0
-//Updated 19/3/2021
+//Updated 22/3/2021
 //
 //╔═══════════════════╗
 //║ Table of Contents ║
@@ -422,21 +422,17 @@ ItemDisplay[UNI !ID dgr]:%RED%o %PURPLE%Gull!%RED% o%BORDER-A5%%DOT-62%
 //Death Cleaver
 ItemDisplay[UNI !ID 7wa]:%RED%o %PURPLE%Death Cleaver%RED% o%BORDER-A5%%DOT-62% 
 //Horizon's Tornado/Stormlash
-ItemDisplay[UNI !ID ILVL>85 7fl]:%RED%o %PURPLE%Stormlash?%RED% o%BORDER-A5%%DOT-62% 
-ItemDisplay[UNI !ID ILVL<86 7fl]:%RED%o %PURPLE%Horizon's Tornado%RED% o%BORDER-A5%%DOT-62% 
+ItemDisplay[UNI !ID 7fl]:%RED%o %PURPLE%Stormlash or Horizon's?%RED% o%BORDER-A5%%DOT-62% 
 //Windhammer
 ItemDisplay[UNI !ID 7m7]:%RED%* %PURPLE%Windhammer %RED%*%BORDER-A5%%DOT-62% 
 //The Cranium Basher/Earth shifter
-ItemDisplay[UNI !ID ILVL<85 7gm]:%RED%o %PURPLE%Earth Shifter%RED% o%BORDER-A5%%DOT-62% 
-ItemDisplay[UNI !ID ILVL>84 7gm]:%RED%o %PURPLE%The Cranium Basher?%RED% o%BORDER-A5%%DOT-62% 
+ItemDisplay[UNI !ID 7gm]:%RED%o %PURPLE%Earth Shifter or The Cranium Basher?%RED% o%BORDER-A5%%DOT-62% 
 //Hand of Blessed Light
 ItemDisplay[UNI !ID 9ws]:%RED%o %PURPLE%Hand of Blessed Light%RED% o%BORDER-A5%%DOT-62% 
 //Astreon's Iron Ward
 ItemDisplay[UNI !ID 7ws]:%RED%o %PURPLE%Astreon's Iron Ward%RED% o%BORDER-A5%%DOT-62% 
 //Steel Pillar
 ItemDisplay[UNI !ID 7p7]:%RED%* %PURPLE%Steel Pillar %RED%*%BORDER-A5%%DOT-62% 
-//Eth Steel Pillar
-ItemDisplay[UNI !ID ETH 7p7]:%RED%o %PURPLE%Eth Steel Pillar%RED% o%BORDER-A5%%DOT-62% 
 //Skull Collector
 ItemDisplay[UNI !ID 8ws]:%RED%o %PURPLE%Skull Collector%RED% o%BORDER-A5%%DOT-62% 
 //Mang Song's Lesson
@@ -462,29 +458,24 @@ ItemDisplay[UNI !ID obc]:%RED%*%YELLOW%*%GREEN%*%BLUE%*%NL%%RED%o %PURPLE%Eschut
 //Windforce
 ItemDisplay[UNI !ID 6lw]:%RED%*%YELLOW%*%GREEN%*%BLUE%*%NL%%RED%ooo %PURPLE%Windforce%RED% ooo%NL%%RED%*%YELLOW%*%GREEN%*%BLUE%*%DOT-0C%%BORDER-4B%
 //Reaper's Toll
-ItemDisplay[UNI !ETH !ID 7s8]:%RED%* %PURPLE%Reaper's Toll %RED%*%BORDER-A5%%DOT-62% 
-ItemDisplay[UNI ETH !ID 7s8]:%RED%o %PURPLE%Eth Reaper's Toll %RED%o%DOT-0C%%BORDER-4B%
+ItemDisplay[UNI !ID 7s8]:%RED%* %PURPLE%Reaper's Toll %RED%*%BORDER-A5%%DOT-62% 
 //Lacerator
-ItemDisplay[UNI !ETH !ID 7b8]:%RED%* %PURPLE%Lacerator %RED%*%BORDER-A5%%DOT-62% 
-ItemDisplay[UNI ETH !ID 7b8]:%RED%o %PURPLE%Eth Lacerator%RED o%BORDER-A5%%DOT-62% 
+ItemDisplay[UNI !ID 7b8]:%RED%* %PURPLE%Lacerator %RED%*%BORDER-A5%%DOT-62% 
 //Azurewrath & Lightsabre
 ItemDisplay[UNI !ID ILVL<87 7cr]:%RED%*%YELLOW%*%GREEN%*%BLUE%*%NL%%RED%o %PURPLE%Lightsabre %RED%o%NL%%RED%*%YELLOW%*%GREEN%*%BLUE%*%DOT-0C%%BORDER-4B%
 ItemDisplay[UNI !ID ILVL>86 7cr]:%RED%*%YELLOW%*%GREEN%*%BLUE%*%NL%%RED%o %PURPLE%Azurewrath? %RED%o%NL%%RED%*%YELLOW%*%GREEN%*%BLUE%*%DOT-0C%%BORDER-4B%
 //Tombreaver
-ItemDisplay[UNI !ETH !ID 7pa]:%RED%* %PURPLE%Tomb Reaver %RED%*%BORDER-A5%%DOT-62% 
-ItemDisplay[UNI ETH !ID 7pa]:%RED%o %PURPLE%Eth Tomb Reaver %RED%o%BORDER-A5%%DOT-62% 
+ItemDisplay[UNI !ID 7pa]:%RED%* %PURPLE%Tomb Reaver %RED%*%BORDER-A5%%DOT-62% 
 //Thunderstroke
 ItemDisplay[UNI !ID amf]:%RED%o %PURPLE%Thunderstroke %RED%o%BORDER-A5%%DOT-62% 
 //Titan's Revenge
 ItemDisplay[UNI !ID ama]:%RED%o %PURPLE%Titan's Revenge %RED%o%BORDER-A5%%DOT-62% 
 // Ondal's Wisdom
 ItemDisplay[UNI !ID 6cs]:%RED%*%YELLOW%*%GREEN%*%BLUE%*%NL%%RED%o %PURPLE%Ondal's Wisdom %RED%o%NL%%RED%*%YELLOW%*%GREEN%*%BLUE%*%DOT-0C%%BORDER-4B%
-// Schaefer's Hammer
-ItemDisplay[UNI !ETH !ID 7wh]:%RED%o %PURPLE%Schaefer's or Stone Crusher %RED%o%DOT-0C%%BORDER-4B%
-ItemDisplay[UNI ETH !ID 7wh]:%RED%*%YELLOW%*%GREEN%*%BLUE%*%NL%%RED%o %PURPLE%Eth Schaefer's or Stone Crusher %RED%o%NL%%RED%*%YELLOW%*%GREEN%*%BLUE%*%DOT-0C%%BORDER-4B%
+// Schaefer's Hammer/Stonecrusher
+ItemDisplay[UNI !ID 7wh]:%RED%o %PURPLE%Schaefer's or Stone Crusher? %RED%o%DOT-0C%%BORDER-4B%
 // Warshrike
-ItemDisplay[UNI !ETH !ID 7bk]:%RED%* %PURPLE%Warshrike %RED%*%BORDER-A5%%DOT-62% 
-ItemDisplay[UNI ETH !ID 7bk]:%RED%o %PURPLE%Eth Warshrike%RED% o%BORDER-A5%%DOT-62% 
+ItemDisplay[UNI !ID 7bk]:%RED%* %PURPLE%Warshrike %RED%*%BORDER-A5%%DOT-62% 
 //Hexfire
 //ItemDisplay[UNI !ID 9sb]:%RED%* %PURPLE%Hexfire %RED%*%BORDER-A5%%DOT-62% 
 ///////////
@@ -519,7 +510,7 @@ ItemDisplay[UNI !ID uts]:%RED%*%YELLOW%*%GREEN%*%BLUE%*%NL%%RED%o %PURPLE%Spirit
 ItemDisplay[SET !ID amu]:%GREEN%o Amulet o%DOT-84% 
 ItemDisplay[SET !ID rin]:%GREEN%o Ring o%DOT-84% 
 //
-ItemDisplay[SET !ID uar]:%RED%*%YELLOW%*%GREEN%*%BLUE%*%NL%%PURPLE%ooo %GREEN%%NAME%%PURPLE% ooo%NL%%RED%*%YELLOW%*%GREEN%*%BLUE%*%DOT-84%%BORDER-4B%
+ItemDisplay[SET !ID uar]:%GREEN%*%NL%%PURPLE%o %GREEN%%NAME%%PURPLE% o%NL%%GREEN%*%DOT-84%%BORDER-4B%
 ItemDisplay[SET !ID xhb]:%GREEN%o IK Boots o%DOT-62%%BORDER-84%  
 ItemDisplay[SET !ID zhb]:%GREEN%o IK Belt o%DOT-62%%BORDER-84%  
 ItemDisplay[SET !ID ba5]:%GREEN%o IK Helm o%DOT-62%%BORDER-84%  
