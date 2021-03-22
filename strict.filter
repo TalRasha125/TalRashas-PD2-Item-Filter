@@ -413,8 +413,7 @@ ItemDisplay[UNI !ID xhb]:%RED%* %PURPLE%Gore Rider %RED%*%BORDER-A5%%DOT-62%
 //Weapons//
 ///////////
 //Gavel of Pain
-ItemDisplay[UNI !ETH !ID 9gm]:%RED%* %PURPLE%Gavel of Pain %RED%*%BORDER-A5%%DOT-62% 
-ItemDisplay[UNI ETH !ID 9gm]:%RED%o %PURPLE%Eth Gavel of Pain %RED%o%BORDER-A5%%DOT-62% 
+ItemDisplay[UNI !ID 9gm]:%RED%* %PURPLE%Gavel of Pain %RED%*%BORDER-A5%%DOT-62% 
 //Gull
 ItemDisplay[UNI !ID dgr]:%RED%o %PURPLE%Gull!%RED% o%BORDER-A5%%DOT-62% 
 //Death Cleaver
