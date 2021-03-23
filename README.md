@@ -2,7 +2,8 @@
 TalRasha's PD2 Item Filter version 2.0 updated March 23, 2021 <br>
 
 3/23
-Removed all %NL%
+Removed all large text boxes
+Added better filter for horadrim scarab
 3/22
 Updated all items to show sockets correctly
 Updated look of facets and unique jewelry
