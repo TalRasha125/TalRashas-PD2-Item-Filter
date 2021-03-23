@@ -888,7 +888,7 @@ ItemDisplay[NMAG ci2 !ETH SOCK=3]:%NAME%
 ItemDisplay[NMAG ci3 !ETH SOCK=0]:%NAME%
 ItemDisplay[NMAG ci3 !ETH SOCK=1]://%NAME%
 ItemDisplay[NMAG ci3 !ETH SOCK=2]:%NAME%
-ItemDisplay[NMAG ci3 !ETH SOCK=3]:%NAME%[%SOCKETS%]
+ItemDisplay[NMAG ci3 !ETH SOCK=3]:%NAME%
 //
 //Armor
 //Hide Non Eth Medium and Heavy Bases
@@ -2011,10 +2011,10 @@ ItemDisplay[NMAG !RW ILVL>59 SOCK=6 ame]:
 //Necromancer Shrunken Heads
 ItemDisplay[NMAG !RW CL4 SOCK=1 ILVL>24]:
 ItemDisplay[NMAG !RW CL4 ETH ILVL>24]:
-ItemDisplay[NMAG !RW CL4 SOCK=1 ILVL<25]:%NAME% %[SOCKETS]%
-ItemDisplay[NMAG !RW CL4 SOCK=2 !ETH ILVL>24]:%NAME% %[SOCKETS]%
+ItemDisplay[NMAG !RW CL4 SOCK=1 ILVL<25]:%NAME% 
+ItemDisplay[NMAG !RW CL4 SOCK=2 !ETH ILVL>24]:%NAME%
 //
 //Sorceress Orbs
 ItemDisplay[NMAG !RW CL4 SOCK=1 ILVL>24]:
-ItemDisplay[NMAG !RW CL4 SOCK=1 ILVL<25]:%NAME% %[SOCKETS]%
-ItemDisplay[NMAG !RW CL4 SOCK>1 ILVL>24]:%NAME% %[SOCKETS]%
+ItemDisplay[NMAG !RW CL4 SOCK=1 ILVL<25]:%NAME% 
+ItemDisplay[NMAG !RW CL4 SOCK>1 ILVL>24]:%NAME%
