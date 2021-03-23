@@ -1,6 +1,8 @@
 # TalRashas-PD2-Item-Filter <br>
-TalRasha's PD2 Item Filter version 2.0 updated March 22, 2021 <br>
+TalRasha's PD2 Item Filter version 2.0 updated March 23, 2021 <br>
 
+3/23
+Removed all %NL%
 3/22
 Updated all items to show sockets correctly
 Updated look of facets and unique jewelry
