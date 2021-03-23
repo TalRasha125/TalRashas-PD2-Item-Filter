@@ -871,9 +871,6 @@ ItemDisplay[INF ILVL<10 !RW !leg]:%NAME%
 ItemDisplay[INF !RW !leg]:
 ItemDisplay[aqv NMAG]:
 ItemDisplay[cqv NMAG]:
-ItemDisplay[NMAG CL1 CLVL>70]:
-ItemDisplay[NMAG CL3 CLVL>70]:
-ItemDisplay[NMAG CL5]:
 //
 //Tiara/Diadem Imbue Charsi
 ItemDisplay[NMAG ci2 !ETH SOCK=0]://%NAME%
@@ -1402,7 +1399,6 @@ ItemDisplay[MAG EQ3 !ID !uit !ush ILVL>60]:
 //Elite Boots - Shown
 ItemDisplay[ELT MAG EQ5 !ID ILVL>60]:
 //Non Elite Boots - Hidden
-ItemDisplay[MAG ubh !ID ILVL>60]:
 ItemDisplay[MAG xhb !ID ILVL>60]:
 ItemDisplay[MAG hbt !ID ILVL>60]:
 ItemDisplay[MAG utb !ID ILVL>60]:
@@ -1498,7 +1494,6 @@ ItemDisplay[NMAG !RW ILVL>60 7ma]:
 ItemDisplay[NMAG !RW ILVL>14 mst]:
 ItemDisplay[NMAG !RW ILVL>60 7mt]:
 ItemDisplay[NMAG !RW ILVL>25 9mt]:
-ItemDisplay[NMAG !RW ILVL>60 7mf]:
 ItemDisplay[NMAG !RW ILVL<26 SOCK=0 fla]:
 ItemDisplay[NMAG !RW ILVL>40 SOCK=0 fla]:
 ItemDisplay[NMAG !RW ILVL>14 SOCK=1 fla]:
@@ -1780,7 +1775,6 @@ ItemDisplay[NMAG !RW ILVL>14 8l8]:
 ItemDisplay[NMAG !RW ILVL>50 6l7]:
 ItemDisplay[NMAG !RW ILVL>14 swb]:
 ItemDisplay[NMAG !RW ILVL>14 8sw]:
-ItemDisplay[NMAG !RW ILVL>14 6we]:
 ItemDisplay[NMAG !RW ILVL>14 lwb]:
 ItemDisplay[NMAG !RW ILVL>14 8lw]:
 ItemDisplay[NMAG !RW ILVL>14 6lw]:
@@ -2008,10 +2002,10 @@ ItemDisplay[NMAG !RW ILVL>59 SOCK=6 ame]:
 //Necromancer Shrunken Heads
 ItemDisplay[NMAG !RW CL4 SOCK=1 ILVL>24]:
 ItemDisplay[NMAG !RW CL4 ETH ILVL>24]:
-ItemDisplay[NMAG !RW CL4 SOCK=1 ILVL<25]:%NAME% %[SOCKETS]%
-ItemDisplay[NMAG !RW CL4 SOCK=2 !ETH ILVL>24]:%NAME% %[SOCKETS]%
+ItemDisplay[NMAG !RW CL4 SOCK=1 ILVL<25]:%NAME% 
+ItemDisplay[NMAG !RW CL4 SOCK=2 !ETH ILVL>24]:%NAME%
 //
 //Sorceress Orbs
 ItemDisplay[NMAG !RW CL4 SOCK=1 ILVL>24]:
-ItemDisplay[NMAG !RW CL4 SOCK=1 ILVL<25]:%NAME% %[SOCKETS]%
-ItemDisplay[NMAG !RW CL4 SOCK>1 ILVL>24]:%NAME% %[SOCKETS]%
+ItemDisplay[NMAG !RW CL4 SOCK=1 ILVL<25]:%NAME%
+ItemDisplay[NMAG !RW CL4 SOCK>1 ILVL>24]:%NAME%
