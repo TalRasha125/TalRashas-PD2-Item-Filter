@@ -2,6 +2,7 @@
 TalRasha's PD2 Item Filter version 2.0 updated March 22, 2021 <br>
 
 3/22
+Updated look of facets and unique jewelry
 Fixed some uniques showing wrong name and double "eth"
 Made IK armor filter less impressive ;)
 3/19
