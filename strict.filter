@@ -871,9 +871,6 @@ ItemDisplay[INF ILVL<10 !RW !leg]:%NAME%
 ItemDisplay[INF !RW !leg]:
 ItemDisplay[aqv NMAG]:
 ItemDisplay[cqv NMAG]:
-ItemDisplay[NMAG CL1 CLVL>70]:
-ItemDisplay[NMAG CL3 CLVL>70]:
-ItemDisplay[NMAG CL5]:
 //
 //Tiara/Diadem Imbue Charsi
 ItemDisplay[NMAG ci2 !ETH SOCK=0]://%NAME%
@@ -1296,6 +1293,7 @@ ItemDisplay[CL4 NMAG (SK83=3) !ETH !SOCK=1]:%GRAY%+3 desecrate head%GRAY%
 ItemDisplay[CL4 NMAG (SK84=3) !ETH !SOCK=1]:%GRAY%+3 bone spear head%GRAY%
 ItemDisplay[CL4 NMAG (SK92=3) !ETH !SOCK=1]:%GRAY%+3 poison nova head%GRAY%
 ItemDisplay[CL4 NMAG (SK74=2) !ETH !SOCK=1]:%GRAY%+2 Corpse Explosion head%GRAY%
+ItemDisplay[CL4 NMAG (SK75=3) !ETH !SOCK=1]:%GRAY%+3 Clay golem head%GRAY%
 //
 //non-magic druid pelts 
 ItemDisplay[CL1 NMAG (SK244=3) !SOCK=1]:%GRAY%+3 Volcano Pelt %GRAY%
