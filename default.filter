@@ -860,7 +860,6 @@ ItemDisplay[MAG ID WP13 (TABSK24=3 AND SK121=3)]:%PURPLE%+ %ORANGE%FOH SCEPTER %
 //╚═══════╝
 //Inferior Items
 ItemDisplay[INF ILVL<10 !RW !leg]:%NAME%
-ItemDisplay[INF !RW !leg]:
 ItemDisplay[aqv NMAG]:
 ItemDisplay[cqv NMAG]:
 //
@@ -1334,6 +1333,9 @@ ItemDisplay[WP11 NMAG SOCK=5 (SK58=3)]:%DARK_GREEN% +3 Energy Shield CTA base%MA
 //Melody bow bases
 ItemDisplay[amb SOCK=3 NMAG]:%DARK_GREEN%%NAME% %GRAY%
 ItemDisplay[amc SOCK=3 NMAG]:%DARK_GREEN%%NAME% %GRAY%
+//
+//Hide bases with no mods
+ItemDisplay[(CL1 OR CL2 OR CL3 OR CL4 OR CL5 OR CL6 OR CL7) NMAG]:
 //╔══════════╗
 //║ Leveling ║
 //╚══════════╝
