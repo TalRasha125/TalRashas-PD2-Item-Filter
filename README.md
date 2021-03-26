@@ -1,6 +1,7 @@
 # TalRashas-PD2-Item-Filter <br>
-TalRasha's PD2 Item Filter version 2.0 updated March 23, 2021 <br>
-
+TalRasha's PD2 Item Filter version 2.0 updated March 26, 2021 <br>
+3/26<br>
+Added Dclone items to filters
 3/23<br>
 Removed all large text boxes<br>
 Added better filter for horadrim scarab<br>
