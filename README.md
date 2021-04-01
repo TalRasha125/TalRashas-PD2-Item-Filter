@@ -1,5 +1,8 @@
 # TalRashas-PD2-Item-Filter <br>
-TalRasha's PD2 Item Filter version 2.0 updated March 26, 2021 <br>
+TalRasha's PD2 Item Filter version 2.0 updated March 31, 2021 <br>
+3/31<br>
+Changed look of armor and weapons with ed
+Changed from three $ symbols to one on items worth 35k gold
 3/26<br>
 Added Dclone items to filters
 3/23<br>
