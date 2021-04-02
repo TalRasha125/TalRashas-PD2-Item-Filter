@@ -2,7 +2,7 @@
 //TalRasha's PD2 Item Filter Default Version
 //++++++++++++++++++++++++++
 //Version 2.0
-//Updated 31/03/2021
+//Updated 02/04/2021-April 2nd, 2021
 //
 //╔═══════════════════╗
 //║ Table of Contents ║
@@ -112,7 +112,7 @@ ItemDisplay[hdm]:%NAME%%MAP-00% // Horadric Malus
 ItemDisplay[bks]:%NAME%%MAP-00% // Scroll of Inifuss
 ItemDisplay[bkd]:%NAME%%MAP-00% // Scroll of Inifuss, deciphered
 ItemDisplay[leg]:%NAME%%MAP-00% // Wirt's Leg
-ItemDisplay[ass]:%NAME%%MAP-00% // Book of Skill
+ItemDisplay[ass]:%GOLD%Book of Skill{%TAN%Right click to add +1 Skills}%MAP-00% // Book of Skill
 ItemDisplay[tr1]:
 ItemDisplay[box]:%NAME%%MAP-00% // Horadric Cube
 ItemDisplay[hst]:%NAME%%MAP-00% // Horadric Staff
@@ -127,11 +127,11 @@ ItemDisplay[qhr]:%NAME%%MAP-00% // Khalim's Heart
 ItemDisplay[qf2]:%NAME%%MAP-00% // Khalim's Will
 ItemDisplay[bbb]:%NAME%%MAP-00% // Lam Esen's Tome
 ItemDisplay[mss]:%NAME%%MAP-00% // Mephisto's Soulstone
-ItemDisplay[xyz]:%NAME%%MAP-00% // Potion of Life
+ItemDisplay[xyz]:%GOLD%Potion of Life{%TAN%Right click to add +20 to life}%MAP-00% // Potion of Life
 ItemDisplay[g34]:%NAME%%MAP-00% // The Golden Bird
 ItemDisplay[hfh]:%NAME%%MAP-00% // Hellforge Hammer
-ItemDisplay[ice]:%NAME%%MAP-00% // Malah's Potion
-ItemDisplay[tr2]:%NAME%%MAP-00% // Scroll of Resistance
+ItemDisplay[ice]:%GOLD%Malah's Potion{%TAN%Touch Anya to thaw}%MAP-00% // Malah's Potion
+ItemDisplay[tr2]:%GOLD%Scroll of Resistance{%TAN%Right click to increase all resistance by +10%}%MAP-00% // Scroll of Resistance
 //Hiding Inferior
 ItemDisplay[INF ILVL>14 !RW !leg]:
 //╔═══════╗
@@ -202,7 +202,7 @@ ItemDisplay[dcso]:%RED%*%YELLOW%*%GREEN%*%BLUE%* %RED%o %PURPLE%Prime Evil Soul 
 //║ Corruption Items ║
 //╚══════════════════╝
 ItemDisplay[wss]:%RED%* %RED%o %PURPLE%Worldstone Shard%RED% o %RED%*%MAP-62%%PX-20%
-ItemDisplay[lbox]:%RED%*%YELLOW%*%GREEN%*%BLUE%* %RED%oooooooooo %PURPLE%Larzuk's Puzzle Box %RED%oooooooooo %RED%*%YELLOW%*%GREEN%*%BLUE%*%DOT-62%%BORDER-4B%
+ItemDisplay[lbox]:%RED%*%YELLOW%*%GREEN%*%BLUE%* %RED%ooo %PURPLE%Larzuk's Puzzle Box %RED%ooo %RED%*%YELLOW%*%GREEN%*%BLUE%*%DOT-62%%BORDER-4B%
 //╔══════════════╗
 //║ Map Upgrades ║
 //╚══════════════╝
@@ -216,9 +216,9 @@ ItemDisplay[scrb]:%RED%*%YELLOW%*%GREEN%*%BLUE%* %RED%o%PURPLE% %NAME% %RED%o %R
 //╔══════╗
 //║ Maps ║
 //╚══════╝
-ItemDisplay[NMAG (t16 OR t18 OR t17 OR t11 OR t12 OR t13 OR t14 OR t15 OR t21 OR t22 OR t23 OR t24 OR t31 OR t32 OR t33 OR t34 OR t35 OR t41)]:  %WHITE%*** %NAME% ***%CONTINUE%%DOT-62%%BORDER-4B% 
-ItemDisplay[MAG (t16 OR t18 OR t17 OR t11 OR t12 OR t13 OR t14 OR t15 OR t21 OR t22 OR t23 OR t24 OR t31 OR t32 OR t33 OR t34 OR t35 OR t41)]:  %BLUE%*** %NAME% ***%CONTINUE%%DOT-62%%BORDER-4B%  
-ItemDisplay[RARE (t16 OR t18 OR t17 OR t11 OR t12 OR t13 OR t14 OR t15 OR t21 OR t22 OR t23 OR t24 OR t31 OR t32 OR t33 OR t34 OR t35 OR t41)]:  %YELLOW%*** %NAME% ***%CONTINUE%%DOT-62%%BORDER-4B%  
+ItemDisplay[NMAG (t16 OR t18 OR t17 OR t11 OR t12 OR t13 OR t14 OR t15 OR t21 OR t22 OR t23 OR t24 OR t31 OR t32 OR t33 OR t34 OR t35 OR t41)]:  %WHITE%*** ooo %NAME% ooo ***%CONTINUE%%DOT-62%%BORDER-4B% 
+ItemDisplay[MAG (t16 OR t18 OR t17 OR t11 OR t12 OR t13 OR t14 OR t15 OR t21 OR t22 OR t23 OR t24 OR t31 OR t32 OR t33 OR t34 OR t35 OR t41)]:  %BLUE%*** ooo %NAME% ooo ***%CONTINUE%%DOT-62%%BORDER-4B%  
+ItemDisplay[RARE (t16 OR t18 OR t17 OR t11 OR t12 OR t13 OR t14 OR t15 OR t21 OR t22 OR t23 OR t24 OR t31 OR t32 OR t33 OR t34 OR t35 OR t41)]:  %YELLOW%*** ooo %NAME% ooo ***%CONTINUE%%DOT-62%%BORDER-4B%  
 //╔══════╗
 //║ Gems ║
 //╚══════╝
