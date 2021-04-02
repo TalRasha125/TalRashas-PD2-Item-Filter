@@ -20,4 +20,6 @@ Added ED weapon filter<br>
 3/11<br>
 Updated to include new maps and map upgrade items.<br>
 
+There are strict and super strict versions but I no longer have time to update them so they won't receive any more future updates.<br>
+
 Select filter choice from "Item Profiles" on launcher or copy and paste the code into your existing default.filter file in your local filter PD2 folder and select local on item profiles.
