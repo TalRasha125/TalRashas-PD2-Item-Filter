@@ -2,7 +2,7 @@
 //TalRasha's PD2 Item Filter Default Version
 //++++++++++++++++++++++++++
 //Version 2.0
-//Updated 02/04/2021-April 2nd, 2021
+//Updated 31/03/2021
 //
 //╔═══════════════════╗
 //║ Table of Contents ║
@@ -108,30 +108,30 @@ ItemDisplay[gpl]:
 //╔═════════════╗
 //║ Quest Items ║
 //╚═════════════╝
-ItemDisplay[hdm]:%NAME%%MAP-00% // Horadric Malus
-ItemDisplay[bks]:%NAME%%MAP-00% // Scroll of Inifuss
-ItemDisplay[bkd]:%NAME%%MAP-00% // Scroll of Inifuss, deciphered
-ItemDisplay[leg]:%NAME%%MAP-00% // Wirt's Leg
-ItemDisplay[ass]:%GOLD%Book of Skill{%TAN%Right click to add +1 Skills}%MAP-00% // Book of Skill
+ItemDisplay[hdm]:*%NAME%*%MAP-00% // Horadric Malus
+ItemDisplay[bks]:*%NAME%*%MAP-00% // Scroll of Inifuss
+ItemDisplay[bkd]:*%NAME%*%MAP-00% // Scroll of Inifuss, deciphered
+ItemDisplay[leg]:*%NAME%*%MAP-00% // Wirt's Leg
+ItemDisplay[ass]:%GOLD%*Book of Skill*{%TAN%Right click to add +1 Skills}%MAP-00% // Book of Skill
 ItemDisplay[tr1]:
-ItemDisplay[box]:%NAME%%MAP-00% // Horadric Cube
-ItemDisplay[hst]:%NAME%%MAP-00% // Horadric Staff
-ItemDisplay[msf]:%NAME%%MAP-00% // Staff of Kings
-ItemDisplay[vip]:%NAME%%MAP-00% // Amulet of the Viper
-ItemDisplay[j34]:%NAME%%MAP-00% // A Jade Figurine
-ItemDisplay[g33]:%NAME%%MAP-00% // Gidbinn
-ItemDisplay[qbr]:%NAME%%MAP-00% // Khalim's Brain
-ItemDisplay[qey]:%NAME%%MAP-00% // Khalim's Eye
-ItemDisplay[qf1]:%NAME%%MAP-00% // Khalim's Flail
-ItemDisplay[qhr]:%NAME%%MAP-00% // Khalim's Heart
-ItemDisplay[qf2]:%NAME%%MAP-00% // Khalim's Will
-ItemDisplay[bbb]:%NAME%%MAP-00% // Lam Esen's Tome
-ItemDisplay[mss]:%NAME%%MAP-00% // Mephisto's Soulstone
-ItemDisplay[xyz]:%GOLD%Potion of Life{%TAN%Right click to add +20 to life}%MAP-00% // Potion of Life
-ItemDisplay[g34]:%NAME%%MAP-00% // The Golden Bird
-ItemDisplay[hfh]:%NAME%%MAP-00% // Hellforge Hammer
-ItemDisplay[ice]:%GOLD%Malah's Potion{%TAN%Touch Anya to thaw}%MAP-00% // Malah's Potion
-ItemDisplay[tr2]:%GOLD%Scroll of Resistance{%TAN%Right click to increase all resistance by +10%}%MAP-00% // Scroll of Resistance
+ItemDisplay[box]:*%NAME%*%MAP-00% // Horadric Cube
+ItemDisplay[hst]:*%NAME%*%MAP-00% // Horadric Staff
+ItemDisplay[msf]:*%NAME%*%MAP-00% // Staff of Kings
+ItemDisplay[vip]:*%NAME%*%MAP-00% // Amulet of the Viper
+ItemDisplay[j34]:*%NAME%*%MAP-00% // A Jade Figurine
+ItemDisplay[g33]:*%NAME%*%MAP-00% // Gidbinn
+ItemDisplay[qbr]:*%NAME%*%MAP-00% // Khalim's Brain
+ItemDisplay[qey]:*%NAME%*%MAP-00% // Khalim's Eye
+ItemDisplay[qf1]:*%NAME%*%MAP-00% // Khalim's Flail
+ItemDisplay[qhr]:*%NAME%*%MAP-00% // Khalim's Heart
+ItemDisplay[qf2]:*%NAME%*%MAP-00% // Khalim's Will
+ItemDisplay[bbb]:*%NAME%*%MAP-00% // Lam Esen's Tome
+ItemDisplay[mss]:*%NAME%*%MAP-00% // Mephisto's Soulstone
+ItemDisplay[xyz]:%GOLD%*Potion of Life*{%TAN%Right click to add +20 to life}%MAP-00% // Potion of Life
+ItemDisplay[g34]:*%NAME%*%MAP-00% // The Golden Bird
+ItemDisplay[hfh]:*%NAME%*%MAP-00% // Hellforge Hammer
+ItemDisplay[ice]:%GOLD%*Malah's Potion*{%TAN%Touch Anya to thaw}%MAP-00% // Malah's Potion
+ItemDisplay[tr2]:%GOLD%*Scroll of Resistance*{%TAN%Right click to increase all resistance by +10%}%MAP-00% // Scroll of Resistance
 //Hiding Inferior
 ItemDisplay[INF ILVL>14 !RW !leg]:
 //╔═══════╗
@@ -181,7 +181,7 @@ ItemDisplay[ceh]: %RED%o %GOLD%%NAME%%RED% o %MAP-00%// Charged Essence of Hatre
 ItemDisplay[fed]:%RED%*%YELLOW%*%GREEN%*%BLUE%* %RED%o %GOLD%%NAME%%RED% o %RED%*%YELLOW%*%GREEN%*%BLUE%*%MAP-00%// Festering Essence of Destruction
 ItemDisplay[tes]: %RED%o %GOLD%%NAME%%RED% o %MAP-00%// Twisted Essence of Suffering
 // Tokens
-ItemDisplay[toa]:%PURPLE%*Token of Absolution*%MAP-00% // Token of Absolution
+ItemDisplay[toa]:%PURPLE%*Token of Absolution*{%TAN%Right click to reset skills and stats}%MAP-00% // Token of Absolution
 //╔═══════════╗
 //║ Uber Keys ║
 //╚═══════════╝
