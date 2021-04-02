@@ -112,7 +112,7 @@ ItemDisplay[hdm]:*%NAME%*%MAP-00% // Horadric Malus
 ItemDisplay[bks]:*%NAME%*%MAP-00% // Scroll of Inifuss
 ItemDisplay[bkd]:*%NAME%*%MAP-00% // Scroll of Inifuss, deciphered
 ItemDisplay[leg]:*%NAME%*%MAP-00% // Wirt's Leg
-ItemDisplay[ass]:%GOLD%*Book of Skill*{%TAN%Right click to add +1 Skills}%MAP-00% // Book of Skill
+ItemDisplay[ass]:%GOLD%*Book of Skill*{%TAN%Right click to add +1 skill pt}%MAP-00% // Book of Skill
 ItemDisplay[tr1]:
 ItemDisplay[box]:*%NAME%*%MAP-00% // Horadric Cube
 ItemDisplay[hst]:*%NAME%*%MAP-00% // Horadric Staff
