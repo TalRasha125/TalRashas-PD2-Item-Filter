@@ -924,10 +924,10 @@ ItemDisplay[NMAG SOCK=3 ED=15 xtp]:%WHITE%%NAME%%MAP-97%%GREEN% 15 ED %WHITE%%MA
 //4os Monarch, Monarch
 ItemDisplay[uit !ETH SOCK=4 NMAG]:%DARK_GREEN%%NAME%%MAP-97%%WHITE% 
 ItemDisplay[uit !ETH SOCK=0 NMAG CLVL<80]:%WHITE%%NAME%
-ItemDisplay[uit SOCK=0 NMAG CLVL>79]:
+ItemDisplay[uit NMAG CLVL>79]:
 //Dragon Shield
 ItemDisplay[xit !ETH SOCK=3 NMAG]:%DARK_GREEN%%NAME%%MAP-97%%WHITE%  
-ItemDisplay[xit SOCK=0 NMAG CLVL>79]:
+ItemDisplay[xit NMAG CLVL>79]:
 //
 //All Polearms/Spears ED
 ItemDisplay[NMAG (WP8 OR WP7) ELT !ETH CLVL>90]:
