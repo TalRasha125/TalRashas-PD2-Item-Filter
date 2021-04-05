@@ -2,7 +2,7 @@
 //TalRasha's PD2 Item Filter Default Version
 //++++++++++++++++++++++++++
 //Version 2.0
-//Updated 31/03/2021
+//Updated 05/04/2021
 //
 //╔═══════════════════╗
 //║ Table of Contents ║
@@ -37,14 +37,14 @@ ItemDisplay[WEAPON NORM !RW NMAG (ED>0 AND ED<15) CLVL>79]:
 ItemDisplay[WEAPON NORM !RW NMAG ED=15 CLVL>79]:
 ItemDisplay[WEAPON (EXC OR ELT) !RW NMAG (ED>0 AND ED<15)]:%WHITE%%NAME% %GREEN%ED%CONTINUE%
 ItemDisplay[WEAPON (EXC OR ELT) !RW NMAG ED=15]:%PURPLE%%NAME% %GREEN%15 ED%CONTINUE%
-//Show me that item is etheral
+//Show me that item is ethereal
 ItemDisplay[ETH UNI]:%GOLD%Eth %NAME%%CONTINUE%
 ItemDisplay[ETH RARE]:%YELLOW%Eth %NAME%%CONTINUE%
 ItemDisplay[ETH MAG]:%BLUE%Eth %NAME%%CONTINUE%
 ItemDisplay[ETH NMAG]:%GRAY%Eth %WHITE%%NAME%%CONTINUE%
 ItemDisplay[ETH CRAFT]:%ORANGE%Eth %NAME%%CONTINUE%
 //Show Sockets
-ItemDisplay[NMAG SOCK>0]:%WHITE%%NAME% %RED%[%SOCKETS%]%CONTINUE%
+ItemDisplay[NMAG SOCK>0]:%NAME% %RED%[%SOCKETS%]%CONTINUE%
 //╔══════╗
 //║ Gold ║
 //╚══════╝
@@ -464,7 +464,7 @@ ItemDisplay[UNI !ID obc]:%RED%*%YELLOW%*%GREEN%*%BLUE%* %RED%o %PURPLE%Eschuta's
 //Windforce
 ItemDisplay[UNI !ID 6lw]:%RED%*%YELLOW%*%GREEN%*%BLUE%* %RED%ooo %PURPLE%Windforce%RED% ooo %RED%*%YELLOW%*%GREEN%*%BLUE%*%DOT-0C%%BORDER-4B%
 //Reaper's Toll
-ItemDisplay[UNI !ID 7s8]:%RED%* %PURPLE%Reaper's Toll %RED%*%BORDER-A5%%DOT-62% 
+ItemDisplay[UNI !ID 7s8]:%RED%*%YELLOW%*%GREEN%*%BLUE%* %RED%o %PURPLE%Reaper's Toll %RED%o %RED%*%YELLOW%*%GREEN%*%BLUE%*%DOT-0C%%BORDER-4B%
 //Lacerator
 ItemDisplay[UNI !ID 7b8]:%RED%* %PURPLE%Lacerator %RED%*%BORDER-A5%%DOT-62% 
 //Azurewrath & Lightsabre
@@ -682,7 +682,7 @@ ItemDisplay[MAG ILVL>71 ETH (9fl OR 7fl OR 9m9 OR 7m7 OR 9gm OR 7gm)]: %NAME% {%
 //
 //Eth Javs
 //
-ItemDisplay[MAG ILVL>71 ETH (9gl OR 7gl OR 9ts OR 7ts)]: %NAME% %{%BLUE%Hit Power:%TAN% P Saph + Tir %RED%Blood:%TAN% P Ruby + Ort %ORANGE%Craft w/ Jewel:}
+ItemDisplay[MAG ILVL>71 ETH (9gl OR 7gl OR 9ts OR 7ts)]: %NAME% {%BLUE%Hit Power:%TAN% P Saph + Tir %RED%Blood:%TAN% P Ruby + Ort %ORANGE%Craft w/ Jewel:}
 //
 //Eth Daggers
 //
@@ -935,6 +935,9 @@ ItemDisplay[NMAG (WP8 OR WP7) ETH ELT SOCK>3]:%GREEN%%NAME%
 ItemDisplay[NMAG (WP8 OR WP7) !ELT !ETH]:
 //
 //Paladin Shields Top Tier Elite non-eth, Medium-High Eth, Basic (ILVL restriction)
+//ED shields
+ItemDisplay[NMAG CL3 ELT (SOCK=0 OR SOCK=3 OR SOCK=4) STAT17>50]:%PURPLE%%NAME% %GREEN%ED 
+//Res shields
 ItemDisplay[NMAG pab !ETH (RES>20 AND RES<30) !SOCK=1]:%GREEN%Res %NAME%%MAP-97%%RED%
 ItemDisplay[NMAG pab !ETH RES=30 !SOCK=1]:%GREEN%30 Res %NAME%%MAP-97%%RED%
 ItemDisplay[NMAG pab ETH (RES>20 AND RES<30) !SOCK=1]:%GREEN%Res %NAME%%MAP-97%%RED%
