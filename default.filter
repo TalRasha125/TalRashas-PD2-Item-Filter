@@ -998,15 +998,15 @@ ItemDisplay[CL5 (SK273<0)]:%GRAY%Mind Blast Claw%GRAY%
 //ItemDisplay[7tw NMAG !ETH SOCK=0 (SK275<0)]:%GRAY%Fast Chaos Base
 //
 //Spirit Sword
-ItemDisplay[crs NMAG SOCK=4]:%DARK_GREEN%%NAME%%MAP-97% 
-ItemDisplay[bsd NMAG SOCK=4]:%DARK_GREEN%%NAME%%MAP-97% 
-ItemDisplay[lsd NMAG SOCK=4]:%DARK_GREEN%%NAME%%MAP-97% 
-ItemDisplay[crs NMAG SOCK=0 (ILVL>25 AND ILVL<41)]:%DARK_GREEN%%NAME%%WHITE% 4 soc from larzuk
-ItemDisplay[bsd NMAG SOCK=0 (ILVL>25 AND ILVL<75)]:%DARK_GREEN%%NAME%%WHITE% 4 soc from larzuk
-ItemDisplay[lsd NMAG SOCK=0 (ILVL>25 AND ILVL<75)]:%DARK_GREEN%%NAME%%WHITE% 4 soc from larzuk
-ItemDisplay[crs NMAG CLVL>80]:
-ItemDisplay[bsd NMAG CLVL>80]:
-ItemDisplay[lsd NMAG CLVL>80]:
+ItemDisplay[crs NMAG SOCK=4 CLVL<80]:%DARK_GREEN%%NAME%%MAP-97% 
+ItemDisplay[bsd NMAG SOCK=4 CLVL<80]:%DARK_GREEN%%NAME%%MAP-97% 
+ItemDisplay[lsd NMAG SOCK=4 CLVL<80]:%DARK_GREEN%%NAME%%MAP-97% 
+ItemDisplay[crs NMAG SOCK=0 (ILVL>25 AND ILVL<41) CLVL<80]:%DARK_GREEN%%NAME%%WHITE% 4 soc from larzuk
+ItemDisplay[bsd NMAG SOCK=0 (ILVL>25 AND ILVL<75) CLVL<80]:%DARK_GREEN%%NAME%%WHITE% 4 soc from larzuk
+ItemDisplay[lsd NMAG SOCK=0 (ILVL>25 AND ILVL<75) CLVL<80]:%DARK_GREEN%%NAME%%WHITE% 4 soc from larzuk
+ItemDisplay[crs NMAG CLVL>79]:
+ItemDisplay[bsd NMAG CLVL>79]:
+ItemDisplay[lsd NMAG CLVL>79]:
 //
 //Insight/Infinity
 ItemDisplay[NMAG ETH SOCK=4 7vo]:%GREEN%%NAME% %RED%
