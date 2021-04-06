@@ -2,7 +2,7 @@
 //TalRasha's PD2 Item Filter Default Version
 //++++++++++++++++++++++++++
 //Version 2.0
-//Updated 05/04/2021-April 5 2021
+//Updated 06/04/2021-April 6 2021
 //
 //╔═══════════════════╗
 //║ Table of Contents ║
@@ -938,7 +938,7 @@ ItemDisplay[NMAG (WP8 OR WP7) !ELT !ETH]:
 //
 //Paladin Shields Top Tier Elite non-eth, Medium-High Eth, Basic (ILVL restriction)
 //ED shields
-ItemDisplay[NMAG CL3 ELT (SOCK=0 OR SOCK=3 OR SOCK=4) STAT17>50]:%PURPLE%%NAME% %GREEN%ED 
+ItemDisplay[NMAG CL3 ELT (SOCK=0 OR SOCK=3 OR SOCK=4) AR>80]:%PURPLE%%NAME% %GREEN%ED 
 //Res shields
 ItemDisplay[NMAG pab !ETH (RES>20 AND RES<30) !SOCK=1]:%GREEN%Res %NAME%%MAP-97%%RED%
 ItemDisplay[NMAG pab !ETH RES=30 !SOCK=1]:%GREEN%30 Res %NAME%%MAP-97%%RED%
@@ -1074,31 +1074,31 @@ ItemDisplay[NMAG !ETH SOCK=5 7s8]:%DARK_GREEN%%NAME% %YELLOW%
 ItemDisplay[NMAG !ETH SOCK=5 7pa]:%DARK_GREEN%%NAME% %YELLOW%
 ItemDisplay[NMAG !ETH SOCK=5 7h7]:%DARK_GREEN%%NAME% %YELLOW%
 ItemDisplay[NMAG !ETH SOCK=5 7wc]:%DARK_GREEN%%NAME% %YELLOW%
-ItemDisplay[NMAG !ETH SOCK=5 7p7]:%WHITE%%NAME% %GRAY%
+ItemDisplay[NMAG !ETH SOCK=5 7p7]:%WHITE%%NAME%
 //
 //6 socket polearms
-ItemDisplay[NMAG ETH SOCK=6 7h7]:%NAME% %GRAY%
-ItemDisplay[NMAG ETH SOCK=6 7wc]:%NAME% %GRAY%
+ItemDisplay[NMAG ETH SOCK=6 7h7]:%NAME%
+ItemDisplay[NMAG ETH SOCK=6 7wc]:%NAME% 
 //
-ItemDisplay[NMAG !ETH SOCK=6 7h7]:%NAME% %GRAY%
-ItemDisplay[NMAG !ETH SOCK=6 7wc]:%NAME% %GRAY%
+ItemDisplay[NMAG !ETH SOCK=6 7h7]:%NAME% 
+ItemDisplay[NMAG !ETH SOCK=6 7wc]:%NAME% 
 //
 //larzuk
-ItemDisplay[NMAG ETH SOCK=0 7h7]:%NAME% %GRAY%
-ItemDisplay[NMAG ETH SOCK=0 7wc]:%NAME% %GRAY%
+ItemDisplay[NMAG ETH SOCK=0 7h7]:%NAME%
+ItemDisplay[NMAG ETH SOCK=0 7wc]:%NAME% 
 ItemDisplay[NMAG !ETH SOCK=0 7h7]:
 ItemDisplay[NMAG !ETH SOCK=0 7wc]:
 //
 //end-game 2h swords
-ItemDisplay[NMAG ETH SOCK=6 7fb]:%NAME% %GRAY%
+ItemDisplay[NMAG ETH SOCK=6 7fb]:%NAME%
 ItemDisplay[NMAG ETH SOCK=6 7gs]:
-ItemDisplay[NMAG ETH SOCK=5 7fb]:%NAME% %GRAY%
-ItemDisplay[NMAG ETH SOCK=5 7gd]:%NAME% %GRAY%
+ItemDisplay[NMAG ETH SOCK=5 7fb]:%NAME%
+ItemDisplay[NMAG ETH SOCK=5 7gd]:%NAME%
 ItemDisplay[NMAG ETH SOCK=5 7gs]:
-ItemDisplay[NMAG ETH SOCK=4 7fb]:%NAME% %GRAY%
+ItemDisplay[NMAG ETH SOCK=4 7fb]:%NAME% 
 ItemDisplay[NMAG ETH SOCK=4 7gd]:
 ItemDisplay[NMAG ETH SOCK=4 7gs]:
-ItemDisplay[NMAG ETH SOCK=0 7fb]:%NAME% %GRAY%
+ItemDisplay[NMAG ETH SOCK=0 7fb]:%NAME%
 ItemDisplay[NMAG ETH SOCK=0 7gs]:
 ItemDisplay[NMAG !ETH SOCK=0 7fb]:
 ItemDisplay[NMAG !ETH SOCK=0 7gs]:
@@ -1121,15 +1121,15 @@ ItemDisplay[6cs NMAG SOCK=0 (SK58=2)]://%GRAY%+2 Energy Shield%WHITE%Memory Base
 ItemDisplay[6bs NMAG SOCK=0 (SK58=2)]://%GRAY%+2 Energy Shield%WHITE%Memory Base%GRAY%
 //
 //ETH Staves for Insight for Shockwave Druids
-ItemDisplay[6bs NMAG ETH SOCK=0]:%GRAY%%NAME% %GRAY%
-ItemDisplay[6cs NMAG ETH SOCK=0]:%GRAY%%NAME% %GRAY%
-ItemDisplay[6bs NMAG ETH SOCK=4]:%GRAY%%NAME% %GRAY%
-ItemDisplay[6cs NMAG ETH SOCK=4]:%GRAY%%NAME% %GRAY%
-ItemDisplay[6ws NMAG ETH SOCK=4]:%GRAY%%NAME% %GRAY%
+ItemDisplay[6bs NMAG ETH SOCK=0]:%GRAY%%NAME% 
+ItemDisplay[6cs NMAG ETH SOCK=0]:%GRAY%%NAME% 
+ItemDisplay[6bs NMAG ETH SOCK=4]:%GRAY%%NAME% 
+ItemDisplay[6cs NMAG ETH SOCK=4]:%GRAY%%NAME% 
+ItemDisplay[6ws NMAG ETH SOCK=4]:%GRAY%%NAME% 
 //
 //ETH Archon Staff, 6os ETH Archon Staff = BoTD = Breath of the Dying
-ItemDisplay[6ws NMAG ETH SOCK=0]:%GRAY%%NAME% %GRAY%
-ItemDisplay[6ws NMAG ETH SOCK=6]:%GRAY%%NAME% %GRAY%
+ItemDisplay[6ws NMAG ETH SOCK=0]:%GRAY%%NAME% 
+ItemDisplay[6ws NMAG ETH SOCK=6]:%GRAY%%NAME%
 //
 //5OS Crystal Sword, War Scepter, Flail = CTA = Call to Arms, 5 OS Double Axe = Beast
 ItemDisplay[crs NMAG SOCK=5]:%GRAY%%NAME% %GRAY%
