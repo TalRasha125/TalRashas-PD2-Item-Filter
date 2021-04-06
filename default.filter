@@ -1105,20 +1105,20 @@ ItemDisplay[NMAG !ETH SOCK=0 7gs]:
 ItemDisplay[NMAG !ETH SOCK=0 7gd]:
 //
 //Memory bases +3 ES
-ItemDisplay[WP11 NMAG SOCK=4 (SK58=3)]:%RED%+3 Energy Shield%GREEN%Memory Base%MAP-97%%YELLOW%
-ItemDisplay[cst NMAG SOCK=0 (SK58=3)]:%RED%+3 Energy Shield%GREEN%Memory Base%MAP-97%%YELLOW%
-ItemDisplay[bst NMAG SOCK=0 (SK58=3)]:%RED%+3 Energy Shield%GREEN%Memory Base%MAP-97%%YELLOW%
-ItemDisplay[8cs NMAG SOCK=0 (SK58=3)]:%RED%+3 Energy Shield%GREEN%Memory Base%MAP-97%%YELLOW%
-ItemDisplay[8bs NMAG SOCK=0 (SK58=3)]:%RED%+3 Energy Shield%GREEN%Memory Base%MAP-97%%YELLOW%
-ItemDisplay[6cs NMAG SOCK=0 (SK58=3)]:%RED%+3 Energy Shield%GREEN%Memory Base%MAP-97%%YELLOW%
-ItemDisplay[6bs NMAG SOCK=0 (SK58=3)]:%RED%+3 Energy Shield%GREEN%Memory Base%MAP-97%%YELLOW%
-ItemDisplay[WP11 NMAG SOCK=4 (SK58=2)]://%GRAY%+2 Energy Shield%WHITE%Memory Base%GRAY%
-ItemDisplay[cst NMAG SOCK=0 (SK58=2)]://%GRAY%+2 Energy Shield%WHITE%Memory Base%GRAY%
-ItemDisplay[bst NMAG SOCK=0 (SK58=2)]://%GRAY%+2 Energy Shield%WHITE%Memory Base%GRAY%
-ItemDisplay[8cs NMAG SOCK=0 (SK58=2)]://%GRAY%+2 Energy Shield%WHITE%Memory Base%GRAY%
-ItemDisplay[8bs NMAG SOCK=0 (SK58=2)]://%GRAY%+2 Energy Shield%WHITE%Memory Base%GRAY%
-ItemDisplay[6cs NMAG SOCK=0 (SK58=2)]://%GRAY%+2 Energy Shield%WHITE%Memory Base%GRAY%
-ItemDisplay[6bs NMAG SOCK=0 (SK58=2)]://%GRAY%+2 Energy Shield%WHITE%Memory Base%GRAY%
+ItemDisplay[WP11 NMAG SOCK=4 (SK58=3)]:%RED%+3 Energy Shield%MAP-97%
+ItemDisplay[cst NMAG SOCK=0 (SK58=3)]:%RED%+3 Energy Shield%MAP-97%
+ItemDisplay[bst NMAG SOCK=0 (SK58=3)]:%RED%+3 Energy Shield%MAP-97%
+ItemDisplay[8cs NMAG SOCK=0 (SK58=3)]:%RED%+3 Energy Shield%MAP-97%
+ItemDisplay[8bs NMAG SOCK=0 (SK58=3)]:%RED%+3 Energy Shield%MAP-97%
+ItemDisplay[6cs NMAG SOCK=0 (SK58=3)]:%RED%+3 Energy Shield%MAP-97%
+ItemDisplay[6bs NMAG SOCK=0 (SK58=3)]:%RED%+3 Energy Shield%MAP-97%
+ItemDisplay[WP11 NMAG SOCK=4 (SK58=2)]://%GRAY%+2 Energy Shield%WHITE%Memory Base
+ItemDisplay[cst NMAG SOCK=0 (SK58=2)]://%GRAY%+2 Energy Shield%WHITE%Memory Base
+ItemDisplay[bst NMAG SOCK=0 (SK58=2)]://%GRAY%+2 Energy Shield%WHITE%Memory Base
+ItemDisplay[8cs NMAG SOCK=0 (SK58=2)]://%GRAY%+2 Energy Shield%WHITE%Memory Base
+ItemDisplay[8bs NMAG SOCK=0 (SK58=2)]://%GRAY%+2 Energy Shield%WHITE%Memory Base
+ItemDisplay[6cs NMAG SOCK=0 (SK58=2)]://%GRAY%+2 Energy Shield%WHITE%Memory Base
+ItemDisplay[6bs NMAG SOCK=0 (SK58=2)]://%GRAY%+2 Energy Shield%WHITE%Memory Base
 //
 //ETH Staves for Insight for Shockwave Druids
 ItemDisplay[6bs NMAG ETH SOCK=0]:%GRAY%%NAME% 
