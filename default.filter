@@ -2,7 +2,7 @@
 //TalRasha's PD2 Item Filter Default Version
 //++++++++++++++++++++++++++
 //Version 2.0
-//Updated 06/04/2021-April 6 2021
+//Updated 11/04/2021-April 11 2021
 //
 //╔═══════════════════╗
 //║ Table of Contents ║
@@ -945,7 +945,7 @@ ItemDisplay[NMAG pab !ETH RES=30 !SOCK=1]:%GREEN%30 Res %NAME%%MAP-97%%RED%
 ItemDisplay[NMAG pab ETH (RES>20 AND RES<30) !SOCK=1]:%GREEN%Res %NAME%%MAP-97%%RED%
 ItemDisplay[NMAG pab ETH RES=30 !SOCK=1]:%GREEN%30 Res %NAME%%MAP-97%%RED%
 ItemDisplay[NMAG CL3 ELT !ETH (RES>20 AND RES<30) !SOCK=1]:%GREEN%Res %NAME%%MAP-97%%RED%
-ItemDisplay[NMAG CL3 ELT !ETH RES=30 !SOCK=1]:%GREEN%45 Res %NAME%%MAP-97%%RED%
+ItemDisplay[NMAG CL3 ELT !ETH RES=30 !SOCK=1]:%GREEN%30 Res %NAME%%MAP-97%%RED%
 ItemDisplay[NMAG CL3 ELT ETH (RES>20 AND RES<30) !SOCK=1]:%GREEN%Res %NAME%%MAP-97%%RED%
 ItemDisplay[NMAG CL3 ELT ETH RES=30 !SOCK=1]:%GREEN%30 Res %NAME%%MAP-97%%RED%
 ItemDisplay[NMAG CL3 RES>25 SOCK=2 !ETH CLVL<85]:%DARK_GREEN%%NAME% %YELLOW%
