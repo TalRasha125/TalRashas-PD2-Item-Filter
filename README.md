@@ -1,5 +1,8 @@
 # TalRashas-PD2-Item-Filter <br>
-TalRasha's PD2 Item Filter version 2.0 updated April 5, 2021 <br>
+TalRasha's PD2 Item Filter version 2.0 updated April 13, 2021 <br>
+4/13<br>
+Changed perfect gem font to orange<br>
+Changed ED paladin shields to red font<br>
 4/05<br>
 Removed extra % typo in magic javs<br>
 Added ed filter for paladin shields<br>
