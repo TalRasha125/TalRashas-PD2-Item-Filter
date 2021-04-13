@@ -938,7 +938,7 @@ ItemDisplay[NMAG (WP8 OR WP7) !ELT !ETH]:
 //
 //Paladin Shields Top Tier Elite non-eth, Medium-High Eth, Basic (ILVL restriction)
 //ED shields
-ItemDisplay[NMAG CL3 ELT (SOCK=0 OR SOCK=3 OR SOCK=4) AR>80]:%PURPLE%%NAME% %GREEN%ED 
+ItemDisplay[NMAG CL3 ELT (SOCK=0 OR SOCK=3 OR SOCK=4) AR>80]:%RED%%NAME% %GREEN%ED 
 //Res shields
 ItemDisplay[NMAG pab !ETH (RES>20 AND RES<30) !SOCK=1]:%GREEN%Res %NAME%%MAP-97%%RED%
 ItemDisplay[NMAG pab !ETH RES=30 !SOCK=1]:%GREEN%30 Res %NAME%%MAP-97%%RED%
