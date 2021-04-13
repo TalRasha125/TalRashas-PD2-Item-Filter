@@ -2,7 +2,7 @@
 //TalRasha's PD2 Item Filter Default Version
 //++++++++++++++++++++++++++
 //Version 2.0
-//Updated 11/04/2021-April 11 2021
+//Updated 04/13/2021-April 13 2021
 //
 //╔═══════════════════╗
 //║ Table of Contents ║
@@ -276,13 +276,13 @@ ItemDisplay[glb OR glbs]:%BLUE%* %ORANGE%Sapphire %BLUE%*%WHITE%
 ItemDisplay[gly OR glys]:%YELLOW%* %ORANGE%Topaz %YELLOW%*%WHITE%
 ItemDisplay[skl OR skls]:%GRAY%* %ORANGE%Skull %GRAY%*%WHITE%
 //Gems Perfect
-ItemDisplay[gpv OR gpvs]:%PURPLE%* %PURPLE%P Amethyst %PURPLE%*%WHITE%
-ItemDisplay[gpw OR gpws]:%WHITE%* %PURPLE%P Diamond %WHITE%*%WHITE%
-ItemDisplay[gpg OR gpgs]:%GREEN%* %PURPLE%P Emerald %GREEN%*%WHITE%
-ItemDisplay[gpr OR gprs]:%RED%* %PURPLE%P Ruby %RED%*%WHITE%
-ItemDisplay[gpb OR gpbs]:%BLUE%* %PURPLE%P Sapphire %BLUE%*%WHITE%
-ItemDisplay[gpy OR gpys]:%YELLOW%* %PURPLE%P Topaz %YELLOW%*%WHITE%
-ItemDisplay[skz OR skzs]:%GRAY%* %PURPLE%P Skull %GRAY%*%WHITE%
+ItemDisplay[gpv OR gpvs]:%PURPLE%* %ORANGE%P Amethyst %PURPLE%*%WHITE%
+ItemDisplay[gpw OR gpws]:%WHITE%* %ORANGE%P Diamond %WHITE%*%WHITE%
+ItemDisplay[gpg OR gpgs]:%GREEN%* %ORANGE%P Emerald %GREEN%*%WHITE%
+ItemDisplay[gpr OR gprs]:%RED%* %ORANGE%P Ruby %RED%*%WHITE%
+ItemDisplay[gpb OR gpbs]:%BLUE%* %ORANGE%P Sapphire %BLUE%*%WHITE%
+ItemDisplay[gpy OR gpys]:%YELLOW%* %ORANGE%P Topaz %YELLOW%*%WHITE%
+ItemDisplay[skz OR skzs]:%GRAY%* %ORANGE%P Skull %GRAY%*%WHITE%
 //╔═════════╗
 //║ Uniques ║
 //╚═════════╝
