@@ -1364,7 +1364,7 @@ ItemDisplay[RARE ILVL<15]:%NAME%
 ItemDisplay[!RW NORM NMAG ILVL<15 SOCK>0 ETH (ARMOR OR WEAPON)]:%NAME% 
 ItemDisplay[!RW NORM NMAG ILVL<15 SOCK=0 ETH (ARMOR OR WEAPON)]:%NAME%
 ItemDisplay[!RW NORM NMAG ILVL<15 SOCK>0 (ARMOR OR WEAPON)]:%NAME% 
-ItemDisplay[!RW NORM NMAG ILVL<15 SOCK>0 (ARMOR OR WEAPON)]:%NAME% 
+ItemDisplay[!RW NORM NMAG ILVL<15 SOCK=0 (ARMOR OR WEAPON)]:%NAME% 
 ItemDisplay[!RW NORM NMAG ILVL<15 (ARMOR OR WEAPON)]:%NAME%
 ItemDisplay[ILVL<50 SOCK>1 !RW NMAG (ARMOR OR WEAPON)]:%NAME% 
 ItemDisplay[ILVL<26 NORM MAG (ARMOR OR WEAPON) !ID]:%NAME%
@@ -1451,11 +1451,11 @@ ItemDisplay[MAG xtg !ID ILVL>60]:
 //
 //Normal
 //Vendor Items
-ItemDisplay[NMAG WP11]:
-ItemDisplay[NMAG WP12]:
-ItemDisplay[NMAG WP13]:
-ItemDisplay[NMAG CL4]:
-ItemDisplay[NMAG CL6]:
+ItemDisplay[NMAG WP11 PRICE<35000]:
+ItemDisplay[NMAG WP12 PRICE<35000]:
+ItemDisplay[NMAG WP13 PRICE<35000]:
+ItemDisplay[NMAG CL4 PRICE<35000]:
+ItemDisplay[NMAG CL6 PRICE<35000]:
  //
 //None of the Above
 //Weapons:Axe, Mace, Sword, Dagger, Throwing Weapon, Javelin, Spear, Polearm, Bow, Crossbow
