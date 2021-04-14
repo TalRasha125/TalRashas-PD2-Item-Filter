@@ -514,14 +514,14 @@ ItemDisplay[UNI !ID uts]:%RED%*%YELLOW%*%GREEN%*%BLUE%* %RED%o %PURPLE%Spirit Wa
 ItemDisplay[SET !ID amu]:%GREEN%o Amulet o%DOT-84% 
 ItemDisplay[SET !ID rin]:%GREEN%o Ring o%DOT-84% 
 //
-ItemDisplay[SET !ID uar]:%RED%*%YELLOW%*%GREEN%*%BLUE%* %PURPLE%ooo %GREEN%%NAME%%PURPLE% ooo %RED%*%YELLOW%*%GREEN%*%BLUE%*%DOT-84%%BORDER-4B%
+ItemDisplay[SET !ID uar]:%GREEN%* %PURPLE%o %GREEN%%NAME%%PURPLE% o %GREEN%*%DOT-84%%BORDER-4B%
 ItemDisplay[SET !ID xhb]:%GREEN%o IK Boots o%DOT-62%%BORDER-84%  
 ItemDisplay[SET !ID zhb]:%GREEN%o IK Belt o%DOT-62%%BORDER-84%  
 ItemDisplay[SET !ID ba5]:%GREEN%o IK Helm o%DOT-62%%BORDER-84%  
 ItemDisplay[SET !ID xhg]:%GREEN%o IK Gloves o%DOT-62%%BORDER-84%  
 ItemDisplay[SET !ID 7m7]:%GREEN%o IK Maul o%DOT-62%%BORDER-84%  
 //
-ItemDisplay[SET !ID uth]:%GREEN%** %PURPLE%o %GREEN%%NAME%%PURPLE% o %GREEN%*%DOT-84%%BORDER-4B%
+ItemDisplay[SET !ID uth]:%RED%*%YELLOW%*%GREEN%*%BLUE%* %PURPLE%ooo %GREEN%%NAME%%PURPLE% ooo %RED%*%YELLOW%*%GREEN%*%BLUE%*%DOT-84%%BORDER-4B%
 ItemDisplay[SET !ID oba]:%GREEN%o Tal's Orb o%DOT-62%%BORDER-84%  
 ItemDisplay[SET !ID zmb]:%GREEN%o Tal's Belt o%DOT-62%%BORDER-84%  
 ItemDisplay[SET !ID xsk]:%GREEN%o Tal's Helm o%DOT-62%%BORDER-84% 
