@@ -2,7 +2,7 @@
 //TalRasha's PD2 Item Filter Default Version
 //++++++++++++++++++++++++++
 //Version 2.0
-//Updated 04/13/2021-April 13 2021
+//Updated June 10, 2021
 //
 //╔═══════════════════╗
 //║ Table of Contents ║
@@ -1368,13 +1368,13 @@ ItemDisplay[!RW NORM NMAG ILVL<15 SOCK=0 (ARMOR OR WEAPON)]:%NAME%
 ItemDisplay[!RW NORM NMAG ILVL<15 (ARMOR OR WEAPON)]:%NAME%
 ItemDisplay[ILVL<50 SOCK>1 !RW NMAG (ARMOR OR WEAPON)]:%NAME% 
 ItemDisplay[ILVL<26 NORM MAG (ARMOR OR WEAPON) !ID]:%NAME%
-ItemDisplay[ILVL>25 SOCK<2 NORM MAG (ARMOR OR WEAPON) !ID]:
+ItemDisplay[ILVL>25 SOCK<2 NORM MAG (ARMOR OR WEAPON) !ID]:%NAME%
 ItemDisplay[ILVL>25 NORM MAG (ARMOR OR WEAPON) ID]:%NAME%
 ItemDisplay[ILVL>0 ILVL<35 NORM RARE !ID (ARMOR OR WEAPON)]:%NAME%
 ItemDisplay[ILVL>35 !ID NORM RARE !EQ1 !EQ4 !EQ5 !EQ6 !EQ7 !WP11 !WP12 !WP13]:
 ItemDisplay[ILVL>65 !ID EXC RARE !EQ1 !EQ4 !EQ5 !EQ6 !EQ7 !WP11 !WP12 !WP13]:
 ItemDisplay[ILVL<31 EXC MAG WEAPON !ID]:%NAME%
-ItemDisplay[ILVL>30 !ID EXC MAG WEAPON !ID ]:
+ItemDisplay[ILVL>30 !ID EXC MAG WEAPON]:
 ItemDisplay[ILVL>30 EXC MAG WEAPON ID]:%NAME%
 ItemDisplay[ILVL<66 EXC MAG ARMOR !ID]:%NAME%
 ItemDisplay[ILVL<66 EXC MAG ARMOR ID]:%NAME%
