@@ -2,7 +2,7 @@
 TalRasha's PD2 Item Filter version 2.0 updated June 10, 2021 <br>
 6/10<br>
 Removed duplicate !ID
-Fixed magic barb helms not showing
+Fixed magic barb helms not showing<br>
 4/13<br>
 Changed perfect gem font to orange<br>
 Changed ED paladin shields to red font<br>
