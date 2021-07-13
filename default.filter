@@ -523,7 +523,7 @@ ItemDisplay[UNI !ID xts]:%RED%* %PURPLE%Radament's Sphere %RED%*%BORDER-A5%%DOT-
 //Lidless Wall
 ItemDisplay[UNI !ID xsh]:%RED%*%YELLOW%*%GREEN%*%BLUE%* %RED%o %PURPLE%Lidless Wall %RED%o %RED%*%YELLOW%*%GREEN%*%BLUE%*%DOT-0C%%BORDER-4B%
 //Gerke's Sanctuary
-ItemDisplay[UNI !ID xow]:%RED%*%YELLOW%*%GREEN%*%BLUE%* %RED%o %PURPLE%Gerke's Sanctuary%RED%o %RED%*%YELLOW%*%GREEN%*%BLUE%*%DOT-0C%%BORDER-4B%
+ItemDisplay[UNI !ID xow]:%RED%*%YELLOW%*%GREEN%*%BLUE%* %RED%o %PURPLE%Gerke's Sanctuary %RED%o %RED%*%YELLOW%*%GREEN%*%BLUE%*%DOT-0C%%BORDER-4B%
 //Spirit Ward
 ItemDisplay[UNI !ID uts]:%RED%*%YELLOW%*%GREEN%*%BLUE%* %RED%o %PURPLE%Spirit Ward %RED%o %RED%*%YELLOW%*%GREEN%*%BLUE%*%DOT-0C%%BORDER-4B%
 //╔══════╗
