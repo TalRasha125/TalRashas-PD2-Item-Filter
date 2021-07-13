@@ -1,31 +1,32 @@
 //++++++++++++++++++++++++++
 //TalRasha's PD2 Item Filter Default Version
 //++++++++++++++++++++++++++
-//Version 2.0
-//Updated June 10, 2021
+//Updated July 13, 2021
 //
 //╔═══════════════════╗
 //║ Table of Contents ║
 //╚═══════════════════╝
-//Global Filters-30
-//Gold-39
-//Potions-51
-//Quest Items-98
-//Runes-127
-//Essences-166
-//Uber Keys-175
-//Diablo Clone-184
-//Corruption Items-191
-//Map Upgrades-196
-//Maps-204
-//Gems-207
-//Uniques-282
-//Sets-509
-//Magic Items-584
-//Rares-732
-//Vendor Items-787
-//Bases-818
-//Leveling-1296
+//Global Filters-31
+//Gold-49
+//Potions-60
+//Quest Items-107
+//Runes-136
+//Essences-175
+//Uber Keys-184
+//Diablo Clone-194
+//Corruption Items-201
+//Map Upgrades-206
+//Maps-216
+//Gems-222
+//Uniques-286
+//New Class Uniques-309
+//Sets-530
+//Magic Items-605
+//Crafting-657
+//Rares-805
+//Vendor Items-860
+//Bases-891
+//Leveling-1379
 //
 //╔════════════════╗
 //║ Global Filters ║
@@ -189,6 +190,7 @@ ItemDisplay[pk3]:%PURPLE%Destruction Key [Nihlathak or Izual]%MAP-4B%
 ItemDisplay[dhn]:%PURPLE%Diablo's Horn%MAP-4B%
 ItemDisplay[bey]:%PURPLE%Baal's Eye%MAP-4B%
 ItemDisplay[mbr]:%PURPLE%Mephisto's Brain%MAP-4B%
+ItemDisplay[ubtm]:%PURPLE%%NAME%%MAP-4B%				// Pandemonium Talisman (Uber Tristram)
 //╔══════════════╗
 //║ Diablo Clone ║
 //╚══════════════╝
@@ -304,6 +306,23 @@ ItemDisplay[UNI !ID cm3]:%RED%*%YELLOW%*%GREEN%*%BLUE%* %RED%o %PURPLE%Gheed's F
 ItemDisplay[UNI ID cm1]:%RED%%NAME%%DOT-0C%%BORDER-4B%
 ItemDisplay[UNI ID cm2]:%RED%%NAME%%DOT-0C%%BORDER-4B%
 ItemDisplay[UNI ID cm3]:%RED%%NAME%%DOT-0C%%BORDER-4B%
+//╔═══════════════════╗
+//║ New Class Uniques ║
+//╚═══════════════════╝
+//Kalan's Legacy mummified trophy
+ItemDisplay[UNI !ID ne6]:%RED%o %PURPLE%%NAME% %RED%o%BORDER-A5%%DOT-62%
+//Cyclopean Roar jawbone visor
+ItemDisplay[UNI !ID ba6]:%RED%o %PURPLE%%NAME% %RED%o%BORDER-A5%%DOT-62%
+//True Silver maiden javelin
+ItemDisplay[UNI !ID am5]:%RED%o %PURPLE%%NAME% %RED%o%BORDER-A5%%DOT-62%
+//Sankekur's Fall heraldric shield
+ItemDisplay[UNI !ID pa3]:%RED%o %PURPLE%%NAME% %RED%o%BORDER-A5%%DOT-62%
+//Mage Slayer quhab
+ItemDisplay[UNI !ID 9ar]:%RED%o %PURPLE%%NAME% %RED%o%BORDER-A5%%DOT-62%
+//Tempest glowing orb
+ItemDisplay[UNI !ID ob6]:%RED%o %PURPLE%%NAME% %RED%o%BORDER-A5%%DOT-62%
+//Quetzalcoatl hawk helm
+ItemDisplay[UNI !ID dr2]:%RED%o %PURPLE%%NAME% %RED%o%BORDER-A5%%DOT-62%
 /////////
 //Helms//
 /////////
