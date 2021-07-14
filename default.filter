@@ -1,7 +1,7 @@
 //++++++++++++++++++++++++++
 //TalRasha's PD2 Item Filter Default Version
 //++++++++++++++++++++++++++
-//Updated July 13, 2021
+//Updated July 14, 2021
 //
 //╔═══════════════════╗
 //║ Table of Contents ║
@@ -310,19 +310,19 @@ ItemDisplay[UNI ID cm3]:%RED%%NAME%%DOT-0C%%BORDER-4B%
 //║ New Class Uniques ║
 //╚═══════════════════╝
 //Kalan's Legacy mummified trophy
-ItemDisplay[UNI !ID ne6]:%RED%o %PURPLE%%NAME% %RED%o%BORDER-A5%%DOT-62%
+ItemDisplay[UNI !ID ne6]:%RED%o %PURPLE%Kalan's Legacy %RED%o%BORDER-A5%%DOT-62%
 //Cyclopean Roar jawbone visor
-ItemDisplay[UNI !ID ba6]:%RED%o %PURPLE%%NAME% %RED%o%BORDER-A5%%DOT-62%
+ItemDisplay[UNI !ID ba6]:%RED%o %PURPLE%Cyclopean Roar %RED%o%BORDER-A5%%DOT-62%
 //True Silver maiden javelin
-ItemDisplay[UNI !ID am5]:%RED%o %PURPLE%%NAME% %RED%o%BORDER-A5%%DOT-62%
+ItemDisplay[UNI !ID am5]:%RED%o %PURPLE%True Silver %RED%o%BORDER-A5%%DOT-62%
 //Sankekur's Fall heraldric shield
-ItemDisplay[UNI !ID pa3]:%RED%o %PURPLE%%NAME% %RED%o%BORDER-A5%%DOT-62%
+ItemDisplay[UNI !ID pa3]:%RED%o %PURPLE%Sankekur's Fall %RED%o%BORDER-A5%%DOT-62%
 //Mage Slayer quhab
-ItemDisplay[UNI !ID 9ar]:%RED%o %PURPLE%%NAME% %RED%o%BORDER-A5%%DOT-62%
+ItemDisplay[UNI !ID 9ar]:%RED%o %PURPLE%Mage Slayer %RED%o%BORDER-A5%%DOT-62%
 //Tempest glowing orb
-ItemDisplay[UNI !ID ob6]:%RED%o %PURPLE%%NAME% %RED%o%BORDER-A5%%DOT-62%
+ItemDisplay[UNI !ID ob6]:%RED%o %PURPLE%Tempest %RED%o%BORDER-A5%%DOT-62%
 //Quetzalcoatl hawk helm
-ItemDisplay[UNI !ID dr2]:%RED%o %PURPLE%%NAME% %RED%o%BORDER-A5%%DOT-62%
+ItemDisplay[UNI !ID dr2]:%RED%o %PURPLE%Quetzalcoatl %RED%o%BORDER-A5%%DOT-62%
 /////////
 //Helms//
 /////////
