@@ -326,6 +326,8 @@ ItemDisplay[UNI !ID dr2]:%RED%o %PURPLE%Quetzalcoatl %RED%o%BORDER-A5%%DOT-62%
 /////////
 //Helms//
 /////////
+//Undead Crown
+ItemDisplay[UNI !ID crn]:%RED%o %PURPLE%Undead Crown %RED%o%BORDER-A5%%DOT-62% 
 //Wolfhowl
 ItemDisplay[UNI !ID bac]:%RED%o %PURPLE%Wolfhowl %RED%o%BORDER-A5%%DOT-62% 
 //Spirit Keeper
@@ -425,6 +427,8 @@ ItemDisplay[UNI !ID zhb]:%RED%* %PURPLE%Thundergod's Vigor %RED%*%BORDER-A5%%DOT
 /////////
 //Boots//
 /////////
+//Marrowwalk
+ItemDisplay{UNI !ID umb}:%RED%* %PURPLE%Marrowwalk %RED*%BORDER-A5%%DOT-62%
 //Waterwalk
 ItemDisplay[UNI !ID xvb]:%RED%* %PURPLE%Waterwalk %RED%*%BORDER-A5%%DOT-62% 
 //Silkweave
@@ -440,6 +444,8 @@ ItemDisplay[UNI !ID xhb]:%RED%* %PURPLE%Gore Rider %RED%*%BORDER-A5%%DOT-62%
 ///////////
 //Weapons//
 ///////////
+//Arm of King Leoric
+ItemDisplay[UNI !ID 9bw]:%RED%* %PURPLE%Arm of King Leoric %RED%*%BORDER-A5%%DOT-62% 
 //Gavel of Pain
 ItemDisplay[UNI !ID 9gm]:%RED%* %PURPLE%Gavel of Pain %RED%*%BORDER-A5%%DOT-62% 
 //Gull
