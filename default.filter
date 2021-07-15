@@ -433,8 +433,10 @@ ItemDisplay[UNI !ID zhb]:%RED%* %PURPLE%Thundergod's Vigor %RED%*%BORDER-A5%%DOT
 /////////
 //Boots//
 /////////
+//Hotspurs
+ItemDisplay[UNI !ID lbt]:%RED%* %PURPLE%Hotspurs %RED%*%BORDER-A5%%DOT-62%
 //Marrowwalk
-ItemDisplay{UNI !ID umb}:%RED%* %PURPLE%Marrowwalk %RED*%BORDER-A5%%DOT-62%
+ItemDisplay[UNI !ID umb]:%RED%* %PURPLE%Marrowwalk %RED%*%BORDER-A5%%DOT-62%
 //Waterwalk
 ItemDisplay[UNI !ID xvb]:%RED%* %PURPLE%Waterwalk %RED%*%BORDER-A5%%DOT-62% 
 //Silkweave
