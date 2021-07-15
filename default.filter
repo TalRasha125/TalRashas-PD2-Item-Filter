@@ -365,6 +365,8 @@ ItemDisplay[UNI !ID xlm]:%RED%* %PURPLE%Stealskull%RED% *%BORDER-A5%%DOT-62%
 /////////
 //Armor//
 /////////
+//Toothrow
+ItemDisplay[UNI !ID xld]:%RED%o %PURPLE%Toothrow %RED%o%BORDER-A5%%DOT-62% 
 //Que-Hegan's Wisdom
 ItemDisplay[UNI !ID xtp]:%RED%o %PURPLE%Que-Hegan's Wisdom %RED%o%BORDER-A5%%DOT-62% 
 //Skullder's Ire
@@ -391,6 +393,8 @@ ItemDisplay[UNI !ID xlt]:%RED%* %PURPLE%Guardian Angel %RED%*%BORDER-A5%%DOT-62%
 //////////
 //Gloves//
 //////////
+//Hellmouth
+ItemDisplay[UNI !ID xhg]:%RED%* %PURPLE%Hellmouth %RED%*%BORDER-A5%%DOT-62% 
 //Frostburn
 ItemDisplay[UNI !ID hgl]:%RED%* %PURPLE%Frostburn %RED%*%BORDER-A5%%DOT-62% 
 //Ghoulhide
