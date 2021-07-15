@@ -810,7 +810,7 @@ ItemDisplay[MAG ID cm2 STAT329>0]:%PURPLE%Fire Dmg Large Charm%WHITE%[%ILVL%]
 ItemDisplay[MAG ID cm2 STAT330>0]:%PURPLE%Light Dmg Large Charm%WHITE%[%ILVL%]
 ItemDisplay[MAG ID cm2 STAT331>0]:%PURPLE%Cold Dmg Large Charm%WHITE%[%ILVL%]
 ItemDisplay[MAG ID cm2 STAT332>0]:%PURPLE%Psn Dmg Large Charm%WHITE%[%ILVL%]
-//ItemDisplay[MAG ID cm2 STAT?]:%PURPLE%Mag Dmg Large Charm%WHITE%[%ILVL%]
+ItemDisplay[MAG ID cm2 STAT337>0]:%PURPLE%Mag Dmg Large Charm%WHITE%[%ILVL%]
 //Small Charms
 ItemDisplay[MAG ID cm1 LIFE>15]:%PURPLE%Life Small Charm%WHITE%[%ILVL%]
 ItemDisplay[MAG ID cm1 FHR=5]:%PURPLE%FHR Small Charm%WHITE%[%ILVL%]
