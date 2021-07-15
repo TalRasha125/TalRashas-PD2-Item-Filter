@@ -783,6 +783,7 @@ ItemDisplay[MAG ILVL>71 BOOTS]: %NAME% {%BLUE%Hit Power:%TAN% P Saph + Ral %PURP
 //(ID section)//
 ////////////////
 //Grand Charms
+ItemDisplay[MAG ID cm3 MAXDMG>6]:%PURPLE%Max Dmg Grand Charm%WHITE%[%ILVL%]
 ItemDisplay[MAG ID cm3 TABSK8=1]:%PURPLE%Fire Skiller%WHITE%[%ILVL%]
 ItemDisplay[MAG ID cm3 TABSK9=1]:%PURPLE%Light Skiller%WHITE%[%ILVL%]
 ItemDisplay[MAG ID cm3 TABSK10=1]:%PURPLE%Cold Skiller%WHITE%[%ILVL%]
