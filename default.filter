@@ -20,13 +20,13 @@
 //Gems-222
 //Uniques-286
 //New Class Uniques-309
-//Sets-530
-//Magic Items-605
-//Crafting-657
-//Rares-805
-//Vendor Items-860
-//Bases-891
-//Leveling-1379
+//Sets-545
+//Magic Items-620
+//Crafting-672
+//Rares-832
+//Vendor Items-887
+//Bases-918
+//Leveling-1406
 //
 //╔════════════════╗
 //║ Global Filters ║
@@ -56,7 +56,7 @@ ItemDisplay[RARE PRICE>34999]:%GREEN%$ %YELLOW%%NAME%%CONTINUE%
 //Gold
 ItemDisplay[GOLD<100 CLVL<20]:
 ItemDisplay[GOLD<1000 (CLVL>19 AND CLVL<70)]:
-ItemDisplay[GOLD<4999 CLVL>70]:
+ItemDisplay[GOLD<4999 CLVL>69]:
 //╔═════════╗
 //║ Potions ║
 //╚═════════╝
@@ -782,22 +782,34 @@ ItemDisplay[MAG ILVL>71 BOOTS]: %NAME% {%BLUE%Hit Power:%TAN% P Saph + Ral %PURP
 ////////////////
 //(ID section)//
 ////////////////
+//Grand Charms
 ItemDisplay[MAG ID cm3 TABSK8=1]:%PURPLE%Fire Skiller%WHITE%[%ILVL%]
-ItemDisplay[MAG ID cm3 TABSK10=1]:%PURPLE%Cold Skiller%WHITE%[%ILVL%]
 ItemDisplay[MAG ID cm3 TABSK9=1]:%PURPLE%Light Skiller%WHITE%[%ILVL%]
+ItemDisplay[MAG ID cm3 TABSK10=1]:%PURPLE%Cold Skiller%WHITE%[%ILVL%]
 ItemDisplay[MAG ID cm3 TABSK17=1]:%PURPLE%PnB Skiller%WHITE%[%ILVL%]
 ItemDisplay[MAG ID cm3 TABSK18=1]:%PURPLE%Nsum Skiller%WHITE%[%ILVL%]
+ItemDisplay[MAG ID cm3 TABSK16=1]:%PURPLE%Curses Skiller%WHITE%[%ILVL%]
 ItemDisplay[MAG ID cm3 TABSK24=1]:%PURPLE%Pcomb Skiller%WHITE%[%ILVL%]
+ItemDisplay[MAG ID cm3 TABSK25=1]:%PURPLE%Off Aura Skiller%WHITE%[%ILVL%]
+ItemDisplay[MAG ID cm3 TABSK26=1]:%PURPLE%Def Aura Skiller%WHITE%[%ILVL%]
 ItemDisplay[MAG ID cm3 TABSK48=1]:%PURPLE%Trap Skiller%WHITE%[%ILVL%]
 ItemDisplay[MAG ID cm3 TABSK49=1]:%PURPLE%Shadow Skiller%WHITE%[%ILVL%]
 ItemDisplay[MAG ID cm3 TABSK50=1]:%PURPLE%Martial Arts Skiller%WHITE%[%ILVL%]
+ItemDisplay[MAG ID cm3 TABSK32=1]:%PURPLE%Bcomb Skiller%WHITE%[%ILVL%]
+ItemDisplay[MAG ID cm3 TABSK33=1]:%PURPLE%Masteries Skiller%WHITE%[%ILVL%]
 ItemDisplay[MAG ID cm3 TABSK34=1]:%PURPLE%Warcries Skiller%WHITE%[%ILVL%]
 ItemDisplay[MAG ID cm3 TABSK42=1]:%PURPLE%Ele Skiller%WHITE%[%ILVL%]
 ItemDisplay[MAG ID cm3 TABSK41=1]:%PURPLE%SS Skiller%WHITE%[%ILVL%]
 ItemDisplay[MAG ID cm3 TABSK40=1]:%PURPLE%Dsum Skiller%WHITE%[%ILVL%]
 ItemDisplay[MAG ID cm3 TABSK2=1]:%PURPLE%Java Skiller%WHITE%[%ILVL%]
 ItemDisplay[MAG ID cm3 TABSK0=1]:%PURPLE%Bow Skiller%WHITE%[%ILVL%]
+ItemDisplay[MAG ID cm3 TABSK1=1]:%PURPLE%Passive & Magic Skiller%WHITE%[%ILVL%]
+//Large Charms-----------------------------------------------------------------------------------(no item codes for new affixes yet)
+//ItemDisplay[MAG ID cm2]:%PURPLE%%WHITE%[%ILVL%]
+//Small Charms
 ItemDisplay[MAG ID cm1 LIFE>15]:%PURPLE%Life Small Charm%WHITE%[%ILVL%]
+ItemDisplay[MAG ID cm1 FHR=5]:%PURPLE%FHR Small Charm%WHITE%[%ILVL%]
+ItemDisplay[MAG ID cm1 MAXDMG>0]:%PURPLE%Max Dmg Small Charm%WHITE%[%ILVL%]
 ItemDisplay[MAG ID cm1 MANA>13]:%PURPLE%Mana Small Charm%WHITE%[%ILVL%]
 ItemDisplay[MAG ID cm1 RES>2]:%PURPLE%Res Small Charm%WHITE%[%ILVL%]
 ItemDisplay[MAG ID cm1 MFIND>5]:%PURPLE%Mf Small Charm%WHITE%[%ILVL%]
