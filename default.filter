@@ -804,8 +804,12 @@ ItemDisplay[MAG ID cm3 TABSK40=1]:%PURPLE%Dsum Skiller%WHITE%[%ILVL%]
 ItemDisplay[MAG ID cm3 TABSK2=1]:%PURPLE%Java Skiller%WHITE%[%ILVL%]
 ItemDisplay[MAG ID cm3 TABSK0=1]:%PURPLE%Bow Skiller%WHITE%[%ILVL%]
 ItemDisplay[MAG ID cm3 TABSK1=1]:%PURPLE%Passive & Magic Skiller%WHITE%[%ILVL%]
-//Large Charms-----------------------------------------------------------------------------------(no item codes for new affixes yet)
-//ItemDisplay[MAG ID cm2]:%PURPLE%%WHITE%[%ILVL%]
+//Large Charms-----------------------------------------------------------------------------------(no item codes for magic dmg affix yet)
+ItemDisplay[MAG ID cm2 STAT329>0]:%PURPLE%+Fire Dmg Large Charm%WHITE%[%ILVL%]
+ItemDisplay[MAG ID cm2 STAT330>0]:%PURPLE%+Light Dmg Large Charm%WHITE%[%ILVL%]
+ItemDisplay[MAG ID cm2 STAT331>0]:%PURPLE%+Cold Dmg Large Charm%WHITE%[%ILVL%]
+ItemDisplay[MAG ID cm2 STAT332>0]:%PURPLE%+Psn Dmg Large Charm%WHITE%[%ILVL%]
+//ItemDisplay[MAG ID cm2 STAT?]:%PURPLE%+Mag Dmg Large Charm%WHITE%[%ILVL%]
 //Small Charms
 ItemDisplay[MAG ID cm1 LIFE>15]:%PURPLE%Life Small Charm%WHITE%[%ILVL%]
 ItemDisplay[MAG ID cm1 FHR=5]:%PURPLE%FHR Small Charm%WHITE%[%ILVL%]
