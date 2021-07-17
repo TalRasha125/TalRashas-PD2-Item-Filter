@@ -518,7 +518,11 @@ ItemDisplay[UNI !ID 7wh]:%RED%o %PURPLE%Schaefer's or Stone Crusher %RED%o%DOT-0
 // Warshrike
 ItemDisplay[UNI !ID 7bk]:%RED%* %PURPLE%Warshrike %RED%*%BORDER-A5%%DOT-62% 
 //Hexfire
-//ItemDisplay[UNI !ID 9sb]:%RED%* %PURPLE%Hexfire %RED%*%BORDER-A5%%DOT-62% 
+ItemDisplay[UNI !ID 9sb]:%RED%* %PURPLE%Hexfire %RED%*%BORDER-A5%%DOT-62% 
+//Ribcracker
+ItemDisplay[UNI !ID 8ls]:%RED%* %PURPLE%Ribcracker %RED%*%BORDER-A5%%DOT-62% 
+//Executioner's Justice
+ItemDisplay[UNI !ID 7gi]:%RED%* %PURPLE%Executioner's Justice %RED%*%BORDER-A5%%DOT-62% 
 ///////////
 //Shields//
 ///////////
