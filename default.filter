@@ -206,7 +206,7 @@ ItemDisplay[lbox]:%RED%*%YELLOW%*%GREEN%*%BLUE%* %RED%ooo %PURPLE%Larzuk's Puzzl
 //╔══════════════╗
 //║ Map Upgrades ║
 //╚══════════════╝
-ItemDisplay[rera]:%PURPLE% %NAME%%DOT-80% // Reroll Rare Map (Horadrim Orb)
+ItemDisplay[rera]:%PURPLE% %NAME%%DOT-80%{%TAN%Rune or Greater, & Rare Map%NL%Cube w/ Perfect Gem, Thul%NL%%ORANGE%Reroll Rare Map%NL%} // Reroll Rare Map (Horadrim Orb)
 ItemDisplay[imra]:%PURPLE% %NAME%%DOT-80% // Imbue Rare Map (Zakarum Orb)
 ItemDisplay[upma]:%PURPLE% %NAME%%DOT-80% // Upgrade Magic Map to Rare Map (Angelic Orb)
 ItemDisplay[imma]:%PURPLE% %NAME%%DOT-80% // Imbue Magic Map (Arcane Orb)
