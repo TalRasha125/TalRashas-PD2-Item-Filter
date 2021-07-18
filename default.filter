@@ -1,7 +1,7 @@
 //++++++++++++++++++++++++++
 //TalRasha's PD2 Item Filter Default Version
 //++++++++++++++++++++++++++
-//Updated July 17, 2021
+//Updated July 18, 2021
 //
 //╔═══════════════════╗
 //║ Table of Contents ║
@@ -340,6 +340,8 @@ ItemDisplay[UNI !ID uh9]:%RED%o %PURPLE%Giant Skull %RED%o%BORDER-A5%%DOT-62%
 ItemDisplay[UNI !ID uhm]:%RED%o %PURPLE%Nightwings or Veil of Steel %RED%o%BORDER-A5%%DOT-62% 
 //Halaberd's Reign
 ItemDisplay[UNI !ID bae]:%RED%o %PURPLE%Halaberd's Reign %RED%o%BORDER-A5%%DOT-62% 
+//Kira's Guardian
+ItemDisplay[UNI !ID ci2]:%RED%o %PURPLE%Kira's Guardian %RED%o%BORDER-A5%%DOT-62% 
 //Griffon's Eye
 ItemDisplay[UNI !ID ci3]:%RED%*%YELLOW%*%GREEN%*%BLUE%* %RED%ooo %PURPLE%Griffon's Eye%RED% ooo %RED%*%YELLOW%*%GREEN%*%BLUE%*%DOT-0C%%BORDER-4B%
 //Shako
@@ -365,6 +367,12 @@ ItemDisplay[UNI !ID xlm]:%RED%* %PURPLE%Stealskull%RED% *%BORDER-A5%%DOT-62%
 /////////
 //Armor//
 /////////
+//Atma's Wail
+ItemDisplay[UNI !ID xth]:%RED%* %PURPLE%Atma's Wail %RED%*%BORDER-A5%%DOT-62%
+//Spirit Shroud
+ItemDisplay[UNI !ID xui]:%RED%* %PURPLE%Spirit Shroud %RED%*%BORDER-A5%%DOT-62%
+//Steel Carapace
+ItemDisplay[UNI !ID uul]:%RED%* %PURPLE%Steel Carapace %RED%*%BORDER-A5%%DOT-62%
 //Toothrow
 ItemDisplay[UNI !ID xld]:%RED%o %PURPLE%Toothrow %RED%o%BORDER-A5%%DOT-62% 
 //Que-Hegan's Wisdom
@@ -393,6 +401,12 @@ ItemDisplay[UNI !ID xlt]:%RED%* %PURPLE%Guardian Angel %RED%*%BORDER-A5%%DOT-62%
 //////////
 //Gloves//
 //////////
+//Venom Grip
+ItemDisplay[UNI !ID xlg]:%RED%* %PURPLE%Venom Grip %RED%*%BORDER-A5%%DOT-62% 
+//Gravepalm
+ItemDisplay[UNI !ID xvg]:%RED%* %PURPLE%Gravepalm %RED%*%BORDER-A5%%DOT-62% 
+//Bloodfist
+ItemDisplay[UNI !ID vgl]:%RED%* %PURPLE%Bloodfist %RED%*%BORDER-A5%%DOT-62% 
 //Hellmouth
 ItemDisplay[UNI !ID xhg]:%RED%* %PURPLE%Hellmouth %RED%*%BORDER-A5%%DOT-62% 
 //Frostburn
@@ -412,6 +426,8 @@ ItemDisplay[UNI !ID umg]:%RED%* %PURPLE%Soul Drainer %RED%*%BORDER-A5%%DOT-62%
 /////////
 //Belts//
 /////////
+//Gloom's Trap
+ItemDisplay[UNI !ID zmb]:%RED%* %PURPLE%Gloom's Trap %RED%*%BORDER-A5%%DOT-62%
 //Goldwrap
 ItemDisplay[UNI !ID tbl]:%RED%* %PURPLE%Goldwrap %RED%*%BORDER-A5%%DOT-62% 
 //Snowclash
@@ -433,6 +449,10 @@ ItemDisplay[UNI !ID zhb]:%RED%* %PURPLE%Thundergod's Vigor %RED%*%BORDER-A5%%DOT
 /////////
 //Boots//
 /////////
+//Goblin Toe
+ItemDisplay[UNI !ID tbt]:%RED%* %PURPLE%Goblin Toe %RED%*%BORDER-A5%%DOT-62%
+//Gorefoot
+ItemDisplay[UNI !ID vbt]:%RED%* %PURPLE%Gorefoot %RED%*%BORDER-A5%%DOT-62%
 //Infernostride
 ItemDisplay[UNI !ID xlb]:%RED%* %PURPLE%Infernostride %RED%*%BORDER-A5%%DOT-62%
 //Hotspurs
