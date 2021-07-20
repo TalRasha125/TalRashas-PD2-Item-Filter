@@ -1,32 +1,33 @@
 //++++++++++++++++++++++++++
 //TalRasha's PD2 Item Filter Default Version
 //++++++++++++++++++++++++++
-//Updated July 18, 2021
+//Updated July 20, 2021
 //
 //╔═══════════════════╗
 //║ Table of Contents ║
 //╚═══════════════════╝
-//Global Filters-31
-//Gold-49
-//Potions-60
-//Quest Items-107
-//Runes-136
-//Essences-175
-//Uber Keys-184
-//Diablo Clone-194
-//Corruption Items-201
-//Map Upgrades-206
-//Maps-216
-//Gems-222
-//Uniques-286
-//New Class Uniques-309
-//Sets-545
-//Magic Items-620
-//Crafting-672
-//Rares-832
-//Vendor Items-887
-//Bases-918
-//Leveling-1406
+//Global Filters-32
+//Gold-50
+//Potions-61
+//Quest Items-108
+//Runes-137
+//Essences-176
+//Uber Keys-185
+//Diablo Clone-195
+//Corruption Items-202
+//Map Upgrades-207
+//Maps-217
+//Gems-223
+//Uniques-287
+//New Class Uniques-310
+//Sets-572
+//Magic Items-647
+//Crafting-699
+//ID Section-809
+//Rares-863
+//Vendor Items-918
+//Bases-949
+//Leveling-1437
 //
 //╔════════════════╗
 //║ Global Filters ║
@@ -216,9 +217,9 @@ ItemDisplay[scrb]:%RED%*%YELLOW%*%GREEN%*%BLUE%* %RED%o%PURPLE% %NAME% %RED%o %R
 //╔══════╗
 //║ Maps ║
 //╚══════╝
-ItemDisplay[NMAG (t16 OR t18 OR t17 OR t11 OR t12 OR t13 OR t14 OR t15 OR t21 OR t22 OR t23 OR t24 OR t31 OR t32 OR t33 OR t34 OR t35 OR t36 OR t37 OR t41)]:  %WHITE%*** ooo %NAME% ooo ***%CONTINUE%%DOT-62%%BORDER-4B% 
-ItemDisplay[MAG (t16 OR t18 OR t17 OR t11 OR t12 OR t13 OR t14 OR t15 OR t21 OR t22 OR t23 OR t24 OR t31 OR t32 OR t33 OR t34 OR t35 OR t36 OR t37 OR t41)]:  %BLUE%*** ooo %NAME% ooo ***%CONTINUE%%DOT-62%%BORDER-4B%  
-ItemDisplay[RARE (t16 OR t18 OR t17 OR t11 OR t12 OR t13 OR t14 OR t15 OR t21 OR t22 OR t23 OR t24 OR t31 OR t32 OR t33 OR t34 OR t35 OR t36 OR t37 OR t41)]:  %YELLOW%*** ooo %NAME% ooo ***%CONTINUE%%DOT-62%%BORDER-4B%  
+ItemDisplay[NMAG (t16 OR t18 OR t17 OR t11 OR t12 OR t13 OR t14 OR t15 OR t21 OR t22 OR t23 OR t24 OR t25 OR t31 OR t32 OR t33 OR t34 OR t35 OR t36 OR t37 OR t41 OR t42 OR t43)]:  %WHITE%*** ooo %NAME% ooo ***%CONTINUE%%DOT-62%%BORDER-4B% 
+ItemDisplay[MAG (t16 OR t18 OR t17 OR t11 OR t12 OR t13 OR t14 OR t15 OR t21 OR t22 OR t23 OR t24 OR OR t25 t31 OR t32 OR t33 OR t34 OR t35 OR t36 OR t37 OR t41 OR t42 OR t43)]:  %BLUE%*** ooo %NAME% ooo ***%CONTINUE%%DOT-62%%BORDER-4B%  
+ItemDisplay[RARE (t16 OR t18 OR t17 OR t11 OR t12 OR t13 OR t14 OR t15 OR t21 OR t22 OR t23 OR t24 OR t25 OR t31 OR t32 OR t33 OR t34 OR t35 OR t36 OR t37 OR t41 OR t42 OR t43)]:  %YELLOW%*** ooo %NAME% ooo ***%CONTINUE%%DOT-62%%BORDER-4B%  
 //╔══════╗
 //║ Gems ║
 //╚══════╝
@@ -311,8 +312,8 @@ ItemDisplay[UNI ID cm3]:%RED%%NAME%%DOT-0C%%BORDER-4B%
 //╚═══════════════════╝
 //Kalan's Legacy mummified trophy
 ItemDisplay[UNI !ID ne6]:%RED%o %PURPLE%Kalan's Legacy %RED%o%BORDER-A5%%DOT-62%
-//Cyclopean Roar jawbone visor
-ItemDisplay[UNI !ID ba6]:%RED%o %PURPLE%Cyclopean Roar %RED%o%BORDER-A5%%DOT-62%
+//Reziarfg's Eye jawbone visor
+ItemDisplay[UNI !ID ba6]:%RED%o %PURPLE%Reziarfg's Eye %RED%o%BORDER-A5%%DOT-62%
 //True Silver maiden javelin
 ItemDisplay[UNI !ID am5]:%RED%o %PURPLE%True Silver %RED%o%BORDER-A5%%DOT-62%
 //Sankekur's Fall heraldric shield
@@ -695,9 +696,9 @@ ItemDisplay[MAG ci0 !ETH !ID]:%BLUE%* %NAME% *%MAP-97%%PX-62%
 ItemDisplay[MAG ci1 !ETH !ID]:%BLUE%* %NAME% *%MAP-97%%PX-62%
 ItemDisplay[MAG ci2 !ETH !ID]:%BLUE%* %NAME% *%MAP-97%%PX-62%
 //
-//////////////////////
-//(Crafting section)//
-//////////////////////
+//╔═════════════════╗
+//║Crafting section ║
+//╚═════════════════╝
 //
 //Weapons
 //
@@ -836,7 +837,7 @@ ItemDisplay[MAG ID cm2 STAT329>0]:%PURPLE%Fire Dmg Large Charm%WHITE%[%ILVL%]
 ItemDisplay[MAG ID cm2 STAT330>0]:%PURPLE%Light Dmg Large Charm%WHITE%[%ILVL%]
 ItemDisplay[MAG ID cm2 STAT331>0]:%PURPLE%Cold Dmg Large Charm%WHITE%[%ILVL%]
 ItemDisplay[MAG ID cm2 STAT332>0]:%PURPLE%Psn Dmg Large Charm%WHITE%[%ILVL%]
-//ItemDisplay[MAG ID cm2 STAT?]:%PURPLE%Mag Dmg Large Charm%WHITE%[%ILVL%]
+ItemDisplay[MAG ID cm2 STAT357>0]:%PURPLE%Mag Dmg Large Charm%WHITE%[%ILVL%]
 //Small Charms
 ItemDisplay[MAG ID cm1 LIFE>15]:%PURPLE%Life Small Charm%WHITE%[%ILVL%]
 ItemDisplay[MAG ID cm1 FHR=5]:%PURPLE%FHR Small Charm%WHITE%[%ILVL%]
