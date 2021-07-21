@@ -1,7 +1,7 @@
 //++++++++++++++++++++++++++
 //TalRasha's PD2 Item Filter Default Version
 //++++++++++++++++++++++++++
-//Updated July 20, 2021
+//Updated July 21, 2021
 //
 //╔═══════════════════╗
 //║ Table of Contents ║
@@ -665,7 +665,6 @@ ItemDisplay[MAG amu !ID ILVL=97]:%BLUE%*** %BLUE%o %NAME%%MAP-97%%PX-62%%ORANGE%
 ItemDisplay[MAG amu !ID ILVL=98]:%BLUE%*** %BLUE%o %NAME%%MAP-97%%PX-62%%ORANGE%[CLVL 82+]%BLUE% o %BLUE%***%WHITE%
 ItemDisplay[MAG amu !ID ILVL=99]:%BLUE%*** %BLUE%o %NAME%%MAP-97%%PX-62%%ORANGE%[CLVL 82+]%BLUE% o %BLUE%***%WHITE%
 ItemDisplay[MAG amu !ID ILVL<85]:%BLUE%*** %NAME%%MAP-97%%PX-62%%WHITE%[%ILVL%]%BLUE% ***%WHITE%
-ItemDisplay[MAG amu ID]:%NAME% %WHITE%[%ILVL%]%WHITE%{%YELLOW%Blood Amulet:%ORANGE%Amn %WHITE%+ %RED%P Ruby %WHITE%+ %BLUE%Jewel %YELLOW%Caster Amulet:%ORANGE%Ral %WHITE%+ %PURPLE%P Amethyst %WHITE%+ %BLUE%Jewel}
 //
 //Rings
 ItemDisplay[MAG rin !ID ILVL=71]:%BLUE%%NAME%%ORANGE%[CLVL 99-]
@@ -684,10 +683,9 @@ ItemDisplay[MAG rin !ID ILVL=83]:%BLUE%%NAME%%ORANGE%[CLVL 87-]
 ItemDisplay[MAG rin !ID ILVL=84]:%BLUE%%NAME%%ORANGE%[CLVL 86-]
 ItemDisplay[MAG rin !ID ILVL=85]:%BLUE%%NAME%%ORANGE%[CLVL 85-]
 ItemDisplay[MAG !ID rin]:%BLUE%%NAME%%WHITE%[%ILVL%]
-ItemDisplay[MAG rin ID]:%NAME%%WHITE%[%ILVL%]%WHITE%{%YELLOW%Blood Ring:%ORANGE%Sol %WHITE%+ %RED%P Ruby %WHITE%+ %BLUE%Jewel %YELLOW%Caster Ring:%ORANGE%Amn %WHITE%+ %PURPLE%P Amethyst %WHITE%+ %BLUE%Jewel}
 //
 //Blue Jewels for crafting
-ItemDisplay[MAG !ID jew]:%BLUE%*** %BLUE%o Jewel o %BLUE%***%MAP-97%%PX-62%
+ItemDisplay[MAG !ID jew]:%BLUE%* %BLUE%o Jewel o %BLUE%*%MAP-97%%PX-62%
 //
 //Magic Diadems
 ItemDisplay[MAG ci3 !ETH !ID]:%BLUE%* %NAME% *%MAP-97%%PX-62%
@@ -699,113 +697,19 @@ ItemDisplay[MAG ci2 !ETH !ID]:%BLUE%* %NAME% *%MAP-97%%PX-62%
 //╔═════════════════╗
 //║Crafting section ║
 //╚═════════════════╝
-//
-//Weapons
-//
-//ItemDisplay[MAG ILVL>71 WEAPON]: %NAME% {%BLUE%Hit Power:%TAN% P Saph + Tir %PURPLE%Caster:%TAN% P Ame + Tir %RED%Blood:%TAN% P Ruby + Ort %ORANGE%Craft w/ Jewel:}
-//
-//Sorceress
-//
-ItemDisplay[MAG ILVL>71 (ob1 OR ob6 OR obb OR ob2 OR ob7 OR obc OR ob3 OR ob8 OR obd OR ob4 OR ob9 OR obe OR ob5 OR oba OR obf)]: %NAME% {%PURPLE%Caster:%TAN% P Ame + Tir %ORANGE%Craft w/ Jewel:}
-//
-//Wands
-//
-ItemDisplay[MAG ILVL>71 (wnd OR 9wn OR 7wn OR ywn OR 9yw OR 7yw OR bwn OR 9bw OR 7bw OR gwn OR 9gw OR 7gw)]: %NAME% {%PURPLE%Caster:%TAN% P Ame + Tir %ORANGE%Craft w/ Jewel:}
-//
-//Eth Throwing Weapons
-//
-ItemDisplay[MAG ILVL>71 ETH (!SPEAR THROWING !ZON) (EXC OR ELT)]: %NAME% {%BLUE%Hit Power:%TAN% P Saph + Tir %RED%Blood:%TAN% P Ruby + Ort %ORANGE%Craft w/ Jewel:} 
-//
-//Swords	
-//
-ItemDisplay[MAG ILVL>71 ETH (crs OR 9cr OR 7cr OR 9ls OR 7ls OR 9gs OR 7gs OR 9fb OR 7fb OR 9gd OR 7gd)]: %NAME% {%BLUE%Hit Power:%TAN% P Saph + Tir %RED%Blood:%TAN% P Ruby + Ort %ORANGE%Craft w/ Jewel:}
-//
-//Eth Staves
-//
-ItemDisplay[MAG ILVL>71 ETH (lst OR 8ls OR 6ls OR cst OR 8cs OR 6cs OR bst OR 8bs OR 6bs OR wst OR 8ws OR 6ws)]: %NAME% {%BLUE%Hit Power:%TAN% P Saph + Tir %PURPLE%Caster:%TAN% P Ame + Tir %RED%Blood:%TAN% P Ruby + Ort %ORANGE%Craft w/ Jewel:}
-//
-//Eth Spears
-//
-ItemDisplay[MAG ILVL>71 ETH (9br OR 7br OR 9st OR 7st OR 9p9 OR 7p7)]: %NAME% {%BLUE%Hit Power:%TAN% P Saph + Tir %RED%Blood:%TAN% P Ruby + Ort %ORANGE%Craft w/ Jewel:}
-//
-//Scepters
-//
-ItemDisplay[MAG ILVL>71 (wsp OR 9ws OR 7ws)]: %NAME% {%BLUE%Hit Power:%TAN% P Saph + Tir %PURPLE%Caster:%TAN% P Ame + Tir %RED%Blood:%TAN% P Ruby + Ort %ORANGE%Craft w/ Jewel:}
-//
-//Eth Polearms
-//
-ItemDisplay[MAG ILVL>71 ETH (9vo OR 7vo OR 9s8 OR 7s8 OR 9pa OR 7pa OR 9h9 OR 7h7 OR 9wc OR 7wc)]: %NAME% {%BLUE%Hit Power:%TAN% P Saph + Tir %RED%Blood:%TAN% P Ruby + Ort %ORANGE%Craft w/ Jewel:}
-//
-//Eth Maces
-//
-ItemDisplay[MAG ILVL>71 ETH (9fl OR 7fl OR 9m9 OR 7m7 OR 9gm OR 7gm)]: %NAME% {%BLUE%Hit Power:%TAN% P Saph + Tir %RED%Blood:%TAN% P Ruby + Ort %ORANGE%Craft w/ Jewel:}
-//
-//Eth Javs
-//
-ItemDisplay[MAG ILVL>71 ETH (9gl OR 7gl OR 9ts OR 7ts)]: %NAME% {%BLUE%Hit Power:%TAN% P Saph + Tir %RED%Blood:%TAN% P Ruby + Ort %ORANGE%Craft w/ Jewel:}
-//
-//Eth Daggers
-//
-ItemDisplay[MAG ILVL>71 ETH DAGGER (EXC OR ELT)]: %NAME% {%BLUE%Hit Power:%TAN% P Saph + Tir %PURPLE%Caster:%TAN% P Ame + Tir %RED%Blood:%TAN% P Ruby + Ort %ORANGE%Craft w/ Jewel:} 
-//
-//Eth Axes
-//
-ItemDisplay[MAG ILVL>71 ETH (9wa OR 7wa)]: %NAME% {%BLUE%Hit Power:%TAN% P Saph + Tir %RED%Blood:%TAN% P Ruby + Ort %ORANGE%Craft w/ Jewel:}
-//
-//Crossbows
-//
-ItemDisplay[MAG ILVL>71 XBOW (EXC OR ELT)]: %NAME% {%GREEN%Safety:%TAN% P Eme + Sol%BLUE%Hit Power:%TAN% P Saph + Tir %RED%Blood:%TAN% P Ruby + Ort %ORANGE%Craft w/ Jewel:}
-//
-//Bows
-//
-ItemDisplay[MAG ILVL>71 (8hb OR 6hb OR 8cb OR 6cb OR 8lw OR 6lw)]: %NAME% {%GREEN%Safety:%TAN% P Eme + Sol %BLUE%Hit Power:%TAN% P Saph + Tir %RED%Blood:%TAN% P Ruby + Ort %ORANGE%Craft w/ Jewel:}
-//
-//Amazon
-//
-ItemDisplay[MAG ILVL>71 ETH (am3 OR am8 OR amd OR am4 OR am9 OR ame)]: %NAME% {%BLUE%Hit Power:%TAN% P Saph + Tir %RED%Blood:%TAN% P Ruby + Ort %ORANGE%Craft w/ Jewel:}
-ItemDisplay[MAG ILVL>71 ETH (am5 OR ama OR amf)]: %NAME% {%BLUE%Hit Power:%TAN% P Saph + Tir %RED%Blood:%TAN% P Ruby + Ort %ORANGE%Craft w/ Jewel:}
-ItemDisplay[MAG ILVL>71 ZON BOW]: %NAME% {%GREEN%Safety:%TAN% P Eme + Sol %BLUE%Hit Power:%TAN% P Saph + Tir %RED%Blood:%TAN% P Ruby + Ort %ORANGE%Craft w/ Jewel:}
-//
-//Assassin
-//
-ItemDisplay[MAG ILVL>71 (7ar OR 7wb OR 7xf OR 9cs OR 7cs OR 9lw OR 7lw OR 9tw OR 7tw OR 9qr OR 7qr)]: %NAME% {%BLUE%Hit Power:%TAN% P Saph + Tir %PURPLE%Caster:%TAN% P Ame + Tir %RED%Blood:%TAN% P Ruby + Ort %ORANGE%Craft w/ Jewel:}
-//
-//Armor
-//
-//ItemDisplay[MAG ILVL>71 CHEST (EXC OR ELT)]: %NAME%{%GREEN%Safety:%TAN% P Eme + Eth %PURPLE%Caster:%TAN% P Ame + Tal %ORANGE%Craft w/ Jewel:}
-//
-//Paladin Shields
-//
-ItemDisplay[MAG ILVL>71 CL3]: %NAME% {%GREEN%Safety:%TAN% P Eme + Nef %PURPLE%Caster:%TAN% P Ame + Eth %ORANGE%Craft w/ Jewel:}
-//
-//Necro Heads
-//
-ItemDisplay[MAG ILVL>71 CL4]: %NAME% {%GREEN%Safety:%TAN% P Eme + Nef %PURPLE%Caster:%TAN% P Ame + Eth %ORANGE%Craft w/ Jewel:}
-//
-//Barb Helms
-//
-//ItemDisplay[MAG ILVL>71 CL2]: %NAME% {%GREEN%Safety:%TAN% P Eme + Ith %PURPLE%Caster:%TAN% P Ame + Nef %ORANGE%Craft w/ Jewel:}
-//
-//Druid Pelts
-//
-ItemDisplay[MAG CL1 ILVL>71]:%NAME% {%GREEN%Safety:%TAN% P Eme + Ith %PURPLE%Caster:%TAN% P Ame + Nef %ORANGE%Craft w/ Jewel:}
-//
-//Shields
-//
-ItemDisplay[MAG ILVL>71 SHIELD !DIN !NEC (EXC OR ELT)]: %NAME% {%GREEN%Safety:%TAN% P Eme + Nef %PURPLE%Caster:%TAN% P Ame + Eth %ORANGE%Craft w/ Jewel:}
-//
-//Gloves
-//
-ItemDisplay[MAG ILVL>71 GLOVES]: %NAME% {%BLUE%Hit Power:%TAN% P Saph + Ort %PURPLE%Caster:%TAN% P Ame + Ort %RED%Blood:%TAN% P Ruby + Nef %ORANGE%Craft w/ Jewel:}
-//
-//BELTS
-//
-ItemDisplay[MAG ILVL>71 BELT (EXC OR ELT)]: %NAME% {%PURPLE%Caster:%TAN% P Ame + Ith %RED%Blood:%TAN% P Ruby + Tal %ORANGE%Craft w/ Jewel:}
-//
-//BOOTS
-//
-ItemDisplay[MAG ILVL>71 BOOTS]: %NAME% {%BLUE%Hit Power:%TAN% P Saph + Ral %PURPLE%Caster:%TAN% P Ame + Thul %RED%Blood:%TAN% P Ruby + Eth %ORANGE%Craft w/ Jewel:}
-//
+//Jewelry
+ItemDisplay[MAG amu ID]:%NAME% %WHITE%[%ILVL%]{%WHITE%V: Perf %GRAY%O%ORANGE%, Dol%WHITE% | %GREEN%$%WHITE%: Perf %YELLOW%O%ORANGE%, Ko%NL%%WHITE%HP: Perf %BLUE%O%ORANGE%, Thul %WHITE%| S: Perf %GREEN%O%ORANGE%, Thul%NL%%WHITE%B: Perf %RED%O%ORANGE%, Amn%WHITE% | C: Perf %PURPLE%O%ORANGE%, Ral%NL%Craft w/ %BLUE%Jewel,}
+ItemDisplay[MAG rin ID]:%NAME% %WHITE%[%ILVL%]%WHITE%{%WHITE%V: Perf %GRAY%O%ORANGE%, Hel%WHITE% | %GREEN%$%WHITE%: Perf %YELLOW%O%ORANGE%, Lum%NL%%WHITE%HP: Perf %BLUE%O%ORANGE%, Amn %WHITE%| S: Perf %GREEN%O%ORANGE%, Amn%NL%%WHITE%B: Perf %RED%O%ORANGE%, Sol%WHITE% | C: Perf %PURPLE%O%ORANGE%, Amn%NL%Craft w/ %BLUE%Jewel,}
+ItemDisplay[GLOVES MAG ID]: %NAME%{%WHITE%V: Perf %GRAY%O%ORANGE%, Io%WHITE% | %GREEN%$%WHITE%: Perf %YELLOW%O%ORANGE%, Hel%NL%%WHITE%HP: Perf %BLUE%O%ORANGE%, Ort %WHITE%| S: Perf %GREEN%O%ORANGE%, Ral%NL%%WHITE%B: Perf %RED%O%ORANGE%, Nef%WHITE% | C: Perf %PURPLE%O%ORANGE%, Ort%NL%Craft w/ %BLUE%Jewel,}
+ItemDisplay[BOOTS MAG ID]: %NAME%{%WHITE%V: Perf %GRAY%O%ORANGE%, El%WHITE% | %GREEN%$%WHITE%: Perf %YELLOW%O%ORANGE%, Io%NL%%WHITE%HP: Perf %BLUE%O%ORANGE%, Ral %WHITE%| S: Perf %GREEN%O%ORANGE%, Ort%NL%%WHITE%B: Perf %RED%O%ORANGE%, Eth%WHITE% | C: Perf %PURPLE%O%ORANGE%, Thul%NL%Craft w/ %BLUE%Jewel,}
+ItemDisplay[BELT MAG ID]: %NAME%{%WHITE%V: Perf %GRAY%O%ORANGE%, Eld%WHITE% | %GREEN%$%WHITE%: Perf %YELLOW%O%ORANGE%, El%NL%%WHITE%HP: Perf %BLUE%O%ORANGE%, Tal %WHITE%| S: Perf %GREEN%O%ORANGE%, Tal%NL%%WHITE%B: Perf %RED%O%ORANGE%, Tal%WHITE% | C: Perf %PURPLE%O%ORANGE%, Ith%NL%Craft w/ %BLUE%Jewel,}
+ItemDisplay[SHIELD MAG ID]: %NAME%{%WHITE%V: Perf %GRAY%O%ORANGE%, Sol%WHITE% | %GREEN%$%WHITE%: Perf %YELLOW%O%ORANGE%, Dol%NL%%WHITE%HP: Perf %BLUE%O%ORANGE%, Eth %WHITE%| S: Perf %GREEN%O%ORANGE%, Nef%NL%%WHITE%B: Perf %RED%O%ORANGE%, Ith%WHITE% | C: Perf %PURPLE%O%ORANGE%, Eth%NL%Craft w/ %BLUE%Jewel,}
+ItemDisplay[HELM MAG ID]: %NAME%{%WHITE%V: Perf %GRAY%O%ORANGE%, Lum%WHITE% | %GREEN%$%WHITE%: Perf %YELLOW%O%ORANGE%, Tir%NL%%WHITE%HP: Perf %BLUE%O%ORANGE%, Ith %WHITE%| S: Perf %GREEN%O%ORANGE%, Ith%NL%%WHITE%B: Perf %RED%O%ORANGE%, Ral%WHITE% | C: Perf %PURPLE%O%ORANGE%, Nef%NL%Craft w/ %BLUE%Jewel,}
+ItemDisplay[CHEST MAG ID]: %NAME%{%WHITE%V: Perf %GRAY%O%ORANGE%, Tir%WHITE% | %GREEN%$%WHITE%: Perf %YELLOW%O%ORANGE%, Eld%NL%%WHITE%HP: Perf %BLUE%O%ORANGE%, Nef %WHITE%| S: Perf %GREEN%O%ORANGE%, Eth%NL%%WHITE%B: Perf %RED%O%ORANGE%, Thul%WHITE% | C: Perf %PURPLE%O%ORANGE%, Tal%NL%Craft w/ %BLUE%Jewel,}
+ItemDisplay[WEAPON !(BOW OR XBOW) MAG ID]: %NAME%{%WHITE%V: Perf %GRAY%O%ORANGE%, Shael%WHITE% | %GREEN%$%WHITE%: Perf %YELLOW%O%ORANGE%, Shael%NL%%WHITE%HP: Perf %BLUE%O%ORANGE%, Tir %WHITE%| %WHITE%B: Perf %RED%O%ORANGE%, Ort%WHITE% | C: Perf %PURPLE%O%ORANGE%, Tir%NL%Craft w/ %BLUE%Jewel,}
+ItemDisplay[(BOW OR XBOW) MAG ID]: %NAME%{%WHITE%V: Perf %GRAY%O%ORANGE%, Shael%WHITE% | %GREEN%$%WHITE%: Perf %YELLOW%O%ORANGE%, Shael%NL%%WHITE%HP: Perf %BLUE%O%ORANGE%, Tir %WHITE%| S: Perf %GREEN%O%ORANGE%, Sol%NL%%WHITE%B: Perf %RED%O%ORANGE%, Ort%WHITE% | C: Perf %PURPLE%O%ORANGE%, Tir%NL%Craft w/ %BLUE%Jewel}
+ItemDisplay[amu MAG]: %NAME%{%WHITE%V: Perf %GRAY%O%ORANGE%, Dol%WHITE% | %GREEN%$%WHITE%: Perf %YELLOW%O%ORANGE%, Ko%NL%%WHITE%HP: Perf %BLUE%O%ORANGE%, Thul %WHITE%| S: Perf %GREEN%O%ORANGE%, Thul%NL%%WHITE%B: Perf %RED%O%ORANGE%, Amn%WHITE% | C: Perf %PURPLE%O%ORANGE%, Ral%NL%Craft w/ %BLUE%Jewel,}
+ItemDisplay[rin MAG]: %NAME%{%WHITE%V: Perf %GRAY%O%ORANGE%, Hel%WHITE% | %GREEN%$%WHITE%: Perf %YELLOW%O%ORANGE%, Lum%NL%%WHITE%HP: Perf %BLUE%O%ORANGE%, Amn %WHITE%| S: Perf %GREEN%O%ORANGE%, Amn%NL%%WHITE%B: Perf %RED%O%ORANGE%, Sol%WHITE% | C: Perf %PURPLE%O%ORANGE%, Amn%NL%Craft w/ %BLUE%Jewel,}
 ////////////////
 //(ID section)//
 ////////////////
@@ -832,7 +736,7 @@ ItemDisplay[MAG ID cm3 TABSK40=1]:%PURPLE%Dsum Skiller%WHITE%[%ILVL%]
 ItemDisplay[MAG ID cm3 TABSK2=1]:%PURPLE%Java Skiller%WHITE%[%ILVL%]
 ItemDisplay[MAG ID cm3 TABSK0=1]:%PURPLE%Bow Skiller%WHITE%[%ILVL%]
 ItemDisplay[MAG ID cm3 TABSK1=1]:%PURPLE%Passive & Magic Skiller%WHITE%[%ILVL%]
-//Large Charms-----------------------------------------------------------------------------------(no item codes for magic dmg affix yet)
+//Large Charms
 ItemDisplay[MAG ID cm2 STAT329>0]:%PURPLE%Fire Dmg Large Charm%WHITE%[%ILVL%]
 ItemDisplay[MAG ID cm2 STAT330>0]:%PURPLE%Light Dmg Large Charm%WHITE%[%ILVL%]
 ItemDisplay[MAG ID cm2 STAT331>0]:%PURPLE%Cold Dmg Large Charm%WHITE%[%ILVL%]
@@ -1449,10 +1353,10 @@ ItemDisplay[ILVL<26 NORM MAG (ARMOR OR WEAPON) !ID]:%NAME%
 ItemDisplay[ILVL>25 SOCK<2 NORM MAG (ARMOR OR WEAPON) !ID]:%NAME%
 ItemDisplay[ILVL>25 NORM MAG (ARMOR OR WEAPON) ID]:%NAME%
 ItemDisplay[ILVL>0 ILVL<35 NORM RARE !ID (ARMOR OR WEAPON)]:%NAME%
-ItemDisplay[ILVL>35 !ID NORM RARE !EQ1 !EQ4 !EQ5 !EQ6 !EQ7 !WP11 !WP12 !WP13]:
-ItemDisplay[ILVL>65 !ID EXC RARE !EQ1 !EQ4 !EQ5 !EQ6 !EQ7 !WP11 !WP12 !WP13]:
+ItemDisplay[ILVL>35 !ID NORM RARE !EQ1 !EQ4 !EQ5 !EQ6 !EQ7 !WP11 !WP12 !WP13]:%NAME%
+ItemDisplay[ILVL>65 !ID EXC RARE !EQ1 !EQ4 !EQ5 !EQ6 !EQ7 !WP11 !WP12 !WP13]:%NAME%
 ItemDisplay[ILVL<31 EXC MAG WEAPON !ID]:%NAME%
-ItemDisplay[ILVL>30 !ID EXC MAG WEAPON]:
+ItemDisplay[ILVL>30 !ID EXC MAG WEAPON]:%NAME%
 ItemDisplay[ILVL>30 EXC MAG WEAPON ID]:%NAME%
 ItemDisplay[ILVL<66 EXC MAG ARMOR !ID]:%NAME%
 ItemDisplay[ILVL<66 EXC MAG ARMOR ID]:%NAME%
@@ -1463,16 +1367,16 @@ ItemDisplay[ILVL<66 ELT RARE (ARMOR OR WEAPON)]:%NAME%
 //
 //None of the Above
 //Weapons:Axe, Mace, Sword, Dagger, Throwing Weapon, Javelin, Spear, Polearm, Bow, Crossbow
-ItemDisplay[MAG WP1 !ID]:
-ItemDisplay[MAG WP2 !ID]:
-ItemDisplay[MAG WP3 !ID]:
-ItemDisplay[MAG WP4 !ID]:
-ItemDisplay[MAG WP5 !ID]:
-ItemDisplay[MAG WP6 !ID]:
-ItemDisplay[MAG WP7 !ID]:
-ItemDisplay[MAG WP8 !ID]:
-ItemDisplay[MAG WP9 !ID]:
-ItemDisplay[MAG WP10 !ID]:
+ItemDisplay[MAG WP1 !ID]:%NAME%
+ItemDisplay[MAG WP2 !ID]:%NAME%
+ItemDisplay[MAG WP3 !ID]:%NAME%
+ItemDisplay[MAG WP4 !ID]:%NAME%
+ItemDisplay[MAG WP5 !ID]:%NAME%
+ItemDisplay[MAG WP6 !ID]:%NAME%
+ItemDisplay[MAG WP7 !ID]:%NAME%
+ItemDisplay[MAG WP8 !ID]:%NAME%
+ItemDisplay[MAG WP9 !ID]:%NAME%
+ItemDisplay[MAG WP10 !ID]:%NAME%
 //
 //Armor:Helm, Body, Shield, Boot, Belt (ilvl 61+)
 //Elite Helm - Shown
