@@ -625,8 +625,9 @@ ItemDisplay[SET !ID amc]:%GREEN%o Mav's Bow o%DOT-62%%BORDER-84%
 ItemDisplay[SET !ID uld]:%GREEN%o Mav's Armor o%DOT-62%%BORDER-84%  
 ItemDisplay[SET !ID xtg]:%GREEN%o Mav's Gloves o%DOT-62%%BORDER-84%  
 //
-//Hide normal and exceptional set items
+//Hide normal and exceptional set items after 90
 //ItemDisplay[SET !ID !ELT CLVL>90]:
+//
 //UNIQUE&SET Eth/Socket Catchall
 ItemDisplay[UNI !ETH !ID]:%GOLD%o %NAME% o%BORDER-A5%%DOT-62% 
 ItemDisplay[SET !ETH !ID]:%GREEN%o %NAME% o%DOT-62%%BORDER-84%  
@@ -708,8 +709,6 @@ ItemDisplay[HELM MAG ID]: %NAME%{%WHITE%V: Perf %GRAY%O%ORANGE%, Lum%WHITE% | %G
 ItemDisplay[CHEST MAG ID]: %NAME%{%WHITE%V: Perf %GRAY%O%ORANGE%, Tir%WHITE% | %GREEN%$%WHITE%: Perf %YELLOW%O%ORANGE%, Eld%NL%%WHITE%HP: Perf %BLUE%O%ORANGE%, Nef %WHITE%| S: Perf %GREEN%O%ORANGE%, Eth%NL%%WHITE%B: Perf %RED%O%ORANGE%, Thul%WHITE% | C: Perf %PURPLE%O%ORANGE%, Tal%NL%Craft w/ %BLUE%Jewel,}
 ItemDisplay[WEAPON !(BOW OR XBOW) MAG ID]: %NAME%{%WHITE%V: Perf %GRAY%O%ORANGE%, Shael%WHITE% | %GREEN%$%WHITE%: Perf %YELLOW%O%ORANGE%, Shael%NL%%WHITE%HP: Perf %BLUE%O%ORANGE%, Tir %WHITE%| %WHITE%B: Perf %RED%O%ORANGE%, Ort%WHITE% | C: Perf %PURPLE%O%ORANGE%, Tir%NL%Craft w/ %BLUE%Jewel,}
 ItemDisplay[(BOW OR XBOW) MAG ID]: %NAME%{%WHITE%V: Perf %GRAY%O%ORANGE%, Shael%WHITE% | %GREEN%$%WHITE%: Perf %YELLOW%O%ORANGE%, Shael%NL%%WHITE%HP: Perf %BLUE%O%ORANGE%, Tir %WHITE%| S: Perf %GREEN%O%ORANGE%, Sol%NL%%WHITE%B: Perf %RED%O%ORANGE%, Ort%WHITE% | C: Perf %PURPLE%O%ORANGE%, Tir%NL%Craft w/ %BLUE%Jewel}
-ItemDisplay[amu MAG]: %NAME%{%WHITE%V: Perf %GRAY%O%ORANGE%, Dol%WHITE% | %GREEN%$%WHITE%: Perf %YELLOW%O%ORANGE%, Ko%NL%%WHITE%HP: Perf %BLUE%O%ORANGE%, Thul %WHITE%| S: Perf %GREEN%O%ORANGE%, Thul%NL%%WHITE%B: Perf %RED%O%ORANGE%, Amn%WHITE% | C: Perf %PURPLE%O%ORANGE%, Ral%NL%Craft w/ %BLUE%Jewel,}
-ItemDisplay[rin MAG]: %NAME%{%WHITE%V: Perf %GRAY%O%ORANGE%, Hel%WHITE% | %GREEN%$%WHITE%: Perf %YELLOW%O%ORANGE%, Lum%NL%%WHITE%HP: Perf %BLUE%O%ORANGE%, Amn %WHITE%| S: Perf %GREEN%O%ORANGE%, Amn%NL%%WHITE%B: Perf %RED%O%ORANGE%, Sol%WHITE% | C: Perf %PURPLE%O%ORANGE%, Amn%NL%Craft w/ %BLUE%Jewel,}
 ////////////////
 //(ID section)//
 ////////////////
