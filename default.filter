@@ -1,7 +1,7 @@
 //++++++++++++++++++++++++++
 //TalRasha's PD2 Item Filter Default Version
 //++++++++++++++++++++++++++
-//Updated July 21, 2021
+//Updated July 23, 2021
 //
 //╔═══════════════════╗
 //║ Table of Contents ║
@@ -913,7 +913,8 @@ ItemDisplay[NMAG (WP8 OR WP7) ELT !ETH CLVL>90]:
 ItemDisplay[NMAG (WP8 OR WP7) ETH ELT ED=15 SOCK=4]: %PURPLE%o %GREEN%%NAME% %PURPLE%o 
 ItemDisplay[NMAG (WP8 OR WP7) ETH ELT (ED>4 AND ED<15) SOCK=4]:%PURPLE%o %GREEN%%NAME% %PURPLE%o
 ItemDisplay[NMAG (WP8 OR WP7) ETH ELT SOCK>3]:%GREEN%%NAME%
-ItemDisplay[NMAG (WP8 OR WP7) !ELT !ETH]:
+ItemDisplay[NMAG (WP8 OR WP7) !ELT !ETH SOCK=4]:%NAME%
+ItemDisplay[NMAG (WP8 OR WP7) !ELT !ETH !SOCK=4]:
 //
 //Paladin Shields Top Tier Elite non-eth, Medium-High Eth, Basic (ILVL restriction)
 //ED shields
