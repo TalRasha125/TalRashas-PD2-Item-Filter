@@ -1,7 +1,7 @@
 //++++++++++++++++++++++++++
 //TalRasha's PD2 Item Filter Default Version
 //++++++++++++++++++++++++++
-//Updated July 24, 2021
+//Updated July 25, 2021
 //
 //╔═══════════════════╗
 //║ Table of Contents ║
@@ -1180,30 +1180,33 @@ ItemDisplay[NMAG SOCK=2 !ETH xsk ILVL<45]:%NAME%
 ItemDisplay[NMAG SOCK=2 !ETH xh9 ILVL<45]:%NAME% 
 //
 //Plague
-ItemDisplay[obf NMAG SOCK=3 (SK62=3)]:%DARK_GREEN%+3 hydra orb%MAP-97% %YELLOW%
-ItemDisplay[obf NMAG SOCK=3 (SK59=3)]:%DARK_GREEN%+3 blizzard orb%MAP-97% %YELLOW%
-ItemDisplay[obf NMAG SOCK=3 (SK64=3)]:%DARK_GREEN%+3 forb orb%MAP-97% %YELLOW%
-ItemDisplay[obf NMAG SOCK=3 (SK48=3)]:%DARK_GREEN%+3 nova%MAP-97% %YELLOW%
-ItemDisplay[oba NMAG SOCK=3 (SK62=3)]:%DARK_GREEN%+3 hydra orb%MAP-97% %YELLOW%
-ItemDisplay[oba NMAG SOCK=3 (SK59=3)]:%DARK_GREEN%+3 blizzard orb%MAP-97% %YELLOW%
-ItemDisplay[oba NMAG SOCK=3 (SK64=3)]:%DARK_GREEN%+3 forb orb%MAP-97% %YELLOW%
-ItemDisplay[oba NMAG SOCK=3 (SK48=3)]:%DARK_GREEN%+3 nova%MAP-97% %YELLOW%
-ItemDisplay[ob5 NMAG SOCK=3 (SK62=3)]:%DARK_GREEN%+3 hydra orb%MAP-97% %YELLOW%
-ItemDisplay[ob5 NMAG SOCK=3 (SK59=3)]:%DARK_GREEN%+3 blizzard orb%MAP-97% %YELLOW%
-ItemDisplay[ob5 NMAG SOCK=3 (SK64=3)]:%DARK_GREEN%+3 forb orb%MAP-97% %YELLOW%
-ItemDisplay[ob5 NMAG SOCK=3 (SK48=3)]:%DARK_GREEN%+3 nova%MAP-97% %YELLOW%
-ItemDisplay[obf NMAG SOCK=0 (SK62=3)]:%DARK_GREEN%+3 hydra orb%MAP-97% %YELLOW%
-ItemDisplay[obf NMAG SOCK=0 (SK59=3)]:%DARK_GREEN%+3 blizzard orb%MAP-97% %YELLOW%
-ItemDisplay[obf NMAG SOCK=0 (SK64=3)]:%DARK_GREEN%+3 forb orb%MAP-97% %YELLOW%
-ItemDisplay[obf NMAG SOCK=0 (SK48=3)]:%DARK_GREEN%+3 nova%MAP-97% %YELLOW%
-ItemDisplay[oba NMAG SOCK=0 (SK62=3)]:%DARK_GREEN%+3 hydra orb%MAP-97% %YELLOW%
-ItemDisplay[oba NMAG SOCK=0 (SK59=3)]:%DARK_GREEN%+3 blizzard orb%MAP-97% %YELLOW%
-ItemDisplay[oba NMAG SOCK=0 (SK64=3)]:%DARK_GREEN%+3 forb orb%MAP-97% %YELLOW%
-ItemDisplay[oba NMAG SOCK=0 (SK48=3)]:%DARK_GREEN%+3 nova%MAP-97% %YELLOW%
-ItemDisplay[ob5 NMAG SOCK=0 (SK62=3)]:%DARK_GREEN%+3 hydra orb%MAP-97% %YELLOW%
-ItemDisplay[ob5 NMAG SOCK=0 (SK59=3)]:%DARK_GREEN%+3 blizzard orb%MAP-97% %YELLOW%
-ItemDisplay[ob5 NMAG SOCK=0 (SK64=3)]:%DARK_GREEN%+3 forb orb %MAP-97%%YELLOW%
-ItemDisplay[ob5 NMAG SOCK=0 (SK48=3)]:%DARK_GREEN%+3 nova%MAP-97% %YELLOW%
+ItemDisplay[obf NMAG SOCK=3 (SK62=3)]:%GREEN%+3 hydra orb%MAP-97% %YELLOW%
+ItemDisplay[obf NMAG SOCK=3 (SK59=3)]:%GREEN%+3 blizzard orb%MAP-97% %YELLOW%
+ItemDisplay[obf NMAG SOCK=3 (SK64=3)]:%GREEN%+3 forb orb%MAP-97% %YELLOW%
+ItemDisplay[obf NMAG SOCK=3 (SK48=3)]:%GREEN%+3 nova%MAP-97% %YELLOW%
+ItemDisplay[oba NMAG SOCK=3 (SK62=3)]:%GREEN%+3 hydra orb%MAP-97% %YELLOW%
+ItemDisplay[oba NMAG SOCK=3 (SK59=3)]:%GREEN%+3 blizzard orb%MAP-97% %YELLOW%
+ItemDisplay[oba NMAG SOCK=3 (SK64=3)]:%GREEN%+3 forb orb%MAP-97% %YELLOW%
+ItemDisplay[oba NMAG SOCK=3 (SK48=3)]:%GREEN%+3 nova%MAP-97% %YELLOW%
+ItemDisplay[ob5 NMAG SOCK=3 (SK62=3)]:%GREEN%+3 hydra orb%MAP-97% %YELLOW%
+ItemDisplay[ob5 NMAG SOCK=3 (SK59=3)]:%GREEN%+3 blizzard orb%MAP-97% %YELLOW%
+ItemDisplay[ob5 NMAG SOCK=3 (SK64=3)]:%GREEN%+3 forb orb%MAP-97% %YELLOW%
+ItemDisplay[ob5 NMAG SOCK=3 (SK48=3)]:%GREEN%+3 nova%MAP-97% %YELLOW%
+ItemDisplay[obf NMAG SOCK=0 (SK62=3)]:%GREEN%+3 hydra orb%MAP-97% %YELLOW%
+ItemDisplay[obf NMAG SOCK=0 (SK59=3)]:%GREEN%+3 blizzard orb%MAP-97% %YELLOW%
+ItemDisplay[obf NMAG SOCK=0 (SK64=3)]:%GREEN%+3 forb orb%MAP-97% %YELLOW%
+ItemDisplay[obf NMAG SOCK=0 (SK48=3)]:%GREEN%+3 nova%MAP-97% %YELLOW%
+ItemDisplay[oba NMAG SOCK=0 (SK62=3)]:%GREEN%+3 hydra orb%MAP-97% %YELLOW%
+ItemDisplay[oba NMAG SOCK=0 (SK59=3)]:%GREEN%+3 blizzard orb%MAP-97% %YELLOW%
+ItemDisplay[oba NMAG SOCK=0 (SK64=3)]:%GREEN%+3 forb orb%MAP-97% %YELLOW%
+ItemDisplay[oba NMAG SOCK=0 (SK48=3)]:%GREEN%+3 nova%MAP-97% %YELLOW%
+ItemDisplay[ob5 NMAG SOCK=0 (SK62=3)]:%GREEN%+3 hydra orb%MAP-97% %YELLOW%
+ItemDisplay[ob5 NMAG SOCK=0 (SK59=3)]:%GREEN%+3 blizzard orb%MAP-97% %YELLOW%
+ItemDisplay[ob5 NMAG SOCK=0 (SK64=3)]:%GREEN%+3 forb orb %MAP-97%%YELLOW%
+ItemDisplay[ob5 NMAG SOCK=0 (SK48=3)]:%GREEN%+3 nova%MAP-97% %YELLOW%
+//
+ItemDisplay[7sp NMAG (SOCK=0 OR SOCK=3) SK240=3]:%GREEN%+3 Twister Club%MAP-97% %YELLOW%
+ItemDisplay[7sp NMAG (SOCK=0 OR SOCK=3) SK245=3]:%GREEN%+3 Nado Club%MAP-97% %YELLOW%
 //
 //Death
 ItemDisplay[7fb ETH NMAG SOCK=0]:%DARK_GREEN%%NAME% %YELLOW%
