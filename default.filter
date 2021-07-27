@@ -312,8 +312,8 @@ ItemDisplay[UNI ID cm3]:%RED%%NAME%%DOT-0C%%BORDER-4B%
 //╚═══════════════════╝
 //Kalan's Legacy mummified trophy
 ItemDisplay[UNI !ID ne6]:%RED%o %PURPLE%Kalan's Legacy %RED%o%BORDER-A5%%DOT-62%
-//Reziarfg's Eye jawbone visor
-ItemDisplay[UNI !ID ba6]:%RED%o %PURPLE%Reziarfg's Eye %RED%o%BORDER-A5%%DOT-62%
+//Reziarfg's Eye/Cyclopean Roar jawbone visor
+ItemDisplay[UNI !ID ba6]:%RED%o %PURPLE%Cyclopean Roar %RED%o%BORDER-A5%%DOT-62%
 //True Silver maiden javelin
 ItemDisplay[UNI !ID am5]:%RED%o %PURPLE%True Silver %RED%o%BORDER-A5%%DOT-62%
 //Sankekur's Fall heraldric shield
