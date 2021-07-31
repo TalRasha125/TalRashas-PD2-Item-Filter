@@ -1,7 +1,7 @@
 //++++++++++++++++++++++++++
 //TalRasha's PD2 Item Filter Default Version
 //++++++++++++++++++++++++++
-//Updated July 28, 2021
+//Updated July 31, 2021
 //
 //╔═══════════════════╗
 //║ Table of Contents ║
@@ -475,6 +475,8 @@ ItemDisplay[UNI !ID xhb]:%RED%* %PURPLE%Gore Rider %RED%*%BORDER-A5%%DOT-62%
 ///////////
 //Weapons//
 ///////////
+//Earthshaker
+ItemDisplay[UNI !ID 9wh]:%RED%* %PURPLE%Earthshaker %RED%*%BORDER-A5%%DOT-62% 
 //Arm of King Leoric
 ItemDisplay[UNI !ID 9bw]:%RED%* %PURPLE%Arm of King Leoric %RED%*%BORDER-A5%%DOT-62% 
 //Gavel of Pain
