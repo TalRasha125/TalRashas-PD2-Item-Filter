@@ -313,7 +313,7 @@ ItemDisplay[UNI ID cm3]:%RED%%NAME%%DOT-0C%%BORDER-4B%
 //Kalan's Legacy mummified trophy
 ItemDisplay[UNI !ID ne6]:%RED%o %GOLD%Kalan's Legacy %RED%o%BORDER-A5%%DOT-62%
 //Reziarfg's Eye/Cyclopean Roar jawbone visor
-ItemDisplay[UNI !ID ba6]:%RED%o %GOLD%Cyclopean Roar %RED%o%BORDER-A5%%DOT-62%
+ItemDisplay[UNI !ID ba6]:%RED%o %PURPLE%Cyclopean Roar %RED%o%BORDER-A5%%DOT-62%
 //True Silver maiden javelin
 ItemDisplay[UNI !ID am5]:%RED%o %GOLD%True Silver %RED%o%BORDER-A5%%DOT-62%
 //Sankekur's Fall heraldric shield
@@ -369,9 +369,9 @@ ItemDisplay[UNI !ID xlm]:%RED%* %GOLD%Stealskull%RED% *%BORDER-A5%%DOT-62%
 //Armor//
 /////////
 //Atma's Wail
-ItemDisplay[UNI !ID xth]:%RED%o %PURPLE%Atma's Wail %RED%o%BORDER-A5%%DOT-62%
+ItemDisplay[UNI !ID xth]:%RED%o %GOLD%Atma's Wail %RED%o%BORDER-A5%%DOT-62%
 //Spirit Shroud
-ItemDisplay[UNI !ID xui]:%RED%o %PURPLE%Spirit Shroud %RED%o%BORDER-A5%%DOT-62%
+ItemDisplay[UNI !ID xui]:%RED%o %GOLD%Spirit Shroud %RED%o%BORDER-A5%%DOT-62%
 //Steel Carapace
 ItemDisplay[UNI !ETH !ID uul]:%RED%o %GOLD%Steel Carapace %RED%o%BORDER-A5%%DOT-62%
 ItemDisplay[UNI ETH !ID uul]:%RED%o %PURPLE%Eth Steel Carapace %RED%o%BORDER-A5%%DOT-62%
@@ -659,40 +659,10 @@ ItemDisplay[SET]:%NAME%%MAP-84%
 //╚═════════════╝
 //
 //Amulets
-ItemDisplay[MAG amu !ID ILVL=85]:%BLUE%*** %BLUE%o %NAME%%MAP-97%%PX-62%%ORANGE%[CLVL 96+]%BLUE% o %BLUE%***%WHITE%
-ItemDisplay[MAG amu !ID ILVL=86]:%BLUE%*** %BLUE%o %NAME%%MAP-97%%PX-62%%ORANGE%[CLVL 94+]%BLUE% o %BLUE%***%WHITE%
-ItemDisplay[MAG amu !ID ILVL=87]:%BLUE%*** %BLUE%o %NAME%%MAP-97%%PX-62%%ORANGE%[CLVL 94+]%BLUE% o %BLUE%***%WHITE%
-ItemDisplay[MAG amu !ID ILVL=88]:%BLUE%*** %BLUE%o %NAME%%MAP-97%%PX-62%%ORANGE%[CLVL 92+]%BLUE% o %BLUE%***%WHITE%
-ItemDisplay[MAG amu !ID ILVL=89]:%BLUE%*** %BLUE%o %NAME%%MAP-97%%PX-62%%ORANGE%[CLVL 92+]%BLUE% o %BLUE%***%WHITE%
-ItemDisplay[MAG amu !ID ILVL=90]:%BLUE%*** %BLUE%o %NAME%%MAP-97%%PX-62%%ORANGE%[CLVL 90+]%BLUE% o %BLUE%***%WHITE%
-ItemDisplay[MAG amu !ID ILVL=91]:%BLUE%*** %BLUE%o %NAME%%MAP-97%%PX-62%%ORANGE%[CLVL 90+]%BLUE% o %BLUE%***%WHITE%
-ItemDisplay[MAG amu !ID ILVL=92]:%BLUE%*** %BLUE%o %NAME%%MAP-97%%PX-62%%ORANGE%[CLVL 88+]%BLUE% o %BLUE%***%WHITE%
-ItemDisplay[MAG amu !ID ILVL=93]:%BLUE%*** %BLUE%o %NAME%%MAP-97%%PX-62%%ORANGE%[CLVL 88+]%BLUE% o %BLUE%***%WHITE%
-ItemDisplay[MAG amu !ID ILVL=94]:%BLUE%*** %BLUE%o %NAME%%MAP-97%%PX-62%%ORANGE%[CLVL 86+]%BLUE% o %BLUE%***%WHITE%
-ItemDisplay[MAG amu !ID ILVL=95]:%BLUE%*** %BLUE%o %NAME%%MAP-97%%PX-62%%ORANGE%[CLVL 86+]%BLUE% o %BLUE%***%WHITE%
-ItemDisplay[MAG amu !ID ILVL=96]:%BLUE%*** %BLUE%o %NAME%%MAP-97%%PX-62%%ORANGE%[CLVL 84+]%BLUE% o %BLUE%***%WHITE%
-ItemDisplay[MAG amu !ID ILVL=97]:%BLUE%*** %BLUE%o %NAME%%MAP-97%%PX-62%%ORANGE%[CLVL 84+]%BLUE% o %BLUE%***%WHITE%
-ItemDisplay[MAG amu !ID ILVL=98]:%BLUE%*** %BLUE%o %NAME%%MAP-97%%PX-62%%ORANGE%[CLVL 82+]%BLUE% o %BLUE%***%WHITE%
-ItemDisplay[MAG amu !ID ILVL=99]:%BLUE%*** %BLUE%o %NAME%%MAP-97%%PX-62%%ORANGE%[CLVL 82+]%BLUE% o %BLUE%***%WHITE%
-ItemDisplay[MAG amu !ID ILVL<85]:%BLUE%*** %NAME%%MAP-97%%PX-62%%WHITE%[%ILVL%]%BLUE% ***%WHITE%
+ItemDisplay[MAG amu !ID]:%BLUE%*** %NAME%%MAP-97%%PX-62%%BLUE% ***%WHITE%
 //
 //Rings
-ItemDisplay[MAG rin !ID ILVL=71]:%BLUE%%NAME%%ORANGE%[CLVL 99-]
-ItemDisplay[MAG rin !ID ILVL=72]:%BLUE%%NAME%%ORANGE%[CLVL 98-]
-ItemDisplay[MAG rin !ID ILVL=73]:%BLUE%%NAME%%ORANGE%[CLVL 97-]
-ItemDisplay[MAG rin !ID ILVL=74]:%BLUE%%NAME%%ORANGE%[CLVL 96-]
-ItemDisplay[MAG rin !ID ILVL=75]:%BLUE%%NAME%%ORANGE%[CLVL 95-]
-ItemDisplay[MAG rin !ID ILVL=76]:%BLUE%%NAME%%ORANGE%[CLVL 94-]
-ItemDisplay[MAG rin !ID ILVL=77]:%BLUE%%NAME%%ORANGE%[CLVL 93-]
-ItemDisplay[MAG rin !ID ILVL=78]:%BLUE%%NAME%%ORANGE%[CLVL 92-]
-ItemDisplay[MAG rin !ID ILVL=79]:%BLUE%%NAME%%ORANGE%[CLVL 91-]
-ItemDisplay[MAG rin !ID ILVL=80]:%BLUE%%NAME%%ORANGE%[CLVL 90-]
-ItemDisplay[MAG rin !ID ILVL=81]:%BLUE%%NAME%%ORANGE%[CLVL 89-]
-ItemDisplay[MAG rin !ID ILVL=82]:%BLUE%%NAME%%ORANGE%[CLVL 88-]
-ItemDisplay[MAG rin !ID ILVL=83]:%BLUE%%NAME%%ORANGE%[CLVL 87-]
-ItemDisplay[MAG rin !ID ILVL=84]:%BLUE%%NAME%%ORANGE%[CLVL 86-]
-ItemDisplay[MAG rin !ID ILVL=85]:%BLUE%%NAME%%ORANGE%[CLVL 85-]
-ItemDisplay[MAG !ID rin]:%BLUE%%NAME%%WHITE%[%ILVL%]
+ItemDisplay[MAG !ID rin]:%BLUE%%NAME%%WHITE%
 //
 //Blue Jewels for crafting
 ItemDisplay[MAG !ID jew]:%BLUE%* %BLUE%o Jewel o %BLUE%*%MAP-97%%PX-62%
