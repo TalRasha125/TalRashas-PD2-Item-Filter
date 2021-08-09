@@ -1,7 +1,7 @@
 //++++++++++++++++++++++++++
 //TalRasha's PD2 Item Filter Default Version
 //++++++++++++++++++++++++++
-//Updated August 4, 2021
+//Updated August 8, 2021
 //
 //╔═══════════════════╗
 //║ Table of Contents ║
@@ -911,7 +911,8 @@ ItemDisplay[xit !ETH SOCK=3 NMAG]:%DARK_GREEN%%NAME%%MAP-97%%WHITE%
 ItemDisplay[xit NMAG CLVL>79]:
 //
 //All Polearms/Spears ED
-ItemDisplay[NMAG (WP8 OR WP7) ELT !ETH CLVL>90]:
+ItemDisplay[NMAG (WP8 OR WP7) ELT !ETH (SOCK=1 OR SOCK=2)]:
+ItemDisplay[NMAG (WP8 OR WP7) ELT !ETH (SOCK=0 OR SOCK=3 OR SOCK=4 OR SOCK=5 OR SOCK=6)]:%NAME%
 ItemDisplay[NMAG (WP8 OR WP7) ETH ELT ED=15 SOCK=4]: %PURPLE%o %GREEN%%NAME% %PURPLE%o 
 ItemDisplay[NMAG (WP8 OR WP7) ETH ELT (ED>4 AND ED<15) SOCK=4]:%PURPLE%o %GREEN%%NAME% %PURPLE%o
 ItemDisplay[NMAG (WP8 OR WP7) ETH ELT SOCK>3]:%GREEN%%NAME%
