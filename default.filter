@@ -662,7 +662,7 @@ ItemDisplay[SET]:%NAME%%MAP-84%
 ItemDisplay[MAG amu !ID]:%BLUE%*** %NAME%%MAP-97%%PX-62%%BLUE% ***%WHITE%
 //
 //Rings
-ItemDisplay[MAG !ID rin]:%BLUE%%NAME%%WHITE%
+ItemDisplay[MAG !ID rin]:%BLUE%* %NAME% *%WHITE%
 //
 //Blue Jewels for crafting
 ItemDisplay[MAG !ID jew]:%BLUE%* %BLUE%o Jewel o %BLUE%*%MAP-97%%PX-62%
