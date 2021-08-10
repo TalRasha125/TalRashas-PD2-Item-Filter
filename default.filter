@@ -1,7 +1,7 @@
 //++++++++++++++++++++++++++
 //TalRasha's PD2 Item Filter Default Version
 //++++++++++++++++++++++++++
-//Updated August 9, 2021
+//Updated August 10, 2021
 //
 //╔═══════════════════╗
 //║ Table of Contents ║
@@ -477,6 +477,12 @@ ItemDisplay[UNI !ID xhb]:%RED%o %PURPLE%Gore Rider %RED%o%BORDER-A5%%DOT-62%
 ///////////
 //Weapons//
 ///////////
+//Wraith Flight
+ItemDisplay[UNI !ID 7gl !ETH]:%RED%o %GOLD%Wraith Flight %RED%o%BORDER-A5%%DOT-62% 
+ItemDisplay[UNI !ID 7gl ETH]:%RED%o %PURPLE%Eth Wraith Flight %RED%o%BORDER-A5%%DOT-62% 
+//Gargoyle's Bite
+ItemDisplay[UNI !ID 7ts !ETH]:%RED%o %GOLD%Gargoyle's Bite %RED%o%BORDER-A5%%DOT-62% 
+ItemDisplay[UNI !ID 7ts ETH]:%RED%o %PURPLE%Eth Gargoyle's Bite %RED%o%BORDER-A5%%DOT-62% 
 //Earthshaker
 ItemDisplay[UNI !ID 9wh]:%RED%o %PURPLE%Earthshaker %RED%o%BORDER-A5%%DOT-62% 
 //Arm of King Leoric
@@ -536,7 +542,8 @@ ItemDisplay[UNI !ID ILVL>86 7cr]:%RED%o %PURPLE%Azurewrath? %RED%o%DOT-0C%%BORDE
 ItemDisplay[UNI !ETH !ID 7pa]:%RED%o %GOLD%Tomb Reaver %RED%o%BORDER-A5%%DOT-62% 
 ItemDisplay[UNI ETH !ID 7pa]:%RED%o %PURPLE%Eth Tomb Reaver %RED%o%BORDER-A5%%DOT-62% 
 //Thunderstroke
-ItemDisplay[UNI !ID amf]:%RED%o %PURPLE%Thunderstroke %RED%o%BORDER-A5%%DOT-62% 
+ItemDisplay[UNI !ID !ETH amf]:%RED%o %GOLD%Thunderstroke %RED%o%BORDER-A5%%DOT-62% 
+ItemDisplay[UNI !ID ETH amf]:%RED%o %PURPLE%Eth Thunderstroke %RED%o%BORDER-A5%%DOT-62% 
 //Titan's Revenge
 ItemDisplay[UNI !ETH !ID ama]:%RED%o %GOLD%Titan's Revenge %RED%o%BORDER-A5%%DOT-62% 
 ItemDisplay[UNI ETH !ID ama]:%RED%o %PURPLE%Eth Titan's Revenge %RED%o%BORDER-A5%%DOT-62% 
@@ -1141,8 +1148,8 @@ ItemDisplay[amd ETH NMAG SOCK=6]:%GRAY%%NAME% %GRAY%
 //
 //Dream/Delirium
 //Low Str 3SOC Masks (NON ETH)
-ItemDisplay[NMAG SOCK=3 !ETH msk]://%NAME% 
-ItemDisplay[NMAG SOCK=3 !ETH xsk]://%NAME% 
+ItemDisplay[NMAG SOCK=3 !ETH msk]:%NAME% 
+ItemDisplay[NMAG SOCK=3 !ETH xsk]:%NAME% 
 //
 //103-106 str helms for archon plate builds
 ItemDisplay[NMAG SOCK=3 !ETH usk]:%DARK_GREEN%%NAME% %YELLOW%
