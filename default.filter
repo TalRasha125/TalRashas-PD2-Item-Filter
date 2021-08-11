@@ -1,7 +1,7 @@
 //++++++++++++++++++++++++++
 //TalRasha's PD2 Item Filter Default Version
 //++++++++++++++++++++++++++
-//Updated August 10, 2021
+//Updated August 11, 2021
 //
 //╔═══════════════════╗
 //║ Table of Contents ║
@@ -1098,11 +1098,12 @@ ItemDisplay[6ws NMAG ETH SOCK=4]:%GRAY%%NAME%
 ItemDisplay[6ws NMAG ETH SOCK=0]:%GRAY%%NAME% 
 ItemDisplay[6ws NMAG ETH SOCK=6]:%GRAY%%NAME%
 //
-//5OS Crystal Sword, War Scepter, Flail = CTA = Call to Arms, 5 OS Double Axe = Beast
+//5OS Crystal Sword, War Scepter, Flail = CTA = Call to Arms, 5 OS Double Axe = Beast, Ettin axe
 ItemDisplay[crs NMAG SOCK=5]:%GRAY%%NAME% %GRAY%
 ItemDisplay[wsp NMAG SOCK=5]:%GRAY%%NAME% %GRAY%
 ItemDisplay[fla NMAG SOCK=5]:%GRAY%%NAME% %GRAY%
 ItemDisplay[2ax NMAG SOCK=5]:%GRAY%%NAME% %GRAY%
+ItemDisplay[72a NMAG SOCK=5]:%GRAY%%NAME% %GRAY%
 //Merc Beast
 ItemDisplay[7gm ETH NMAG SOCK=5]:%GREEN%%NAME%%MAP-97% %RED%
 //
