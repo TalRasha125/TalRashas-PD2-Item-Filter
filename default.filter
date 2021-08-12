@@ -1,7 +1,7 @@
 //++++++++++++++++++++++++++
 //TalRasha's PD2 Item Filter Default Version
 //++++++++++++++++++++++++++
-//Updated August 11, 2021
+//Updated August 12, 2021
 //
 //╔═══════════════════╗
 //║ Table of Contents ║
@@ -982,6 +982,12 @@ ItemDisplay[NMAG ETH SOCK=4 7pa]:%GREEN%%NAME% %RED%
 ItemDisplay[NMAG ETH SOCK=4 7h7]:%GREEN%%NAME% %RED%
 ItemDisplay[NMAG ETH SOCK=4 7wc]:%GREEN%%NAME% %RED%
 ItemDisplay[NMAG ETH SOCK=4 7br]:%GREEN%%NAME% %RED%
+//
+ItemDisplay[NMAG (SOCK=4 OR SOCK=0) WP11 SK48=3]:%GREEN%+3 Nova %NAME%%RED%
+ItemDisplay[NMAG (SOCK=4 OR SOCK=0) WP11 SK49=3]:%GREEN%+3 Light %NAME%%RED%
+ItemDisplay[NMAG (SOCK=4 OR SOCK=0) WP11 SK50=3]:%GREEN%+3 Shiver Armor %NAME%%RED%
+ItemDisplay[NMAG (SOCK=4 OR SOCK=0) WP11 SK53=3]:%GREEN%+3 Chain Light %NAME%%RED%
+ItemDisplay[NMAG (SOCK=4 OR SOCK=0) WP11 SK57=3]:%GREEN%+3 Tstorm %NAME%%RED%
 //
 //Hide non-eth 
 ItemDisplay[NMAG !ETH 7vo]:
