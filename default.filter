@@ -983,11 +983,17 @@ ItemDisplay[NMAG ETH SOCK=4 7h7]:%GREEN%%NAME% %RED%
 ItemDisplay[NMAG ETH SOCK=4 7wc]:%GREEN%%NAME% %RED%
 ItemDisplay[NMAG ETH SOCK=4 7br]:%GREEN%%NAME% %RED%
 //
+//4os staffs with mods
 ItemDisplay[NMAG (SOCK=4 OR SOCK=0) WP11 SK48=3]:%GREEN%+3 Nova %NAME%%RED%
 ItemDisplay[NMAG (SOCK=4 OR SOCK=0) WP11 SK49=3]:%GREEN%+3 Light %NAME%%RED%
 ItemDisplay[NMAG (SOCK=4 OR SOCK=0) WP11 SK50=3]:%GREEN%+3 Shiver Armor %NAME%%RED%
 ItemDisplay[NMAG (SOCK=4 OR SOCK=0) WP11 SK53=3]:%GREEN%+3 Chain Light %NAME%%RED%
 ItemDisplay[NMAG (SOCK=4 OR SOCK=0) WP11 SK57=3]:%GREEN%+3 Tstorm %NAME%%RED%
+//
+//Wind
+ItemDisplay[NMAG 6ws ETH SOCK=2]:%GREEN%%NAME%%RED%
+ItemDisplay[NMAG 7p7 ETH SOCK=2]:%GREEN%%NAME%%RED%
+ItemDisplay[NMAG 7gm ETH SOCK=2]:%GREEN%%NAME%%RED%
 //
 //Hide non-eth 
 ItemDisplay[NMAG !ETH 7vo]:
