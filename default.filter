@@ -1,7 +1,7 @@
 //++++++++++++++++++++++++++
 //TalRasha's PD2 Item Filter Default Version
 //++++++++++++++++++++++++++
-//Updated August 15, 2021
+//Updated August 24, 2021
 //
 //╔═══════════════════╗
 //║ Table of Contents ║
@@ -477,6 +477,8 @@ ItemDisplay[UNI !ID xhb]:%RED%o %PURPLE%Gore Rider %RED%o%BORDER-A5%%DOT-62%
 ///////////
 //Weapons//
 ///////////
+//Pus Spitter
+ItemDisplay[UNI !ID 8mx]:%RED%o %GOLD%Pus Spitter %RED%o%BORDER-A5%%DOT-62% 
 //Wraith Flight
 ItemDisplay[UNI !ID 7gl !ETH]:%RED%o %GOLD%Wraith Flight %RED%o%BORDER-A5%%DOT-62% 
 ItemDisplay[UNI !ID 7gl ETH]:%RED%o %PURPLE%Eth Wraith Flight %RED%o%BORDER-A5%%DOT-62% 
