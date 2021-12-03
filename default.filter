@@ -1,7 +1,7 @@
 //++++++++++++++++++++++++++
 //TalRasha's PD2 Item Filter Default Version
 //++++++++++++++++++++++++++
-//Updated August 24, 2021
+//Updated December 3, 2021
 //
 //╔═══════════════════╗
 //║ Table of Contents ║
@@ -56,8 +56,7 @@ ItemDisplay[MAG PRICE>34999]:%GREEN%$ %BLUE%%NAME%%CONTINUE%
 ItemDisplay[RARE PRICE>34999]:%GREEN%$ %YELLOW%%NAME%%CONTINUE%
 //Gold
 ItemDisplay[GOLD<100 CLVL<20]:
-ItemDisplay[GOLD<1000 (CLVL>19 AND CLVL<70)]:
-ItemDisplay[GOLD<4999 CLVL>69]:
+ItemDisplay[GOLD<1000 CLVL>19]:
 //╔═════════╗
 //║ Potions ║
 //╚═════════╝
@@ -82,6 +81,13 @@ ItemDisplay[mp1 CLVL>14]:
 ItemDisplay[mp2 CLVL>19]:
 ItemDisplay[mp3 CLVL>25]:
 ItemDisplay[mp4 CLVL>59]:
+//Arrows/Bolts
+ItemDisplay[aqv NMAG]:
+ItemDisplay[cqv NMAG]:
+ItemDisplay[aqv MAG]:%BLUE%*** %NAME% ***%DOT-62%%BORDER-4B%
+ItemDisplay[cqv MAG]:%BLUE%*** %NAME% ***%DOT-62%%BORDER-4B%
+ItemDisplay[aqv RARE]:%YELLOW%ooo %NAME% ooo%DOT-62%%BORDER-4B%
+ItemDisplay[cqv RARE]:%YELLOW%ooo %NAME% ooo%DOT-62%%BORDER-4B%
 //Utility
 ItemDisplay[tsc CLVL<41]:%GREEN%!%WHITE%TP
 ItemDisplay[tsc CLVL>40]:
@@ -192,7 +198,11 @@ ItemDisplay[dhn]:%PURPLE%Diablo's Horn%MAP-4B%
 ItemDisplay[bey]:%PURPLE%Baal's Eye%MAP-4B%
 ItemDisplay[mbr]:%PURPLE%Mephisto's Brain%MAP-4B%
 ItemDisplay[ubtm]:%PURPLE%Pandemonium Talisman%MAP-4B%				// Pandemonium Talisman (Uber Tristram)
-//╔══════════════╗
+ItemDisplay[rtma]:%PURPLE%NAME%MAP-4B%							//Summon Rathma
+ItemDisplay[rtmo]:%PURPLE%%NAME%%MAP-4B%						//Rathma Ingredient
+ItemDisplay[rid]:%RED%o %PURPLE%%NAME%%RED% o%MAP-4B%				//unlimited id tome
+ItemDisplay[rtp]:%RED%o %PURPLE%%NAME%%RED% o%MAP-4B%				//unlimited tp tome
+//╔══════════════╗ 
 //║ Diablo Clone ║
 //╚══════════════╝
 ItemDisplay[dcma]:%RED%*%YELLOW%*%GREEN%*%BLUE%* %RED%o %PURPLE%Vision of Terror %RED%o %RED%*%YELLOW%*%GREEN%*%BLUE%*%DOT-62%%BORDER-4B%
@@ -202,8 +212,9 @@ ItemDisplay[dcso]:%RED%*%YELLOW%*%GREEN%*%BLUE%* %RED%o %PURPLE%Prime Evil Soul 
 //╔══════════════════╗
 //║ Corruption Items ║
 //╚══════════════════╝
-ItemDisplay[wss]:%RED%o %PURPLE%Worldstone Shard%RED% o%MAP-62%%PX-20%
+ItemDisplay[wss]:%RED%o %PURPLE%Worldstone Shard%RED% o %WHITE%(X %QTY%)%MAP-62%%PX-20%
 ItemDisplay[lbox]:%RED%*%YELLOW%*%GREEN%*%BLUE%* %RED%ooo %PURPLE%Larzuk's Puzzle Box %RED%ooo %RED%*%YELLOW%*%GREEN%*%BLUE%*%DOT-62%%BORDER-4B%
+ItemDisplay[cwss]:%RED%*%YELLOW%*%GREEN%*%BLUE%* %RED%ooo %PURPLE%Tainted Worldstone Shard %RED%ooo %RED%*%YELLOW%*%GREEN%*%BLUE%*%DOT-62%%BORDER-4B%
 //╔══════════════╗
 //║ Map Upgrades ║
 //╚══════════════╝
@@ -219,7 +230,8 @@ ItemDisplay[scrb]:%RED%*%YELLOW%*%GREEN%*%BLUE%* %RED%o%PURPLE% %NAME% %RED%o %R
 //╚══════╝
 ItemDisplay[NMAG (t10 OR t11 OR t12 OR t13 OR t14 OR t15 OR t16 OR t17 OR t18 OR t19 OR t20 OR t21 OR t22 OR t23 OR t24 OR t25 OR t26 OR t27 OR t28 OR t29 OR t30 OR t31 OR t32 OR t33 OR t34 OR t35 OR t36 OR t37 OR t38 OR t39 OR t40 OR t41 OR t42 OR t43 OR t44 OR t45 OR t46 OR t47 OR t48 OR t49)]:%WHITE%* %NAME% *%DOT-62%%BORDER-4B% 
 ItemDisplay[MAG !ID (t10 OR t11 OR t12 OR t13 OR t14 OR t15 OR t16 OR t17 OR t18 OR t19 OR t20 OR t21 OR t22 OR t23 OR t24 OR t25 OR t26 OR t27 OR t28 OR t29 OR t30 OR t31 OR t32 OR t33 OR t34 OR t35 OR t36 OR t37 OR t38 OR t39 OR t40 OR t41 OR t42 OR t43 OR t44 OR t45 OR t46 OR t47 OR t48 OR t49)]:%BLUE%*** %NAME% ***%DOT-62%%BORDER-4B%  
-ItemDisplay[RARE !ID (t10 OR t11 OR t12 OR t13 OR t14 OR t15 OR t16 OR t17 OR t18 OR t19 OR t20 OR t21 OR t22 OR t23 OR t24 OR t25 OR t26 OR t27 OR t28 OR t29 OR t30 OR t31 OR t32 OR t33 OR t34 OR t35 OR t36 OR t37 OR t38 OR t39 OR t40 OR t41 OR t42 OR t43 OR t44 OR t45 OR t46 OR t47 OR t48 OR t49)]:%YELLOW%ooo %NAME% ooo%DOT-62%%BORDER-4B%  
+ItemDisplay[RARE !ID (t10 OR t11 OR t12 OR t13 OR t14 OR t15 OR t16 OR t17 OR t18 OR t19 OR t20 OR t21 OR t22 OR t23 OR t24 OR t25 OR t26 OR t27 OR t28 OR t29 OR t30 OR t31 OR t32 OR t33 OR t34 OR t35 OR t36 OR t37 OR t38 OR t39 OR t40 OR t41 OR t42 OR t43 OR t44 OR t45 OR t46 OR t47 OR t48 OR t49)]:%YELLOW%ooo %NAME% ooo%DOT-62%%BORDER-4B%
+ItemDisplay[(t61 or t62)]:%WHITE%* %NAME% *%DOT-62%%BORDER-4B% 
 //╔══════╗
 //║ Gems ║
 //╚══════╝
@@ -295,6 +307,12 @@ ItemDisplay[UNI !ID 7bs]:%RED%*%YELLOW%*%GREEN%*%BLUE%* %RED%ooo %PURPLE%Hadriel
 ItemDisplay[UNI !ID 7qr]:%RED%*%YELLOW%*%GREEN%*%BLUE%* %RED%ooo %PURPLE%Aidan's Scar%RED% ooo %RED%*%YELLOW%*%GREEN%*%BLUE%*%DOT-0C%%BORDER-4B%
 ItemDisplay[UNI !ID utb]:%RED%*%YELLOW%*%GREEN%*%BLUE%* %RED%ooo %PURPLE%Itherael's Path%RED% ooo %RED%*%YELLOW%*%GREEN%*%BLUE%*%DOT-0C%%BORDER-4B%
 ItemDisplay[UNI !ID uhl]:%RED%*%YELLOW%*%GREEN%*%BLUE%* %RED%ooo %PURPLE%Overlord's Helm%RED% ooo %RED%*%YELLOW%*%GREEN%*%BLUE%*%DOT-0C%%BORDER-4B%
+//////////
+//Rathma//
+//////////
+ItemDisplay[UNI !ID utc]:%RED%*%YELLOW%*%GREEN%*%BLUE%* %RED%ooo %PURPLE%Band of Skulls%RED% ooo %RED%*%YELLOW%*%GREEN%*%BLUE%*%DOT-0C%%BORDER-4B%
+//ItemDisplay[UNI !ID amu SOCK=1]:%RED%*%YELLOW%*%GREEN%*%BLUE%* %RED%ooo %PURPLE%The Third Eye%RED% ooo %RED%*%YELLOW%*%GREEN%*%BLUE%*%DOT-0C%%BORDER-4B%
+ItemDisplay[UNI !ID uhn]:%RED%*%YELLOW%*%GREEN%*%BLUE%* %RED%ooo %PURPLE%Cage of the Unsullied%RED% ooo %RED%*%YELLOW%*%GREEN%*%BLUE%*%DOT-0C%%BORDER-4B%
 //////////////////////////////////////
 //UNIQUE Rings Amulets Jewels Charms//
 //////////////////////////////////////
@@ -675,6 +693,7 @@ ItemDisplay[MAG !ID rin]:%BLUE%* %NAME% *%WHITE%
 //
 //Blue Jewels for crafting
 ItemDisplay[MAG !ID jew]:%BLUE%* %BLUE%o Jewel o %BLUE%*%MAP-97%%PX-62%
+ItemDisplay[MAG !ID jewf]:%BLUE%* %BLUE%Jewel Fragments %BLUE%* %WHITE%(X %QTY%)%MAP-97%%PX-62%
 //
 //Magic Diadems
 ItemDisplay[MAG ci3 !ETH !ID]:%BLUE%* %NAME% *%MAP-97%%PX-62%
@@ -842,8 +861,6 @@ ItemDisplay[MAG ID WP13 (TABSK24=3 AND SK121=3)]:%PURPLE%+ %ORANGE%FOH SCEPTER %
 //╚═══════╝
 //Inferior Items
 ItemDisplay[INF ILVL<10 !RW !leg]:%NAME%
-ItemDisplay[aqv NMAG]:
-ItemDisplay[cqv NMAG]:
 //
 //Tiara/Diadem Imbue Charsi
 ItemDisplay[NMAG ci2 !ETH SOCK=0]:%NAME%
