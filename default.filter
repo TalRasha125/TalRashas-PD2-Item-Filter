@@ -84,8 +84,8 @@ ItemDisplay[mp4 CLVL>59]:
 //Arrows/Bolts
 ItemDisplay[aqv NMAG]:
 ItemDisplay[cqv NMAG]:
-ItemDisplay[aqv MAG]:%BLUE%*** %NAME% ***%DOT-62%%BORDER-4B%
-ItemDisplay[cqv MAG]:%BLUE%*** %NAME% ***%DOT-62%%BORDER-4B%
+ItemDisplay[aqv MAG CLVL<50]:%BLUE%*** %NAME% ***%DOT-62%%BORDER-4B%
+ItemDisplay[cqv MAG CLVL <50]:%BLUE%*** %NAME% ***%DOT-62%%BORDER-4B%
 ItemDisplay[aqv RARE]:%YELLOW%ooo %NAME% ooo%DOT-62%%BORDER-4B%
 ItemDisplay[cqv RARE]:%YELLOW%ooo %NAME% ooo%DOT-62%%BORDER-4B%
 //Utility
@@ -695,6 +695,23 @@ ItemDisplay[MAG !ID rin]:%BLUE%* %NAME% *%WHITE%
 ItemDisplay[MAG !ID jew]:%BLUE%* %BLUE%o Jewel o %BLUE%*%MAP-97%%PX-62%
 ItemDisplay[MAG !ID jewf]:%BLUE%* %BLUE%Jewel Fragments %BLUE%* %WHITE%(X %QTY%)%MAP-97%%PX-62%
 //
+ItemDisplay[MAG LVLREQ<31 ED>19 jew]: %NAME%{%ORANGE%Note:%TAN% Good for LLD} // 20% Enhanced Damage
+ItemDisplay[MAG LVLREQ<31 ED>14 MAXDMG>12 jew]: %NAME%{%ORANGE%Note:%TAN% Good for LLD} // 15%+ Enhanced Damage and 13+ Maximum Damage
+ItemDisplay[MAG LVLREQ<31 MAXDMG>19 jew]: %NAME%{%ORANGE%Note:%TAN% Good for LLD} // 20+ Maximum Damage
+ItemDisplay[MAG LVLREQ<31 MINDMG>4 MAXDMG>13 jew]: %NAME%{%ORANGE%Note:%TAN% Good for LLD} // 5+ Minimum Damage and 13+ Maximum Damage
+ItemDisplay[MAG LVLREQ<31 RES>12 jew]: %NAME%{%ORANGE%Note:%TAN% Good for LLD} // All Resist 13+
+ItemDisplay[MAG LVLREQ<31 RES>9 (STR>4 OR DEX>5) jew]: %NAME%{%ORANGE%Note:%TAN% Good for LLD} // All Resist 13+, and 5+ Strength or 6+ Dexterity
+ItemDisplay[MAG LVLREQ<31 STAT91=-15 (RES>10 OR ED>14 OR MAXDMG>7 OR MINDMG>6) jew]: %NAME%{%ORANGE%Note:%TAN% Good for LLD} // -Requirements, and 11%+ All Resist, 15%+ Enhanced Damage, 8+ Maximum Damage, or 7+ Minimum Damage
+//
+// LLD Jewels - all jewels must be level required 1-30
+ItemDisplay[RARE LVLREQ<31 ED>19 jew]: %NAME%{%ORANGE%Note:%TAN% Good for LLD} // 20% Enhanced Damage
+ItemDisplay[RARE LVLREQ<31 ED>14 (MAXDMG>12 OR STR>4 OR DEX>5) jew]: %NAME%{%ORANGE%Note:%TAN% Good for LLD} // 15%+ Enhanced Damage, and 13+ Maximum Damage, 5+ Strength, or 6+ Dexterity
+ItemDisplay[RARE LVLREQ<31 MAXDMG>8 (STR>4 OR DEX>5) jew]: %NAME%{%ORANGE%Note:%TAN% Good for LLD} // 9+ Maximum Damage, and 5+ Strength or 6+ Dexterity
+ItemDisplay[RARE LVLREQ<31 STR>4 DEX>5 jew]: %NAME%{%ORANGE%Note:%TAN% Good for LLD} // 5+ Strength and 6+ Dexterity
+ItemDisplay[RARE LVLREQ<31 MAXDMG>14 jew]: %NAME%{%ORANGE%Note:%TAN% Good for LLD} // 15+ Maximum Damage
+ItemDisplay[RARE LVLREQ<31 MINDMG>4 MAXDMG>9 jew]: %NAME%{%ORANGE%Note:%TAN% Good for LLD} // 5+ Minimum Damage and 10+ Maximum Damage
+ItemDisplay[RARE LVLREQ<31 STAT91=-15 (RES>7 OR ED>14 OR MAXDMG>7 OR MINDMG>6 OR STR>4 OR DEX>5) jew]: %NAME%{%ORANGE%Note:%TAN% Good for LLD} // -Requirements, and 8%+ All Resist, 15%+ Enhanced Damage, 8+ Maximum Damage, 7+ Minimum Damage, 5+ Strength, or 6+ Dexterity
+//
 //Magic Diadems
 ItemDisplay[MAG ci3 !ETH !ID]:%BLUE%* %NAME% *%MAP-97%%PX-62%
 //Magic Circlets
@@ -705,7 +722,6 @@ ItemDisplay[MAG ci2 !ETH !ID]:%BLUE%* %NAME% *%MAP-97%%PX-62%
 //╔═════════════════╗
 //║Crafting section ║
 //╚═════════════════╝
-//Jewelry
 ItemDisplay[MAG amu ID]:%NAME%{%WHITE%V: %GRAY%O%ORANGE% Dol | %GREEN%$: %YELLOW%O%ORANGE% Ko%NL%%WHITE%HP: %BLUE%O%ORANGE% Thul | S: %GREEN%O%ORANGE% Thul | %WHITE%B: %RED%O%ORANGE% Amn | C: %PURPLE%O%ORANGE% Ral%NL%Jewel +}
 ItemDisplay[MAG rin ID]:%NAME%{%WHITE%V: %GRAY%O%ORANGE% Hel | %GREEN%$: %YELLOW%O%ORANGE% Lum%NL%%WHITE%HP: %BLUE%O%ORANGE% Amn | S: %GREEN%O%ORANGE% Amn | %WHITE%B: %RED%O%ORANGE% Sol | C: %PURPLE%O%ORANGE% Amn%NL%Jewel +}
 ItemDisplay[GLOVES MAG ID]:%NAME%{%WHITE%V: %GRAY%O%ORANGE% Io | %GREEN%$: %YELLOW%O%ORANGE% Hel%NL%%WHITE%HP: %BLUE%O%ORANGE% Ort %WHITE%| S: %GREEN%O%ORANGE% Ral%NL%%WHITE%B: %RED%O%ORANGE% Nef | C: %PURPLE%O%ORANGE% Ort%NL%Jewel +}
@@ -716,6 +732,35 @@ ItemDisplay[HELM MAG ID]:%NAME%{%WHITE%V: %GRAY%O%ORANGE% Lum | %GREEN%$: %YELLO
 ItemDisplay[CHEST MAG ID]:%NAME%{%WHITE%V: %GRAY%O%ORANGE% Tir | %GREEN%$: %YELLOW%O%ORANGE% Eld%NL%%WHITE%HP: %BLUE%O%ORANGE% Nef | S: %GREEN%O%ORANGE% Eth | %WHITE%B: %RED%O%ORANGE% Thul | C: %PURPLE%O%ORANGE% Tal%NL%Jewel +}
 ItemDisplay[WEAPON !(BOW OR XBOW) MAG ID]:%NAME%{%WHITE%V: %GRAY%O%ORANGE% Shael | %GREEN%$: %YELLOW%O%ORANGE% Shael%NL%%WHITE%HP: %BLUE%O%ORANGE% Tir | %WHITE%B: %RED%O%ORANGE% Ort | C: %PURPLE%O%ORANGE% Tir%NL%Jewel +}
 ItemDisplay[(BOW OR XBOW) MAG ID]:%NAME%{%WHITE%V: %GRAY%O%ORANGE% Shael%WHITE% | %GREEN%$: %YELLOW%O%ORANGE% Shael%NL%%WHITE%HP: %BLUE%O%ORANGE% Tir | S: %GREEN%O%ORANGE% Sol | %WHITE%B: %RED%O%ORANGE% Ort | C: %PURPLE%O%ORANGE% Tir%NL%Jewel +}
+//necro heads
+ItemDisplay[MAG ILVL<72 CLVL<75 NEC]: %NAME%{%GRAY%Vampiric:%TAN% P Skull + Sol%NL%%GREEN%Safety:%TAN% P Eme + Nef%NL%%PURPLE%Caster:%TAN% P Ame + Eth%NL%%YELLOW%Bountiful:%TAN% P Top + Dol%NL%%ORANGE%Craft w/ Jewel:} // Any Necromancer Head
+ItemDisplay[MAG ILVL>71 NEC]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Sol%NL%%GREEN%Safety:%TAN% P Eme + Nef%NL%%PURPLE%Caster:%TAN% P Ame + Eth%NL%%YELLOW%Bountiful:%TAN% P Top + Dol%NL%%ORANGE%Craft w/ Jewel:} // Any Necromancer Head
+//druid helms
+ItemDisplay[MAG ILVL<72 CLVL<75 DRU]: %NAME%{%GRAY%Vampiric:%TAN% P Skull + Lum%NL%%GREEN%Safety:%TAN% P Eme + Ith%NL%%PURPLE%Caster:%TAN% P Ame + Nef%NL%%YELLOW%Bountiful:%TAN% P Top + Tir%NL%%ORANGE%Craft w/ Jewel:} // Any Druid Helm
+ItemDisplay[MAG ILVL>71 DRU]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Lum%NL%%GREEN%Safety:%TAN% P Eme + Ith%NL%%PURPLE%Caster:%TAN% P Ame + Nef%NL%%YELLOW%Bountiful:%TAN% P Top + Tir%NL%%ORANGE%Craft w/ Jewel:} // Any Druid Helm
+//pala shields
+ItemDisplay[MAG ILVL<72 CLVL<75 DIN]: %NAME%{%GRAY%Vampiric:%TAN% P Skull + Sol%NL%%GREEN%Safety:%TAN% P Eme + Nef%NL%%PURPLE%Caster:%TAN% P Ame + Eth%NL%%YELLOW%Bountiful:%TAN% P Top + Dol%NL%%ORANGE%Craft w/ Jewel:} // Any Paladin Shield
+ItemDisplay[MAG ILVL>71 DIN]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Sol%NL%%GREEN%Safety:%TAN% P Eme + Nef%NL%%PURPLE%Caster:%TAN% P Ame + Eth%NL%%YELLOW%Bountiful:%TAN% P Top + Dol%NL%%ORANGE%Craft w/ Jewel:} // Any Paladin Shield
+//zon weps
+ItemDisplay[MAG ILVL<72 CLVL<75 SPEAR !THROWING ZON]: %NAME%{%GRAY%Vampiric:%TAN% P Skull + Shael%NL%%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%YELLOW%Bountiful:%TAN% P Top + Shael%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel:} // Good Eth Amazon Spears
+ItemDisplay[MAG ILVL<72 CLVL<75 SPEAR THROWING ZON]: %NAME%{%GRAY%Vampiric:%TAN% P Skull + Shael%NL%%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%YELLOW%Bountiful:%TAN% P Top + Shael%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel:} // Good Eth Amazon Javelins
+ItemDisplay[MAG ILVL<72 CLVL<75 ZON BOW]: %NAME%{%GRAY%Vampiric:%TAN% P Skull + Shael%NL%%GREEN%Safety:%TAN% P Eme + Sol%NL%%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%YELLOW%Bountiful:%TAN% P Top + Shael%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel:} // Any Amazon Bow
+ItemDisplay[MAG ILVL>71 ETH (am3 OR am8 OR amd OR am4 OR am9 OR ame)]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Shael%NL%%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%YELLOW%Bountiful:%TAN% P Top + Shael%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel:} // Good Eth Amazon Spears
+ItemDisplay[MAG ILVL>71 ETH (am5 OR ama OR amf)]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Shael%NL%%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%YELLOW%Bountiful:%TAN% P Top + Shael%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel:} // Good Eth Amazon Javelins
+ItemDisplay[MAG ILVL>71 ZON BOW]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Shael%NL%%GREEN%Safety:%TAN% P Eme + Sol%NL%%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%YELLOW%Bountiful:%TAN% P Top + Shael%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel:} // Any Amazon Bow
+//sin weps
+ItemDisplay[MAG ILVL<72 CLVL<75 SIN]: %NAME%{%GRAY%Vampiric:%TAN% P Skull + Shael%NL%%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%PURPLE%Caster:%TAN% P Ame + Tir%NL%%YELLOW%Bountiful:%TAN% P Top + Shael%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel:} // Good Assassin Katars
+ItemDisplay[MAG ILVL>71 (7ar OR 7wb OR 7xf OR 9cs OR 7cs OR 9lw OR 7lw OR 9tw OR 7tw OR 9qr OR 7qr)]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Shael%NL%%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%PURPLE%Caster:%TAN% P Ame + Tir%NL%%YELLOW%Bountiful:%TAN% P Top + Shael%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel:} // Good Assassin Katars
+//sorc orbs
+ItemDisplay[MAG ILVL<72 CLVL<75 SOR]: %NAME%{%GRAY%Vampiric:%TAN% P Skull + Shael%NL%%PURPLE%Caster:%TAN% P Ame + Tir%NL%%YELLOW%Bountiful:%TAN% P Top + Shael%NL%%ORANGE%Craft w/ Jewel:} // Good Sorceress Orbs
+ItemDisplay[MAG ILVL>71 (ob1 OR ob6 OR obb OR ob2 OR ob7 OR obc OR ob3 OR ob8 OR obd OR ob4 OR ob9 OR obe OR ob5 OR oba OR obf)]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Shael%NL%%PURPLE%Caster:%TAN% P Ame + Tir%NL%%YELLOW%Bountiful:%TAN% P Top + Shael%NL%%ORANGE%Craft w/ Jewel:} // Good Sorceress Orbs
+//javs
+ItemDisplay[MAG ILVL<72 CLVL<75 ETH SPEAR THROWING !ZON]: %NAME%{%GRAY%Vampiric:%TAN% P Skull + Shael%NL%%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%YELLOW%Bountiful:%TAN% P Top + Shael%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel:} // Good Eth Javelins
+ItemDisplay[MAG ILVL>71 ETH (9gl OR 7gl OR 9ts OR 7ts)]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Shael%NL%%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%YELLOW%Bountiful:%TAN% P Top + Shael%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel:} // Good Eth Javelins
+//wands
+ItemDisplay[MAG ILVL<72 CLVL<75 WAND]: %NAME%{%GRAY%Vampiric:%TAN% P Skull + Shael%NL%%PURPLE%Caster:%TAN% P Ame + Tir%NL%%YELLOW%Bountiful:%TAN% P Top + Shael%NL%%ORANGE%Craft w/ Jewel:} // Good Wands
+ItemDisplay[MAG ILVL>71 (wnd OR 9wn OR 7wn OR ywn OR 9yw OR 7yw OR bwn OR 9bw OR 7bw OR gwn OR 9gw OR 7gw)]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Shael%NL%%PURPLE%Caster:%TAN% P Ame + Tir%NL%%YELLOW%Bountiful:%TAN% P Top + Shael%NL%%ORANGE%Craft w/ Jewel:} // Good Wands
+//
 ////////////////
 //(ID section)//
 ////////////////
@@ -828,34 +873,102 @@ ItemDisplay[ELT RARE ARMOR !ID]:%NAME%
 //╔══════════════╗
 //║ Vendor Items ║
 //╚══════════════╝
-//Bo Sticks
-ItemDisplay[MAG WP5 ID TABSK34=3]:%PURPLE%+++++ %ORANGE%BO STICK %PURPLE%+++++
-// +2/20 and +3/20 Gloves
-ItemDisplay[MAG ID EQ4 !ETH TABSK0=2 IAS=20]:%PURPLE%+ %ORANGE%Bowazon Gloves %PURPLE%+
-ItemDisplay[MAG ID EQ4 !ETH TABSK2=2 IAS=20]:%PURPLE%+ %ORANGE%Javazon Gloves %PURPLE%+
-ItemDisplay[MAG ID EQ4 !ETH TABSK50=2 IAS=20]:%PURPLE%+ %ORANGE%Martial Gloves %PURPLE%+
-ItemDisplay[MAG ID EQ4 !ETH TABSK0=3 IAS=20]:%PURPLE%+ %ORANGE%Bowazon Gloves %PURPLE%+
-ItemDisplay[MAG ID EQ4 !ETH TABSK2=3 IAS=20]:%PURPLE%+ %ORANGE%Javazon Gloves %PURPLE%+
-ItemDisplay[MAG ID EQ4 !ETH TABSK50=3 IAS=20]:%PURPLE%+ %ORANGE%Martial Gloves %PURPLE%+
-// +6 Skill
-ItemDisplay[MAG ID CL5 (TABSK48=3 AND SK251=3)]:%PURPLE%+ %ORANGE%FIREBLAST CLAW %PURPLE%+
-ItemDisplay[MAG ID CL5 (TABSK48=3 AND SK261=3)]:%PURPLE%+ %ORANGE%CHARGED BOLT CLAW %PURPLE%+
-ItemDisplay[MAG ID CL5 (TABSK48=3 AND SK262=3)]:%PURPLE%+ %ORANGE%WAKE OF FIRE CLAW %PURPLE%+
-ItemDisplay[MAG ID CL5 (TABSK49=3 AND SK267=3)]:%PURPLE%+ %ORANGE%FADE CLAW %PURPLE%+
-ItemDisplay[MAG ID CL5 (TABSK48=3 AND SK271=3)]:%PURPLE%+ %ORANGE%LIGHTNING CLAW %PURPLE%+
-ItemDisplay[MAG ID CL5 (TABSK48=3 AND SK272=3)]:%PURPLE%+ %ORANGE%WAKE OF FIRE CLAW %PURPLE%+
-ItemDisplay[MAG ID CL5 (TABSK49=3 AND SK278=3)]:%PURPLE%+ %ORANGE%VENOM CLAW %PURPLE%+
-ItemDisplay[MAG ID CL6 (TABSK10=3 AND SK40=3)]:%PURPLE%+ %ORANGE%FRIGERATE ORB %PURPLE%+
-ItemDisplay[MAG ID CL6 (TABSK10=3 AND SK50=3)]:%PURPLE%+ %ORANGE%SHIVER ORB %PURPLE%+
-ItemDisplay[MAG ID CL6 (TABSK8=3 AND SK52=3)]:%PURPLE%+ %ORANGE%ENFLAME ORB %PURPLE%+
-ItemDisplay[MAG ID CL6 (TABSK9=3 AND SK57=3)]:%PURPLE%+ %ORANGE%DISCHARGE ORB %PURPLE%+
-ItemDisplay[MAG ID CL6 (TABSK9=3 AND SK58=3)]:%PURPLE%+ %ORANGE%E-SHIELD ORB %PURPLE%+
-ItemDisplay[MAG ID CL6 (TABSK8=3 AND SK62=3)]:%PURPLE%+ %ORANGE%HYDRA ORB %PURPLE%+
-ItemDisplay[MAG ID WP13 (TABSK25=3 AND SK102=3)]:%PURPLE%+ %ORANGE%HOLY FIRE SCEPTER %PURPLE%+
-ItemDisplay[MAG ID WP13 (TABSK25=3 AND SK114=3)]:%PURPLE%+ %ORANGE%HOLY FREEZE SCEPTER %PURPLE%+
-ItemDisplay[MAG ID WP13 (TABSK25=3 AND SK118=3)]:%PURPLE%+ %ORANGE%HOLY SHOCK SCEPTER %PURPLE%+
-ItemDisplay[MAG ID WP13 (TABSK25=3 AND SK119=3)]:%PURPLE%+ %ORANGE%SANCTUARY SCEPTER %PURPLE%+
-ItemDisplay[MAG ID WP13 (TABSK24=3 AND SK121=3)]:%PURPLE%+ %ORANGE%FOH SCEPTER %PURPLE%+
+// Amazon Javelins
+ItemDisplay[MAG (CLSK0>1 AND TABSK2>2) ZON]: %NAME% %GREEN%(+5 Jav)%BLUE% // +2 Amazon, +3 Javelin Skills Javelin
+ItemDisplay[MAG TABSK2>5 ZON]: %NAME% %GREEN%(+6 Jav)%BLUE% // +6 Javelin Skills Javelin
+
+// Assassin Katars
+//  +3 tab
+ItemDisplay[MAG TABSK50=3 SIN]: %NAME% %GREEN%(+3 MA)%BLUE%
+ItemDisplay[MAG TABSK49=3 SIN]: %NAME% %GREEN%(+3 SD)%BLUE%
+ItemDisplay[MAG TABSK48=3 SIN]: %NAME% %GREEN%(+3 Trap)%BLUE%
+
+//  +2 Sin / +3 skill
+ItemDisplay[MAG (CLSK6>1 AND SK254>2) SIN]: %NAME% %GREEN%(+5 TS)%BLUE% // +2 Assassin, +3 Tiger Strike katar
+ItemDisplay[MAG (CLSK6>1 AND SK265>2) SIN]: %NAME% %GREEN%(+5 CS)%BLUE% // +2 Assassin, +3 Cobra Strike katar
+ItemDisplay[MAG (CLSK6>1 AND SK269>2) SIN]: %NAME% %GREEN%(+5 CoT)%BLUE% // +2 Assassin, +3 Claws of Thunder katar
+ItemDisplay[MAG (CLSK6>1 AND SK275>2) SIN]: %NAME% %GREEN%(+5 DF)%BLUE% // +2 Assassin, +3 Dragon Flight katar
+ItemDisplay[MAG (CLSK6>1 AND SK280>2) SIN]: %NAME% %GREEN%(+5 PS)%BLUE% // +2 Assassin, +3 Phoenix Strike katar
+ItemDisplay[MAG (CLSK6>1 AND SK252>2) SIN]: %NAME% %GREEN%(+5 DCM)%BLUE% // +2 Assassin, +3 Dagger & Claw Mastery katar
+ItemDisplay[MAG (CLSK6>1 AND SK253>2) SIN]: %NAME% %GREEN%(+5 PH)%BLUE% // +2 Assassin, +3 Psychic Hammer katar
+ItemDisplay[MAG (CLSK6>1 AND SK273>2) SIN]: %NAME% %GREEN%(+5 MB)%BLUE% // +2 Assassin, +3 Mind Blast katar
+ItemDisplay[MAG (CLSK6>1 AND SK278>2) SIN]: %NAME% %GREEN%(+5 Ven)%BLUE% // +2 Assassin, +3 Venom katar
+ItemDisplay[MAG (CLSK6>1 AND SK262>2) SIN]: %NAME% %GREEN%(+5 WoF)%BLUE% // +2 Assassin, +3 Wake of Fire katar
+ItemDisplay[MAG (CLSK6>1 AND SK276>2) SIN]: %NAME% %GREEN%(+5 DS)%BLUE% // +2 Assassin, +3 Death Sentry katar
+ItemDisplay[MAG (CLSK6>1 AND SK271>2) SIN]: %NAME% %GREEN%(+5 CLS)%BLUE% // +2 Assassin, +3 Chain Lightning Sentry katar
+ItemDisplay[MAG (CLSK6>1 AND SK366>2) SIN]: %NAME% %GREEN%(+5 LS)%BLUE% // +2 Assassin, +3 Lightning Sentry katar
+
+//  +2 tab / +3 skill
+ItemDisplay[MAG (TABSK50=2 AND SK254=3) SIN]: %NAME% %GREEN%(+5 TS)%BLUE% // +2 Martial Arts, +3 Tiger Strike katar
+ItemDisplay[MAG (TABSK50=2 AND SK265=3) SIN]: %NAME% %GREEN%(+5 CS)%BLUE% // +2 Martial Arts, +3 Cobra Strike katar
+ItemDisplay[MAG (TABSK50=2 AND SK269=3) SIN]: %NAME% %GREEN%(+5 CoT)%BLUE% // +2 Martial Arts, +3 Claws of Thunder katar
+ItemDisplay[MAG (TABSK50=2 AND SK275=3) SIN]: %NAME% %GREEN%(+5 DF)%BLUE% // +2 Martial Arts, +3 Dragon Flight katar
+ItemDisplay[MAG (TABSK50=2 AND SK280=3) SIN]: %NAME% %GREEN%(+5 PS)%BLUE% // +2 Martial Arts, +3 Phoenix Strike katar
+ItemDisplay[MAG (TABSK49=2 AND SK252=3) SIN]: %NAME% %GREEN%(+5 DCM)%BLUE% // +2 Shadow Disciplines, +3 Dagger & Claw Mastery katar
+ItemDisplay[MAG (TABSK49=2 AND SK253=3) SIN]: %NAME% %GREEN%(+5 PH)%BLUE% // +2 Shadow Disciplines, +3 Psychic Hammer katar
+ItemDisplay[MAG (TABSK49=2 AND SK273=3) SIN]: %NAME% %GREEN%(+5 MB)%BLUE% // +2 Shadow Disciplines, +3 Mind Blast katar
+ItemDisplay[MAG (TABSK49=2 AND SK278=3) SIN]: %NAME% %GREEN%(+5 Ven)%BLUE% // +2 Shadow Disciplines, +3 Venom katar
+ItemDisplay[MAG (TABSK48=2 AND SK262=3) SIN]: %NAME% %GREEN%(+5 WoF)%BLUE% // +2 Trap, +3 Wake of Fire katar
+ItemDisplay[MAG (TABSK48=2 AND SK276=3) SIN]: %NAME% %GREEN%(+5 DS)%BLUE% // +2 Trap, +3 Death Sentry katar
+ItemDisplay[MAG (TABSK48=2 AND SK271=3) SIN]: %NAME% %GREEN%(+5 CLS)%BLUE% // +2 Trap, +3 Chain Lightning Sentry katar
+ItemDisplay[MAG (TABSK48=2 AND SK366=3) SIN]: %NAME% %GREEN%(+5 LS)%BLUE% // +2 Trap, +3 Lightning Sentry katar
+
+//  +3 tab / +2 skill
+ItemDisplay[MAG (TABSK50=3 AND SK254=2) SIN]: %NAME% %GREEN%(+5 TS)%BLUE% // +3 Martial Arts, +2 Tiger Strike katar
+ItemDisplay[MAG (TABSK50=3 AND SK265=2) SIN]: %NAME% %GREEN%(+5 CS)%BLUE% // +3 Martial Arts, +2 Cobra Strike katar
+ItemDisplay[MAG (TABSK50=3 AND SK269=2) SIN]: %NAME% %GREEN%(+5 CoT)%BLUE% // +3 Martial Arts, +2 Claws of Thunder katar
+ItemDisplay[MAG (TABSK50=3 AND SK275=2) SIN]: %NAME% %GREEN%(+5 DF)%BLUE% // +3 Martial Arts, +2 Dragon Flight katar
+ItemDisplay[MAG (TABSK50=3 AND SK280=2) SIN]: %NAME% %GREEN%(+5 PS)%BLUE% // +3 Martial Arts, +2 Phoenix Strike katar
+ItemDisplay[MAG (TABSK49=3 AND SK252=2) SIN]: %NAME% %GREEN%(+5 DCM)%BLUE% // +3 Shadow Disciplines, +2 Dagger & Claw Mastery katar
+ItemDisplay[MAG (TABSK49=3 AND SK253=2) SIN]: %NAME% %GREEN%(+5 PH)%BLUE% // +3 Shadow Disciplines, +2 Psychic Hammer katar
+ItemDisplay[MAG (TABSK49=3 AND SK273=2) SIN]: %NAME% %GREEN%(+5 MB)%BLUE% // +3 Shadow Disciplines, +2 Mind Blast katar
+ItemDisplay[MAG (TABSK49=3 AND SK278=2) SIN]: %NAME% %GREEN%(+5 Ven)%BLUE% // +3 Shadow Disciplines, +2 Venom katar
+ItemDisplay[MAG (TABSK48=3 AND SK262=2) SIN]: %NAME% %GREEN%(+5 WoF)%BLUE% // +3 Trap, +2 Wake of Fire katar
+ItemDisplay[MAG (TABSK48=3 AND SK276=2) SIN]: %NAME% %GREEN%(+5 DS)%BLUE% // +3 Trap, +2 Death Sentry katar
+ItemDisplay[MAG (TABSK48=3 AND SK271=2) SIN]: %NAME% %GREEN%(+5 CLS)%BLUE% // +3 Trap, +2 Chain Lightning Sentry katar
+ItemDisplay[MAG (TABSK48=3 AND SK366=2) SIN]: %NAME% %GREEN%(+5 LS)%BLUE% // +3 Trap, +2 Lightning Sentry katar
+
+//  +3 tab / +3 skill
+ItemDisplay[MAG (TABSK50=3 AND SK254=3) SIN]: %NAME% %GREEN%(+5 TS)%BLUE% // +3 Martial Arts, +3 Tiger Strike katar
+ItemDisplay[MAG (TABSK50=3 AND SK265=3) SIN]: %NAME% %GREEN%(+5 CS)%BLUE% // +3 Martial Arts, +3 Cobra Strike katar
+ItemDisplay[MAG (TABSK50=3 AND SK269=3) SIN]: %NAME% %GREEN%(+5 CoT)%BLUE% // +3 Martial Arts, +3 Claws of Thunder katar
+ItemDisplay[MAG (TABSK50=3 AND SK275=3) SIN]: %NAME% %GREEN%(+5 DF)%BLUE% // +3 Martial Arts, +3 Dragon Flight katar
+ItemDisplay[MAG (TABSK50=3 AND SK280=3) SIN]: %NAME% %GREEN%(+5 PS)%BLUE% // +3 Martial Arts, +3 Phoenix Strike katar
+ItemDisplay[MAG (TABSK49=3 AND SK252=3) SIN]: %NAME% %GREEN%(+5 DCM)%BLUE% // +3 Shadow Disciplines, +3 Dagger & Claw Mastery katar
+ItemDisplay[MAG (TABSK49=3 AND SK253=3) SIN]: %NAME% %GREEN%(+6 PH)%BLUE% // +3 Shadow Disciplines, +3 Psychic Hammer katar
+ItemDisplay[MAG (TABSK49=3 AND SK273=3) SIN]: %NAME% %GREEN%(+6 MB)%BLUE% // +3 Shadow Disciplines, +3 Mind Blast katar
+ItemDisplay[MAG (TABSK49=3 AND SK278=3) SIN]: %NAME% %GREEN%(+6 Ven)%BLUE% // +3 Shadow Disciplines, +3 Venom katar
+ItemDisplay[MAG (TABSK48=3 AND SK262=3) SIN]: %NAME% %GREEN%(+6 WoF)%BLUE% // +3 Trap, +3 Wake of Fire katar
+ItemDisplay[MAG (TABSK48=3 AND SK276=3) SIN]: %NAME% %GREEN%(+6 DS)%BLUE% // +3 Trap, +3 Death Sentry katar
+ItemDisplay[MAG (TABSK48=3 AND SK271=3) SIN]: %NAME% %GREEN%(+6 CLS)%BLUE% // +3 Trap, +3 Chain Lightning Sentry katar
+ItemDisplay[MAG (TABSK48=3 AND SK366=3) SIN]: %NAME% %GREEN%(+6 LS)%BLUE% // +3 Trap, +3 Lightning Sentry katar
+
+// Barbarian helms
+ItemDisplay[MAG (CLSK4>1 AND SK149>2) BAR]: %NAME% %GREEN%(+2/3 BO)%BLUE% // +2 Barbarian, +3 Battle Orders Barb helm
+ItemDisplay[MAG (CLSK4>1 AND SK154>2) BAR]: %NAME% %GREEN%(+2/3 Warcry)%BLUE% // +2 Barbarian, +3 Warcry Barb helm
+
+// Gloves
+ItemDisplay[MAG (TABSK2>2 AND IAS>19) GLOVES]: %NAME% %GREEN%(3/20)%BLUE% // +3 Javelin Skills, 20 IAS Gloves
+ItemDisplay[MAG (TABSK0=2 OR TABSK1=2 OR TABSK2=2 OR TABSK50=2) IAS>19 GLOVES]: %NAME% %GREEN%(2/20)%BLUE% // +2 tab skills, 20 IAS Gloves
+ItemDisplay[MAG (TABSK0=3 OR TABSK1=3 OR TABSK2=3 OR TABSK50=3) IAS>19 GLOVES]: %NAME% %GREEN%(3/20)%BLUE% // +3 tab skills, 20 IAS Gloves
+
+ItemDisplay[MAG TABSK34>2 WEAPON]: %NAME% %GREEN%(+3 Warcries)%BLUE% // +3 Warcries weapon
+
+// Staves with charges
+ItemDisplay[MAG CHSK54>0 STAFF]: %NAME% %GREEN%(Teleport)%BLUE% // Teleport charges
+ItemDisplay[MAG CHSK357>0 STAFF]: %NAME% %GREEN%(Blink)%BLUE% // Blink charges
+
+// Wands with charges
+ItemDisplay[MAG CHSK66>0 WAND]: %NAME% %GREEN%(Amp Dmg)%BLUE% // Amplify Damage charges
+ItemDisplay[MAG CHSK86>0 WAND]: %NAME% %GREEN%(Attract)%BLUE% // Attract charges
+//ItemDisplay[MAG CHSK81>0 WAND]: %NAME% %GREEN%(Confuse)%BLUE% // Confuse charges
+ItemDisplay[MAG CHSK87>0 WAND]: %NAME% %GREEN%(Decrep)%BLUE% // Decrepify charges
+//ItemDisplay[MAG CHSK71>0 WAND]: %NAME% %GREEN%(Dim Vis)%BLUE% // Dim Vision charges
+//ItemDisplay[MAG CHSK76>0 WAND]: %NAME% %GREEN%(Iron Maid)%BLUE% // Iron Maiden charges
+ItemDisplay[MAG CHSK82>0 WAND]: %NAME% %GREEN%(Life Tap)%BLUE% // Life tap charges
+ItemDisplay[MAG CHSK91>0 WAND]: %NAME% %GREEN%(Lower Res)%BLUE% // Lower Resist charges
+//ItemDisplay[MAG CHSK77>0 WAND]: %NAME% %GREEN%(Terror)%BLUE% // Terror charges
+ItemDisplay[MAG CHSK72>0 WAND]: %NAME% %GREEN%(Weaken)%BLUE% // Weaken charges
 //╔═══════╗
 //║ Bases ║
 //╚═══════╝
