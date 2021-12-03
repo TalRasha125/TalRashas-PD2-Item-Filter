@@ -969,6 +969,47 @@ ItemDisplay[MAG CHSK82>0 WAND]: %NAME% %GREEN%(Life Tap)%BLUE% // Life tap charg
 ItemDisplay[MAG CHSK91>0 WAND]: %NAME% %GREEN%(Lower Res)%BLUE% // Lower Resist charges
 //ItemDisplay[MAG CHSK77>0 WAND]: %NAME% %GREEN%(Terror)%BLUE% // Terror charges
 ItemDisplay[MAG CHSK72>0 WAND]: %NAME% %GREEN%(Weaken)%BLUE% // Weaken charges
+
+// Wands
+// --- Curses
+ItemDisplay[NMAG !INF !RW SK66>2 WAND]: %NAME%%DOT-20%%PX-00%{%NAME%} // Amplify Damage
+//ItemDisplay[NMAG !INF !RW SK71>2 WAND]: %NAME%%DOT-20%%PX-00%{%NAME%} // Dim Vision
+//ItemDisplay[NMAG !INF !RW SK72>2 WAND]: %NAME%%DOT-20%%PX-00%{%NAME%} // Weaken
+ItemDisplay[NMAG !INF !RW SK76>2 WAND]: %NAME%%DOT-20%%PX-00%{%NAME%} // Iron Maiden
+//ItemDisplay[NMAG !INF !RW SK77>2 WAND]: %NAME%%DOT-20%%PX-00%{%NAME%} // Terror
+//ItemDisplay[NMAG !INF !RW SK81>2 WAND]: %NAME%%DOT-20%%PX-00%{%NAME%} // Confuse
+ItemDisplay[NMAG !INF !RW SK82>2 WAND]: %NAME%%DOT-20%%PX-00%{%NAME%} // Life Tap
+//ItemDisplay[NMAG !INF !RW SK86>2 WAND]: %NAME%%DOT-20%%PX-00%{%NAME%} // Attract
+ItemDisplay[NMAG !INF !RW SK87>2 WAND]: %NAME%%DOT-20%%PX-00%{%NAME%} // Decrepify
+ItemDisplay[NMAG !INF !RW SK91>2 WAND]: %NAME%%DOT-20%%PX-00%{%NAME%} // Lower Resist
+ItemDisplay[NMAG !INF !RW SK374>2 WAND]: %NAME%%DOT-20%%PX-00%{%NAME%} // Curse Mastery
+ItemDisplay[NMAG !INF !RW SK381>2 WAND]: %NAME%%DOT-20%%PX-00%{%NAME%} // Dark Pact
+//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=2 SK381>2 WAND]: %NAME%%DOT-20%%PX-00%{%NAME%} // Dark Pact (Superior Ethereal 2 socket example)
+
+// --- Poison and Bone
+ItemDisplay[NMAG !INF !RW SK67>2 WAND]: %NAME%%DOT-20%%PX-00%{%NAME%} // Teeth
+//ItemDisplay[NMAG !INF !RW SK68>2 WAND]: %NAME%%DOT-20%%PX-00%{%NAME%} // Bone Armor
+ItemDisplay[NMAG !INF !RW SK73>2 WAND]: %NAME%%DOT-20%%PX-00%{%NAME%} // Poison Dagger
+ItemDisplay[NMAG !INF !RW SK74>2 WAND]: %NAME%%DOT-20%%PX-00%{%NAME%} // Corpse Explosion
+//ItemDisplay[NMAG !INF !RW SK78>2 WAND]: %NAME%%DOT-20%%PX-00%{%NAME%} // Bone Wall
+ItemDisplay[NMAG !INF !RW SK83>2 WAND]: %NAME%%DOT-20%%PX-00%{%NAME%} // Desecrate
+ItemDisplay[NMAG !INF !RW SK84>2 WAND]: %NAME%%DOT-20%%PX-00%{%NAME%} // Bone Spear
+//ItemDisplay[NMAG !INF !RW SK88>2 WAND]: %NAME%%DOT-20%%PX-00%{%NAME%} // Bone Prison
+ItemDisplay[NMAG !INF !RW SK92>2 WAND]: %NAME%%DOT-20%%PX-00%{%NAME%} // Poison Nova
+ItemDisplay[NMAG !INF !RW SK93>2 WAND]: %NAME%%DOT-20%%PX-00%{%NAME%} // Bone Spirit
+
+// --- Summoning
+ItemDisplay[NMAG !INF !RW SK69>2 WAND]: %NAME%%DOT-20%%PX-00%{%NAME%} // Skeleton Mastery
+ItemDisplay[NMAG !INF !RW SK70>2 WAND]: %NAME%%DOT-20%%PX-00%{%NAME%} // Raise Skeleton Warrior
+ItemDisplay[NMAG !INF !RW SK75>2 WAND]: %NAME%%DOT-20%%PX-00%{%NAME%} // Clay Golem
+ItemDisplay[NMAG !INF !RW SK79>2 WAND]: %NAME%%DOT-20%%PX-00%{%NAME%} // Golem Mastery
+ItemDisplay[NMAG !INF !RW SK80>2 WAND]: %NAME%%DOT-20%%PX-00%{%NAME%} // Raise Skeletal Mage
+ItemDisplay[NMAG !INF !RW SK85>2 WAND]: %NAME%%DOT-20%%PX-00%{%NAME%} // Blood Golem
+ItemDisplay[NMAG !INF !RW SK89>2 WAND]: %NAME%%DOT-20%%PX-00%{%NAME%} // Raise Skeleton Archer
+ItemDisplay[NMAG !INF !RW SK90>2 WAND]: %NAME%%DOT-20%%PX-00%{%NAME%} // Iron Golem
+ItemDisplay[NMAG !INF !RW SK94>2 WAND]: %NAME%%DOT-20%%PX-00%{%NAME%} // Fire Golem
+ItemDisplay[NMAG !INF !RW SK95>2 WAND]: %NAME%%DOT-20%%PX-00%{%NAME%} // Revive
+//ItemDisplay[NMAG !INF !RW SK367>2 WAND]: %NAME%%DOT-20%%PX-00%{%NAME%} // Blood Warp
 //╔═══════╗
 //║ Bases ║
 //╚═══════╝
