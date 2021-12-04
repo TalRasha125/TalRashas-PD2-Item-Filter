@@ -1,7 +1,7 @@
 //++++++++++++++++++++++++++
 //TalRasha's PD2 Item Filter Default Version
 //++++++++++++++++++++++++++
-//Updated December 3, 2021
+//Updated December 4, 2021
 //
 //╔═══════════════════╗
 //║ Table of Contents ║
@@ -86,6 +86,8 @@ ItemDisplay[aqv NMAG]:
 ItemDisplay[cqv NMAG]:
 ItemDisplay[aqv MAG CLVL<50]:%BLUE%* %NAME% *
 ItemDisplay[cqv MAG CLVL<50]:%BLUE%* %NAME% *
+ItemDisplay[aqv MAG CLVL>49]://%BLUE%* %NAME% *
+ItemDisplay[cqv MAG CLVL>49]://%BLUE%* %NAME% *
 ItemDisplay[aqv RARE]:%YELLOW%o %NAME% o
 ItemDisplay[cqv RARE]:%YELLOW%o %NAME% o
 ItemDisplay[tsc CLVL<41]:%GREEN%!%WHITE%TP
