@@ -1,7 +1,7 @@
 //++++++++++++++++++++++++++
 //TalRasha's PD2 Item Filter Default Version
 //++++++++++++++++++++++++++
-//Updated December 4, 2021
+//Updated December 3, 2021
 //
 //╔═══════════════════╗
 //║ Table of Contents ║
@@ -1062,8 +1062,8 @@ ItemDisplay[NMAG SOCK=3 ED=15 xtp]:%WHITE%%NAME%%MAP-97%%GREEN% 15 ED %WHITE%%MA
 //Shields
 //4os Monarch, Monarch
 ItemDisplay[uit !ETH SOCK=4 NMAG]:%DARK_GREEN%%NAME%%MAP-97%%WHITE% 
-ItemDisplay[uit !ETH SOCK=0 NMAG CLVL<80]:%WHITE%%NAME%
-ItemDisplay[uit NMAG CLVL>79]:
+ItemDisplay[uit !ETH SOCK=0 NMAG CLVL<90]:%WHITE%%NAME%
+ItemDisplay[uit NMAG CLVL>89]:
 //Dragon Shield
 ItemDisplay[xit !ETH SOCK=3 NMAG]:%DARK_GREEN%%NAME%%MAP-97%%WHITE%  
 ItemDisplay[xit NMAG CLVL>79]:
