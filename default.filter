@@ -84,11 +84,10 @@ ItemDisplay[mp4 CLVL>59]:
 //Arrows/Bolts
 ItemDisplay[aqv NMAG]:
 ItemDisplay[cqv NMAG]:
-ItemDisplay[aqv MAG CLVL<50]:%BLUE%*** %NAME% ***%DOT-62%%BORDER-4B%
-ItemDisplay[cqv MAG CLVL <50]:%BLUE%*** %NAME% ***%DOT-62%%BORDER-4B%
-ItemDisplay[aqv RARE]:%YELLOW%ooo %NAME% ooo%DOT-62%%BORDER-4B%
-ItemDisplay[cqv RARE]:%YELLOW%ooo %NAME% ooo%DOT-62%%BORDER-4B%
-//Utility
+ItemDisplay[aqv MAG CLVL<50]:%BLUE%* %NAME% *
+ItemDisplay[cqv MAG CLVL<50]:%BLUE%* %NAME% *
+ItemDisplay[aqv RARE]:%YELLOW%o %NAME% o
+ItemDisplay[cqv RARE]:%YELLOW%o %NAME% o
 ItemDisplay[tsc CLVL<41]:%GREEN%!%WHITE%TP
 ItemDisplay[tsc CLVL>40]:
 ItemDisplay[isc CLVL<41]:%GREEN%!%WHITE%ID
