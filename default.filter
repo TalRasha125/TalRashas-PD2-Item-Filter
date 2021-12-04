@@ -183,10 +183,10 @@ ItemDisplay[r33 OR r33s]:%RED%*%YELLOW%*%GREEN%*%BLUE%* %RED%ooooo %PURPLE%Zod 3
 //╔══════════╗
 //║ Essences ║
 //╚══════════╝
-ItemDisplay[bet]: %RED%o %GOLD%%NAME%%RED% o %MAP-00%// Burning Essence of Terror
-ItemDisplay[ceh]: %RED%o %GOLD%%NAME%%RED% o %MAP-00%// Charged Essence of Hatred
-ItemDisplay[fed]:%RED%*%YELLOW%*%GREEN%*%BLUE%* %RED%o %GOLD%%NAME%%RED% o %RED%*%YELLOW%*%GREEN%*%BLUE%*%MAP-00%// Festering Essence of Destruction
-ItemDisplay[tes]: %RED%o %GOLD%%NAME%%RED% o %MAP-00%// Twisted Essence of Suffering
+ItemDisplay[bet]:%RED%o %GOLD%%NAME%%RED% o %MAP-00%// Burning Essence of Terror
+ItemDisplay[ceh]:%RED%o %GOLD%%NAME%%RED% o %MAP-00%// Charged Essence of Hatred
+ItemDisplay[fed]:%RED%o %GOLD%%NAME%%RED% o %MAP-00%// Festering Essence of Destruction
+ItemDisplay[tes]:%RED%o %GOLD%%NAME%%RED% o %MAP-00%// Twisted Essence of Suffering
 // Tokens
 ItemDisplay[toa]:%PURPLE%*Token of Absolution*{%TAN%Right click to reset skills and stats}%MAP-00% // Token of Absolution
 //╔═══════════╗
@@ -213,7 +213,7 @@ ItemDisplay[dcso]:%RED%*%YELLOW%*%GREEN%*%BLUE%* %RED%o %PURPLE%Prime Evil Soul 
 //╔══════════════════╗
 //║ Corruption Items ║
 //╚══════════════════╝
-ItemDisplay[wss]:%RED%o %PURPLE%Worldstone Shard%RED% o %WHITE%(X %QTY%)%MAP-62%%PX-20%
+ItemDisplay[wss]:%RED%o %PURPLE%Worldstone Shard%RED% o %WHITE%(x %QTY%)%MAP-62%%PX-20%
 ItemDisplay[lbox]:%RED%*%YELLOW%*%GREEN%*%BLUE%* %RED%ooo %PURPLE%Larzuk's Puzzle Box %RED%ooo %RED%*%YELLOW%*%GREEN%*%BLUE%*%DOT-62%%BORDER-4B%
 ItemDisplay[cwss]:%RED%*%YELLOW%*%GREEN%*%BLUE%* %RED%ooo %PURPLE%Tainted Worldstone Shard %RED%ooo %RED%*%YELLOW%*%GREEN%*%BLUE%*%DOT-62%%BORDER-4B%
 //╔══════════════╗
@@ -381,7 +381,7 @@ ItemDisplay[UNI !ID drb]:%RED%o %PURPLE%Cerebus' Bite %RED%o%BORDER-A5%%DOT-62%
 //Ravenlore
 ItemDisplay[UNI !ID dre]:%RED%o %PURPLE%Ravenlore %RED%o%BORDER-A5%%DOT-62% 
 //Steel Shade
-ItemDisplay[UNI !ID ulm]:%RED%*%YELLOW%*%GREEN%*%BLUE%* %RED%o %PURPLE%Steel Shade %RED%o %RED%*%YELLOW%*%GREEN%*%BLUE%*%DOT-0C%%BORDER-4B%
+ItemDisplay[UNI !ID ulm]:%RED%o %PURPLE%Steel Shade %RED%o%DOT-0C%%BORDER-4B%
 //Stealskull
 ItemDisplay[UNI !ID xlm]:%RED%* %GOLD%Stealskull%RED% *%BORDER-A5%%DOT-62% 
 /////////
@@ -407,7 +407,7 @@ ItemDisplay[UNI !ID utu]:%RED%o %PURPLE%Gladiator's Bane %RED%o%BORDER-A5%%DOT-6
 //Ormus' Robes
 ItemDisplay[UNI !ID uui]:%RED%o %PURPLE%Ormus' Robes %RED%o%BORDER-A5%%DOT-62% 
 //Viper Magi
-ItemDisplay[UNI !ID xea]:%RED%*%YELLOW%*%GREEN%*%BLUE%* %RED%o %PURPLE%Skin of the Vipermagi %RED%o %RED%*%YELLOW%*%GREEN%*%BLUE%*%DOT-0C%%BORDER-4B%
+ItemDisplay[UNI !ID xea]:%RED%o %PURPLE%Skin of the Vipermagi %RED%o%DOT-0C%%BORDER-4B%
 //Leviathan
 ItemDisplay[UNI !ID uld]:%RED%o %PURPLE%Leviathan %RED%o%BORDER-A5%%DOT-62% 
 //Duriel's Shell
@@ -694,7 +694,7 @@ ItemDisplay[MAG !ID rin]:%BLUE%* %NAME% *%WHITE%
 //
 //Blue Jewels for crafting
 ItemDisplay[MAG !ID jew]:%BLUE%* %BLUE%o Jewel o %BLUE%*%MAP-97%%PX-62%
-ItemDisplay[MAG !ID jewf]:%BLUE%* %BLUE%Jewel Fragments %BLUE%* %WHITE%(X %QTY%)%MAP-97%%PX-62%
+ItemDisplay[MAG jewf]:%BLUE%* %BLUE%Jewel Fragments %BLUE%* %WHITE%(x %QTY%)%MAP-97%%PX-62%
 //
 ItemDisplay[MAG LVLREQ<31 ED>19 jew]: %NAME%{%ORANGE%Note:%TAN% Good for LLD} // 20% Enhanced Damage
 ItemDisplay[MAG LVLREQ<31 ED>14 MAXDMG>12 jew]: %NAME%{%ORANGE%Note:%TAN% Good for LLD} // 15%+ Enhanced Damage and 13+ Maximum Damage
