@@ -1,7 +1,7 @@
 //++++++++++++++++++++++++++
 //TalRasha's PD2 Item Filter Default Version
 //++++++++++++++++++++++++++
-//Updated December 3, 2021
+//Updated December 9, 2021
 //
 //╔═══════════════════╗
 //║ Table of Contents ║
@@ -1021,12 +1021,12 @@ ItemDisplay[INF ILVL<10 !RW !leg]:%NAME%
 ItemDisplay[NMAG ci2 !ETH SOCK=0]:%NAME%
 ItemDisplay[NMAG ci2 !ETH SOCK=1]://%NAME%
 ItemDisplay[NMAG ci2 !ETH SOCK=2]:%NAME%
-ItemDisplay[NMAG ci2 !ETH SOCK=3]:%NAME%
+ItemDisplay[NMAG ci2 SOCK=3]:%NAME%
 //Diadem
 ItemDisplay[NMAG ci3 !ETH SOCK=0]:%NAME%
 ItemDisplay[NMAG ci3 !ETH SOCK=1]://%NAME%
 ItemDisplay[NMAG ci3 !ETH SOCK=2]:%NAME%
-ItemDisplay[NMAG ci3 !ETH SOCK=3]:%NAME%
+ItemDisplay[NMAG ci3 SOCK=3]:%NAME%
 //
 //Armor
 //Hide Non Eth Medium and Heavy Bases
@@ -1339,8 +1339,8 @@ ItemDisplay[NMAG SOCK=3 !ETH msk]:%NAME%
 ItemDisplay[NMAG SOCK=3 !ETH xsk]:%NAME% 
 //
 //103-106 str helms for archon plate builds
-ItemDisplay[NMAG SOCK=3 !ETH usk]:%DARK_GREEN%%NAME% %YELLOW%
-ItemDisplay[NMAG SOCK=3 !ETH uh9]:%DARK_GREEN%%NAME% %YELLOW%
+ItemDisplay[NMAG SOCK=3 usk]:%DARK_GREEN%%NAME% %YELLOW%
+ItemDisplay[NMAG SOCK=3 uh9]:%DARK_GREEN%%NAME% %YELLOW%
 //
 //Low STR LORE base - ILVL appropriate
 ItemDisplay[NMAG SOCK=2 !ETH cap ILVL<20]:%NAME% 
