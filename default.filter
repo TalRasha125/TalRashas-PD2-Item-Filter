@@ -542,7 +542,7 @@ ItemDisplay[UNI !ID 7lw]:%RED%o %GOLD%Firelizard's Talons %RED%o%BORDER-A5%%DOT-
 //The Oculus
 ItemDisplay[UNI !ID oba]:%RED%*%YELLOW%*%GREEN%*%BLUE%* %RED%o %PURPLE%The Oculus%RED% o %RED%*%YELLOW%*%GREEN%*%BLUE%*%BORDER-A5%%DOT-62% 
 //Shadow Killer
-ItemDisplay[UNI !ID 7cs]:%RED%*%YELLOW%*%GREEN%*%BLUE%* %RED%o %PURPLE%Shadow Killer %RED%o %RED%*%YELLOW%*%GREEN%*%BLUE%*%DOT-0C%%BORDER-4B%
+ItemDisplay[UNI !ID 7cs]:%RED%o %PURPLE%Shadow Killer %RED%o%DOT-0C%%BORDER-4B%
 //Death's Fathom
 ItemDisplay[UNI !ID obf]:%RED%*%YELLOW%*%GREEN%*%BLUE%* %RED%o %PURPLE%Death's Fathom %RED%o %RED%*%YELLOW%*%GREEN%*%BLUE%*%DOT-0C%%BORDER-4B%
 //Death's Web
@@ -602,11 +602,11 @@ ItemDisplay[UNI !ID pac]:%RED%o %PURPLE%Alma Negra %RED%o%BORDER-A5%%DOT-62%
 //Radament's Sphere
 ItemDisplay[UNI !ID xts]:%RED%o %GOLD%Radament's Sphere %RED%o%BORDER-A5%%DOT-62% 
 //Lidless Wall
-ItemDisplay[UNI !ID xsh]:%RED%*%YELLOW%*%GREEN%*%BLUE%* %RED%o %PURPLE%Lidless Wall %RED%o %RED%*%YELLOW%*%GREEN%*%BLUE%*%DOT-0C%%BORDER-4B%
+ItemDisplay[UNI !ID xsh]:%RED%o %PURPLE%Lidless Wall %RED%o%DOT-0C%%BORDER-4B%
 //Gerke's Sanctuary
-ItemDisplay[UNI !ID xow]:%RED%*%YELLOW%*%GREEN%*%BLUE%* %RED%o %PURPLE%Gerke's Sanctuary %RED%o %RED%*%YELLOW%*%GREEN%*%BLUE%*%DOT-0C%%BORDER-4B%
+ItemDisplay[UNI !ID xow]:%RED%o %PURPLE%Gerke's Sanctuary %RED%o%DOT-0C%%BORDER-4B%
 //Spirit Ward
-ItemDisplay[UNI !ID uts]:%RED%*%YELLOW%*%GREEN%*%BLUE%* %RED%o %PURPLE%Spirit Ward %RED%o %RED%*%YELLOW%*%GREEN%*%BLUE%*%DOT-0C%%BORDER-4B%
+ItemDisplay[UNI !ID uts]:%RED%o %PURPLE%Spirit Ward %RED%o%DOT-0C%%BORDER-4B%
 //╔══════╗
 //║ Sets ║
 //╚══════╝
