@@ -1,7 +1,7 @@
 //++++++++++++++++++++++++++
 //TalRasha's PD2 Item Filter Default Version
 //++++++++++++++++++++++++++
-//Updated December 9, 2021
+//Updated December 11, 2021
 //
 //╔═══════════════════╗
 //║ Table of Contents ║
@@ -199,8 +199,9 @@ ItemDisplay[dhn]:%PURPLE%Diablo's Horn%MAP-4B%
 ItemDisplay[bey]:%PURPLE%Baal's Eye%MAP-4B%
 ItemDisplay[mbr]:%PURPLE%Mephisto's Brain%MAP-4B%
 ItemDisplay[ubtm]:%PURPLE%Pandemonium Talisman%MAP-4B%				// Pandemonium Talisman (Uber Tristram)
-ItemDisplay[rtma]:%PURPLE%NAME%MAP-4B%							//Summon Rathma
-ItemDisplay[rtmo]:%PURPLE%%NAME%%MAP-4B%						//Rathma Ingredient
+ItemDisplay[rtma]:%RED%o %PURPLE%NAME% %RED%oMAP-4B%							//Summon Rathma
+ItemDisplay[rtmo]:%RED%o %PURPLE%%NAME% %RED%o%MAP-4B%						//Rathma Ingredient
+ItemDisplay[rtmv]:%RED%o %PURPLE%%NAME% %RED%o%MAP-4B%						//Rathma Ingredient
 ItemDisplay[rid]:%RED%o %PURPLE%%NAME%%RED% o%MAP-4B%				//unlimited id tome
 ItemDisplay[rtp]:%RED%o %PURPLE%%NAME%%RED% o%MAP-4B%				//unlimited tp tome
 //╔══════════════╗ 
