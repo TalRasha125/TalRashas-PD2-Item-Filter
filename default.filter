@@ -1,7 +1,7 @@
 //++++++++++++++++++++++++++
 //TalRasha's PD2 Item Filter Default Version
 //++++++++++++++++++++++++++
-//Updated December 11, 2021
+//Updated December 15, 2021
 //
 //╔═══════════════════╗
 //║ Table of Contents ║
@@ -416,10 +416,7 @@ ItemDisplay[UNI !ID xrs]:%RED%o %PURPLE%Duriel's Shell %RED%*%BORDER-A5%%DOT-62%
 //Shaftstop
 ItemDisplay[UNI !ID xhn]:%RED%o %PURPLE%Shaftstop %RED%*%BORDER-A5%%DOT-62% 
 //Tyrael's Might
-ItemDisplay[UNI !ETH !ID ILVL>86 uar]:%RED%*%YELLOW%*%GREEN%*%BLUE%* %RED%ooooo %PURPLE%Tyrael's Might?%RED% ooooo %RED%*%YELLOW%*%GREEN%*%BLUE%*%DOT-0C%%BORDER-4B%
-ItemDisplay[UNI ETH !ID ILVL>86 uar]:%RED%*%YELLOW%*%GREEN%*%BLUE%* %RED%ooooo %PURPLE%Eth Templar's Might%RED% ooooo %RED%*%YELLOW%*%GREEN%*%BLUE%*%DOT-0C%%BORDER-4B%
-ItemDisplay[UNI !ETH !ID ILVL<87 uar]:%RED%*%YELLOW%*%GREEN%*%BLUE%* %RED%ooooo %PURPLE%Templar's Might%RED% ooooo %RED%*%YELLOW%*%GREEN%*%BLUE%*%DOT-0C%%BORDER-4B%
-ItemDisplay[UNI ETH !ID ILVL<87 uar]:%RED%*%YELLOW%*%GREEN%*%BLUE%* %RED%ooooo %PURPLE%Eth Templar's Might%RED% ooooo %RED%*%YELLOW%*%GREEN%*%BLUE%*%DOT-0C%%BORDER-4B%
+ItemDisplay[UNI !ID uar]:%RED%*%YELLOW%*%GREEN%*%BLUE%* %RED%ooo %PURPLE%U%RED%n%YELLOW%i%GREEN%q%BLUE%u%PURPLE%e %GOLD%%NAME% %RED%ooo %RED%*%YELLOW%*%GREEN%*%BLUE%*%DOT-0C%%BORDER-4B%
 //Guardian Angel
 ItemDisplay[UNI !ID xlt]:%RED%o %PURPLE%Guardian Angel %RED%o%BORDER-A5%%DOT-62% 
 //////////
@@ -459,7 +456,7 @@ ItemDisplay[UNI !ID ztb]:%RED%o %PURPLE%Snowclash %RED%o%BORDER-A5%%DOT-62%
 //Nosferatu's Coil
 ItemDisplay[UNI !ID uvc]:%RED%o %PURPLE%Nosferatu's Coil %RED%o%BORDER-A5%%DOT-62% 
 //Arachnid Mesh
-ItemDisplay[UNI !ID ulc]:%RED%*%YELLOW%*%GREEN%*%BLUE%* %RED%ooo %PURPLE%Arachnid Mesh%RED% ooo %RED%*%YELLOW%*%GREEN%*%BLUE%*%DOT-0C%%BORDER-4B%
+ItemDisplay[UNI !ID ulc]:%RED%*%YELLOW%*%GREEN%*%BLUE%* %RED%ooo %PURPLE%U%RED%n%YELLOW%i%GREEN%q%BLUE%u%PURPLE%e %GOLD%%NAME% %RED%ooo %RED%*%YELLOW%*%GREEN%*%BLUE%*%DOT-0C%%BORDER-4B%
 //Verdungo's Hearty Cord
 ItemDisplay[UNI !ID umc]:%RED%o %PURPLE%Verdungo's Hearty Cord %RED%o%BORDER-A5%%DOT-62% 
 //String of Ears
@@ -486,7 +483,7 @@ ItemDisplay[UNI !ID xvb]:%RED%o %PURPLE%Waterwalk %RED%o%BORDER-A5%%DOT-62%
 //Silkweave
 ItemDisplay[UNI !ID xmb]:%RED%o %PURPLE%Silkweave %RED%o%BORDER-A5%%DOT-62% 
 //War Traveler
-ItemDisplay[UNI !ID xtb]:%RED%*%YELLOW%*%GREEN%*%BLUE%* %RED%ooo %PURPLE%War Traveler%RED% ooo %RED%*%YELLOW%*%GREEN%*%BLUE%*%DOT-0C%%BORDER-4B%
+ItemDisplay[UNI !ID xtb]:%RED%*%YELLOW%*%GREEN%*%BLUE%* %RED%o %PURPLE%War Traveler%RED% o %RED%*%YELLOW%*%GREEN%*%BLUE%*%DOT-0C%%BORDER-4B%
 //Shadow Dancer
 ItemDisplay[UNI !ID uhb]:%RED%o %PURPLE%Shadow Dancer %RED%o%DOT-0C%%BORDER-4B%
 //Sandstorm Trek
@@ -508,7 +505,7 @@ ItemDisplay[UNI !ID 7ts ETH]:%RED%o %PURPLE%Eth Gargoyle's Bite %RED%o%BORDER-A5
 //Earthshaker
 ItemDisplay[UNI !ID 9wh]:%RED%o %PURPLE%Earthshaker %RED%o%BORDER-A5%%DOT-62% 
 //Arm of King Leoric
-ItemDisplay[UNI !ID 9bw]:%RED%o %GOLD%Arm of King Leoric %RED%o%BORDER-A5%%DOT-62% 
+ItemDisplay[UNI !ID 9bw]:%RED%o %PURPLE%Arm of King Leoric %RED%o%BORDER-A5%%DOT-62% 
 //Gavel of Pain
 ItemDisplay[UNI !ID 9gm]:%RED%o %PURPLE%Gavel of Pain %RED%o%BORDER-A5%%DOT-62% 
 //Gull
@@ -540,7 +537,7 @@ ItemDisplay[UNI !ID 7wb]:%RED%o %GOLD%Jade Talon %RED%o%BORDER-A5%%DOT-62%
 //Firelizard's Talons
 ItemDisplay[UNI !ID 7lw]:%RED%o %GOLD%Firelizard's Talons %RED%o%BORDER-A5%%DOT-62% 
 //The Oculus
-ItemDisplay[UNI !ID oba]:%RED%*%YELLOW%*%GREEN%*%BLUE%* %RED%o %PURPLE%The Oculus%RED% o %RED%*%YELLOW%*%GREEN%*%BLUE%*%BORDER-A5%%DOT-62% 
+ItemDisplay[UNI !ID oba]:%RED%o %PURPLE%The The Oculus%RED% o%BORDER-A5%%DOT-62% 
 //Shadow Killer
 ItemDisplay[UNI !ID 7cs]:%RED%o %PURPLE%Shadow Killer %RED%o%DOT-0C%%BORDER-4B%
 //Death's Fathom
@@ -614,14 +611,14 @@ ItemDisplay[UNI !ID uts]:%RED%o %PURPLE%Spirit Ward %RED%o%DOT-0C%%BORDER-4B%
 ItemDisplay[SET !ID amu]:%GREEN%o Amulet o%DOT-84% 
 ItemDisplay[SET !ID rin]:%GREEN%o Ring o%DOT-84% 
 //
-ItemDisplay[SET !ID uar]:%GREEN%* %PURPLE%o %GREEN%%NAME%%PURPLE% o %GREEN%*%DOT-84%%BORDER-4B%
+ItemDisplay[SET !ID uar]:%GREEN%* %PURPLE%o %GREEN%IK Armor%PURPLE% o %GREEN%*%DOT-84%%BORDER-4B%
 ItemDisplay[SET !ID xhb]:%GREEN%o IK Boots o%DOT-62%%BORDER-84%  
 ItemDisplay[SET !ID zhb]:%GREEN%o IK Belt o%DOT-62%%BORDER-84%  
 ItemDisplay[SET !ID ba5]:%GREEN%o IK Helm o%DOT-62%%BORDER-84%  
 ItemDisplay[SET !ID xhg]:%GREEN%o IK Gloves o%DOT-62%%BORDER-84%  
 ItemDisplay[SET !ID 7m7]:%GREEN%o IK Maul o%DOT-62%%BORDER-84%  
 //
-ItemDisplay[SET !ID uth]:%RED%*%YELLOW%*%GREEN%*%BLUE%* %PURPLE%ooo %GREEN%%NAME%%PURPLE% ooo %RED%*%YELLOW%*%GREEN%*%BLUE%*%DOT-84%%BORDER-4B%
+ItemDisplay[SET !ID uth]:%GREEN%* %PURPLE%o %GREEN%Talrasha's Armor%PURPLE% o %GREEN%*%DOT-84%%BORDER-4B%
 ItemDisplay[SET !ID oba]:%GREEN%o Tal's Orb o%DOT-62%%BORDER-84%  
 ItemDisplay[SET !ID zmb]:%GREEN%o Tal's Belt o%DOT-62%%BORDER-84%  
 ItemDisplay[SET !ID xsk]:%GREEN%o Tal's Mask o%DOT-62%%BORDER-84% 
@@ -636,7 +633,7 @@ ItemDisplay[SET !ID xhm]:%GREEN%o Guillaume's Face o%DOT-62%%BORDER-84%
 //
 ItemDisplay[SET !ID xap]:%GREEN%o Cow King's Horns o%DOT-62%%BORDER-84%  
 ItemDisplay[SET !ID stu]:%GREEN%o Cow King's Hide o%DOT-62%%BORDER-84%  
-ItemDisplay[SET !ID vbt]:%GREEN%o Cow Kings/Sanders o%DOT-62%%BORDER-84%  
+ItemDisplay[SET !ID vbt]:%GREEN%o Cow Kings/Sanders Boots o%DOT-62%%BORDER-84%  
 //
 ItemDisplay[SET !ID xul]:%GREEN%o Trang's Armor o%DOT-62%%BORDER-84%  
 ItemDisplay[SET !ID uh9]:%GREEN%o Trang's Helm o%DOT-62%%BORDER-84%  
