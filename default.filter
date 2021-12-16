@@ -494,6 +494,8 @@ ItemDisplay[UNI !ID xhb]:%RED%o %PURPLE%Gore Rider %RED%o%BORDER-A5%%DOT-62%
 ///////////
 //Weapons//
 ///////////
+//Buriza
+ItemDisplay[UNI !ID 8hx]:%RED%o %PURPLE%Buriza-Do Kyanon %RED%o%BORDER-A5%%DOT-62% 
 //Pus Spitter
 ItemDisplay[UNI !ID 8mx]:%RED%o %GOLD%Pus Spitter %RED%o%BORDER-A5%%DOT-62% 
 //Wraith Flight
