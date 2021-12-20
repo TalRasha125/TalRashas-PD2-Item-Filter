@@ -1,33 +1,7 @@
 //++++++++++++++++++++++++++
-//TalRasha's PD2 Item Filter Default Version
+//TalRasha's PD2 Item Filter
 //++++++++++++++++++++++++++
-//Updated December 15, 2021
-//
-//╔═══════════════════╗
-//║ Table of Contents ║
-//╚═══════════════════╝
-//Global Filters-32
-//Gold-50
-//Potions-61
-//Quest Items-108
-//Runes-137
-//Essences-176
-//Uber Keys-185
-//Diablo Clone-195
-//Corruption Items-202
-//Map Upgrades-207
-//Maps-217
-//Gems-223
-//Uniques-287
-//New Class Uniques-310
-//Sets-572
-//Magic Items-647
-//Crafting-699
-//ID Section-809
-//Rares-863
-//Vendor Items-918
-//Bases-949
-//Leveling-1437
+//Updated December 20, 2021
 //
 //╔════════════════╗
 //║ Global Filters ║
@@ -60,10 +34,10 @@ ItemDisplay[GOLD<1000 CLVL>19]:
 //╔═════════╗
 //║ Potions ║
 //╚═════════╝
-ItemDisplay[rvl]:%PURPLE%* %PURPLE%R%WHITE%65% %PURPLE%*
+ItemDisplay[rvl]:%PURPLE%* %PURPLE%R++ %PURPLE%*
 ItemDisplay[hp5]:%RED%!%WHITE%H+
 ItemDisplay[mp5]:%BLUE%!%WHITE%M+
-ItemDisplay[rvs CLVL<81]:%PURPLE%r%WHITE%35%
+ItemDisplay[rvs CLVL<81]:%PURPLE%!%PURPLE%r
 ItemDisplay[rvs CLVL>80]:
 ItemDisplay[hp1 CLVL<15]:%RED%!%WHITE%Minor Heal
 ItemDisplay[hp2 CLVL<18]:%RED%!%WHITE%Light Heal
@@ -96,12 +70,12 @@ ItemDisplay[isc CLVL<41]:%GREEN%!%WHITE%ID
 ItemDisplay[isc CLVL>40]:
 ItemDisplay[wms CLVL<60]:%GREEN%!%WHITE%Thaw
 ItemDisplay[wms CLVL>59]:
-ItemDisplay[yps]:%GREEN%!%WHITE%a
+ItemDisplay[yps]:%GREEN%!%WHITE%A
 ItemDisplay[vps CLVL<55]:%GREEN%!%WHITE%Stamina
 ItemDisplay[vps CLVL>54]:
 //Keys for Locked Chests
-ItemDisplay[key CLVL<41]:%GRAY%Key
-ItemDisplay[key CLVL>40]:
+ItemDisplay[key CLVL<41]:%GRAY%Key %WHITE%(x %QTY%)
+ItemDisplay[key CLVL>40]:%GRAY%Key %WHITE%(x %QTY%)
 //Tomes
 ItemDisplay[tbk]:%WHITE%Tome of Town Portal
 ItemDisplay[ibk]:%WHITE%Tome of Identify
@@ -145,77 +119,81 @@ ItemDisplay[INF ILVL>14 !RW !leg]:
 //║ Runes ║
 //╚═══════╝
 //1-16
-ItemDisplay[r01 OR r01s]:%ORANGE%El 1
-ItemDisplay[r02 OR r02s]:%ORANGE%Eld 2 
-ItemDisplay[r03 OR r03s]:%ORANGE%Tir 3 
-ItemDisplay[r04 OR r04s]:%ORANGE%Nef 4
-ItemDisplay[r05 OR r05s]:%ORANGE%Eth 5
-ItemDisplay[r06 OR r06s]:%ORANGE%Ith 6 
-ItemDisplay[r07 OR r07s]:%ORANGE%Tal 7 
-ItemDisplay[r08 OR r08s]:%ORANGE%Ral 8  
-ItemDisplay[r09 OR r09s]:%ORANGE%Ort 9 
-ItemDisplay[r10 OR r10s]:%ORANGE%Thul 10  
-ItemDisplay[r11 OR r11s]:%ORANGE%Amn 11 
-ItemDisplay[r12 OR r12s]:%ORANGE%Sol 12  
-ItemDisplay[r13 OR r13s]:%ORANGE%Shael 13
-ItemDisplay[r14 OR r14s]:%ORANGE%Dol 14 
-ItemDisplay[r15 OR r15s]:%ORANGE%Hel 15 
-ItemDisplay[r16 OR r16s]:%ORANGE%io 16 
+ItemDisplay[r01 OR r01s]:%ORANGE%El 1 %WHITE%(x %QTY%)
+ItemDisplay[r02 OR r02s]:%ORANGE%Eld 2 %WHITE%(x %QTY%)
+ItemDisplay[r03 OR r03s]:%ORANGE%Tir 3 %WHITE%(x %QTY%)
+ItemDisplay[r04 OR r04s]:%ORANGE%Nef 4 %WHITE%(x %QTY%)
+ItemDisplay[r05 OR r05s]:%ORANGE%Eth 5 %WHITE%(x %QTY%)
+ItemDisplay[r06 OR r06s]:%ORANGE%Ith 6 %WHITE%(x %QTY%)
+ItemDisplay[r07 OR r07s]:%ORANGE%Tal 7 %WHITE%(x %QTY%)
+ItemDisplay[r08 OR r08s]:%ORANGE%Ral 8 %WHITE%(x %QTY%) 
+ItemDisplay[r09 OR r09s]:%ORANGE%Ort 9 %WHITE%(x %QTY%)
+ItemDisplay[r10 OR r10s]:%ORANGE%Thul 10 %WHITE%(x %QTY%) 
+ItemDisplay[r11 OR r11s]:%ORANGE%Amn 11 %WHITE%(x %QTY%)
+ItemDisplay[r12 OR r12s]:%ORANGE%Sol 12 %WHITE%(x %QTY%)
+ItemDisplay[r13 OR r13s]:%ORANGE%Shael 13 %WHITE%(x %QTY%)
+ItemDisplay[r14 OR r14s]:%ORANGE%Dol 14 %WHITE%(x %QTY%)
+ItemDisplay[r15 OR r15s]:%ORANGE%Hel 15 %WHITE%(x %QTY%)
+ItemDisplay[r16 OR r16s]:%ORANGE%io 16 %WHITE%(x %QTY%)
 //17-23
-ItemDisplay[r17 OR r17s]:%ORANGE%Lum 17 
-ItemDisplay[r18 OR r18s]:%ORANGE%Ko 18 
-ItemDisplay[r19 OR r19s]:%ORANGE%Fal 19 
-ItemDisplay[r20 OR r20s]: %RED%o %PURPLE%Lem 20%RED% o %DOT-62%%BORDER-4B%
-ItemDisplay[r21 OR r21s]: %RED%o %PURPLE%Pul 21%RED% o %DOT-62%%BORDER-4B%
-ItemDisplay[r22 OR r22s]: %RED%oo %PURPLE%Um 22%RED% oo %DOT-62%%BORDER-4B%
-ItemDisplay[r23 OR r23s]: %RED%oo %PURPLE%Mal 23%RED% oo %DOT-62%%BORDER-4B%
+ItemDisplay[r17 OR r17s]:%ORANGE%Lum 17 %WHITE%(x %QTY%)
+ItemDisplay[r18 OR r18s]:%ORANGE%Ko 18 %WHITE%(x %QTY%)
+ItemDisplay[r19 OR r19s]:%ORANGE%Fal 19 %WHITE%(x %QTY%)
+ItemDisplay[r20 OR r20s]: %RED%o %PURPLE%Lem 20%RED% o %WHITE%(x %QTY%)%DOT-62%%BORDER-4B%
+ItemDisplay[r21 OR r21s]: %RED%o %PURPLE%Pul 21%RED% o %WHITE%(x %QTY%)%DOT-62%%BORDER-4B%
+ItemDisplay[r22 OR r22s]: %RED%oo %PURPLE%Um 22%RED% oo %WHITE%(x %QTY%)%DOT-62%%BORDER-4B%
+ItemDisplay[r23 OR r23s]: %RED%oo %PURPLE%Mal 23%RED% oo %WHITE%(x %QTY%)%DOT-62%%BORDER-4B%
 //24-33
-ItemDisplay[r24 OR r24s]: %RED%ooo %PURPLE%Ist 24%RED% ooo %DOT-76%%MAP-0B%%BORDER-50% 
-ItemDisplay[r25 OR r25s]: %RED%oooo %PURPLE%Gul 25%RED% oooo %DOT-76%%MAP-0B%%BORDER-50% 
-ItemDisplay[r26 OR r26s]:%RED%*%YELLOW%*%GREEN%*%BLUE%* %RED%ooooo %PURPLE%Vex 26%RED% ooooo %RED%*%YELLOW%*%GREEN%*%BLUE%*%DOT-62%%BORDER-4B%
-ItemDisplay[r27 OR r27s]:%RED%*%YELLOW%*%GREEN%*%BLUE%* %RED%oooooo %PURPLE%Ohm 27%RED% oooooo %RED%*%YELLOW%*%GREEN%*%BLUE%*%DOT-62%%BORDER-4B%
-ItemDisplay[r28 OR r28s]:%RED%*%YELLOW%*%GREEN%*%BLUE%* %RED%ooooooo %PURPLE%Lo 28%RED% ooooooo %RED%*%YELLOW%*%GREEN%*%BLUE%*%DOT-62%%BORDER-4B%
-ItemDisplay[r29 OR r29s]:%RED%*%YELLOW%*%GREEN%*%BLUE%* %RED%oooooooo %PURPLE%Sur 29%RED% oooooooo %RED%*%YELLOW%*%GREEN%*%BLUE%*%DOT-62%%BORDER-4B%
-ItemDisplay[r30 OR r30s]:%RED%*%YELLOW%*%GREEN%*%BLUE%* %RED%oooooooooooo %PURPLE%Ber 30%RED% oooooooooooo %RED%*%YELLOW%*%GREEN%*%DOT-62%%BORDER-4B%
-ItemDisplay[r31 OR r31s]:%RED%*%YELLOW%*%GREEN%*%BLUE%* %RED%oooooooooo %PURPLE%Jah 31%RED% oooooooooo %RED%*%YELLOW%*%GREEN%*%BLUE%*%DOT-62%%BORDER-4B%
-ItemDisplay[r32 OR r32s]:%RED%*%YELLOW%*%GREEN%*%BLUE%* %RED%ooooo %PURPLE%Cham 32%RED% ooooo %RED%*%YELLOW%*%GREEN%*%BLUE%*%DOT-62%%BORDER-4B%
-ItemDisplay[r33 OR r33s]:%RED%*%YELLOW%*%GREEN%*%BLUE%* %RED%ooooo %PURPLE%Zod 33%RED% ooooo %RED%*%YELLOW%*%GREEN%*%BLUE%*%DOT-62%%BORDER-4B%
+ItemDisplay[r24 OR r24s]: %RED%ooo %PURPLE%Ist 24%RED% ooo %WHITE%(x %QTY%)%DOT-76%%MAP-0B%%BORDER-50% 
+ItemDisplay[r25 OR r25s]: %RED%oooo %PURPLE%Gul 25%RED% oooo %WHITE%(x %QTY%)%DOT-76%%MAP-0B%%BORDER-50% 
+ItemDisplay[r26 OR r26s]:%RED%*%YELLOW%*%GREEN%*%BLUE%* %RED%ooooo %PURPLE%Vex 26%RED% ooooo %RED%*%YELLOW%*%GREEN%*%BLUE%* %WHITE%(x %QTY%)%DOT-62%%BORDER-4B%
+ItemDisplay[r27 OR r27s]:%RED%*%YELLOW%*%GREEN%*%BLUE%* %RED%oooooo %PURPLE%Ohm 27%RED% oooooo %RED%*%YELLOW%*%GREEN%*%BLUE%* %WHITE%(x %QTY%)%DOT-62%%BORDER-4B%
+ItemDisplay[r28 OR r28s]:%RED%*%YELLOW%*%GREEN%*%BLUE%* %RED%ooooooo %PURPLE%Lo 28%RED% ooooooo %RED%*%YELLOW%*%GREEN%*%BLUE%* %WHITE%(x %QTY%)%DOT-62%%BORDER-4B%
+ItemDisplay[r29 OR r29s]:%RED%*%YELLOW%*%GREEN%*%BLUE%* %RED%oooooooo %PURPLE%Sur 29%RED% oooooooo %RED%*%YELLOW%*%GREEN%*%BLUE%* %WHITE%(x %QTY%)%DOT-62%%BORDER-4B%
+ItemDisplay[r30 OR r30s]:%RED%*%YELLOW%*%GREEN%*%BLUE%* %RED%oooooooooooo %PURPLE%Ber 30%RED% oooooooooooo %RED%*%YELLOW%*%GREEN%*%BLUE%* %WHITE%(x %QTY%)%DOT-62%%BORDER-4B%
+ItemDisplay[r31 OR r31s]:%RED%*%YELLOW%*%GREEN%*%BLUE%* %RED%oooooooooo %PURPLE%Jah 31%RED% oooooooooo %RED%*%YELLOW%*%GREEN%*%BLUE%* %WHITE%(x %QTY%)%DOT-62%%BORDER-4B%
+ItemDisplay[r32 OR r32s]:%RED%*%YELLOW%*%GREEN%*%BLUE%* %RED%ooooo %PURPLE%Cham 32%RED% ooooo %RED%*%YELLOW%*%GREEN%*%BLUE%* %WHITE%(x %QTY%)%DOT-62%%BORDER-4B%
+ItemDisplay[r33 OR r33s]:%RED%*%YELLOW%*%GREEN%*%BLUE%* %RED%ooooo %PURPLE%Zod 33%RED% ooooo %RED%*%YELLOW%*%GREEN%*%BLUE%* %WHITE%(x %QTY%)%DOT-62%%BORDER-4B%
 //╔══════════╗
 //║ Essences ║
 //╚══════════╝
-ItemDisplay[bet]:%RED%o %GOLD%%NAME%%RED% o %MAP-00%// Burning Essence of Terror
-ItemDisplay[ceh]:%RED%o %GOLD%%NAME%%RED% o %MAP-00%// Charged Essence of Hatred
-ItemDisplay[fed]:%RED%o %GOLD%%NAME%%RED% o %MAP-00%// Festering Essence of Destruction
-ItemDisplay[tes]:%RED%o %GOLD%%NAME%%RED% o %MAP-00%// Twisted Essence of Suffering
+ItemDisplay[bet]:%RED%o %GOLD%%NAME%%RED% o %WHITE%(x %QTY%){%TAN%Cube 1 of each color essence to make Reset Token}%MAP-00%// Burning Essence of Terror
+ItemDisplay[ceh]:%RED%o %GOLD%%NAME%%RED% o %WHITE%(x %QTY%){%TAN%Cube 1 of each color essence to make Reset Token}%MAP-00%// Charged Essence of Hatred
+ItemDisplay[fed]:%RED%o %GOLD%%NAME%%RED% o %WHITE%(x %QTY%){%TAN%Cube 1 of each color essence to make Reset Token}%MAP-00%// Festering Essence of Destruction
+ItemDisplay[tes]:%RED%o %GOLD%%NAME%%RED% o %WHITE%(x %QTY%){%TAN%Cube 1 of each color essence to make Reset Token}%MAP-00%// Twisted Essence of Suffering
 // Tokens
 ItemDisplay[toa]:%PURPLE%*Token of Absolution*{%TAN%Right click to reset skills and stats}%MAP-00% // Token of Absolution
 //╔═══════════╗
 //║ Uber Keys ║
 //╚═══════════╝
-ItemDisplay[pk1]:%PURPLE%Terror Key [Countess or Blood Raven]%MAP-4B%
-ItemDisplay[pk2]:%PURPLE%Hate Key [Summoner or Blood Witch]%MAP-4B%
-ItemDisplay[pk3]:%PURPLE%Destruction Key [Nihlathak or Izual]%MAP-4B%
-ItemDisplay[dhn]:%PURPLE%Diablo's Horn%MAP-4B%
-ItemDisplay[bey]:%PURPLE%Baal's Eye%MAP-4B%
-ItemDisplay[mbr]:%PURPLE%Mephisto's Brain%MAP-4B%
-ItemDisplay[ubtm]:%PURPLE%Pandemonium Talisman%MAP-4B%				// Pandemonium Talisman (Uber Tristram)
-ItemDisplay[rtma]:%RED%o %PURPLE%NAME% %RED%oMAP-4B%							//Summon Rathma
-ItemDisplay[rtmo]:%RED%o %PURPLE%%NAME% %RED%o%MAP-4B%						//Rathma Ingredient
-ItemDisplay[rtmv]:%RED%o %PURPLE%%NAME% %RED%o%MAP-4B%						//Rathma Ingredient
-ItemDisplay[rid]:%RED%o %PURPLE%%NAME%%RED% o%MAP-4B%				//unlimited id tome
-ItemDisplay[rtp]:%RED%o %PURPLE%%NAME%%RED% o%MAP-4B%				//unlimited tp tome
+ItemDisplay[pk1]:%RED%o %PURPLE%%NAME% %RED%o %WHITE%(x %QTY%){%TAN%Drops from Hell Countess or Blood Raven}%MAP-4B%
+ItemDisplay[pk2]:%RED%o %PURPLE%%NAME% %RED%o %WHITE%(x %QTY%){%TAN%Drops from Hell Summoner or Blood Witch}%MAP-4B%
+ItemDisplay[pk3]:%RED%o %PURPLE%%NAME% %RED%o %WHITE%(x %QTY%){%TAN%Drops from Hell Nihlathak or Izual}%MAP-4B%
+ItemDisplay[dhn]:%RED%o %PURPLE%%NAME% %RED%o %WHITE%(x %QTY%){%TAN%Cube any 3 Organs to create Pandemonium Talisman}%MAP-4B%
+ItemDisplay[bey]:%RED%o %PURPLE%%NAME% %RED%o %WHITE%(x %QTY%){%TAN%Cube any 3 Organs to create Pandemonium Talisman}%MAP-4B%
+ItemDisplay[mbr]:%RED%o %PURPLE%%NAME% %RED%o %WHITE%(x %QTY%){%TAN%Cube any 3 Organs to create Pandemonium Talisman}%MAP-4B%
+ItemDisplay[ubtm]:%RED%o %PURPLE%%NAME% %RED%o{%TAN%Use by Blood Fountain Act 5 to open Uber Tristram}%MAP-4B%			// Pandemonium Talisman (Uber Tristram)
+//╔═══════════╗
+//║   Rathma  ║
+//╚═══════════╝
+ItemDisplay[rtmf]:%RED%ooo %PURPLE%%NAME% %RED%ooo %WHITE%(x %QTY%)%MAP-4B%{%TAN%Cube 3 of these w/ Hellfire Torch to create a Trang-Oul's Jawbone}		 						 // Ancient Bone Fragment
+ItemDisplay[rtmo]:%RED%ooo %PURPLE%%NAME% %RED%ooo %WHITE%(x %QTY%)%MAP-4B%{%TAN%Cube w/ Splinter of the Void, Prime Evil Soul, and Hellfire Torch to create a Voidstone}		 // Trang-Oul's Jawbone
+ItemDisplay[rtmv]:%RED%ooo %PURPLE%%NAME% %RED%ooo %WHITE%(x %QTY%)%MAP-4B%{%TAN%Cube w/ Trang-Oul's Jawbone, Prime Evil Soul, and Hellfire Torch to create a Voidstone}		 	 // Splinter of the Void
+ItemDisplay[rtma]:%RED%ooo %PURPLE%%NAME% %RED%ooo %WHITE%(x %QTY%)%MAP-4B%{%TAN%Use by Blood Fountain Act 5 to Summon Rathma from the Void} 									 //Voidstone
+ItemDisplay[rid]:%RED%ooo %PURPLE%%NAME% %RED%ooo%MAP-4B%																								 		 //unlimited id tome
+ItemDisplay[rtp]:%RED%ooo %PURPLE%%NAME% %RED%ooo%MAP-4B%																								 		 //unlimited tp tome
 //╔══════════════╗ 
 //║ Diablo Clone ║
 //╚══════════════╝
-ItemDisplay[dcma]:%RED%*%YELLOW%*%GREEN%*%BLUE%* %RED%o %PURPLE%Vision of Terror %RED%o %RED%*%YELLOW%*%GREEN%*%BLUE%*%DOT-62%%BORDER-4B%
-ItemDisplay[dcbl]:%RED%*%YELLOW%*%GREEN%*%BLUE%* %RED%o %PURPLE%Pure Demonic Essence %RED%o %RED%*%YELLOW%*%GREEN%*%BLUE%*%DOT-62%%BORDER-4B%
-ItemDisplay[dcho]:%RED%*%YELLOW%*%GREEN%*%BLUE%* %PURPLE%Black Soulstone %RED%*%YELLOW%*%GREEN%*%BLUE%*%DOT-62%%BORDER-4B%
-ItemDisplay[dcso]:%RED%*%YELLOW%*%GREEN%*%BLUE%* %RED%o %PURPLE%Prime Evil Soul %RED%o %RED%*%YELLOW%*%GREEN%*%BLUE%*%DOT-62%%BORDER-4B% 
+ItemDisplay[dcma]:%RED%ooo %PURPLE%%NAME% %RED%ooo %WHITE%(x %QTY%){%TAN%Use by Blood Fountain Act 5 to open Dclone}%MAP-4B%  												  //Vision of Terror
+ItemDisplay[dcbl]:%RED%ooo %PURPLE%%NAME% %RED%ooo %WHITE%(x %QTY%){%TAN%Combine Pure Demonic Essence,Prime Evil Soul,and Black Soulstone to create Vision of Terror}%MAP-4B%  //Pure Demonic Essence
+ItemDisplay[dcho]:%RED%ooo %PURPLE%%NAME% %RED%ooo %WHITE%(x %QTY%){%TAN%Combine Pure Demonic Essence,Prime Evil Soul,and Black Soulstone to create Vision of Terror}%MAP-4B%  //Black Soulstone
+ItemDisplay[dcso]:%RED%ooo %PURPLE%%NAME% %RED%ooo %WHITE%(x %QTY%){%TAN%Combine Pure Demonic Essence,Prime Evil Soul,and Black Soulstone to create Vision of Terror}%MAP-4B%  //Prime Evil Soul
 //╔══════════════════╗
 //║ Corruption Items ║
 //╚══════════════════╝
 ItemDisplay[wss]:%RED%o %PURPLE%Worldstone Shard%RED% o %WHITE%(x %QTY%)%MAP-62%%PX-20%
-ItemDisplay[lbox]:%RED%*%YELLOW%*%GREEN%*%BLUE%* %RED%ooo %PURPLE%Larzuk's Puzzle Box %RED%ooo %RED%*%YELLOW%*%GREEN%*%BLUE%*%DOT-62%%BORDER-4B%
+ItemDisplay[lbox]:%RED%*%YELLOW%*%GREEN%*%BLUE%* %RED%ooo %PURPLE%Larzuk's Puzzle Box %RED%ooo %RED%*%YELLOW%*%GREEN%*%BLUE%* %WHITE%(x %QTY%)%DOT-62%%BORDER-4B%
 ItemDisplay[cwss]:%RED%*%YELLOW%*%GREEN%*%BLUE%* %RED%ooo %PURPLE%Tainted Worldstone Shard %RED%ooo %RED%*%YELLOW%*%GREEN%*%BLUE%*%DOT-62%%BORDER-4B%
 //╔══════════════╗
 //║ Map Upgrades ║
@@ -312,9 +290,9 @@ ItemDisplay[UNI !ID uhl]:%RED%*%YELLOW%*%GREEN%*%BLUE%* %RED%ooo %PURPLE%Overlor
 //////////
 //Rathma//
 //////////
-ItemDisplay[UNI !ID utc]:%RED%*%YELLOW%*%GREEN%*%BLUE%* %RED%ooo %PURPLE%Band of Skulls%RED% ooo %RED%*%YELLOW%*%GREEN%*%BLUE%*%DOT-0C%%BORDER-4B%
-//ItemDisplay[UNI !ID amu SOCK=1]:%RED%*%YELLOW%*%GREEN%*%BLUE%* %RED%ooo %PURPLE%The Third Eye%RED% ooo %RED%*%YELLOW%*%GREEN%*%BLUE%*%DOT-0C%%BORDER-4B%
-ItemDisplay[UNI !ID uhn]:%RED%*%YELLOW%*%GREEN%*%BLUE%* %RED%ooo %PURPLE%Cage of the Unsullied%RED% ooo %RED%*%YELLOW%*%GREEN%*%BLUE%*%DOT-0C%%BORDER-4B%
+ItemDisplay[UNI !ID utc]:%RED%*%YELLOW%*%GREEN%*%BLUE%* %RED%ooo %PURPLE%%NAME%%RED% ooo %RED%*%YELLOW%*%GREEN%*%BLUE%*%DOT-0C%%BORDER-4B%			//Band of Skulls
+//ItemDisplay[UNI !ID amu SOCK=1]:%RED%*%YELLOW%*%GREEN%*%BLUE%* %RED%ooo %PURPLE%%NAME%%RED% ooo %RED%*%YELLOW%*%GREEN%*%BLUE%*%DOT-0C%%BORDER-4B%	//The Third Eye
+ItemDisplay[UNI !ID uhn]:%RED%*%YELLOW%*%GREEN%*%BLUE%* %RED%ooo %PURPLE%%NAME%%RED% ooo %RED%*%YELLOW%*%GREEN%*%BLUE%*%DOT-0C%%BORDER-4B%	//Cage of the Unsullied
 //////////////////////////////////////
 //UNIQUE Rings Amulets Jewels Charms//
 //////////////////////////////////////
