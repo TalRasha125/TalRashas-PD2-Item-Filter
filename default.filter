@@ -176,19 +176,19 @@ ItemDisplay[ubtm]:%RED%o %PURPLE%%NAME% %RED%o{%TAN%Use by Blood Fountain Act 5 
 //╔═══════════╗
 //║   Rathma  ║
 //╚═══════════╝
-ItemDisplay[rtmf]:%RED%ooo %PURPLE%%NAME% %RED%ooo %WHITE%(x %QTY%)%MAP-4B%{%TAN%Cube 3 of these w/ Hellfire Torch to create a Trang-Oul's Jawbone}		 						 // Ancient Bone Fragment
-ItemDisplay[rtmo]:%RED%ooo %PURPLE%%NAME% %RED%ooo %WHITE%(x %QTY%)%MAP-4B%{%TAN%Cube w/ Splinter of the Void, Prime Evil Soul, and Hellfire Torch to create a Voidstone}		 // Trang-Oul's Jawbone
-ItemDisplay[rtmv]:%RED%ooo %PURPLE%%NAME% %RED%ooo %WHITE%(x %QTY%)%MAP-4B%{%TAN%Cube w/ Trang-Oul's Jawbone, Prime Evil Soul, and Hellfire Torch to create a Voidstone}		 	 // Splinter of the Void
-ItemDisplay[rtma]:%RED%ooo %PURPLE%%NAME% %RED%ooo %WHITE%(x %QTY%)%MAP-4B%{%TAN%Use by Blood Fountain Act 5 to Summon Rathma from the Void} 									 //Voidstone
+ItemDisplay[rtmf]:%RED%ooo %PURPLE%%NAME% %RED%ooo%MAP-4B%{%TAN%Cube 3 of these w/ Hellfire Torch to create a Trang-Oul's Jawbone}		 						 // Ancient Bone Fragment
+ItemDisplay[rtmo]:%RED%ooo %PURPLE%%NAME% %RED%ooo%MAP-4B%{%TAN%Cube w/ Splinter of the Void, Prime Evil Soul, and Hellfire Torch to create a Voidstone}		 // Trang-Oul's Jawbone
+ItemDisplay[rtmv]:%RED%ooo %PURPLE%%NAME% %RED%ooo%MAP-4B%{%TAN%Cube w/ Trang-Oul's Jawbone, Prime Evil Soul, and Hellfire Torch to create a Voidstone}		 	 // Splinter of the Void
+ItemDisplay[rtma]:%RED%ooo %PURPLE%%NAME% %RED%ooo%MAP-4B%{%TAN%Use by Blood Fountain Act 5 to Summon Rathma from the Void} 									 //Voidstone
 ItemDisplay[rid]:%RED%ooo %PURPLE%%NAME% %RED%ooo%MAP-4B%																								 		 //unlimited id tome
 ItemDisplay[rtp]:%RED%ooo %PURPLE%%NAME% %RED%ooo%MAP-4B%																								 		 //unlimited tp tome
 //╔══════════════╗ 
 //║ Diablo Clone ║
 //╚══════════════╝
-ItemDisplay[dcma]:%RED%ooo %PURPLE%%NAME% %RED%ooo %WHITE%(x %QTY%){%TAN%Use by Blood Fountain Act 5 to open Dclone}%MAP-4B%  												  //Vision of Terror
-ItemDisplay[dcbl]:%RED%ooo %PURPLE%%NAME% %RED%ooo %WHITE%(x %QTY%){%TAN%Combine Pure Demonic Essence,Prime Evil Soul,and Black Soulstone to create Vision of Terror}%MAP-4B%  //Pure Demonic Essence
-ItemDisplay[dcho]:%RED%ooo %PURPLE%%NAME% %RED%ooo %WHITE%(x %QTY%){%TAN%Combine Pure Demonic Essence,Prime Evil Soul,and Black Soulstone to create Vision of Terror}%MAP-4B%  //Black Soulstone
-ItemDisplay[dcso]:%RED%ooo %PURPLE%%NAME% %RED%ooo %WHITE%(x %QTY%){%TAN%Combine Pure Demonic Essence,Prime Evil Soul,and Black Soulstone to create Vision of Terror}%MAP-4B%  //Prime Evil Soul
+ItemDisplay[dcma]:%RED%ooo %PURPLE%%NAME% %RED%ooo{%TAN%Use by Blood Fountain Act 5 to open Dclone}%MAP-4B%  												  //Vision of Terror
+ItemDisplay[dcbl]:%RED%ooo %PURPLE%%NAME% %RED%ooo{%TAN%Combine Pure Demonic Essence,Prime Evil Soul,and Black Soulstone to create Vision of Terror}%MAP-4B%  //Pure Demonic Essence
+ItemDisplay[dcho]:%RED%ooo %PURPLE%%NAME% %RED%ooo{%TAN%Combine Pure Demonic Essence,Prime Evil Soul,and Black Soulstone to create Vision of Terror}%MAP-4B%  //Black Soulstone
+ItemDisplay[dcso]:%RED%ooo %PURPLE%%NAME% %RED%ooo{%TAN%Combine Pure Demonic Essence,Prime Evil Soul,and Black Soulstone to create Vision of Terror}%MAP-4B%  //Prime Evil Soul
 //╔══════════════════╗
 //║ Corruption Items ║
 //╚══════════════════╝
