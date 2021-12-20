@@ -672,7 +672,7 @@ ItemDisplay[MAG !ID rin]:%BLUE%* %NAME% *%WHITE%
 //
 //Blue Jewels for crafting
 ItemDisplay[MAG !ID jew]:%BLUE%* %BLUE%o Jewel o %BLUE%*%MAP-97%%PX-62%
-ItemDisplay[MAG jewf]:%BLUE%* %BLUE%Jewel Fragments %BLUE%* %WHITE%(x %QTY%)%MAP-97%%PX-62%
+ItemDisplay[jewf]:%BLUE%* Jewel Fragments %BLUE%* %WHITE%(x %QTY%)%MAP-97%%PX-62%
 //
 ItemDisplay[MAG LVLREQ<31 ED>19 jew]: %NAME%{%ORANGE%Note:%TAN% Good for LLD} // 20% Enhanced Damage
 ItemDisplay[MAG LVLREQ<31 ED>14 MAXDMG>12 jew]: %NAME%{%ORANGE%Note:%TAN% Good for LLD} // 15%+ Enhanced Damage and 13+ Maximum Damage
