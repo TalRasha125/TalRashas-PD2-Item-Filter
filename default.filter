@@ -1,7 +1,7 @@
 //++++++++++++++++++++++++++
 //TalRasha's PD2 Item Filter
 //++++++++++++++++++++++++++
-//Updated December 20, 2021
+//Updated December 21, 2021
 //
 //╔════════════════╗
 //║ Global Filters ║
@@ -28,13 +28,14 @@ ItemDisplay[NMAG SOCK>0]:%NAME% %RED%[%SOCKETS%]%CONTINUE%
 ItemDisplay[NMAG PRICE>34999 !(pk1 OR pk2 OR pk3)]:%GREEN%$ %WHITE%%NAME%%CONTINUE%
 ItemDisplay[MAG PRICE>34999]:%GREEN%$ %BLUE%%NAME%%CONTINUE%
 ItemDisplay[RARE PRICE>34999]:%GREEN%$ %YELLOW%%NAME%%CONTINUE%
+ItemDisplay[UNI PRICE>34999]:%GREEN%$ %GOLD%%NAME%%CONTINUE%
 //Gold
 ItemDisplay[GOLD<100 CLVL<20]:
 ItemDisplay[GOLD<1000 CLVL>19]:
 //╔═════════╗
 //║ Potions ║
 //╚═════════╝
-ItemDisplay[rvl]:%PURPLE%* %PURPLE%R%WHITE%+ %PURPLE%*
+ItemDisplay[rvl]:%PURPLE%!R%WHITE%+
 ItemDisplay[hp5]:%RED%!%WHITE%H+
 ItemDisplay[mp5]:%BLUE%!%WHITE%M+
 ItemDisplay[rvs CLVL<81]:%PURPLE%!%PURPLE%r
@@ -599,14 +600,14 @@ ItemDisplay[SET !ID xhg]:%GREEN%o IK Gloves o%DOT-62%%BORDER-84%
 ItemDisplay[SET !ID 7m7]:%GREEN%o IK Maul o%DOT-62%%BORDER-84%  
 //
 ItemDisplay[SET !ID uth]:%GREEN%* %PURPLE%o %GREEN%Talrasha's Armor%PURPLE% o %GREEN%*%DOT-84%%BORDER-4B%
-ItemDisplay[SET !ID oba]:%GREEN%o Tal's Orb o%DOT-62%%BORDER-84%  
-ItemDisplay[SET !ID zmb]:%GREEN%o Tal's Belt o%DOT-62%%BORDER-84%  
-ItemDisplay[SET !ID xsk]:%GREEN%o Tal's Mask o%DOT-62%%BORDER-84% 
+ItemDisplay[SET !ID oba]:%GREEN%o Talrasha's Orb o%DOT-62%%BORDER-84%  
+ItemDisplay[SET !ID zmb]:%GREEN%o Talrasha's Belt o%DOT-62%%BORDER-84%  
+ItemDisplay[SET !ID xsk]:%GREEN%o Talrasha's Mask o%DOT-62%%BORDER-84% 
 //
-ItemDisplay[SET !ID 7qr]:%GREEN%o Nat's Claw o%DOT-62%%BORDER-84%  
-ItemDisplay[SET !ID xmb]:%GREEN%o Nat's Boots o%DOT-62%%BORDER-84%  
-ItemDisplay[SET !ID xh9]:%GREEN%o Nat's Helm o%DOT-62%%BORDER-84%  
-ItemDisplay[SET !ID ucl]:%GREEN%o Nat's Armor o%DOT-62%%BORDER-84%  
+ItemDisplay[SET !ID 7qr]:%GREEN%o Natalya's Claw o%DOT-62%%BORDER-84%  
+ItemDisplay[SET !ID xmb]:%GREEN%o Natalya's Boots o%DOT-62%%BORDER-84%  
+ItemDisplay[SET !ID xh9]:%GREEN%o Natalya's Helm o%DOT-62%%BORDER-84%  
+ItemDisplay[SET !ID ucl]:%GREEN%o Natalya's Armor o%DOT-62%%BORDER-84%  
 //
 ItemDisplay[SET !ID ulg]:%GREEN%o Laying of Hands o%DOT-62%%BORDER-84%  
 ItemDisplay[SET !ID xhm]:%GREEN%o Guillaume's Face o%DOT-62%%BORDER-84%  
@@ -615,19 +616,19 @@ ItemDisplay[SET !ID xap]:%GREEN%o Cow King's Horns o%DOT-62%%BORDER-84%
 ItemDisplay[SET !ID stu]:%GREEN%o Cow King's Hide o%DOT-62%%BORDER-84%  
 ItemDisplay[SET !ID vbt]:%GREEN%o Cow Kings/Sanders Boots o%DOT-62%%BORDER-84%  
 //
-ItemDisplay[SET !ID xul]:%GREEN%o Trang's Armor o%DOT-62%%BORDER-84%  
-ItemDisplay[SET !ID uh9]:%GREEN%o Trang's Helm o%DOT-62%%BORDER-84%  
-ItemDisplay[SET !ID utc]:%GREEN%o Trang's Belt o%DOT-62%%BORDER-84%  
-ItemDisplay[SET !ID ne9]:%GREEN%o Trang's Shield o%DOT-62%%BORDER-84%  
-ItemDisplay[SET !ID xmg]:%GREEN%o Trang's Gloves o%DOT-62%%BORDER-84%  
+ItemDisplay[SET !ID xul]:%GREEN%o Trang Oul's Armor o%DOT-62%%BORDER-84%  
+ItemDisplay[SET !ID uh9]:%GREEN%o Trang Oul's Helm o%DOT-62%%BORDER-84%  
+ItemDisplay[SET !ID utc]:%GREEN%o Trang Oul's Belt o%DOT-62%%BORDER-84%  
+ItemDisplay[SET !ID ne9]:%GREEN%o Trang Oul's Shield o%DOT-62%%BORDER-84%  
+ItemDisplay[SET !ID xmg]:%GREEN%o Trang Oul's Gloves o%DOT-62%%BORDER-84%  
 //
 ItemDisplay[SET !ID 6cs]:%GREEN%o Naj's Puzzler o%DOT-62%%BORDER-84%  
 ItemDisplay[SET !ID ult]:%GREEN%o Naj's Light Plate o%DOT-62%%BORDER-84% 
 //
-ItemDisplay[SET !ID xar]:%GREEN%o Gris Armor o%DOT-62%%BORDER-84%  
-ItemDisplay[SET !ID 7ws]:%GREEN%o Gris Caddy o%DOT-62%%BORDER-84%  
-ItemDisplay[SET !ID urn]:%GREEN%o Gris Helm o%DOT-62%%BORDER-84%  
-ItemDisplay[SET !ID paf]:%GREEN%o Gris Shield o%DOT-62%%BORDER-84%  
+ItemDisplay[SET !ID xar]:%GREEN%o Griswold's Armor o%DOT-62%%BORDER-84%  
+ItemDisplay[SET !ID 7ws]:%GREEN%o Griswold's Caddy o%DOT-62%%BORDER-84%  
+ItemDisplay[SET !ID urn]:%GREEN%o Griswold's Helm o%DOT-62%%BORDER-84%  
+ItemDisplay[SET !ID paf]:%GREEN%o Griswold's Shield o%DOT-62%%BORDER-84%  
 //
 ItemDisplay[SET !ID xtb]:%GREEN%o Aldur's Boots o%DOT-62%%BORDER-84%  
 ItemDisplay[SET !ID dr8]:%GREEN%o Aldur's Helm o%DOT-62%%BORDER-84%  
@@ -672,7 +673,7 @@ ItemDisplay[MAG !ID rin]:%BLUE%* %NAME% *%WHITE%
 //
 //Blue Jewels for crafting
 ItemDisplay[MAG !ID jew]:%BLUE%* %BLUE%o Jewel o %BLUE%*%MAP-97%%PX-62%
-ItemDisplay[jewf]:%BLUE%* Jewel Fragments %BLUE%* %WHITE%(x %QTY%)%MAP-97%%PX-62%
+ItemDisplay[jewf]:%BLUE%* %WHITE%Jewel Fragments %BLUE%* %WHITE%(x %QTY%)%MAP-97%%PX-62%
 //
 ItemDisplay[MAG LVLREQ<31 ED>19 jew]: %NAME%{%ORANGE%Note:%TAN% Good for LLD} // 20% Enhanced Damage
 ItemDisplay[MAG LVLREQ<31 ED>14 MAXDMG>12 jew]: %NAME%{%ORANGE%Note:%TAN% Good for LLD} // 15%+ Enhanced Damage and 13+ Maximum Damage
@@ -1089,18 +1090,18 @@ ItemDisplay[CL5 NMAG SOCK=3 (SK278=3)]:%RED%Venom %GREEN%%NAME% %RED%
 ItemDisplay[CL5 NMAG !9cs !7xf !7cs SOCK=0 (SK278=3)]:%RED%Venom %GREEN%%NAME% %RED%
 ItemDisplay[NMAG CL5 (SK262=3) SOCK=3]:%DARK_GREEN%+3 Wake Fire %NAME%%GRAY%
 ItemDisplay[NMAG CL5 (SK261=3) SOCK=3]:%DARK_GREEN%+3 Bolt Sentry %NAME%%GRAY%
-ItemDisplay[NMAG CL5 (SK271=3) SOCK=3]:%DARK_GREEN%+3 Lite Sentry %NAME%%GRAY%
+ItemDisplay[NMAG CL5 (SK366=3) SOCK=3]:%DARK_GREEN%+3 Lite Sentry %NAME%%GRAY%
 ItemDisplay[NMAG CL5 (SK273=3) SOCK=3]:%DARK_GREEN%+3 Mind Blast %NAME%%GRAY%
 ItemDisplay[NMAG CL5 !9cs !7xf !7cs (SK262=3) SOCK=0]:%DARK_GREEN%+3 Wake Fire %NAME%%GRAY%
 ItemDisplay[NMAG CL5 !9cs !7xf !7cs (SK261=3) SOCK=0]:%DARK_GREEN%+3 Bolt Sentry %NAME%%GRAY%
 ItemDisplay[NMAG CL5 !9cs !7xf !7cs (SK273=3) SOCK=0]:%DARK_GREEN%+3 Mind Blast %NAME%%GRAY%
-ItemDisplay[NMAG CL5 !9cs !7xf !7cs (SK271=3) SOCK=0]:%DARK_GREEN%+3 Lite Sentry %NAME%%GRAY%
+ItemDisplay[NMAG CL5 !9cs !7xf !7cs (SK366=3) SOCK=0]:%DARK_GREEN%+3 Lite Sentry %NAME%%GRAY%
 ItemDisplay[CL5 (SK262=3)]:%DARK_GREEN%+3 Wake Fire Claw%GRAY%
 ItemDisplay[CL5 (SK261=3)]:%DARK_GREEN%+3 Bolt Sentry Claw%GRAY%
-ItemDisplay[CL5 (SK271=3)]:%DARK_GREEN%+3 Lite Sentry Claw%GRAY%
+ItemDisplay[CL5 (SK366=3)]:%DARK_GREEN%+3 Lite Sentry Claw%GRAY%
 ItemDisplay[CL5 (SK273=3)]:%DARK_GREEN%+3 Mind Blast Claw%GRAY%
 ItemDisplay[CL5 (SK262<0)]:%GRAY%Wake Fire Claw%GRAY%
-ItemDisplay[CL5 (SK271<0)]:%GRAY%Lite Sentry Claw%GRAY%
+ItemDisplay[CL5 (SK366<0)]:%GRAY%Lite Sentry Claw%GRAY%
 ItemDisplay[CL5 (SK261<0)]:%GRAY%Bolt Sentry Claw%GRAY%
 ItemDisplay[CL5 (SK273<0)]:%GRAY%Mind Blast Claw%GRAY%
 //ItemDisplay[7ar NMAG !ETH (SK274<0 AND SK275<0) SOCK=3]:%GREEN%Slow Chaos Base %YELLOW%
