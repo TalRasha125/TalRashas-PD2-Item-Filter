@@ -1,7 +1,7 @@
 //++++++++++++++++++++++++++
 //TalRasha's PD2 Item Filter
 //++++++++++++++++++++++++++
-//Updated December 21, 2021
+//Updated December 22, 2021
 //
 //╔════════════════╗
 //║ Global Filters ║
@@ -158,10 +158,10 @@ ItemDisplay[r33 OR r33s]:%RED%*%YELLOW%*%GREEN%*%BLUE%* %RED%ooooo %PURPLE%Zod 3
 //╔══════════╗
 //║ Essences ║
 //╚══════════╝
-ItemDisplay[bet]:%RED%o %GOLD%%NAME%%RED% o %WHITE%(x %QTY%){%TAN%Cube 1 of each color essence%NL%to make Reset Token}%MAP-00%// Burning Essence of Terror
-ItemDisplay[ceh]:%RED%o %GOLD%%NAME%%RED% o %WHITE%(x %QTY%){%TAN%Cube 1 of each color essence%NL%to make Reset Token}%MAP-00%// Charged Essence of Hatred
-ItemDisplay[fed]:%RED%o %GOLD%%NAME%%RED% o %WHITE%(x %QTY%){%TAN%Cube 1 of each color essence%NL%to make Reset Token}%MAP-00%// Festering Essence of Destruction
-ItemDisplay[tes]:%RED%o %GOLD%%NAME%%RED% o %WHITE%(x %QTY%){%TAN%Cube 1 of each color essence%NL%to make Reset Token}%MAP-00%// Twisted Essence of Suffering
+ItemDisplay[bet]:%RED%o %GOLD%%NAME%%RED% o %WHITE%(x %QTY%){%TAN%to make Reset Token%NL%Cube 1 of each color essence}%MAP-00%// Burning Essence of Terror
+ItemDisplay[ceh]:%RED%o %GOLD%%NAME%%RED% o %WHITE%(x %QTY%){%TAN%to make Reset Token%NL%Cube 1 of each color essence}%MAP-00%// Charged Essence of Hatred
+ItemDisplay[fed]:%RED%o %GOLD%%NAME%%RED% o %WHITE%(x %QTY%){%TAN%to make Reset Token%NL%Cube 1 of each color essence}%MAP-00%// Festering Essence of Destruction
+ItemDisplay[tes]:%RED%o %GOLD%%NAME%%RED% o %WHITE%(x %QTY%){%TAN%to make Reset Token%NL%Cube 1 of each color essence}%MAP-00%// Twisted Essence of Suffering
 // Tokens
 ItemDisplay[toa]:%PURPLE%*Token of Absolution*{%TAN%Right click to reset skills and stats}%MAP-00% // Token of Absolution
 //╔═══════════╗
@@ -177,19 +177,19 @@ ItemDisplay[ubtm]:%RED%o %PURPLE%%NAME% %RED%o{%TAN%Use by Blood Fountain Act 5 
 //╔═══════════╗
 //║   Rathma  ║
 //╚═══════════╝
-ItemDisplay[rtmf]:%RED%ooo %PURPLE%%NAME% %RED%ooo%MAP-4B%{%TAN%Cube 3 of these w/ Hellfire Torch%NL%to create a Trang-Oul's Jawbone}		 						 // Ancient Bone Fragment
-ItemDisplay[rtmo]:%RED%ooo %PURPLE%%NAME% %RED%ooo%MAP-4B%{%TAN%Cube w/ Splinter of the Void, Prime Evil Soul,%NL%and Hellfire Torch to create a Voidstone}		 // Trang-Oul's Jawbone
-ItemDisplay[rtmv]:%RED%ooo %PURPLE%%NAME% %RED%ooo%MAP-4B%{%TAN%Cube w/ Trang-Oul's Jawbone, Prime Evil Soul,%NL%and Hellfire Torch to create a Voidstone}		 	 // Splinter of the Void
-ItemDisplay[rtma]:%RED%ooo %PURPLE%%NAME% %RED%ooo%MAP-4B%{%TAN%Use by Blood Fountain Act 5%NL%to Summon Rathma from the Void} 									 //Voidstone
+ItemDisplay[rtmf]:%RED%ooo %PURPLE%%NAME% %RED%ooo%MAP-4B%{%TAN%to create a Trang-Oul's Jawbone%NL%Cube 3 of these w/ Hellfire Torch}		 						 // Ancient Bone Fragment
+ItemDisplay[rtmo]:%RED%ooo %PURPLE%%NAME% %RED%ooo%MAP-4B%{%TAN%and Hellfire Torch to create a Voidstone%NL%Cube w/ Splinter of the Void, Prime Evil Soul,}		 // Trang-Oul's Jawbone
+ItemDisplay[rtmv]:%RED%ooo %PURPLE%%NAME% %RED%ooo%MAP-4B%{%TAN%and Hellfire Torch to create a Voidstone%NL%Cube w/ Trang-Oul's Jawbone, Prime Evil Soul,}		 	 // Splinter of the Void
+ItemDisplay[rtma]:%RED%ooo %PURPLE%%NAME% %RED%ooo%MAP-4B%{%TAN%to Summon Rathma from the Void%NL%Use by Blood Fountain Act 5} 									 //Voidstone
 ItemDisplay[rid]:%RED%ooo %PURPLE%%NAME% %RED%ooo%MAP-4B%																								 		 //unlimited id tome
 ItemDisplay[rtp]:%RED%ooo %PURPLE%%NAME% %RED%ooo%MAP-4B%																								 		 //unlimited tp tome
 //╔══════════════╗ 
 //║ Diablo Clone ║
 //╚══════════════╝
 ItemDisplay[dcma]:%RED%ooo %PURPLE%%NAME% %RED%ooo{%TAN%Use by Blood Fountain Act 5 to open Dclone}%MAP-4B%  												  //Vision of Terror
-ItemDisplay[dcbl]:%RED%ooo %PURPLE%%NAME% %RED%ooo{%TAN%Combine Pure Demonic Essence,Prime Evil Soul,%NL%and Black Soulstone to create Vision of Terror}%MAP-4B%  //Pure Demonic Essence
-ItemDisplay[dcho]:%RED%ooo %PURPLE%%NAME% %RED%ooo{%TAN%Combine Pure Demonic Essence,Prime Evil Soul,%NL%and Black Soulstone to create Vision of Terror}%MAP-4B%  //Black Soulstone
-ItemDisplay[dcso]:%RED%ooo %PURPLE%%NAME% %RED%ooo{%TAN%Combine Pure Demonic Essence,Prime Evil Soul,%NL%and Black Soulstone to create Vision of Terror}%MAP-4B%  //Prime Evil Soul
+ItemDisplay[dcbl]:%RED%ooo %PURPLE%%NAME% %RED%ooo{%TAN%and Black Soulstone to create Vision of Terror%NL%Combine Pure Demonic Essence,Prime Evil Soul,}%MAP-4B%  //Pure Demonic Essence
+ItemDisplay[dcho]:%RED%ooo %PURPLE%%NAME% %RED%ooo{%TAN%and Black Soulstone to create Vision of Terror%NL%Combine Pure Demonic Essence,Prime Evil Soul,%MAP-4B%  //Black Soulstone
+ItemDisplay[dcso]:%RED%ooo %PURPLE%%NAME% %RED%ooo{%TAN%and Black Soulstone to create Vision of Terror%NL%Combine Pure Demonic Essence,Prime Evil Soul,}%MAP-4B%  //Prime Evil Soul
 //╔══════════════════╗
 //║ Corruption Items ║
 //╚══════════════════╝
@@ -1100,22 +1100,8 @@ ItemDisplay[CL5 (SK262=3)]:%DARK_GREEN%+3 Wake Fire Claw%GRAY%
 ItemDisplay[CL5 (SK261=3)]:%DARK_GREEN%+3 Bolt Sentry Claw%GRAY%
 ItemDisplay[CL5 (SK366=3)]:%DARK_GREEN%+3 Lite Sentry Claw%GRAY%
 ItemDisplay[CL5 (SK273=3)]:%DARK_GREEN%+3 Mind Blast Claw%GRAY%
-ItemDisplay[CL5 (SK262<0)]:%GRAY%Wake Fire Claw%GRAY%
-ItemDisplay[CL5 (SK366<0)]:%GRAY%Lite Sentry Claw%GRAY%
-ItemDisplay[CL5 (SK261<0)]:%GRAY%Bolt Sentry Claw%GRAY%
-ItemDisplay[CL5 (SK273<0)]:%GRAY%Mind Blast Claw%GRAY%
-//ItemDisplay[7ar NMAG !ETH (SK274<0 AND SK275<0) SOCK=3]:%GREEN%Slow Chaos Base %YELLOW%
-//ItemDisplay[7ar NMAG !ETH (SK274<0 AND SK275<0) SOCK=0]:%GREEN%Slow Chaos Base %YELLOW%
-//ItemDisplay[7tw NMAG !ETH (SK274<0 AND SK275<0) SOCK=3]:%GREEN%Fast Chaos Base %YELLOW%
-//ItemDisplay[7tw NMAG !ETH (SK274<0 AND SK275<0) SOCK=0]:%GREEN%Fast Chaos Base %YELLOW%
-//ItemDisplay[7ar NMAG !ETH SOCK=3 (SK274<0)]:%GRAY%Slow Chaos Base
-//ItemDisplay[7ar NMAG !ETH SOCK=0 (SK274<0)]:%GRAY%Slow Chaos Base
-//ItemDisplay[7tw NMAG !ETH SOCK=3 (SK274<0)]:%GRAY%Fast Chaos Base
-//ItemDisplay[7tw NMAG !ETH SOCK=0 (SK274<0)]:%GRAY%Fast Chaos Base
-//ItemDisplay[7ar NMAG !ETH SOCK=3 (SK275<0)]:%GRAY%Slow Chaos Base
-//ItemDisplay[7ar NMAG !ETH SOCK=0 (SK275<0)]:%GRAY%Slow Chaos Base
-//ItemDisplay[7tw NMAG !ETH SOCK=3 (SK275<0)]:%GRAY%Fast Chaos Base
-//ItemDisplay[7tw NMAG !ETH SOCK=0 (SK275<0)]:%GRAY%Fast Chaos Base
+ItemDisplay[CL5 ELT NMAG (SOCK=3 OR SOCK=2)]:%WHITE%%NAME%
+
 //
 //Spirit Sword
 ItemDisplay[crs NMAG SOCK=4 CLVL<80]:%DARK_GREEN%%NAME%%MAP-97% 
