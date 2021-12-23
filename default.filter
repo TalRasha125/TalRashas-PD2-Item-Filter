@@ -279,34 +279,34 @@ ItemDisplay[gsy CLVL>50]:
 ItemDisplay[sku CLVL>50]:
 //Gems flawless
 ItemDisplay[gzv]:%PURPLE%* %ORANGE%Amethyst %PURPLE%*%WHITE%
-ItemDisplay[gzvs]:%PURPLE%* %ORANGE%Amethyst %PURPLE%*%WHITE%(x %QTY%)
+ItemDisplay[gzvs]:%PURPLE%* %ORANGE%Amethyst %PURPLE%*%WHITE% (x %QTY%)
 ItemDisplay[glw]:%WHITE%* %ORANGE%Diamond %WHITE%*%WHITE%
-ItemDisplay[glws]:%WHITE%* %ORANGE%Diamond %WHITE%*%WHITE%(x %QTY%)
+ItemDisplay[glws]:%WHITE%* %ORANGE%Diamond %WHITE%*%WHITE% (x %QTY%)
 ItemDisplay[glg]:%GREEN%* %ORANGE%Emerald %GREEN%*%WHITE%
-ItemDisplay[glgs]:%GREEN%* %ORANGE%Emerald %GREEN%*%WHITE%(x %QTY%)
+ItemDisplay[glgs]:%GREEN%* %ORANGE%Emerald %GREEN%*%WHITE% (x %QTY%)
 ItemDisplay[glr]:%RED%* %ORANGE%Ruby %RED%*%WHITE%
-ItemDisplay[glrs]:%RED%* %ORANGE%Ruby %RED%*%WHITE%(x %QTY%)
+ItemDisplay[glrs]:%RED%* %ORANGE%Ruby %RED%*%WHITE% (x %QTY%)
 ItemDisplay[glb]:%BLUE%* %ORANGE%Sapphire %BLUE%*%WHITE%
-ItemDisplay[glbs]:%BLUE%* %ORANGE%Sapphire %BLUE%*%WHITE%(x %QTY%)
+ItemDisplay[glbs]:%BLUE%* %ORANGE%Sapphire %BLUE%*%WHITE% (x %QTY%)
 ItemDisplay[gly]:%YELLOW%* %ORANGE%Topaz %YELLOW%*%WHITE%
-ItemDisplay[glys]:%YELLOW%* %ORANGE%Topaz %YELLOW%*%WHITE%(x %QTY%)
+ItemDisplay[glys]:%YELLOW%* %ORANGE%Topaz %YELLOW%*%WHITE% (x %QTY%)
 ItemDisplay[skl]:%GRAY%* %ORANGE%Skull %GRAY%*%WHITE%
-ItemDisplay[skls]:%GRAY%* %ORANGE%Skull %GRAY%*%WHITE%(x %QTY%)
+ItemDisplay[skls]:%GRAY%* %ORANGE%Skull %GRAY%*%WHITE% (x %QTY%)
 //Gems Perfect
 ItemDisplay[gpv]:%PURPLE%* %ORANGE%P Amethyst %PURPLE%*%WHITE%
-ItemDisplay[gpvs]:%PURPLE%* %ORANGE%P Amethyst %PURPLE%*%WHITE%(x %QTY%)
+ItemDisplay[gpvs]:%PURPLE%* %ORANGE%P Amethyst %PURPLE%*%WHITE% (x %QTY%)
 ItemDisplay[gpw]:%WHITE%* %ORANGE%P Diamond %WHITE%*%WHITE%
-ItemDisplay[gpws]:%WHITE%* %ORANGE%P Diamond %WHITE%*%WHITE%(x %QTY%)
+ItemDisplay[gpws]:%WHITE%* %ORANGE%P Diamond %WHITE%*%WHITE% (x %QTY%)
 ItemDisplay[gpg]:%GREEN%* %ORANGE%P Emerald %GREEN%*%WHITE%
-ItemDisplay[gpgs]:%GREEN%* %ORANGE%P Emerald %GREEN%*%WHITE%(x %QTY%)
+ItemDisplay[gpgs]:%GREEN%* %ORANGE%P Emerald %GREEN%*%WHITE% (x %QTY%)
 ItemDisplay[gpr]:%RED%* %ORANGE%P Ruby %RED%*%WHITE%
-ItemDisplay[gprs]:%RED%* %ORANGE%P Ruby %RED%*%WHITE%(x %QTY%)
+ItemDisplay[gprs]:%RED%* %ORANGE%P Ruby %RED%*%WHITE% (x %QTY%)
 ItemDisplay[gpb]:%BLUE%* %ORANGE%P Sapphire %BLUE%*%WHITE%
-ItemDisplay[gpbs]:%BLUE%* %ORANGE%P Sapphire %BLUE%*%WHITE%(x %QTY%)
+ItemDisplay[gpbs]:%BLUE%* %ORANGE%P Sapphire %BLUE%*%WHITE% (x %QTY%)
 ItemDisplay[gpy]:%YELLOW%* %ORANGE%P Topaz %YELLOW%*%WHITE%
-ItemDisplay[gpys]:%YELLOW%* %ORANGE%P Topaz %YELLOW%*%WHITE%(x %QTY%)
+ItemDisplay[gpys]:%YELLOW%* %ORANGE%P Topaz %YELLOW%*%WHITE% (x %QTY%)
 ItemDisplay[skz]:%GRAY%* %ORANGE%P Skull %GRAY%*%WHITE%
-ItemDisplay[skzs]:%GRAY%* %ORANGE%P Skull %GRAY%*%WHITE%(x %QTY%)
+ItemDisplay[skzs]:%GRAY%* %ORANGE%P Skull %GRAY%*%WHITE% (x %QTY%)
 //╔═════════╗
 //║ Uniques ║
 //╚═════════╝
