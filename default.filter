@@ -629,10 +629,10 @@ ItemDisplay[SET !ID ba5]:%GREEN%o IK Helm o%DOT-62%%BORDER-84%
 ItemDisplay[SET !ID xhg]:%GREEN%o IK Gloves o%DOT-62%%BORDER-84%  
 ItemDisplay[SET !ID 7m7]:%GREEN%o IK Maul o%DOT-62%%BORDER-84%  
 //
-ItemDisplay[SET !ID uth]:%GREEN%* %PURPLE%o %GREEN%Talrasha's Armor%PURPLE% o %GREEN%*%DOT-84%%BORDER-4B%
-ItemDisplay[SET !ID oba]:%GREEN%o Talrasha's Orb o%DOT-62%%BORDER-84%  
-ItemDisplay[SET !ID zmb]:%GREEN%o Talrasha's Belt o%DOT-62%%BORDER-84%  
-ItemDisplay[SET !ID xsk]:%GREEN%o Talrasha's Mask o%DOT-62%%BORDER-84% 
+ItemDisplay[SET !ID uth]:%GREEN%* %PURPLE%o %GREEN%Tal Rasha's Armor%PURPLE% o %GREEN%*%DOT-84%%BORDER-4B%
+ItemDisplay[SET !ID oba]:%GREEN%o Tal Rasha's Orb o%DOT-62%%BORDER-84%  
+ItemDisplay[SET !ID zmb]:%GREEN%o Tal Rasha's Belt o%DOT-62%%BORDER-84%  
+ItemDisplay[SET !ID xsk]:%GREEN%o Tal Rasha's Mask o%DOT-62%%BORDER-84% 
 //
 ItemDisplay[SET !ID 7qr]:%GREEN%o Natalya's Claw o%DOT-62%%BORDER-84%  
 ItemDisplay[SET !ID xmb]:%GREEN%o Natalya's Boots o%DOT-62%%BORDER-84%  
