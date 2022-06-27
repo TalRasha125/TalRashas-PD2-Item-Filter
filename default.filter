@@ -589,7 +589,7 @@ ItemDisplay[UNI !ID 7wb]:%RED%o %GOLD%Jade Talon %RED%o%BORDER-A5%%DOT-62%
 //Firelizard's Talons
 ItemDisplay[UNI !ID 7lw]:%RED%o %GOLD%Firelizard's Talons %RED%o%BORDER-A5%%DOT-62% 
 //The Oculus
-ItemDisplay[UNI !ID oba]:%RED%o %PURPLE%The The Oculus%RED% o%BORDER-A5%%DOT-62% 
+ItemDisplay[UNI !ID oba]:%RED%o %PURPLE%The Oculus%RED% o%BORDER-A5%%DOT-62% 
 //Shadow Killer
 ItemDisplay[UNI !ID 7cs]:%RED%o %PURPLE%Shadow Killer %RED%o%DOT-0C%%BORDER-4B%
 //Death's Fathom
