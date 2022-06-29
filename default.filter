@@ -438,6 +438,8 @@ ItemDisplay[UNI !ID xlm]:%RED%* %GOLD%Stealskull%RED% *%BORDER-A5%%DOT-62%
 /////////
 //Armor//
 /////////
+//Venom Ward
+ItemDisplay[UNI !ID brs]:%RED%o %GOLD%Venom Ward %RED%o%BORDER-A5%%DOT-62%
 //Atma's Wail
 ItemDisplay[UNI !ID xth]:%RED%o %GOLD%Atma's Wail %RED%o%BORDER-A5%%DOT-62%
 //Spirit Shroud
