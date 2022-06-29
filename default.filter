@@ -1,7 +1,7 @@
 //++++++++++++++++++++++++++
 //TalRasha's PD2 Item Filter
 //++++++++++++++++++++++++++
-//Updated June 25nd, 2022
+//Updated June 29th, 2022
 //
 //╔════════════════╗
 //║ Global Filters ║
@@ -203,11 +203,11 @@ ItemDisplay[ubtm]:%RED%o %PURPLE%Pandemonium Talisman %RED%o{%TAN%Use by Blood F
 //╔═══════════════════════╗
 //║   Season 5 New Items  ║
 //╚═══════════════════════╝
-ItemDisplay[rid]:%RED%ooo %PURPLE%Horadric Alamanac %RED%ooo%MAP-4B%//unlimited id tome (Horadric Almanac)
-ItemDisplay[rtp]:%RED%ooo %PURPLE%Horadric Navigator %RED%ooo%MAP-4B%//unlimited tp tome (Horadric Navigator)
-ItemDisplay[rkey]:%RED%ooo %PURPLE%Skeleton Key %RED%ooo%MAP-4B%//Skeleton Key
-ItemDisplay[llmr]:%RED%ooo %PURPLE%Lilith's Mirror %RED%ooo%MAP-4B%//Lilith's Mirror
-ItemDisplay[lsvl]:%RED%ooo %PURPLE%Vial of Lightsong %RED%ooo%MAP-4B%//Vial of Lightsong
+ItemDisplay[rid]:%RED%*%YELLOW%*%GREEN%*%BLUE%* %RED%ooo %PURPLE%Horadric Almanac %RED%ooo %RED%*%YELLOW%*%GREEN%*%BLUE%*%MAP-4B%//unlimited id tome (Horadric Almanac)
+ItemDisplay[rtp]:%RED%*%YELLOW%*%GREEN%*%BLUE%* %RED%ooo %PURPLE%Horadric Navigator %RED%ooo %RED%*%YELLOW%*%GREEN%*%BLUE%*%MAP-4B%//unlimited tp tome (Horadric Navigator)
+ItemDisplay[rkey]:%RED%*%YELLOW%*%GREEN%*%BLUE%* %RED%ooo %PURPLE%Skeleton Key %RED%ooo %RED%*%YELLOW%*%GREEN%*%BLUE%*%MAP-4B%//Skeleton Key
+ItemDisplay[llmr]:%RED%*%YELLOW%*%GREEN%*%BLUE%* %RED%ooo %PURPLE%Lilith's Mirror %RED%ooo %RED%*%YELLOW%*%GREEN%*%BLUE%*%MAP-4B%//Lilith's Mirror
+ItemDisplay[lsvl]:%RED%*%YELLOW%*%GREEN%*%BLUE%* %RED%ooo %PURPLE%Vial of Lightsong %RED%ooo %RED%*%YELLOW%*%GREEN%*%BLUE%*%MAP-4B%//Vial of Lightsong
 ItemDisplay[lpp]:%RED%ooo %PURPLE%Larzuk's Puzzlepiece %RED%ooo %WHITE%(x %QTY%)%MAP-4B%//Larzuk's Puzzlepiece
 //╔═════════════════╗
 //║   Uber Ancients ║
@@ -366,17 +366,17 @@ ItemDisplay[UNI ID cm3]:%RED%%NAME%%DOT-0C%%BORDER-4B%
 ////////////
 //Season 5//
 ////////////
-ItemDisplay[UNI !ID utg]:%RED%ooo %GOLD%Occultist %RED%ooo%BORDER-A5%%DOT-62%
-ItemDisplay[UNI !ID 7fb]:%RED%ooo %GOLD%Odium %RED%o%BORDER-A5%%DOT-62%
-ItemDisplay[UNI !ID ame]:%RED%ooo %GOLD%Zerae's Resolve %RED%ooo%BORDER-A5%%DOT-62%
-ItemDisplay[UNI !ID ulb]:%RED%ooo %GOLD%Merman's Sprocket %RED%ooo%BORDER-A5%%DOT-62%
-ItemDisplay[UNI !ID ned]:%RED%ooo %GOLD%Martyrdom %RED%ooo%BORDER-A5%%DOT-62%
-ItemDisplay[UNI !ID 6bs]:%RED%ooo %GOLD%Brimstone Rain %RED%ooo%BORDER-A5%%DOT-62%
-ItemDisplay[UNI !ID 7qs]:%RED%ooo %GOLD%Akarat's Devotion %RED%ooo%BORDER-A5%%DOT-62%
-ItemDisplay[UNI !ID 7tw]:%RED%ooo %GOLD%Stalker's Call %RED%ooo%BORDER-A5%%DOT-62%
-ItemDisplay[UNI !ID baf]:%RED%ooo %GOLD%Raekor's Virtue %RED%ooo%BORDER-A5%%DOT-62%
-ItemDisplay[UNI !ID utp]:%RED%ooo %GOLD%Purgatory %RED%ooo%BORDER-A5%%DOT-62%
-ItemDisplay[UNI !ID drf]:%RED%ooo %GOLD%Ursa's Nightmare %RED%ooo%BORDER-A5%%DOT-62%
+ItemDisplay[UNI !ID utg]:%PURPLE%* %RED%ooo %GOLD%Occultist %RED%ooo %PURPLE%* %BORDER-A5%%DOT-62%
+ItemDisplay[UNI !ID 7fb]:%PURPLE%* %RED%ooo %GOLD%Odium %RED%ooo %PURPLE%* %BORDER-A5%%DOT-62%
+ItemDisplay[UNI !ID ame]:%PURPLE%* %RED%ooo %GOLD%Zerae's Resolve %RED%ooo %PURPLE%* %BORDER-A5%%DOT-62%
+ItemDisplay[UNI !ID ulb]:%PURPLE%* %RED%ooo %GOLD%Merman's Sprocket %RED%ooo %PURPLE%* %BORDER-A5%%DOT-62%
+ItemDisplay[UNI !ID ned]:%PURPLE%* %RED%ooo %GOLD%Martyrdom %RED%ooo %PURPLE%* %BORDER-A5%%DOT-62%
+ItemDisplay[UNI !ID 6bs]:%PURPLE%* %RED%ooo %GOLD%Brimstone Rain %RED%ooo %PURPLE%* %BORDER-A5%%DOT-62%
+ItemDisplay[UNI !ID 7qs]:%PURPLE%* %RED%ooo %GOLD%Akarat's Devotion %RED%ooo %PURPLE%* %BORDER-A5%%DOT-62%
+ItemDisplay[UNI !ID 7tw]:%PURPLE%* %RED%ooo %GOLD%Stalker's Call %RED%ooo %PURPLE%* %BORDER-A5%%DOT-62%
+ItemDisplay[UNI !ID baf]:%PURPLE%* %RED%ooo %GOLD%Raekor's Virtue %RED%ooo %PURPLE%* %BORDER-A5%%DOT-62%
+ItemDisplay[UNI !ID utp]:%PURPLE%* %RED%ooo %GOLD%Purgatory %RED%ooo %PURPLE%* %BORDER-A5%%DOT-62%
+ItemDisplay[UNI !ID drf]:%PURPLE%* %RED%ooo %GOLD%Ursa's Nightmare %RED%ooo %PURPLE%* %BORDER-A5%%DOT-62%
 ////////////////////
 //Previous Seasons//
 ////////////////////
