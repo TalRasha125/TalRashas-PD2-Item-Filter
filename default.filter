@@ -1,7 +1,7 @@
 //++++++++++++++++++++++++++
 //TalRasha's PD2 Item Filter
 //++++++++++++++++++++++++++
-//Updated June 29th, 2022
+//Updated June 30th, 2022
 //
 //╔════════════════╗
 //║ Global Filters ║
@@ -865,7 +865,8 @@ ItemDisplay[RW]:%GOLD%%NAME%%MAP-60%
 //Charms//
 //////////
 ItemDisplay[MAG !ID cm1]:%WHITE%%BLUE%*** %BLUE%o %NAME%%GRAY%[%ILVL%]%BLUE% o %BLUE%***%WHITE%%MAP-97%%PX-62%
-ItemDisplay[MAG !ID cm2]:%WHITE%%BLUE%* %BLUE%o %NAME%%GRAY%[%ILVL%]%BLUE% o %BLUE%*%WHITE%%MAP-97%%PX-62%
+ItemDisplay[MAG !ID cm2 CLVL<80]:%WHITE%%BLUE%* %BLUE%o %NAME%%GRAY%[%ILVL%]%BLUE% o %BLUE%*%WHITE%%MAP-97%%PX-62%
+ItemDisplay[MAG !ID cm2 CLVL>79]:%BLUE%o %NAME%%BLUE% o
 ItemDisplay[MAG !ID ILVL<91 cm3]:%WHITE%%BLUE%*** %BLUE%o %NAME%%GRAY%[%ILVL%]%BLUE% o %BLUE%***%WHITE%%MAP-97%%PX-62%
 ItemDisplay[MAG !ID ILVL>90 cm3]:%WHITE%%BLUE%*** %BLUE%o %ORANGE%Reroll %BLUE%%NAME%%ORANGE%[%ILVL%]%BLUE% o %BLUE%***%WHITE%%MAP-97%%PX-62%
 //╔═══════╗
