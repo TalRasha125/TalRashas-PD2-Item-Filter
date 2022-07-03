@@ -1,7 +1,7 @@
 //++++++++++++++++++++++++++
 //TalRasha's PD2 Item Filter
 //++++++++++++++++++++++++++
-//Updated June 30th, 2022
+//Updated July 3rd, 2022
 //
 //╔════════════════╗
 //║ Global Filters ║
@@ -243,7 +243,7 @@ ItemDisplay[rera]:%PURPLE% %NAME%%DOT-80%{%TAN%Rune or Greater, & Rare Map%NL%Cu
 ItemDisplay[imra]:%PURPLE% %NAME%%DOT-80%{%TAN%or Greater, & White Map%NL%Cube w/ Jewel, Thul Rune%NL%%ORANGE%Imbue Rare Map%NL%} // Imbue Rare Map (Zakarum Orb)
 ItemDisplay[upma]:%PURPLE% %NAME%%DOT-80%{%TAN%Rune or Greater, & Magic Map%NL%Cube w/ Perfect Skull, Thul%NL%%ORANGE%Upgrade Magic to Rare%NL%} // Upgrade Magic Map to Rare Map (Angelic Orb)
 ItemDisplay[imma]:%PURPLE% %NAME%%DOT-80%{%TAN%& White Map%NL%Cube w/ Jewel,%NL%%ORANGE%Imbue Magic Map%NL%} // Imbue Magic Map (Arcane Orb)
-ItemDisplay[scou]:%PURPLE% %NAME%%DOT-80%{%TAN%Magic or Rare Map%NL%Cube w/ Hel Rune &%NL%%ORANGE%Purge Map%NL%} // Purge Map (Removes Mods and Reverts back to a White Map) (Orb of Destruction)
+ItemDisplay[scou]:%PURPLE% %NAME%%DOT-80%{%TAN%Magic or Rare Map%NL%Cube with%NL%%ORANGE%Purge Map%NL%} // Purge Map (Removes Mods and Reverts back to a White Map) (Orb of Destruction)
 ItemDisplay[upmp]:%PURPLE% %NAME%%DOT-80%{%TAN%to get a map of the next tier%NL%Cube 3 maps of the same tier%NL%%ORANGE%Uptier Maps%NL%} // Combine maps into higher tiers (Cartographer's Orb)
 ItemDisplay[scrb]:%RED%*%YELLOW%*%GREEN%*%BLUE%* %RED%o%PURPLE% %NAME% %RED%o %RED%*%YELLOW%*%GREEN%*%BLUE%*%DOT-62%%BORDER-4B%{%TAN%these are intended for groups!%NL%%RED%WARNING:%NL%%NL%%TAN%create a group dungeon%NL%Cube w/ a Tier 3 map to%NL%%ORANGE%Create Group Dungeon%NL%} // turns t3 maps into dungeons (Horadrim Scarab)
 //╔══════╗
