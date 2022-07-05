@@ -1778,7 +1778,7 @@ ItemDisplay[NMAG !RW ILVL>25 9cr]:
 ItemDisplay[NMAG !RW ILVL>60 SOCK=0 7cr]:
 ItemDisplay[NMAG !RW ILVL>60 SOCK=1 7cr]:
 ItemDisplay[NMAG !RW ILVL>60 SOCK=2 7cr]:
-ItemDisplay[NMAG !RW ILVL>60 SOCK=4 7cr]:
+//ItemDisplay[NMAG !RW ILVL>60 SOCK=4 7cr]:
 //
 ItemDisplay[NMAG !RW ILVL>25 9bs]:
 ItemDisplay[NMAG !RW ILVL>60 7bs]:
