@@ -1,7 +1,7 @@
 //++++++++++++++++++++++++++
 //TalRasha's PD2 Item Filter
 //++++++++++++++++++++++++++
-//Updated July 5, 2022
+//Updated July 10, 2022
 //
 //╔════════════════╗
 //║ Global Filters ║
@@ -892,9 +892,9 @@ ItemDisplay[RARE lbl !ID CLVL>40]:
 ItemDisplay[RARE ETH ELT WP3 !ID]:%NAME%
 ItemDisplay[RARE ETH ELT WP7 !ID]:%NAME%
 ItemDisplay[RARE ETH ELT WP8 !ID]:%NAME%
-ItemDisplay[RARE !ETH ELT WP3 !ID]://%NAME%
-ItemDisplay[RARE !ETH ELT WP7 !ID]://%NAME%
-ItemDisplay[RARE !ETH ELT WP8 !ID]://%NAME%
+ItemDisplay[RARE !ETH ELT WP3 !ID]:%NAME%
+ItemDisplay[RARE !ETH ELT WP7 !ID]:%NAME%
+ItemDisplay[RARE !ETH ELT WP8 !ID]:%NAME%
 //
 //Class Specific Rares (Druid Pelts, Barb Helms, Paladin Shields, Necro Heads, Assassin Claws, Sorc Orbs)
 ItemDisplay[RARE CL1 !ID]:%YELLOW%* %NAME% *%WHITE%%MAP-A8%
@@ -911,6 +911,7 @@ ItemDisplay[RARE WP13 !ID]:%NAME%
 //
 //None of the Above
 //Weapons (Axe, Mace, Sword, Dagger, Throwing Weapon, Javelin, Spear, Polearm, Bow, Crossbow)
+ItemDisplay[RARE (WEAPON OR ARMOR) (NORM OR EXC) CLVL>79 !ID]:
 ItemDisplay[RARE WP1 !ID ILVL>66]:%NAME%
 ItemDisplay[RARE WP2 !ID ILVL>66]:%NAME%
 ItemDisplay[RARE WP4 !ID ILVL>66]:%NAME%
@@ -1575,6 +1576,7 @@ ItemDisplay[(CL1 OR CL2 OR CL3 OR CL4 OR CL5 OR CL6 OR CL7) NMAG]:
 //║ Leveling ║
 //╚══════════╝
 //Generic
+ItemDisplay[CLVL>79 (NORM OR EXC) (MAG OR RARE) (WEAPON OR ARMOR) !ID]://%NAME%
 ItemDisplay[RARE ILVL<15]:%NAME%
 ItemDisplay[!RW NORM NMAG ILVL<15 SOCK>0 ETH (ARMOR OR WEAPON)]:%NAME% 
 ItemDisplay[!RW NORM NMAG ILVL<15 SOCK=0 ETH (ARMOR OR WEAPON)]:%NAME%
@@ -1597,6 +1599,7 @@ ItemDisplay[ILVL<66 EXC RARE (ARMOR OR WEAPON)]:%NAME%
 ItemDisplay[ILVL<66 ELT MAG ARMOR !ID]:%NAME%
 ItemDisplay[ILVL<66 ELT MAG ARMOR ID]:%NAME%
 ItemDisplay[ILVL<66 ELT RARE (ARMOR OR WEAPON)]:%NAME%
+
 //
 //None of the Above
 //Weapons:Axe, Mace, Sword, Dagger, Throwing Weapon, Javelin, Spear, Polearm, Bow, Crossbow
