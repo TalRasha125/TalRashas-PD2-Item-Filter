@@ -1,7 +1,7 @@
 //++++++++++++++++++++++++++
 //TalRasha's PD2 Item Filter
 //++++++++++++++++++++++++++
-//Updated July 10, 2022
+//Updated July 12, 2022
 //
 //╔════════════════╗
 //║ Global Filters ║
@@ -789,6 +789,7 @@ ItemDisplay[(MAG OR RARE) ILVL>71 NEC]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:
 //druid helms
 ItemDisplay[(MAG OR RARE) ILVL<72 CLVL<75 DRU]: %NAME%{%GRAY%Vampiric:%TAN% P Skull + Lum%NL%%GREEN%Safety:%TAN% P Eme + Ith%NL%%PURPLE%Caster:%TAN% P Ame + Nef%NL%%YELLOW%Bountiful:%TAN% P Top + Tir%NL%%ORANGE%Craft w/ Jewel:} // Any Druid Helm
 ItemDisplay[(MAG OR RARE) ILVL>71 DRU]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Lum%NL%%GREEN%Safety:%TAN% P Eme + Ith%NL%%PURPLE%Caster:%TAN% P Ame + Nef%NL%%YELLOW%Bountiful:%TAN% P Top + Tir%NL%%ORANGE%Craft w/ Jewel:} // Any Druid Helm
+ItemDisplay[(MAG OR RARE) ILVL>71 (clb OR spc OR 9cl OR 9sp OR 7cl OR 7sp)]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Shael%NL%%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%PURPLE%Caster:%TAN% P Ame + Tir%NL%%YELLOW%Bountiful:%TAN% P Top + Shael%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel:}//druid clubs
 //pala shields
 ItemDisplay[(MAG OR RARE) ILVL<72 CLVL<75 DIN]: %NAME%{%GRAY%Vampiric:%TAN% P Skull + Sol%NL%%GREEN%Safety:%TAN% P Eme + Nef%NL%%PURPLE%Caster:%TAN% P Ame + Eth%NL%%YELLOW%Bountiful:%TAN% P Top + Dol%NL%%ORANGE%Craft w/ Jewel:} // Any Paladin Shield
 ItemDisplay[(MAG OR RARE) ILVL>71 DIN]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Sol%NL%%GREEN%Safety:%TAN% P Eme + Nef%NL%%PURPLE%Caster:%TAN% P Ame + Eth%NL%%YELLOW%Bountiful:%TAN% P Top + Dol%NL%%ORANGE%Craft w/ Jewel:} // Any Paladin Shield
@@ -801,7 +802,7 @@ ItemDisplay[(MAG OR RARE) ILVL>71 ETH (am5 OR ama OR amf)]: %NAME% %ORANGE%[C]%B
 ItemDisplay[(MAG OR RARE) ILVL>71 ZON BOW]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Shael%NL%%GREEN%Safety:%TAN% P Eme + Sol%NL%%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%YELLOW%Bountiful:%TAN% P Top + Shael%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel:} // Any Amazon Bow
 //sin weps
 ItemDisplay[(MAG OR RARE) ILVL<72 CLVL<75 SIN]: %NAME%{%GRAY%Vampiric:%TAN% P Skull + Shael%NL%%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%PURPLE%Caster:%TAN% P Ame + Tir%NL%%YELLOW%Bountiful:%TAN% P Top + Shael%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel:} // Good Assassin Katars
-ItemDisplay[(MAG OR RARE) ILVL>71 (7ar OR 7wb OR 7xf OR 9cs OR 7cs OR 9lw OR 7lw OR 9tw OR 7tw OR 9qr OR 7qr)]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Shael%NL%%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%PURPLE%Caster:%TAN% P Ame + Tir%NL%%YELLOW%Bountiful:%TAN% P Top + Shael%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel:} // Good Assassin Katars
+ItemDisplay[(MAG OR RARE) ILVL>71 (7ar OR 7wb OR 7xf OR 9cs OR 7cs OR 9lw OR 7lw OR 9tw OR 7tw OR 9qr OR 7qr)]:%NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Shael%NL%%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%PURPLE%Caster:%TAN% P Ame + Tir%NL%%YELLOW%Bountiful:%TAN% P Top + Shael%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel:} // Good Assassin Katars
 //sorc orbs
 ItemDisplay[(MAG OR RARE) ILVL<72 CLVL<75 SOR]: %NAME%{%GRAY%Vampiric:%TAN% P Skull + Shael%NL%%PURPLE%Caster:%TAN% P Ame + Tir%NL%%YELLOW%Bountiful:%TAN% P Top + Shael%NL%%ORANGE%Craft w/ Jewel:} // Good Sorceress Orbs
 ItemDisplay[(MAG OR RARE) ILVL>71 (ob1 OR ob6 OR obb OR ob2 OR ob7 OR obc OR ob3 OR ob8 OR obd OR ob4 OR ob9 OR obe OR ob5 OR oba OR obf)]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Shael%NL%%PURPLE%Caster:%TAN% P Ame + Tir%NL%%YELLOW%Bountiful:%TAN% P Top + Shael%NL%%ORANGE%Craft w/ Jewel:} // Good Sorceress Orbs
@@ -903,13 +904,14 @@ ItemDisplay[RARE CL5 !ID]:%YELLOW%* %NAME% *%WHITE%%MAP-A8%
 ItemDisplay[RARE CL6 !ID]:%YELLOW%* %NAME% *%WHITE%%MAP-A8%
 //
 //Caster Rares (Staff, Wand, Scepter)
+ItemDisplay[RARE (clb OR spc OR 9cl OR 9sp OR 7cl OR 7sp) !ID]:%NAME%
 ItemDisplay[RARE WP11 !ID]:%NAME%
 ItemDisplay[RARE WP12 !ID]:%NAME%
 ItemDisplay[RARE WP13 !ID]:%NAME%
 //
 //None of the Above
 //Weapons (Axe, Mace, Sword, Dagger, Throwing Weapon, Javelin, Spear, Polearm, Bow, Crossbow)
-ItemDisplay[RARE (WEAPON OR ARMOR) (NORM OR EXC) CLVL>79 !ID]:
+ItemDisplay[RARE (WEAPON OR ARMOR) NORM CLVL>79 !ID]:
 ItemDisplay[RARE WP1 !ID ILVL>66]:%NAME%
 ItemDisplay[RARE WP2 !ID ILVL>66]:%NAME%
 ItemDisplay[RARE WP4 !ID ILVL>66]:%NAME%
@@ -1076,7 +1078,7 @@ ItemDisplay[NMAG HELM SOCK=3]:%NAME%
 //Obsession
 ItemDisplay[NMAG STAFF SOCK=6]:%NAME%
 //Flickering Flame
-ItemDisplay[NMAG HELM SOCK=3]:%NAME%
+//ItemDisplay[NMAG HELM SOCK=3]:%NAME%
 //Mist
 ItemDisplay[NMAG (BOW OR XBOW) SOCK=5]:%NAME%
 //Rampage
@@ -1443,9 +1445,7 @@ ItemDisplay[7sp NMAG (SOCK=0 OR SOCK=3) SK245=3]:%GREEN%+3 Nado Club%MAP-97% %YE
 //
 //Death
 ItemDisplay[7fb ETH NMAG SOCK=0]:%DARK_GREEN%%NAME% %YELLOW%
-ItemDisplay[7wa ETH NMAG SOCK=5]:%DARK_GREEN%%NAME% %RED%
 ItemDisplay[7fb ETH NMAG SOCK=5]:%DARK_GREEN%%NAME% %RED%
-ItemDisplay[7gd ETH NMAG SOCK=5]:%DARK_GREEN%%NAME% %RED%
 ItemDisplay[7gi ETH NMAG SOCK=0]:%GRAY%%NAME% %GRAY%
 ItemDisplay[7gi ETH NMAG SOCK=5]:%GRAY%%NAME% %GRAY%
 //
@@ -1519,24 +1519,24 @@ ItemDisplay[CL4 NMAG (SK84=3) !ETH !SOCK=1]:%GRAY%+3 bone spear head%GRAY%
 ItemDisplay[CL4 NMAG (SK92=3) !ETH !SOCK=1]:%GRAY%+3 poison nova head%GRAY%
 ItemDisplay[CL4 NMAG (SK75=3) !ETH !SOCK=1]:%GRAY%+3 Clay golem head%GRAY%
 //
-//non-magic druid pelts 
-ItemDisplay[CL1 NMAG (SK244=3) !SOCK=1]:%GRAY%+3 Volcano Pelt %GRAY%
-ItemDisplay[CL1 NMAG (SK249=3) !SOCK=1]:%GRAY%+3 Armageddon Pelt %GRAY%
-ItemDisplay[CL1 NMAG (SK250=3) !SOCK=1]:%GRAY%+3 Hurricane Pelt %GRAY%
-ItemDisplay[CL1 NMAG (SK240=3) !SOCK=1]:%GRAY%+3 Twister Pelt %GRAY%
-ItemDisplay[CL1 NMAG (SK245=3) !SOCK=1]:%GRAY%+3 Nado Pelt %GRAY%%CONTINUE%
-ItemDisplay[CL1 NMAG (SK237=3) !SOCK=1]:%GRAY%+3 Dire Wolf Pelt %GRAY%
-ItemDisplay[CL1 NMAG (SK247=3) !SOCK=1]:%GRAY%+3 Grizzly Pelt %GRAY%
-ItemDisplay[CL1 NMAG (SK227=3) !SOCK=1]:%GRAY%+3 Spirit Wolf Pelt %GRAY%
-ItemDisplay[CL1 NMAG (SK243=3) !SOCK=1]:%GRAY%+3 Shockwave Pelt %GRAY%
-ItemDisplay[CL1 NMAG (SK238=3) !SOCK=1]:%GRAY%+3 Rabies Pelt %GRAY%
-ItemDisplay[CL1 NMAG (SK239=3) !SOCK=1]:%GRAY%+3 Fireclaw Pelt %GRAY%
-ItemDisplay[CL1 NMAG (SK221=3) !SOCK=1 CLVL<90]:%DARK_GREEN%+3 Raven Pelt%MAP-97% %GRAY%
-ItemDisplay[CL1 NMAG (SK221=2) !SOCK=1 CLVL<61]:%DARK_GREEN%+2 Raven Pelt %GRAY%
-ItemDisplay[CL1 NMAG (SK221=1) !SOCK=1 CLVL<21]:%DARK_GREEN%+1 Raven Pelt %GRAY%
-ItemDisplay[CL1 NMAG (SK225=3) !SOCK=1 CLVL<90]:%DARK_GREEN%+3 Firestorm Pelt%MAP-97% %GRAY%
-ItemDisplay[CL1 NMAG (SK225=2) !SOCK=1 CLVL<61]:%DARK_GREEN%+2 Firestorm Pelt %GRAY%
-ItemDisplay[CL1 NMAG (SK225=1) !SOCK=1 CLVL<21]:%DARK_GREEN%+1 Firestorm Pelt %GRAY%
+//non-magic druid pelts and clubs
+ItemDisplay[(CL1 OR clb OR spc OR 9cl OR 9sp OR 7cl OR 7sp) NMAG (SK244=3) !SOCK=1]:%GRAY%+3 Volcano %NAME% %GRAY%
+ItemDisplay[(CL1 OR clb OR spc OR 9cl OR 9sp OR 7cl OR 7sp) NMAG (SK249=3) !SOCK=1]:%GRAY%+3 Armageddon %NAME% %GRAY%
+ItemDisplay[(CL1 OR clb OR spc OR 9cl OR 9sp OR 7cl OR 7sp) NMAG (SK250=3) !SOCK=1]:%GRAY%+3 Hurricane %NAME% %GRAY%
+ItemDisplay[(CL1 OR clb OR spc OR 9cl OR 9sp OR 7cl OR 7sp) NMAG (SK240=3) !SOCK=1]:%GRAY%+3 Twister %NAME% %GRAY%
+ItemDisplay[(CL1 OR clb OR spc OR 9cl OR 9sp OR 7cl OR 7sp) NMAG (SK245=3) !SOCK=1]:%GRAY%+3 Nado %NAME% %GRAY%%CONTINUE%
+ItemDisplay[(CL1 OR clb OR spc OR 9cl OR 9sp OR 7cl OR 7sp) NMAG (SK237=3) !SOCK=1]:%GRAY%+3 Dire Wolf %NAME% %GRAY%
+ItemDisplay[(CL1 OR clb OR spc OR 9cl OR 9sp OR 7cl OR 7sp) NMAG (SK247=3) !SOCK=1]:%GRAY%+3 Grizzly %NAME% %GRAY%
+ItemDisplay[(CL1 OR clb OR spc OR 9cl OR 9sp OR 7cl OR 7sp) NMAG (SK227=3) !SOCK=1]:%GRAY%+3 Spirit Wolf %NAME% %GRAY%
+ItemDisplay[(CL1 OR clb OR spc OR 9cl OR 9sp OR 7cl OR 7sp) NMAG (SK243=3) !SOCK=1]:%GRAY%+3 Shockwave %NAME% %GRAY%
+ItemDisplay[(CL1 OR clb OR spc OR 9cl OR 9sp OR 7cl OR 7sp) NMAG (SK238=3) !SOCK=1]:%GRAY%+3 Rabies %NAME% %GRAY%
+ItemDisplay[(CL1 OR clb OR spc OR 9cl OR 9sp OR 7cl OR 7sp) NMAG (SK239=3) !SOCK=1]:%GRAY%+3 Fireclaw %NAME% %GRAY%
+ItemDisplay[(CL1 OR clb OR spc OR 9cl OR 9sp OR 7cl OR 7sp) NMAG (SK221=3) !SOCK=1 CLVL<90]:%DARK_GREEN%+3 Raven %NAME%%MAP-97% %GRAY%
+ItemDisplay[(CL1 OR clb OR spc OR 9cl OR 9sp OR 7cl OR 7sp) NMAG (SK221=2) !SOCK=1 CLVL<61]:%DARK_GREEN%+2 Raven %NAME% %GRAY%
+ItemDisplay[(CL1 OR clb OR spc OR 9cl OR 9sp OR 7cl OR 7sp) NMAG (SK221=1) !SOCK=1 CLVL<21]:%DARK_GREEN%+1 Raven %NAME% %GRAY%
+ItemDisplay[(CL1 OR clb OR spc OR 9cl OR 9sp OR 7cl OR 7sp) NMAG (SK225=3) !SOCK=1 CLVL<90]:%DARK_GREEN%+3 Firestorm %NAME%%MAP-97% %GRAY%
+ItemDisplay[(CL1 OR clb OR spc OR 9cl OR 9sp OR 7cl OR 7sp) NMAG (SK225=2) !SOCK=1 CLVL<61]:%DARK_GREEN%+2 Firestorm %NAME% %GRAY%
+ItemDisplay[(CL1 OR clb OR spc OR 9cl OR 9sp OR 7cl OR 7sp) NMAG (SK225=1) !SOCK=1 CLVL<21]:%DARK_GREEN%+1 Firestorm %NAME% %GRAY%
 //
 //non-magic barbarian primal helms (barb)
 ItemDisplay[CL2 NMAG (SK154=3) !SOCK=1 CLVL<95]:%DARK_GREEN%+3 warcry helm%GRAY%
