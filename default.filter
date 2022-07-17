@@ -1,7 +1,7 @@
 //++++++++++++++++++++++++++
 //TalRasha's PD2 Item Filter
 //++++++++++++++++++++++++++
-//Updated July 12, 2022
+//Updated July 17, 2022
 //
 //╔════════════════╗
 //║ Global Filters ║
@@ -770,6 +770,133 @@ ItemDisplay[MAG ci0 !ETH !ID]:%BLUE%* %NAME% *%MAP-97%%PX-62%
 ItemDisplay[MAG ci1 !ETH !ID]:%BLUE%* %NAME% *%MAP-97%%PX-62%
 ItemDisplay[MAG ci2 !ETH !ID]:%BLUE%* %NAME% *%MAP-97%%PX-62%
 //
+//╔══════════════╗
+//║ Vendor Items ║
+//╚══════════════╝
+// Amazon Javelins
+ItemDisplay[MAG (CLSK0>1 AND TABSK2>2) ZON]: %NAME% %GREEN%(+5 Jav)%BLUE%%CONTINUE% // +2 Amazon, +3 Javelin Skills Javelin
+ItemDisplay[MAG TABSK2>5 ZON]: %NAME% %GREEN%(+6 Jav)%BLUE%%CONTINUE% // +6 Javelin Skills Javelin
+// Assassin Katars
+//  +3 tab
+ItemDisplay[MAG TABSK50=3 SIN]: %NAME% %GREEN%(+3 MA)%BLUE%%CONTINUE%
+ItemDisplay[MAG TABSK49=3 SIN]: %NAME% %GREEN%(+3 SD)%BLUE%%CONTINUE%
+ItemDisplay[MAG TABSK48=3 SIN]: %NAME% %GREEN%(+3 Trap)%BLUE%%CONTINUE%
+//  +2 Sin / +3 skill
+ItemDisplay[MAG (CLSK6>1 AND SK254>2) SIN]: %NAME% %GREEN%(+5 TS)%BLUE%%CONTINUE% // +2 Assassin, +3 Tiger Strike katar
+ItemDisplay[MAG (CLSK6>1 AND SK265>2) SIN]: %NAME% %GREEN%(+5 CS)%BLUE% %CONTINUE%// +2 Assassin, +3 Cobra Strike katar
+ItemDisplay[MAG (CLSK6>1 AND SK269>2) SIN]: %NAME% %GREEN%(+5 CoT)%BLUE%%CONTINUE% // +2 Assassin, +3 Claws of Thunder katar
+ItemDisplay[MAG (CLSK6>1 AND SK275>2) SIN]: %NAME% %GREEN%(+5 DF)%BLUE%%CONTINUE% // +2 Assassin, +3 Dragon Flight katar
+ItemDisplay[MAG (CLSK6>1 AND SK280>2) SIN]: %NAME% %GREEN%(+5 PS)%BLUE%%CONTINUE% // +2 Assassin, +3 Phoenix Strike katar
+ItemDisplay[MAG (CLSK6>1 AND SK252>2) SIN]: %NAME% %GREEN%(+5 DCM)%BLUE%%CONTINUE% // +2 Assassin, +3 Dagger & Claw Mastery katar
+ItemDisplay[MAG (CLSK6>1 AND SK253>2) SIN]: %NAME% %GREEN%(+5 PH)%BLUE%%CONTINUE% // +2 Assassin, +3 Psychic Hammer katar
+ItemDisplay[MAG (CLSK6>1 AND SK273>2) SIN]: %NAME% %GREEN%(+5 MB)%BLUE%%CONTINUE%// +2 Assassin, +3 Mind Blast katar
+ItemDisplay[MAG (CLSK6>1 AND SK278>2) SIN]: %NAME% %GREEN%(+5 Ven)%BLUE%%CONTINUE% // +2 Assassin, +3 Venom katar
+ItemDisplay[MAG (CLSK6>1 AND SK262>2) SIN]: %NAME% %GREEN%(+5 WoF)%BLUE%%CONTINUE% // +2 Assassin, +3 Wake of Fire katar
+ItemDisplay[MAG (CLSK6>1 AND SK276>2) SIN]: %NAME% %GREEN%(+5 DS)%BLUE%%CONTINUE% // +2 Assassin, +3 Death Sentry katar
+ItemDisplay[MAG (CLSK6>1 AND SK271>2) SIN]: %NAME% %GREEN%(+5 CLS)%BLUE%%CONTINUE% // +2 Assassin, +3 Chain Lightning Sentry katar
+ItemDisplay[MAG (CLSK6>1 AND SK366>2) SIN]: %NAME% %GREEN%(+5 LS)%BLUE%%CONTINUE% // +2 Assassin, +3 Lightning Sentry katar
+//  +2 tab / +3 skill
+ItemDisplay[MAG (TABSK50=2 AND SK254=3) SIN]: %NAME% %GREEN%(+5 TS)%BLUE%%CONTINUE% // +2 Martial Arts, +3 Tiger Strike katar
+ItemDisplay[MAG (TABSK50=2 AND SK265=3) SIN]: %NAME% %GREEN%(+5 CS)%BLUE%%CONTINUE% // +2 Martial Arts, +3 Cobra Strike katar
+ItemDisplay[MAG (TABSK50=2 AND SK269=3) SIN]: %NAME% %GREEN%(+5 CoT)%BLUE%%CONTINUE% // +2 Martial Arts, +3 Claws of Thunder katar
+ItemDisplay[MAG (TABSK50=2 AND SK275=3) SIN]: %NAME% %GREEN%(+5 DF)%BLUE%%CONTINUE% // +2 Martial Arts, +3 Dragon Flight katar
+ItemDisplay[MAG (TABSK50=2 AND SK280=3) SIN]: %NAME% %GREEN%(+5 PS)%BLUE%%CONTINUE% // +2 Martial Arts, +3 Phoenix Strike katar
+ItemDisplay[MAG (TABSK49=2 AND SK252=3) SIN]: %NAME% %GREEN%(+5 DCM)%BLUE%%CONTINUE% // +2 Shadow Disciplines, +3 Dagger & Claw Mastery katar
+ItemDisplay[MAG (TABSK49=2 AND SK253=3) SIN]: %NAME% %GREEN%(+5 PH)%BLUE%%CONTINUE% // +2 Shadow Disciplines, +3 Psychic Hammer katar
+ItemDisplay[MAG (TABSK49=2 AND SK273=3) SIN]: %NAME% %GREEN%(+5 MB)%BLUE%%CONTINUE% // +2 Shadow Disciplines, +3 Mind Blast katar
+ItemDisplay[MAG (TABSK49=2 AND SK278=3) SIN]: %NAME% %GREEN%(+5 Ven)%BLUE%%CONTINUE%// +2 Shadow Disciplines, +3 Venom katar
+ItemDisplay[MAG (TABSK48=2 AND SK262=3) SIN]: %NAME% %GREEN%(+5 WoF)%BLUE%%CONTINUE% // +2 Trap, +3 Wake of Fire katar
+ItemDisplay[MAG (TABSK48=2 AND SK276=3) SIN]: %NAME% %GREEN%(+5 DS)%BLUE%%CONTINUE% // +2 Trap, +3 Death Sentry katar
+ItemDisplay[MAG (TABSK48=2 AND SK271=3) SIN]: %NAME% %GREEN%(+5 CLS)%BLUE%%CONTINUE% // +2 Trap, +3 Chain Lightning Sentry katar
+ItemDisplay[MAG (TABSK48=2 AND SK366=3) SIN]: %NAME% %GREEN%(+5 LS)%BLUE%%CONTINUE% // +2 Trap, +3 Lightning Sentry katar
+//  +3 tab / +2 skill
+ItemDisplay[MAG (TABSK50=3 AND SK254=2) SIN]: %NAME% %GREEN%(+5 TS)%BLUE%%CONTINUE% // +3 Martial Arts, +2 Tiger Strike katar
+ItemDisplay[MAG (TABSK50=3 AND SK265=2) SIN]: %NAME% %GREEN%(+5 CS)%BLUE%%CONTINUE% // +3 Martial Arts, +2 Cobra Strike katar
+ItemDisplay[MAG (TABSK50=3 AND SK269=2) SIN]: %NAME% %GREEN%(+5 CoT)%BLUE%%CONTINUE% // +3 Martial Arts, +2 Claws of Thunder katar
+ItemDisplay[MAG (TABSK50=3 AND SK275=2) SIN]: %NAME% %GREEN%(+5 DF)%BLUE%%CONTINUE% // +3 Martial Arts, +2 Dragon Flight katar
+ItemDisplay[MAG (TABSK50=3 AND SK280=2) SIN]: %NAME% %GREEN%(+5 PS)%BLUE%%CONTINUE% // +3 Martial Arts, +2 Phoenix Strike katar
+ItemDisplay[MAG (TABSK49=3 AND SK252=2) SIN]: %NAME% %GREEN%(+5 DCM)%BLUE%%CONTINUE% // +3 Shadow Disciplines, +2 Dagger & Claw Mastery katar
+ItemDisplay[MAG (TABSK49=3 AND SK253=2) SIN]: %NAME% %GREEN%(+5 PH)%BLUE%%CONTINUE% // +3 Shadow Disciplines, +2 Psychic Hammer katar
+ItemDisplay[MAG (TABSK49=3 AND SK273=2) SIN]: %NAME% %GREEN%(+5 MB)%BLUE% %CONTINUE%// +3 Shadow Disciplines, +2 Mind Blast katar
+ItemDisplay[MAG (TABSK49=3 AND SK278=2) SIN]: %NAME% %GREEN%(+5 Ven)%BLUE%%CONTINUE% // +3 Shadow Disciplines, +2 Venom katar
+ItemDisplay[MAG (TABSK48=3 AND SK262=2) SIN]: %NAME% %GREEN%(+5 WoF)%BLUE%%CONTINUE% // +3 Trap, +2 Wake of Fire katar
+ItemDisplay[MAG (TABSK48=3 AND SK276=2) SIN]: %NAME% %GREEN%(+5 DS)%BLUE%%CONTINUE% // +3 Trap, +2 Death Sentry katar
+ItemDisplay[MAG (TABSK48=3 AND SK271=2) SIN]: %NAME% %GREEN%(+5 CLS)%BLUE%%CONTINUE% // +3 Trap, +2 Chain Lightning Sentry katar
+ItemDisplay[MAG (TABSK48=3 AND SK366=2) SIN]: %NAME% %GREEN%(+5 LS)%BLUE%%CONTINUE% // +3 Trap, +2 Lightning Sentry katar
+//  +3 tab / +3 skill
+ItemDisplay[MAG (TABSK50=3 AND SK254=3) SIN]: %NAME% %GREEN%(+5 TS)%BLUE%%CONTINUE% // +3 Martial Arts, +3 Tiger Strike katar
+ItemDisplay[MAG (TABSK50=3 AND SK265=3) SIN]: %NAME% %GREEN%(+5 CS)%BLUE%%CONTINUE% // +3 Martial Arts, +3 Cobra Strike katar
+ItemDisplay[MAG (TABSK50=3 AND SK269=3) SIN]: %NAME% %GREEN%(+5 CoT)%BLUE%%CONTINUE% // +3 Martial Arts, +3 Claws of Thunder katar
+ItemDisplay[MAG (TABSK50=3 AND SK275=3) SIN]: %NAME% %GREEN%(+5 DF)%BLUE%%CONTINUE% // +3 Martial Arts, +3 Dragon Flight katar
+ItemDisplay[MAG (TABSK50=3 AND SK280=3) SIN]: %NAME% %GREEN%(+5 PS)%BLUE%%CONTINUE% // +3 Martial Arts, +3 Phoenix Strike katar
+ItemDisplay[MAG (TABSK49=3 AND SK252=3) SIN]: %NAME% %GREEN%(+5 DCM)%BLUE%%CONTINUE% // +3 Shadow Disciplines, +3 Dagger & Claw Mastery katar
+ItemDisplay[MAG (TABSK49=3 AND SK253=3) SIN]: %NAME% %GREEN%(+6 PH)%BLUE%%CONTINUE% // +3 Shadow Disciplines, +3 Psychic Hammer katar
+ItemDisplay[MAG (TABSK49=3 AND SK273=3) SIN]: %NAME% %GREEN%(+6 MB)%BLUE%%CONTINUE% // +3 Shadow Disciplines, +3 Mind Blast katar
+ItemDisplay[MAG (TABSK49=3 AND SK278=3) SIN]: %NAME% %GREEN%(+6 Ven)%BLUE%%CONTINUE% // +3 Shadow Disciplines, +3 Venom katar
+ItemDisplay[MAG (TABSK48=3 AND SK262=3) SIN]: %NAME% %GREEN%(+6 WoF)%BLUE%%CONTINUE% // +3 Trap, +3 Wake of Fire katar
+ItemDisplay[MAG (TABSK48=3 AND SK276=3) SIN]: %NAME% %GREEN%(+6 DS)%BLUE%%CONTINUE% // +3 Trap, +3 Death Sentry katar
+ItemDisplay[MAG (TABSK48=3 AND SK271=3) SIN]: %NAME% %GREEN%(+6 CLS)%BLUE%%CONTINUE% // +3 Trap, +3 Chain Lightning Sentry katar
+ItemDisplay[MAG (TABSK48=3 AND SK366=3) SIN]: %NAME% %GREEN%(+6 LS)%BLUE%%CONTINUE%// +3 Trap, +3 Lightning Sentry katar
+// Barbarian helms
+ItemDisplay[MAG (CLSK4>1 AND SK149>2) BAR]: %NAME% %GREEN%(+2/3 BO)%BLUE%%CONTINUE% // +2 Barbarian, +3 Battle Orders Barb helm
+ItemDisplay[MAG (CLSK4>1 AND SK154>2) BAR]: %NAME% %GREEN%(+2/3 Warcry)%BLUE% %CONTINUE%// +2 Barbarian, +3 Warcry Barb helm
+// Gloves
+ItemDisplay[MAG (TABSK2>2 AND IAS>19) GLOVES]: %NAME% %GREEN%(3/20)%BLUE%%CONTINUE% // +3 Javelin Skills, 20 IAS Gloves
+ItemDisplay[MAG (TABSK0=2 OR TABSK1=2 OR TABSK2=2 OR TABSK50=2) IAS>19 GLOVES]: %NAME% %GREEN%(2/20)%BLUE% %CONTINUE%// +2 tab skills, 20 IAS Gloves
+ItemDisplay[MAG (TABSK0=3 OR TABSK1=3 OR TABSK2=3 OR TABSK50=3) IAS>19 GLOVES]: %NAME% %GREEN%(3/20)%BLUE% %CONTINUE%// +3 tab skills, 20 IAS Gloves
+ItemDisplay[MAG TABSK34>2 WEAPON]: %NAME% %GREEN%(+3 Warcries)%BLUE% %CONTINUE%// +3 Warcries weapon
+// Staves with charges
+ItemDisplay[MAG CHSK54>0 STAFF]: %NAME% %GREEN%(Teleport)%BLUE% %CONTINUE%// Teleport charges
+ItemDisplay[MAG CHSK357>0 STAFF]: %NAME% %GREEN%(Blink)%BLUE% %CONTINUE%// Blink charges
+// Wands with charges
+ItemDisplay[MAG CHSK66>0 WAND]: %NAME% %GREEN%(Amp Dmg)%BLUE%%CONTINUE% // Amplify Damage charges
+ItemDisplay[MAG CHSK86>0 WAND]: %NAME% %GREEN%(Attract)%BLUE% %CONTINUE%// Attract charges
+//ItemDisplay[MAG CHSK81>0 WAND]: %NAME% %GREEN%(Confuse)%BLUE%%CONTINUE% // Confuse charges
+ItemDisplay[MAG CHSK87>0 WAND]: %NAME% %GREEN%(Decrep)%BLUE% %CONTINUE%// Decrepify charges
+//ItemDisplay[MAG CHSK71>0 WAND]: %NAME% %GREEN%(Dim Vis)%BLUE% %CONTINUE%// Dim Vision charges
+//ItemDisplay[MAG CHSK76>0 WAND]: %NAME% %GREEN%(Iron Maid)%BLUE% %CONTINUE%// Iron Maiden charges
+ItemDisplay[MAG CHSK82>0 WAND]: %NAME% %GREEN%(Life Tap)%BLUE%%CONTINUE%// Life tap charges
+ItemDisplay[MAG CHSK91>0 WAND]: %NAME% %GREEN%(Lower Res)%BLUE%%CONTINUE% // Lower Resist charges
+//ItemDisplay[MAG CHSK77>0 WAND]: %NAME% %GREEN%(Terror)%BLUE%%CONTINUE% // Terror charges
+ItemDisplay[MAG CHSK72>0 WAND]: %NAME% %GREEN%(Weaken)%BLUE%%CONTINUE% // Weaken charges
+// Wands
+// --- Curses
+ItemDisplay[NMAG !INF !RW SK66>2 WAND]: %NAME%%DOT-20%%PX-00%{%NAME%}%CONTINUE% // Amplify Damage
+//ItemDisplay[NMAG !INF !RW SK71>2 WAND]: %NAME%%DOT-20%%PX-00%{%NAME%}%CONTINUE% // Dim Vision
+//ItemDisplay[NMAG !INF !RW SK72>2 WAND]: %NAME%%DOT-20%%PX-00%{%NAME%}%CONTINUE% // Weaken
+ItemDisplay[NMAG !INF !RW SK76>2 WAND]: %NAME%%DOT-20%%PX-00%{%NAME%}%CONTINUE% // Iron Maiden
+//ItemDisplay[NMAG !INF !RW SK77>2 WAND]: %NAME%%DOT-20%%PX-00%{%NAME%}%CONTINUE% // Terror
+//ItemDisplay[NMAG !INF !RW SK81>2 WAND]: %NAME%%DOT-20%%PX-00%{%NAME%}%CONTINUE% // Confuse
+ItemDisplay[NMAG !INF !RW SK82>2 WAND]: %NAME%%DOT-20%%PX-00%{%NAME%}%CONTINUE% // Life Tap
+//ItemDisplay[NMAG !INF !RW SK86>2 WAND]: %NAME%%DOT-20%%PX-00%{%NAME%}%CONTINUE% // Attract
+ItemDisplay[NMAG !INF !RW SK87>2 WAND]: %NAME%%DOT-20%%PX-00%{%NAME%} %CONTINUE%// Decrepify
+ItemDisplay[NMAG !INF !RW SK91>2 WAND]: %NAME%%DOT-20%%PX-00%{%NAME%} %CONTINUE%// Lower Resist
+ItemDisplay[NMAG !INF !RW SK374>2 WAND]: %NAME%%DOT-20%%PX-00%{%NAME%} %CONTINUE%// Curse Mastery
+ItemDisplay[NMAG !INF !RW SK381>2 WAND]: %NAME%%DOT-20%%PX-00%{%NAME%} %CONTINUE%// Dark Pact
+//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=2 SK381>2 WAND]: %NAME%%DOT-20%%PX-00%{%NAME%}%CONTINUE% // Dark Pact (Superior Ethereal 2 socket example)
+// --- Poison and Bone
+ItemDisplay[NMAG !INF !RW SK67>2 WAND]: %NAME%%DOT-20%%PX-00%{%NAME%} %CONTINUE%// Teeth
+//ItemDisplay[NMAG !INF !RW SK68>2 WAND]: %NAME%%DOT-20%%PX-00%{%NAME%}%CONTINUE% // Bone Armor
+ItemDisplay[NMAG !INF !RW SK73>2 WAND]: %NAME%%DOT-20%%PX-00%{%NAME%}%CONTINUE% // Poison Dagger
+ItemDisplay[NMAG !INF !RW SK74>2 WAND]: %NAME%%DOT-20%%PX-00%{%NAME%}%CONTINUE% // Corpse Explosion
+//ItemDisplay[NMAG !INF !RW SK78>2 WAND]: %NAME%%DOT-20%%PX-00%{%NAME%}%CONTINUE% // Bone Wall
+ItemDisplay[NMAG !INF !RW SK83>2 WAND]: %NAME%%DOT-20%%PX-00%{%NAME%}%CONTINUE% // Desecrate
+ItemDisplay[NMAG !INF !RW SK84>2 WAND]: %NAME%%DOT-20%%PX-00%{%NAME%}%CONTINUE% // Bone Spear
+//ItemDisplay[NMAG !INF !RW SK88>2 WAND]: %NAME%%DOT-20%%PX-00%{%NAME%}%CONTINUE% // Bone Prison
+ItemDisplay[NMAG !INF !RW SK92>2 WAND]: %NAME%%DOT-20%%PX-00%{%NAME%}%CONTINUE% // Poison Nova
+ItemDisplay[NMAG !INF !RW SK93>2 WAND]: %NAME%%DOT-20%%PX-00%{%NAME%}%CONTINUE% // Bone Spirit
+// --- Summoning
+ItemDisplay[NMAG !INF !RW SK69>2 WAND]: %NAME%%DOT-20%%PX-00%{%NAME%} %CONTINUE%// Skeleton Mastery
+ItemDisplay[NMAG !INF !RW SK70>2 WAND]: %NAME%%DOT-20%%PX-00%{%NAME%} %CONTINUE%// Raise Skeleton Warrior
+ItemDisplay[NMAG !INF !RW SK75>2 WAND]: %NAME%%DOT-20%%PX-00%{%NAME%} %CONTINUE%// Clay Golem
+ItemDisplay[NMAG !INF !RW SK79>2 WAND]: %NAME%%DOT-20%%PX-00%{%NAME%} %CONTINUE%// Golem Mastery
+ItemDisplay[NMAG !INF !RW SK80>2 WAND]: %NAME%%DOT-20%%PX-00%{%NAME%} %CONTINUE%// Raise Skeletal Mage
+ItemDisplay[NMAG !INF !RW SK85>2 WAND]: %NAME%%DOT-20%%PX-00%{%NAME%} %CONTINUE%// Blood Golem
+ItemDisplay[NMAG !INF !RW SK89>2 WAND]: %NAME%%DOT-20%%PX-00%{%NAME%} %CONTINUE%// Raise Skeleton Archer
+ItemDisplay[NMAG !INF !RW SK90>2 WAND]: %NAME%%DOT-20%%PX-00%{%NAME%} %CONTINUE%// Iron Golem
+ItemDisplay[NMAG !INF !RW SK94>2 WAND]: %NAME%%DOT-20%%PX-00%{%NAME%} %CONTINUE%// Fire Golem
+ItemDisplay[NMAG !INF !RW SK95>2 WAND]: %NAME%%DOT-20%%PX-00%{%NAME%} %CONTINUE%// Revive
+//ItemDisplay[NMAG !INF !RW SK367>2 WAND]: %NAME%%DOT-20%%PX-00%{%NAME%}%CONTINUE% // Blood Warp
 //╔═════════════════╗
 //║Crafting section ║
 //╚═════════════════╝
@@ -925,146 +1052,7 @@ ItemDisplay[RARE EQ2 !ID ILVL>66]:%NAME%
 ItemDisplay[RARE EQ3 !ID ILVL>66]:%NAME%
 //Show Rare Elite Armor
 ItemDisplay[ELT RARE ARMOR !ID]:%NAME%
-//╔══════════════╗
-//║ Vendor Items ║
-//╚══════════════╝
-// Amazon Javelins
-ItemDisplay[MAG (CLSK0>1 AND TABSK2>2) ZON]: %NAME% %GREEN%(+5 Jav)%BLUE% // +2 Amazon, +3 Javelin Skills Javelin
-ItemDisplay[MAG TABSK2>5 ZON]: %NAME% %GREEN%(+6 Jav)%BLUE% // +6 Javelin Skills Javelin
 
-// Assassin Katars
-//  +3 tab
-ItemDisplay[MAG TABSK50=3 SIN]: %NAME% %GREEN%(+3 MA)%BLUE%
-ItemDisplay[MAG TABSK49=3 SIN]: %NAME% %GREEN%(+3 SD)%BLUE%
-ItemDisplay[MAG TABSK48=3 SIN]: %NAME% %GREEN%(+3 Trap)%BLUE%
-
-//  +2 Sin / +3 skill
-ItemDisplay[MAG (CLSK6>1 AND SK254>2) SIN]: %NAME% %GREEN%(+5 TS)%BLUE% // +2 Assassin, +3 Tiger Strike katar
-ItemDisplay[MAG (CLSK6>1 AND SK265>2) SIN]: %NAME% %GREEN%(+5 CS)%BLUE% // +2 Assassin, +3 Cobra Strike katar
-ItemDisplay[MAG (CLSK6>1 AND SK269>2) SIN]: %NAME% %GREEN%(+5 CoT)%BLUE% // +2 Assassin, +3 Claws of Thunder katar
-ItemDisplay[MAG (CLSK6>1 AND SK275>2) SIN]: %NAME% %GREEN%(+5 DF)%BLUE% // +2 Assassin, +3 Dragon Flight katar
-ItemDisplay[MAG (CLSK6>1 AND SK280>2) SIN]: %NAME% %GREEN%(+5 PS)%BLUE% // +2 Assassin, +3 Phoenix Strike katar
-ItemDisplay[MAG (CLSK6>1 AND SK252>2) SIN]: %NAME% %GREEN%(+5 DCM)%BLUE% // +2 Assassin, +3 Dagger & Claw Mastery katar
-ItemDisplay[MAG (CLSK6>1 AND SK253>2) SIN]: %NAME% %GREEN%(+5 PH)%BLUE% // +2 Assassin, +3 Psychic Hammer katar
-ItemDisplay[MAG (CLSK6>1 AND SK273>2) SIN]: %NAME% %GREEN%(+5 MB)%BLUE% // +2 Assassin, +3 Mind Blast katar
-ItemDisplay[MAG (CLSK6>1 AND SK278>2) SIN]: %NAME% %GREEN%(+5 Ven)%BLUE% // +2 Assassin, +3 Venom katar
-ItemDisplay[MAG (CLSK6>1 AND SK262>2) SIN]: %NAME% %GREEN%(+5 WoF)%BLUE% // +2 Assassin, +3 Wake of Fire katar
-ItemDisplay[MAG (CLSK6>1 AND SK276>2) SIN]: %NAME% %GREEN%(+5 DS)%BLUE% // +2 Assassin, +3 Death Sentry katar
-ItemDisplay[MAG (CLSK6>1 AND SK271>2) SIN]: %NAME% %GREEN%(+5 CLS)%BLUE% // +2 Assassin, +3 Chain Lightning Sentry katar
-ItemDisplay[MAG (CLSK6>1 AND SK366>2) SIN]: %NAME% %GREEN%(+5 LS)%BLUE% // +2 Assassin, +3 Lightning Sentry katar
-
-//  +2 tab / +3 skill
-ItemDisplay[MAG (TABSK50=2 AND SK254=3) SIN]: %NAME% %GREEN%(+5 TS)%BLUE% // +2 Martial Arts, +3 Tiger Strike katar
-ItemDisplay[MAG (TABSK50=2 AND SK265=3) SIN]: %NAME% %GREEN%(+5 CS)%BLUE% // +2 Martial Arts, +3 Cobra Strike katar
-ItemDisplay[MAG (TABSK50=2 AND SK269=3) SIN]: %NAME% %GREEN%(+5 CoT)%BLUE% // +2 Martial Arts, +3 Claws of Thunder katar
-ItemDisplay[MAG (TABSK50=2 AND SK275=3) SIN]: %NAME% %GREEN%(+5 DF)%BLUE% // +2 Martial Arts, +3 Dragon Flight katar
-ItemDisplay[MAG (TABSK50=2 AND SK280=3) SIN]: %NAME% %GREEN%(+5 PS)%BLUE% // +2 Martial Arts, +3 Phoenix Strike katar
-ItemDisplay[MAG (TABSK49=2 AND SK252=3) SIN]: %NAME% %GREEN%(+5 DCM)%BLUE% // +2 Shadow Disciplines, +3 Dagger & Claw Mastery katar
-ItemDisplay[MAG (TABSK49=2 AND SK253=3) SIN]: %NAME% %GREEN%(+5 PH)%BLUE% // +2 Shadow Disciplines, +3 Psychic Hammer katar
-ItemDisplay[MAG (TABSK49=2 AND SK273=3) SIN]: %NAME% %GREEN%(+5 MB)%BLUE% // +2 Shadow Disciplines, +3 Mind Blast katar
-ItemDisplay[MAG (TABSK49=2 AND SK278=3) SIN]: %NAME% %GREEN%(+5 Ven)%BLUE% // +2 Shadow Disciplines, +3 Venom katar
-ItemDisplay[MAG (TABSK48=2 AND SK262=3) SIN]: %NAME% %GREEN%(+5 WoF)%BLUE% // +2 Trap, +3 Wake of Fire katar
-ItemDisplay[MAG (TABSK48=2 AND SK276=3) SIN]: %NAME% %GREEN%(+5 DS)%BLUE% // +2 Trap, +3 Death Sentry katar
-ItemDisplay[MAG (TABSK48=2 AND SK271=3) SIN]: %NAME% %GREEN%(+5 CLS)%BLUE% // +2 Trap, +3 Chain Lightning Sentry katar
-ItemDisplay[MAG (TABSK48=2 AND SK366=3) SIN]: %NAME% %GREEN%(+5 LS)%BLUE% // +2 Trap, +3 Lightning Sentry katar
-
-//  +3 tab / +2 skill
-ItemDisplay[MAG (TABSK50=3 AND SK254=2) SIN]: %NAME% %GREEN%(+5 TS)%BLUE% // +3 Martial Arts, +2 Tiger Strike katar
-ItemDisplay[MAG (TABSK50=3 AND SK265=2) SIN]: %NAME% %GREEN%(+5 CS)%BLUE% // +3 Martial Arts, +2 Cobra Strike katar
-ItemDisplay[MAG (TABSK50=3 AND SK269=2) SIN]: %NAME% %GREEN%(+5 CoT)%BLUE% // +3 Martial Arts, +2 Claws of Thunder katar
-ItemDisplay[MAG (TABSK50=3 AND SK275=2) SIN]: %NAME% %GREEN%(+5 DF)%BLUE% // +3 Martial Arts, +2 Dragon Flight katar
-ItemDisplay[MAG (TABSK50=3 AND SK280=2) SIN]: %NAME% %GREEN%(+5 PS)%BLUE% // +3 Martial Arts, +2 Phoenix Strike katar
-ItemDisplay[MAG (TABSK49=3 AND SK252=2) SIN]: %NAME% %GREEN%(+5 DCM)%BLUE% // +3 Shadow Disciplines, +2 Dagger & Claw Mastery katar
-ItemDisplay[MAG (TABSK49=3 AND SK253=2) SIN]: %NAME% %GREEN%(+5 PH)%BLUE% // +3 Shadow Disciplines, +2 Psychic Hammer katar
-ItemDisplay[MAG (TABSK49=3 AND SK273=2) SIN]: %NAME% %GREEN%(+5 MB)%BLUE% // +3 Shadow Disciplines, +2 Mind Blast katar
-ItemDisplay[MAG (TABSK49=3 AND SK278=2) SIN]: %NAME% %GREEN%(+5 Ven)%BLUE% // +3 Shadow Disciplines, +2 Venom katar
-ItemDisplay[MAG (TABSK48=3 AND SK262=2) SIN]: %NAME% %GREEN%(+5 WoF)%BLUE% // +3 Trap, +2 Wake of Fire katar
-ItemDisplay[MAG (TABSK48=3 AND SK276=2) SIN]: %NAME% %GREEN%(+5 DS)%BLUE% // +3 Trap, +2 Death Sentry katar
-ItemDisplay[MAG (TABSK48=3 AND SK271=2) SIN]: %NAME% %GREEN%(+5 CLS)%BLUE% // +3 Trap, +2 Chain Lightning Sentry katar
-ItemDisplay[MAG (TABSK48=3 AND SK366=2) SIN]: %NAME% %GREEN%(+5 LS)%BLUE% // +3 Trap, +2 Lightning Sentry katar
-
-//  +3 tab / +3 skill
-ItemDisplay[MAG (TABSK50=3 AND SK254=3) SIN]: %NAME% %GREEN%(+5 TS)%BLUE% // +3 Martial Arts, +3 Tiger Strike katar
-ItemDisplay[MAG (TABSK50=3 AND SK265=3) SIN]: %NAME% %GREEN%(+5 CS)%BLUE% // +3 Martial Arts, +3 Cobra Strike katar
-ItemDisplay[MAG (TABSK50=3 AND SK269=3) SIN]: %NAME% %GREEN%(+5 CoT)%BLUE% // +3 Martial Arts, +3 Claws of Thunder katar
-ItemDisplay[MAG (TABSK50=3 AND SK275=3) SIN]: %NAME% %GREEN%(+5 DF)%BLUE% // +3 Martial Arts, +3 Dragon Flight katar
-ItemDisplay[MAG (TABSK50=3 AND SK280=3) SIN]: %NAME% %GREEN%(+5 PS)%BLUE% // +3 Martial Arts, +3 Phoenix Strike katar
-ItemDisplay[MAG (TABSK49=3 AND SK252=3) SIN]: %NAME% %GREEN%(+5 DCM)%BLUE% // +3 Shadow Disciplines, +3 Dagger & Claw Mastery katar
-ItemDisplay[MAG (TABSK49=3 AND SK253=3) SIN]: %NAME% %GREEN%(+6 PH)%BLUE% // +3 Shadow Disciplines, +3 Psychic Hammer katar
-ItemDisplay[MAG (TABSK49=3 AND SK273=3) SIN]: %NAME% %GREEN%(+6 MB)%BLUE% // +3 Shadow Disciplines, +3 Mind Blast katar
-ItemDisplay[MAG (TABSK49=3 AND SK278=3) SIN]: %NAME% %GREEN%(+6 Ven)%BLUE% // +3 Shadow Disciplines, +3 Venom katar
-ItemDisplay[MAG (TABSK48=3 AND SK262=3) SIN]: %NAME% %GREEN%(+6 WoF)%BLUE% // +3 Trap, +3 Wake of Fire katar
-ItemDisplay[MAG (TABSK48=3 AND SK276=3) SIN]: %NAME% %GREEN%(+6 DS)%BLUE% // +3 Trap, +3 Death Sentry katar
-ItemDisplay[MAG (TABSK48=3 AND SK271=3) SIN]: %NAME% %GREEN%(+6 CLS)%BLUE% // +3 Trap, +3 Chain Lightning Sentry katar
-ItemDisplay[MAG (TABSK48=3 AND SK366=3) SIN]: %NAME% %GREEN%(+6 LS)%BLUE% // +3 Trap, +3 Lightning Sentry katar
-
-// Barbarian helms
-ItemDisplay[MAG (CLSK4>1 AND SK149>2) BAR]: %NAME% %GREEN%(+2/3 BO)%BLUE% // +2 Barbarian, +3 Battle Orders Barb helm
-ItemDisplay[MAG (CLSK4>1 AND SK154>2) BAR]: %NAME% %GREEN%(+2/3 Warcry)%BLUE% // +2 Barbarian, +3 Warcry Barb helm
-
-// Gloves
-ItemDisplay[MAG (TABSK2>2 AND IAS>19) GLOVES]: %NAME% %GREEN%(3/20)%BLUE% // +3 Javelin Skills, 20 IAS Gloves
-ItemDisplay[MAG (TABSK0=2 OR TABSK1=2 OR TABSK2=2 OR TABSK50=2) IAS>19 GLOVES]: %NAME% %GREEN%(2/20)%BLUE% // +2 tab skills, 20 IAS Gloves
-ItemDisplay[MAG (TABSK0=3 OR TABSK1=3 OR TABSK2=3 OR TABSK50=3) IAS>19 GLOVES]: %NAME% %GREEN%(3/20)%BLUE% // +3 tab skills, 20 IAS Gloves
-
-ItemDisplay[MAG TABSK34>2 WEAPON]: %NAME% %GREEN%(+3 Warcries)%BLUE% // +3 Warcries weapon
-
-// Staves with charges
-ItemDisplay[MAG CHSK54>0 STAFF]: %NAME% %GREEN%(Teleport)%BLUE% // Teleport charges
-ItemDisplay[MAG CHSK357>0 STAFF]: %NAME% %GREEN%(Blink)%BLUE% // Blink charges
-
-// Wands with charges
-ItemDisplay[MAG CHSK66>0 WAND]: %NAME% %GREEN%(Amp Dmg)%BLUE% // Amplify Damage charges
-ItemDisplay[MAG CHSK86>0 WAND]: %NAME% %GREEN%(Attract)%BLUE% // Attract charges
-//ItemDisplay[MAG CHSK81>0 WAND]: %NAME% %GREEN%(Confuse)%BLUE% // Confuse charges
-ItemDisplay[MAG CHSK87>0 WAND]: %NAME% %GREEN%(Decrep)%BLUE% // Decrepify charges
-//ItemDisplay[MAG CHSK71>0 WAND]: %NAME% %GREEN%(Dim Vis)%BLUE% // Dim Vision charges
-//ItemDisplay[MAG CHSK76>0 WAND]: %NAME% %GREEN%(Iron Maid)%BLUE% // Iron Maiden charges
-ItemDisplay[MAG CHSK82>0 WAND]: %NAME% %GREEN%(Life Tap)%BLUE% // Life tap charges
-ItemDisplay[MAG CHSK91>0 WAND]: %NAME% %GREEN%(Lower Res)%BLUE% // Lower Resist charges
-//ItemDisplay[MAG CHSK77>0 WAND]: %NAME% %GREEN%(Terror)%BLUE% // Terror charges
-ItemDisplay[MAG CHSK72>0 WAND]: %NAME% %GREEN%(Weaken)%BLUE% // Weaken charges
-
-// Wands
-// --- Curses
-ItemDisplay[NMAG !INF !RW SK66>2 WAND]: %NAME%%DOT-20%%PX-00%{%NAME%} // Amplify Damage
-//ItemDisplay[NMAG !INF !RW SK71>2 WAND]: %NAME%%DOT-20%%PX-00%{%NAME%} // Dim Vision
-//ItemDisplay[NMAG !INF !RW SK72>2 WAND]: %NAME%%DOT-20%%PX-00%{%NAME%} // Weaken
-ItemDisplay[NMAG !INF !RW SK76>2 WAND]: %NAME%%DOT-20%%PX-00%{%NAME%} // Iron Maiden
-//ItemDisplay[NMAG !INF !RW SK77>2 WAND]: %NAME%%DOT-20%%PX-00%{%NAME%} // Terror
-//ItemDisplay[NMAG !INF !RW SK81>2 WAND]: %NAME%%DOT-20%%PX-00%{%NAME%} // Confuse
-ItemDisplay[NMAG !INF !RW SK82>2 WAND]: %NAME%%DOT-20%%PX-00%{%NAME%} // Life Tap
-//ItemDisplay[NMAG !INF !RW SK86>2 WAND]: %NAME%%DOT-20%%PX-00%{%NAME%} // Attract
-ItemDisplay[NMAG !INF !RW SK87>2 WAND]: %NAME%%DOT-20%%PX-00%{%NAME%} // Decrepify
-ItemDisplay[NMAG !INF !RW SK91>2 WAND]: %NAME%%DOT-20%%PX-00%{%NAME%} // Lower Resist
-ItemDisplay[NMAG !INF !RW SK374>2 WAND]: %NAME%%DOT-20%%PX-00%{%NAME%} // Curse Mastery
-ItemDisplay[NMAG !INF !RW SK381>2 WAND]: %NAME%%DOT-20%%PX-00%{%NAME%} // Dark Pact
-//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=2 SK381>2 WAND]: %NAME%%DOT-20%%PX-00%{%NAME%} // Dark Pact (Superior Ethereal 2 socket example)
-
-// --- Poison and Bone
-ItemDisplay[NMAG !INF !RW SK67>2 WAND]: %NAME%%DOT-20%%PX-00%{%NAME%} // Teeth
-//ItemDisplay[NMAG !INF !RW SK68>2 WAND]: %NAME%%DOT-20%%PX-00%{%NAME%} // Bone Armor
-ItemDisplay[NMAG !INF !RW SK73>2 WAND]: %NAME%%DOT-20%%PX-00%{%NAME%} // Poison Dagger
-ItemDisplay[NMAG !INF !RW SK74>2 WAND]: %NAME%%DOT-20%%PX-00%{%NAME%} // Corpse Explosion
-//ItemDisplay[NMAG !INF !RW SK78>2 WAND]: %NAME%%DOT-20%%PX-00%{%NAME%} // Bone Wall
-ItemDisplay[NMAG !INF !RW SK83>2 WAND]: %NAME%%DOT-20%%PX-00%{%NAME%} // Desecrate
-ItemDisplay[NMAG !INF !RW SK84>2 WAND]: %NAME%%DOT-20%%PX-00%{%NAME%} // Bone Spear
-//ItemDisplay[NMAG !INF !RW SK88>2 WAND]: %NAME%%DOT-20%%PX-00%{%NAME%} // Bone Prison
-ItemDisplay[NMAG !INF !RW SK92>2 WAND]: %NAME%%DOT-20%%PX-00%{%NAME%} // Poison Nova
-ItemDisplay[NMAG !INF !RW SK93>2 WAND]: %NAME%%DOT-20%%PX-00%{%NAME%} // Bone Spirit
-
-// --- Summoning
-ItemDisplay[NMAG !INF !RW SK69>2 WAND]: %NAME%%DOT-20%%PX-00%{%NAME%} // Skeleton Mastery
-ItemDisplay[NMAG !INF !RW SK70>2 WAND]: %NAME%%DOT-20%%PX-00%{%NAME%} // Raise Skeleton Warrior
-ItemDisplay[NMAG !INF !RW SK75>2 WAND]: %NAME%%DOT-20%%PX-00%{%NAME%} // Clay Golem
-ItemDisplay[NMAG !INF !RW SK79>2 WAND]: %NAME%%DOT-20%%PX-00%{%NAME%} // Golem Mastery
-ItemDisplay[NMAG !INF !RW SK80>2 WAND]: %NAME%%DOT-20%%PX-00%{%NAME%} // Raise Skeletal Mage
-ItemDisplay[NMAG !INF !RW SK85>2 WAND]: %NAME%%DOT-20%%PX-00%{%NAME%} // Blood Golem
-ItemDisplay[NMAG !INF !RW SK89>2 WAND]: %NAME%%DOT-20%%PX-00%{%NAME%} // Raise Skeleton Archer
-ItemDisplay[NMAG !INF !RW SK90>2 WAND]: %NAME%%DOT-20%%PX-00%{%NAME%} // Iron Golem
-ItemDisplay[NMAG !INF !RW SK94>2 WAND]: %NAME%%DOT-20%%PX-00%{%NAME%} // Fire Golem
-ItemDisplay[NMAG !INF !RW SK95>2 WAND]: %NAME%%DOT-20%%PX-00%{%NAME%} // Revive
-//ItemDisplay[NMAG !INF !RW SK367>2 WAND]: %NAME%%DOT-20%%PX-00%{%NAME%} // Blood Warp
 //╔═══════╗
 //║ Bases ║
 //╚═══════╝
