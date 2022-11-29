@@ -1,7 +1,7 @@
 # TalRashas-PD2-Item-Filter <br>
-TalRasha's PD2 Item Filter updated July 17, 2022 <br>
+TalRasha's PD2 Item Filter updated November 29, 2022 <br>
 
-Updated for Season 5 changes including:<br>*new rathma recipes,<br>*crafting recipes on rares,<br>*bases for new runewords,<br>*new uniques,<br>*new item skeleton key,<br>*new items Vial of Lightsong and Lilith's Mirror,<br>*Horadric Almanac and Horadric Navigator,<br>*larzuk's puzzlepiece,<br>*and new uber ancient items.<br>
+Updated for Season 6.<br>
 
 -Highlights good items in bright colors and adds design elements to names.<br>-Shows crafting recipes on magic/rare items and maps.<br>-Reveals names of most uniques and sets unidentified.<br>
 
