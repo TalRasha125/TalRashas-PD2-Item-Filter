@@ -1,7 +1,7 @@
 //++++++++++++++++++++++++++
 //TalRasha's PD2 Item Filter
 //++++++++++++++++++++++++++
-//Updated December 8, 2022
+//Updated December 20, 2022
 //
 //╔════════════════╗
 //║ Global Filters ║
@@ -39,6 +39,7 @@ ItemDisplay[GOLD<200 CLVL>29]: // Hide 200 gold and less if level 30+
 ItemDisplay[GOLD<300 CLVL>39]: // Hide 300 gold and less if level 40+
 ItemDisplay[GOLD<500 CLVL>49]: // Hide 500 gold and less if level 50+
 ItemDisplay[GOLD<1000 CLVL>59]: // Hide 1000 gold and less if level 60+
+ItemDisplay[GOLD<2500 CLVL>89]: // Hide 2500 gold and less if level 90+
 ItemDisplay[GOLD>0]: %NAME%
 //╔═════════╗
 //║ Potions ║
@@ -206,7 +207,7 @@ ItemDisplay[rtp]:%RED%*%YELLOW%*%GREEN%*%BLUE%* %RED%ooo %PURPLE%Horadric Naviga
 ItemDisplay[rkey]:%RED%*%YELLOW%*%GREEN%*%BLUE%* %RED%ooo %PURPLE%Skeleton Key %RED%ooo %RED%*%YELLOW%*%GREEN%*%BLUE%*%MAP-4B%//Skeleton Key
 ItemDisplay[llmr]:%RED%*%YELLOW%*%GREEN%*%BLUE%* %RED%ooo %PURPLE%Lilith's Mirror %RED%ooo %RED%*%YELLOW%*%GREEN%*%BLUE%*%MAP-4B%//Lilith's Mirror
 ItemDisplay[lsvl]:%RED%*%YELLOW%*%GREEN%*%BLUE%* %RED%ooo %PURPLE%Vial of Lightsong %RED%ooo %RED%*%YELLOW%*%GREEN%*%BLUE%*%MAP-4B%//Vial of Lightsong
-ItemDisplay[lpp]:%RED%ooo %PURPLE%Larzuk's Puzzlepiece %RED%ooo %WHITE%(x %QTY%)%MAP-4B%//Larzuk's Puzzlepiece
+ItemDisplay[lpp]:%RED%o %GOLD%Larzuk's Puzzlepiece %RED%o %WHITE%(x %QTY%)%MAP-4B%//Larzuk's Puzzlepiece
 //╔═════════════════╗
 //║   Uber Ancients ║
 //╚═════════════════╝
@@ -470,7 +471,7 @@ ItemDisplay[UNI !ID xlm]:%RED%* %GOLD%Stealskull%RED% *%BORDER-A5%%DOT-62%
 //Venom Ward
 ItemDisplay[UNI !ID brs]:%RED%o %GOLD%Venom Ward %RED%o%BORDER-A5%%DOT-62%
 //Atma's Wail
-ItemDisplay[UNI !ID xth]:%RED%o %GOLD%Atma's Wail %RED%o%BORDER-A5%%DOT-62%
+ItemDisplay[UNI !ID xth]:%RED%o %PURPLE%Atma's Wail %RED%o%BORDER-A5%%DOT-62%
 //Spirit Shroud
 ItemDisplay[UNI !ID xui]:%RED%o %GOLD%Spirit Shroud %RED%o%BORDER-A5%%DOT-62%
 //Steel Carapace
@@ -537,7 +538,7 @@ ItemDisplay[UNI !ID ztb]:%RED%o %PURPLE%Snowclash %RED%o%BORDER-A5%%DOT-62%
 //Nosferatu's Coil
 ItemDisplay[UNI !ID uvc]:%RED%o %PURPLE%Nosferatu's Coil %RED%o%BORDER-A5%%DOT-62% 
 //Arachnid Mesh
-ItemDisplay[UNI !ID ulc]:%RED%*%YELLOW%*%GREEN%*%BLUE%* %RED%ooo %PURPLE%U%RED%n%YELLOW%i%GREEN%q%BLUE%u%PURPLE%e %GOLD%%NAME% %RED%ooo %RED%*%YELLOW%*%GREEN%*%BLUE%*%DOT-0C%%BORDER-4B%
+ItemDisplay[UNI !ID ulc]:%RED%*%YELLOW%*%GREEN%*%BLUE%* %RED%ooo %PURPLE%Arachnid Mesh %RED%ooo %RED%*%YELLOW%*%GREEN%*%BLUE%*%DOT-0C%%BORDER-4B%
 //Verdungo's Hearty Cord
 ItemDisplay[UNI !ID umc]:%RED%o %PURPLE%Verdungo's Hearty Cord %RED%o%BORDER-A5%%DOT-62% 
 //String of Ears
