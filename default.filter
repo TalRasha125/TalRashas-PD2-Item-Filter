@@ -1,7 +1,7 @@
 //++++++++++++++++++++++++++
 //TalRasha's PD2 Item Filter
 //++++++++++++++++++++++++++
-//Updated December 20, 2022
+//Updated December 25, 2022
 //
 //╔════════════════╗
 //║ Global Filters ║
@@ -211,22 +211,22 @@ ItemDisplay[lpp]:%RED%o %GOLD%Larzuk's Puzzlepiece %RED%o %WHITE%(x %QTY%)%MAP-4
 //╔═════════════════╗
 //║   Uber Ancients ║
 //╚═════════════════╝
-ItemDisplay[ubaa]:%RED%ooo %PURPLE%Sigil of Madawc %RED%ooo%MAP-4B%{%TAN%to create Relic of the Ancients%NL%Combine with other Sigils}//Sigil of Madawc
-ItemDisplay[ubab]:%RED%ooo %PURPLE%Sigil of Talic %RED%ooo%MAP-4B%{%TAN%to create Relic of the Ancients%NL%Combine with other Sigils}//Sigil of Talic
-ItemDisplay[ubac]:%RED%ooo %PURPLE%Sigil of Korlic %RED%ooo%MAP-4B%{%TAN%to create Relic of the Ancients%NL%Combine with other Sigils}//Sigil of Korlic
-ItemDisplay[uba]:%RED%ooo %PURPLE%Relic of the Ancients %RED%ooo%MAP-4B%{%TAN%to Summon Uber Ancients%NL%Use by Blood Fountain Act 5}//Relic of the Ancients
+ItemDisplay[ubaa]:%RED%o %GOLD%Sigil of Madawc %RED%o%MAP-4B%{%TAN%to create Relic of the Ancients%NL%Combine with other Sigils}//Sigil of Madawc
+ItemDisplay[ubab]:%RED%o %GOLD%Sigil of Talic %RED%o%MAP-4B%{%TAN%to create Relic of the Ancients%NL%Combine with other Sigils}//Sigil of Talic
+ItemDisplay[ubac]:%RED%o %GOLD%Sigil of Korlic %RED%o%MAP-4B%{%TAN%to create Relic of the Ancients%NL%Combine with other Sigils}//Sigil of Korlic
+ItemDisplay[uba]:%RED%o %GOLD%Relic of the Ancients %RED%o%MAP-4B%{%TAN%to Summon Uber Ancients%NL%Use by Blood Fountain Act 5}//Relic of the Ancients
 //╔═══════════╗
 //║   Rathma  ║
 //╚═══════════╝
 ItemDisplay[rtmf]:%RED%ooo %PURPLE%Ancient Bone Fragment %RED%ooo %WHITE%(x %QTY%)%MAP-4B%{%TAN%to create a Trang-Oul's Jawbone%NL%Cube 2 of these w/ Hellfire Torch}// Ancient Bone Fragment
-ItemDisplay[rtmo]:%RED%ooo %PURPLE%Trang-Oul's Jawbone %RED%ooo %WHITE%(x %QTY%)%MAP-4B%{%TAN%and Hellfire Torch to create a Voidstone%NL%Cube w/ Splinter of the Void}// Trang-Oul's Jawbone
-ItemDisplay[rtmv]:%RED%ooo %PURPLE%Splinter of the Void %RED%ooo %WHITE%(x %QTY%)%MAP-4B%{%TAN%and Hellfire Torch to create a Voidstone%NL%Cube w/ Trang-Oul's Jawbone}// Splinter of the Void
-ItemDisplay[rtma]:%RED%ooo %PURPLE%Voidstone %RED%ooo%MAP-4B%{%TAN%to Summon Rathma from the Void%NL%Use by Blood Fountain Act 5}//Voidstone
+ItemDisplay[rtmo]:%RED%o %PURPLE%Trang-Oul's Jawbone %RED%o %WHITE%(x %QTY%)%MAP-4B%{%TAN%and Hellfire Torch to create a Voidstone%NL%Cube w/ Splinter of the Void}// Trang-Oul's Jawbone
+ItemDisplay[rtmv]:%RED%o %PURPLE%Splinter of the Void %RED%o %WHITE%(x %QTY%)%MAP-4B%{%TAN%and Hellfire Torch to create a Voidstone%NL%Cube w/ Trang-Oul's Jawbone}// Splinter of the Void
+ItemDisplay[rtma]:%RED%o %PURPLE%Voidstone %RED%o%MAP-4B%{%TAN%to Summon Rathma from the Void%NL%Use by Blood Fountain Act 5}//Voidstone
 //╔══════════════╗ 
 //║ Diablo Clone ║
 //╚══════════════╝
 ItemDisplay[dcma]:%RED%ooo %PURPLE%Vision of Terror %RED%ooo{%TAN%Use by Blood Fountain Act 5 to open Dclone}%MAP-4B%//Vision of Terror
-ItemDisplay[dcbl]:%RED%ooo %PURPLE%Pure Demonic Essence %RED%ooo %WHITE%(x %QTY%){%TAN%and Black Soulstone to create Vision of Terror%NL%Combine with Prime Evil Soul}%MAP-4B%//Pure Demonic Essence
+ItemDisplay[dcbl]:%RED%o %GOLD%Pure Demonic Essence %RED%o %WHITE%(x %QTY%){%TAN%and Black Soulstone to create Vision of Terror%NL%Combine with Prime Evil Soul}%MAP-4B%//Pure Demonic Essence
 ItemDisplay[dcho]:%RED%ooo %PURPLE%Black Soulstone %RED%ooo %WHITE%(x %QTY%){%TAN%and Prime Evil Soul to create Vision of Terror%NL%Combine with Pure Demonic Essence}%MAP-4B%//Black Soulstone
 ItemDisplay[dcso]:%RED%ooo %PURPLE%Prime Evil Soul %RED%ooo %WHITE%(x %QTY%){%TAN%and Black Soulstone to create Vision of Terror%NL%Combine with Pure Demonic Essence}%MAP-4B%//Prime Evil Soul
 //╔══════════════════╗
@@ -408,7 +408,7 @@ ItemDisplay[UNI !ID baf]:%PURPLE%* %RED%ooo %GOLD%Raekor's Virtue %RED%ooo %PURP
 ItemDisplay[UNI !ID utp]:%PURPLE%* %RED%ooo %GOLD%Purgatory %RED%ooo %PURPLE%* %BORDER-A5%%DOT-62%
 ItemDisplay[UNI !ID drf]:%PURPLE%* %RED%ooo %GOLD%Ursa's Nightmare %RED%ooo %PURPLE%* %BORDER-A5%%DOT-62%
 ////////////////////
-//Previous Seasons//
+//Class based//
 ////////////////////
 //Kalan's Legacy mummified trophy
 ItemDisplay[UNI !ID ne6]:%RED%o %GOLD%Kalan's Legacy %RED%o%BORDER-A5%%DOT-62%
@@ -438,7 +438,7 @@ ItemDisplay[UNI !ID xhm]:%RED%o %PURPLE%Valkyrie Wing %RED%o%BORDER-A5%%DOT-62%
 //Giant Skull
 ItemDisplay[UNI !ID uh9]:%RED%o %PURPLE%Giant Skull %RED%o%BORDER-A5%%DOT-62% 
 //Nightwings/Veil of Steel
-ItemDisplay[UNI !ID uhm]:%RED%*%YELLOW%*%GREEN%*%BLUE%* %RED%o %PURPLE%Nightwings/Veil of Steel %RED%o %RED%*%YELLOW%*%GREEN%*%BLUE%* %BORDER-A5%%DOT-62% 
+ItemDisplay[UNI !ID uhm]:%RED%*%YELLOW%*%GREEN%*%BLUE%* %RED%o %PURPLE%%NAME% %RED%o %RED%*%YELLOW%*%GREEN%*%BLUE%* %BORDER-A5%%DOT-62% 
 //Halaberd's Reign
 ItemDisplay[UNI !ID bae]:%RED%o %GOLD%Halaberd's Reign %RED%o%BORDER-A5%%DOT-62% 
 //Kira's Guardian
@@ -577,7 +577,7 @@ ItemDisplay[UNI !ID xhb]:%RED%o %PURPLE%Gore Rider %RED%o%BORDER-A5%%DOT-62%
 //Weapons//
 ///////////
 //Buriza
-ItemDisplay[UNI !ID 8hx]:%RED%o %PURPLE%Buriza-Do Kyanon %RED%o%BORDER-A5%%DOT-62% 
+ItemDisplay[UNI !ID 8hx]:%RED%o %GOLD%Buriza-Do Kyanon %RED%o%BORDER-A5%%DOT-62% 
 //Pus Spitter
 ItemDisplay[UNI !ID 8mx]:%RED%o %GOLD%Pus Spitter %RED%o%BORDER-A5%%DOT-62% 
 //Wraith Flight
@@ -597,11 +597,11 @@ ItemDisplay[UNI !ID dgr]:%RED%o %GOLD%Gull%RED% o%BORDER-A5%%DOT-62%
 //Death Cleaver
 ItemDisplay[UNI !ID 7wa]:%RED%o %PURPLE%Death Cleaver%RED% o%BORDER-A5%%DOT-62% 
 //Horizon's Tornado/Stormlash
-ItemDisplay[UNI !ID 7fl]:%RED%o %PURPLE%Horizon's Tornado/Stormlash%RED% o%BORDER-A5%%DOT-62% 
+ItemDisplay[UNI !ID 7fl]:%RED%o %PURPLE%%NAME%%RED% o%BORDER-A5%%DOT-62% 
 //Windhammer
 ItemDisplay[UNI !ID 7m7]:%RED%o %GOLD%Windhammer %RED%o%BORDER-A5%%DOT-62% 
 //The Cranium Basher/Earth shifter
-ItemDisplay[UNI !ID 7gm]:%RED%o %PURPLE%Earth Shifter/The Cranium Basher%RED% o%BORDER-A5%%DOT-62% 
+ItemDisplay[UNI !ID 7gm]:%RED%o %PURPLE%%NAME%%RED% o%BORDER-A5%%DOT-62% 
 //Hand of Blessed Light
 ItemDisplay[UNI !ID 9ws]:%RED%o %PURPLE%Hand of Blessed Light%RED% o%BORDER-A5%%DOT-62% 
 //Astreon's Iron Ward
@@ -611,7 +611,7 @@ ItemDisplay[UNI !ID 7p7]:%RED%o %PURPLE%Steel Pillar %RED%o%BORDER-A5%%DOT-62%
 //Skull Collector
 ItemDisplay[UNI !ID 8ws]:%RED%o %GOLD%Skull Collector%RED% o%BORDER-A5%%DOT-62% 
 //Mang Song's Lesson
-ItemDisplay[UNI !ID 6ws]:%RED%o %PURPLE%Mang Song's Lesson%RED% o%BORDER-A5%%DOT-62% 
+ItemDisplay[UNI !ID 6ws]:%RED%*%YELLOW%*%GREEN%*%BLUE%* %RED%o %PURPLE%Mang Song's Lesson%RED% o %RED%*%YELLOW%*%GREEN%*%BLUE%*%BORDER-A5%%DOT-62% 
 //The Grandfather
 ItemDisplay[UNI !ID 7gd]:%RED%o %PURPLE%The Grandfather%RED% o%BORDER-A5%%DOT-62% 
 //Boneshade
@@ -639,8 +639,7 @@ ItemDisplay[UNI ETH !ID 7s8]:%RED%*%YELLOW%*%GREEN%*%BLUE%* %RED%o %PURPLE%Eth R
 ItemDisplay[UNI !ETH !ID 7b8]:%RED%o %GOLD%Lacerator %RED%o%BORDER-A5%%DOT-62% 
 ItemDisplay[UNI ETH !ID 7b8]:%RED%o %PURPLE%Eth Lacerator %RED%o%BORDER-A5%%DOT-62% 
 //Azurewrath & Lightsabre
-ItemDisplay[UNI !ID ILVL<87 7cr]:%RED%o %PURPLE%Lightsabre %RED%o%DOT-0C%%BORDER-4B%
-ItemDisplay[UNI !ID ILVL>86 7cr]:%RED%o %PURPLE%Azurewrath? %RED%o%DOT-0C%%BORDER-4B%
+ItemDisplay[UNI !ID 7cr]:%RED%o %PURPLE%%NAME% %RED%o%DOT-0C%%BORDER-4B%
 //Tombreaver
 ItemDisplay[UNI !ETH !ID 7pa]:%RED%o %GOLD%Tomb Reaver %RED%o%BORDER-A5%%DOT-62% 
 ItemDisplay[UNI ETH !ID 7pa]:%RED%o %PURPLE%Eth Tomb Reaver %RED%o%BORDER-A5%%DOT-62% 
@@ -653,7 +652,7 @@ ItemDisplay[UNI ETH !ID ama]:%RED%o %PURPLE%Eth Titan's Revenge %RED%o%BORDER-A5
 // Ondal's Wisdom
 ItemDisplay[UNI !ID 6cs]:%RED%o %GOLD%Ondal's Wisdom %RED%o%DOT-0C%%BORDER-4B%
 // Schaefer's Hammer
-ItemDisplay[UNI !ID 7wh]:%RED%o %PURPLE%Schaefer's/Stone Crusher %RED%o%DOT-0C%%BORDER-4B%
+ItemDisplay[UNI !ID 7wh]:%RED%o %PURPLE%%NAME% %RED%o%DOT-0C%%BORDER-4B%
 // Warshrike
 ItemDisplay[UNI !ID 7bk]:%RED%o %GOLD%Warshrike %RED%o%BORDER-A5%%DOT-62% 
 //Hexfire
@@ -717,7 +716,7 @@ ItemDisplay[SET !ID xhm]:%GREEN%o Guillaume's Face o%DOT-62%%BORDER-84%
 //
 ItemDisplay[SET !ID xap]:%GREEN%o Cow King's Horns o%DOT-62%%BORDER-84%  
 ItemDisplay[SET !ID stu]:%GREEN%o Cow King's Hide o%DOT-62%%BORDER-84%  
-ItemDisplay[SET !ID vbt]:%GREEN%o Cow Kings/Sanders Boots o%DOT-62%%BORDER-84%  
+ItemDisplay[SET !ID vbt]:%GREEN%o %NAME% o%DOT-62%%BORDER-84%  
 //
 ItemDisplay[SET !ID xul]:%GREEN%o Trang Oul's Armor o%DOT-62%%BORDER-84%  
 ItemDisplay[SET !ID uh9]:%GREEN%o Trang Oul's Helm o%DOT-62%%BORDER-84%  
@@ -729,7 +728,7 @@ ItemDisplay[SET !ID 6cs]:%GREEN%o Naj's Puzzler o%DOT-62%%BORDER-84%
 ItemDisplay[SET !ID ult]:%GREEN%o Naj's Light Plate o%DOT-62%%BORDER-84% 
 //
 ItemDisplay[SET !ID xar]:%GREEN%o Griswold's Armor o%DOT-62%%BORDER-84%  
-ItemDisplay[SET !ID 7ws]:%GREEN%o Griswold's Caddy o%DOT-62%%BORDER-84%  
+ItemDisplay[SET !ID 7ws]:%GREEN%o Griswold's Caduceus o%DOT-62%%BORDER-84%  
 ItemDisplay[SET !ID urn]:%GREEN%o Griswold's Helm o%DOT-62%%BORDER-84%  
 ItemDisplay[SET !ID paf]:%GREEN%o Griswold's Shield o%DOT-62%%BORDER-84%  
 //
@@ -1043,8 +1042,8 @@ ItemDisplay[RARE EQ6 !ID]:%WHITE%%YELLOW%* %NAME% %YELLOW%*%WHITE%%MAP-A8%%BORDE
 ItemDisplay[RARE jew !ID]:%WHITE%%YELLOW%*** %YELLOW%o %NAME% o %YELLOW%***%WHITE%%MAP-A8%%BORDER-62%
 //
 //stop scuffed rare belts showing
-ItemDisplay[RARE vbl !ID CLVL>40]:
-ItemDisplay[RARE lbl !ID CLVL>40]:
+//ItemDisplay[RARE vbl !ID CLVL>40]:
+//ItemDisplay[RARE lbl !ID CLVL>40]:
 //
 //Merc Rares
 ItemDisplay[RARE ETH ELT WP3 !ID]:%NAME%
@@ -1239,11 +1238,12 @@ ItemDisplay[NMAG ETH (SOCK=4 OR SOCK=0) 7br]:%GREEN%%NAME% %RED%
 ItemDisplay[NMAG ETH (SOCK=4 OR SOCK=0) 7tr]:%GREEN%%NAME% %RED%
 //
 //4os staffs with mods
-ItemDisplay[NMAG (SOCK=4 OR SOCK=0) WP11 SK48=3]:%GREEN%+3 Nova %NAME%%RED%
-ItemDisplay[NMAG (SOCK=4 OR SOCK=0) WP11 SK49=3]:%GREEN%+3 Light %NAME%%RED%
-ItemDisplay[NMAG (SOCK=4 OR SOCK=0) WP11 SK50=3]:%GREEN%+3 Shiver Armor %NAME%%RED%
-ItemDisplay[NMAG (SOCK=4 OR SOCK=0) WP11 SK53=3]:%GREEN%+3 Chain Light %NAME%%RED%
-ItemDisplay[NMAG (SOCK=4 OR SOCK=0) WP11 SK57=3]:%GREEN%+3 Tstorm %NAME%%RED%
+ItemDisplay[NMAG (SOCK=4 OR SOCK=0) ELT WP11 SK48=3]:%GREEN%+3 Nova %NAME%%RED%
+ItemDisplay[NMAG (SOCK=4 OR SOCK=0) ELT WP11 SK49=3]:%GREEN%+3 Light %NAME%%RED%
+ItemDisplay[NMAG (SOCK=4 OR SOCK=0) ELT WP11 SK50=3]:%GREEN%+3 Shiver Armor %NAME%%RED%
+ItemDisplay[NMAG (SOCK=4 OR SOCK=0) ELT WP11 SK53=3]:%GREEN%+3 Chain Light %NAME%%RED%
+ItemDisplay[NMAG (SOCK=4 OR SOCK=0) ELT WP11 SK57=3]:%GREEN%+3 Tstorm %NAME%%RED%
+ItemDisplay[NMAG (SOCK=4 OR SOCK=0) ELT WP11 SK58=3]:%GREEN%+3 ES %NAME%%RED%
 //
 //Wind
 ItemDisplay[NMAG 6ws ETH SOCK=2]:%GREEN%%NAME%%RED%
