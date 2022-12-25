@@ -1,5 +1,5 @@
 # TalRashas-PD2-Item-Filter <br>
-TalRasha's PD2 Item Filter updated December 20, 2022 <br>
+TalRasha's PD2 Item Filter updated December 25, 2022 <br>
 
 Updated for Season 6.<br>
 
