@@ -1,7 +1,7 @@
 //++++++++++++++++++++++++++
 //TalRasha's PD2 Item Filter
 //++++++++++++++++++++++++++
-//Updated December 25, 2022
+//Updated April 19, 2023
 //
 //╔════════════════╗
 //║ Global Filters ║
@@ -200,6 +200,14 @@ ItemDisplay[bey]:%RED%o %PURPLE%%NAME% %RED%o %WHITE%(x %QTY%){%TAN%Cube any 3 O
 ItemDisplay[mbr]:%RED%o %PURPLE%%NAME% %RED%o %WHITE%(x %QTY%){%TAN%Cube any 3 Organs to create Pandemonium Talisman}%MAP-4B%
 ItemDisplay[ubtm]:%RED%o %PURPLE%Pandemonium Talisman %RED%o{%TAN%Use by Blood Fountain Act 5 to open Uber Tristram}%MAP-4B%// Pandemonium Talisman (Uber Tristram)
 //╔═══════════════════════╗
+//║   Season 7 New Items  ║
+//╚═══════════════════════╝
+ItemDisplay[t51]:%RED%o %PURPLE%Zhar's Sanctum %RED%o%MAP-62%
+ItemDisplay[t52]:%RED%o %PURPLE%The Stygian Caverns %RED%o%MAP-62%
+ItemDisplay[cm2f]:%RED%o %PURPLE%Hellfire Ashes %RED%o %WHITE%(x %QTY%)%MAP-4B%//Vision of Terror
+ItemDisplay[pvpp]:%BLUE%!%WHITE%M
+ItemDisplay[iwss]:%RED%o %PURPLE%Catalyst Shard%RED% o %WHITE%(x %QTY%)%MAP-62%
+//╔═══════════════════════╗
 //║   Season 5 New Items  ║
 //╚═══════════════════════╝
 ItemDisplay[rid]:%RED%*%YELLOW%*%GREEN%*%BLUE%* %RED%ooo %PURPLE%Horadric Almanac %RED%ooo %RED%*%YELLOW%*%GREEN%*%BLUE%*%MAP-4B%//unlimited id tome (Horadric Almanac)
@@ -248,7 +256,7 @@ ItemDisplay[scrb]:%RED%*%YELLOW%*%GREEN%*%BLUE%* %RED%o%PURPLE% %NAME% %RED%o %R
 //╔══════╗
 //║ Maps ║
 //╚══════╝
-ItemDisplay[NMAG (t10 OR t11 OR t12 OR t13 OR t14 OR t15 OR t16 OR t17 OR t18 OR t19 OR t20 OR t21 OR t22 OR t23 OR t24 OR t25 OR t26 OR t27 OR t28 OR t29 OR t30 OR t31 OR t32 OR t33 OR t34 OR t35 OR t36 OR t37 OR t38 OR t39 OR t40 OR t41 OR t42 OR t43 OR t44 OR t45 OR t46 OR t47 OR t48 OR t49)]:%WHITE%* %NAME% *%DOT-62%%BORDER-4B%%CONTINUE%
+ItemDisplay[NMAG (t10 OR t11 OR t12 OR t13 OR t14 OR t15 OR t16 OR t17 OR t18 OR t19 OR t20 OR t21 OR t22 OR t23 OR t24 OR t25 OR t26 OR t27 OR t28 OR t29 OR t30 OR t31 OR t32 OR t33 OR t34 OR t35 OR t36 OR t37 OR t38 OR t39 OR t40 OR t41 OR t42 OR t43 OR t44 OR t45 OR t46 OR t47 OR t48 OR t49)]:%WHITE%* %NAME% (x %QTY%)*%DOT-62%%BORDER-4B%%CONTINUE%
 ItemDisplay[MAG !ID (t10 OR t11 OR t12 OR t13 OR t14 OR t15 OR t16 OR t17 OR t18 OR t19 OR t20 OR t21 OR t22 OR t23 OR t24 OR t25 OR t26 OR t27 OR t28 OR t29 OR t30 OR t31 OR t32 OR t33 OR t34 OR t35 OR t36 OR t37 OR t38 OR t39 OR t40 OR t41 OR t42 OR t43 OR t44 OR t45 OR t46 OR t47 OR t48 OR t49)]:%BLUE%*** %NAME% ***%DOT-62%%BORDER-4B%%CONTINUE%  
 ItemDisplay[RARE !ID (t10 OR t11 OR t12 OR t13 OR t14 OR t15 OR t16 OR t17 OR t18 OR t19 OR t20 OR t21 OR t22 OR t23 OR t24 OR t25 OR t26 OR t27 OR t28 OR t29 OR t30 OR t31 OR t32 OR t33 OR t34 OR t35 OR t36 OR t37 OR t38 OR t39 OR t40 OR t41 OR t42 OR t43 OR t44 OR t45 OR t46 OR t47 OR t48 OR t49)]:%YELLOW%ooo %NAME% ooo%DOT-62%%BORDER-4B%%CONTINUE%
 ItemDisplay[(t61 OR t62 OR t63 OR t64 OR t65 OR t66 OR t67 OR t68 OR t69)]:%WHITE%* %NAME% *%DOT-62%%BORDER-4B% 
