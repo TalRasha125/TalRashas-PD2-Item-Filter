@@ -1,7 +1,7 @@
 //++++++++++++++++++++++++++
 //TalRasha's PD2 Item Filter
 //++++++++++++++++++++++++++
-//Updated April 19, 2023
+//Updated September 16, 2023
 //
 //╔════════════════╗
 //║ Global Filters ║
@@ -200,6 +200,40 @@ ItemDisplay[bey]:%RED%o %PURPLE%%NAME% %RED%o %WHITE%(x %QTY%){%TAN%Cube any 3 O
 ItemDisplay[mbr]:%RED%o %PURPLE%%NAME% %RED%o %WHITE%(x %QTY%){%TAN%Cube any 3 Organs to create Pandemonium Talisman}%MAP-4B%
 ItemDisplay[ubtm]:%RED%o %PURPLE%Pandemonium Talisman %RED%o{%TAN%Use by Blood Fountain Act 5 to open Uber Tristram}%MAP-4B%// Pandemonium Talisman (Uber Tristram)
 //╔═══════════════════════╗
+//║   Season 8 New Items  ║
+//╚═══════════════════════╝
+//Fire Pots
+ItemDisplay[tpfs CLVL<16]:%RED%%NAME%
+ItemDisplay[tpfs CLVL>15]:
+ItemDisplay[tpfm CLVL<30]:%RED%%NAME%
+ItemDisplay[tpfm CLVL>29]:
+ItemDisplay[tpfl CLVL<50]:%RED%%NAME%
+ItemDisplay[tpfl CLVL>49]:%RED%*F
+//Poison Pots
+ItemDisplay[tpgs CLVL<16]:%GREEN%%NAME%
+ItemDisplay[tpgs CLVL>15]:
+ItemDisplay[tpgm CLVL<30]:%GREEN%%NAME%
+ItemDisplay[tpgm CLVL>29]:
+ItemDisplay[tpgl CLVL<50]:%GREEN%%NAME%
+ItemDisplay[tpgl CLVL>49]:%GREEN%*P
+//Cold Pots
+ItemDisplay[tpcm CLVL<16]:%BLUE%%NAME%
+ItemDisplay[tpcm CLVL>15]:
+ItemDisplay[tpcs CLVL<30]:%BLUE%%NAME%
+ItemDisplay[tpcs CLVL>29]:
+ItemDisplay[tpcl CLVL<50]:%BLUE%%NAME%
+ItemDisplay[tpcl CLVL>49]:%BLUE%*C
+//Lightning Pots
+ItemDisplay[tplm CLVL<16]:%YELLOW%%NAME%
+ItemDisplay[tplm CLVL>15]:
+ItemDisplay[tpll CLVL<30]:%YELLOW%%NAME%
+ItemDisplay[tpll CLVL>29]:
+ItemDisplay[tpls CLVL<50]:%YELLOW%%NAME%
+ItemDisplay[tpls CLVL>49]:%YELLOW%*L
+//
+ItemDisplay[t53]:%RED%o %PURPLE%Fallen Gardens %RED%o%MAP-62%
+ItemDisplay[7st UNI]:%RED%o %PURPLE%Uldyssian's Awakening %RED%o%MAP-62%
+//╔═══════════════════════╗
 //║   Season 7 New Items  ║
 //╚═══════════════════════╝
 ItemDisplay[t51]:%RED%o %PURPLE%Zhar's Sanctum %RED%o%MAP-62%
@@ -215,7 +249,7 @@ ItemDisplay[rtp]:%RED%*%YELLOW%*%GREEN%*%BLUE%* %RED%ooo %PURPLE%Horadric Naviga
 ItemDisplay[rkey]:%RED%*%YELLOW%*%GREEN%*%BLUE%* %RED%ooo %PURPLE%Skeleton Key %RED%ooo %RED%*%YELLOW%*%GREEN%*%BLUE%*%MAP-4B%//Skeleton Key
 ItemDisplay[llmr]:%RED%*%YELLOW%*%GREEN%*%BLUE%* %RED%ooo %PURPLE%Lilith's Mirror %RED%ooo %RED%*%YELLOW%*%GREEN%*%BLUE%*%MAP-4B%//Lilith's Mirror
 ItemDisplay[lsvl]:%RED%*%YELLOW%*%GREEN%*%BLUE%* %RED%ooo %PURPLE%Vial of Lightsong %RED%ooo %RED%*%YELLOW%*%GREEN%*%BLUE%*%MAP-4B%//Vial of Lightsong
-ItemDisplay[lpp]:%RED%o %GOLD%Larzuk's Puzzlepiece %RED%o %WHITE%(x %QTY%)%MAP-4B%//Larzuk's Puzzlepiece
+ItemDisplay[lpp]:%RED%o %GOLD%Puzzlepiece %RED%o %WHITE%(x %QTY%)%MAP-4B%//Larzuk's Puzzlepiece
 //╔═════════════════╗
 //║   Uber Ancients ║
 //╚═════════════════╝
@@ -246,10 +280,14 @@ ItemDisplay[cwss]:%RED%*%YELLOW%*%GREEN%*%BLUE%* %RED%ooo %PURPLE%Tainted Worlds
 //╔══════════════╗
 //║ Map Upgrades ║
 //╚══════════════╝
-ItemDisplay[rera]:%PURPLE% %NAME% %WHITE%(x %QTY%)%DOT-80%{%TAN%Rune or Greater, & Rare Map%NL%Cube w/ Perfect Gem, Thul%NL%%ORANGE%Reroll Rare Map%NL%} // Reroll Rare Map (Horadrim Orb)
-ItemDisplay[imra]:%PURPLE% %NAME% %WHITE%(x %QTY%)%DOT-80%{%TAN%or Greater, & White Map%NL%Cube w/ Jewel, Thul Rune%NL%%ORANGE%Imbue Rare Map%NL%} // Imbue Rare Map (Zakarum Orb)
-ItemDisplay[upma]:%PURPLE% %NAME% %WHITE%(x %QTY%)%DOT-80%{%TAN%Rune or Greater, & Magic Map%NL%Cube w/ Perfect Skull, Thul%NL%%ORANGE%Upgrade Magic to Rare%NL%} // Upgrade Magic Map to Rare Map (Angelic Orb)
-ItemDisplay[imma]:%PURPLE% %NAME% %WHITE%(x %QTY%)%DOT-80%{%TAN%& White Map%NL%Cube w/ Jewel,%NL%%ORANGE%Imbue Magic Map%NL%} // Imbue Magic Map (Arcane Orb)
+ItemDisplay[rera]:%PURPLE%Horadrim Orb%WHITE%(x %QTY%)%DOT-80%{%TAN%Rune or Greater, & Rare Map%NL%Cube w/ Perfect Gem, Thul%NL%%ORANGE%Reroll Rare Map%NL%} // Reroll Rare Map (Horadrim Orb)
+ItemDisplay[rrra]:%PURPLE%Infused Horadrim Orb%WHITE%(x %QTY%)%DOT-80%{%TAN%to Reroll%NL%Cube w/ Rare Map}// Reroll Rare Map (Horadrim Orb Infused)
+ItemDisplay[imra]:%PURPLE%Zakarum Orb%WHITE%(x %QTY%)%DOT-80%{%TAN%to Upgrade to Rare%NL%or Greater, & White Map%NL%Cube w/ Jewel, Thul Rune%NL%%ORANGE%Imbue White Map%NL%} // Imbue Rare Map (Zakarum Orb)
+ItemDisplay[irra]:%PURPLE%Infused Zakarum Orb%WHITE%(x %QTY%)%DOT-80%{%TAN%to Upgrade to Rare%NL%Cube w/ White Map} // Imbue Rare Map (Zakarum Orb Infused)
+ItemDisplay[upma]:%PURPLE%Angelic Orb%WHITE%(x %QTY%)%DOT-80%{%TAN%Rune or Greater, & Magic Map%NL%Cube w/ Perfect Skull, Thul%NL%%ORANGE%Upgrade Magic Map%NL%} // Upgrade Magic Map to Rare Map (Angelic Orb)
+ItemDisplay[urma]:%PURPLE%Infused Angelic Orb%WHITE%(x %QTY%)%DOT-80%{%TAN%to Upgrade to Rare%NL%Cube w/ Magic Map} // Upgrade Magic Map to Rare Map (Angelic Orb Infused)
+ItemDisplay[imma]:%PURPLE%Arcane Orb%WHITE%(x %QTY%)%DOT-80%{%TAN%& White Map%NL%Cube w/ Jewel,%NL%%ORANGE%Upgrade White Map%NL%} // Imbue Magic Map (Arcane Orb)
+ItemDisplay[irma]:%PURPLE%Infused Arcane Orb%WHITE%(x %QTY%)%DOT-80%{%TAN%to Upgrade to Magic%NL%Cube w/ White Map}// Imbue Magic Map (Arcane Orb Infused)
 ItemDisplay[scou]:%PURPLE% %NAME% %WHITE%(x %QTY%)%DOT-80%{%TAN%Magic or Rare Map%NL%Cube with%NL%%ORANGE%Purge Map%NL%} // Purge Map (Removes Mods and Reverts back to a White Map) (Orb of Destruction)
 ItemDisplay[upmp]:%PURPLE% %NAME% %WHITE%(x %QTY%)%DOT-80%{%TAN%to get a map of the next tier%NL%Cube 3 maps of the same tier%NL%%ORANGE%Uptier Maps%NL%} // Combine maps into higher tiers (Cartographer's Orb)
 ItemDisplay[scrb]:%RED%*%YELLOW%*%GREEN%*%BLUE%* %RED%o%PURPLE% %NAME% %RED%o %RED%*%YELLOW%*%GREEN%*%BLUE%* %WHITE%(x %QTY%)%DOT-62%%BORDER-4B%{%TAN%these are intended for groups!%NL%%RED%WARNING:%NL%%NL%%TAN%create a group dungeon%NL%Cube w/ a Tier 3 map to%NL%%ORANGE%Create Group Dungeon%NL%} // turns t3 maps into dungeons (Horadrim Scarab)
@@ -817,9 +855,9 @@ ItemDisplay[MAG (CLSK0>1 AND TABSK2>2) ZON]: %NAME% %GREEN%(+5 Jav)%BLUE%%CONTIN
 ItemDisplay[MAG TABSK2>5 ZON]: %NAME% %GREEN%(+6 Jav)%BLUE%%CONTINUE% // +6 Javelin Skills Javelin
 // Assassin Katars
 //  +3 tab
-ItemDisplay[MAG TABSK50=3 SIN]: %NAME% %GREEN%(+3 MA)%BLUE%%CONTINUE%
-ItemDisplay[MAG TABSK49=3 SIN]: %NAME% %GREEN%(+3 SD)%BLUE%%CONTINUE%
-ItemDisplay[MAG TABSK48=3 SIN]: %NAME% %GREEN%(+3 Trap)%BLUE%%CONTINUE%
+ItemDisplay[MAG TABSK50=3 SIN]: %NAME% %GREEN%%BLUE%%CONTINUE%
+ItemDisplay[MAG TABSK49=3 SIN]: %NAME% %GREEN%%BLUE%%CONTINUE%
+ItemDisplay[MAG TABSK48=3 SIN]: %NAME% %GREEN%%BLUE%%CONTINUE%
 //  +2 Sin / +3 skill
 ItemDisplay[MAG (CLSK6>1 AND SK254>2) SIN]: %NAME% %GREEN%(+5 TS)%BLUE%%CONTINUE% // +2 Assassin, +3 Tiger Strike katar
 ItemDisplay[MAG (CLSK6>1 AND SK265>2) SIN]: %NAME% %GREEN%(+5 CS)%BLUE% %CONTINUE%// +2 Assassin, +3 Cobra Strike katar
@@ -1183,13 +1221,13 @@ ItemDisplay[NMAG (WP8 OR WP7) !ELT !ETH !SOCK=4]:
 ItemDisplay[NMAG CL3 ELT (SOCK=0 OR SOCK=3 OR SOCK=4) AR>80]:%RED%%NAME% %GREEN%ED 
 //Res shields
 ItemDisplay[NMAG pab !ETH (RES>20 AND RES<30) !SOCK=1]:%GREEN%Res %NAME%%MAP-97%%RED%
-ItemDisplay[NMAG pab !ETH RES=30 !SOCK=1]:%GREEN%30 Res %NAME%%MAP-97%%RED%
-ItemDisplay[NMAG pab ETH (RES>20 AND RES<30) !SOCK=1]:%GREEN%Res %NAME%%MAP-97%%RED%
-ItemDisplay[NMAG pab ETH RES=30 !SOCK=1]:%GREEN%30 Res %NAME%%MAP-97%%RED%
-ItemDisplay[NMAG CL3 ELT !ETH (RES>20 AND RES<30) !SOCK=1]:%GREEN%Res %NAME%%MAP-97%%RED%
-ItemDisplay[NMAG CL3 ELT !ETH RES=30 !SOCK=1]:%GREEN%30 Res %NAME%%MAP-97%%RED%
-ItemDisplay[NMAG CL3 ELT ETH (RES>20 AND RES<30) !SOCK=1]:%GREEN%Res %NAME%%MAP-97%%RED%
-ItemDisplay[NMAG CL3 ELT ETH RES=30 !SOCK=1]:%GREEN%30 Res %NAME%%MAP-97%%RED%
+ItemDisplay[NMAG pab !ETH RES=30 !SOCK=1]:%YELLOW%MAX %GREEN%Res %WHITE%%NAME%%MAP-97%%RED%
+ItemDisplay[NMAG pab ETH (RES>20 AND RES<30) !SOCK=1]:%GREEN%Res %WHITE%%NAME%%MAP-97%%RED%
+ItemDisplay[NMAG pab ETH RES=30 !SOCK=1]:%YELLOW%MAX %GREEN%Res %WHITE%%NAME%%MAP-97%%RED%
+ItemDisplay[NMAG CL3 ELT !ETH (RES>20 AND RES<30) !SOCK=1]:%GREEN%Res %WHITE%%NAME%%MAP-97%%RED%
+ItemDisplay[NMAG CL3 ELT !ETH RES=30 !SOCK=1]:%YELLOW%MAX %GREEN%Res %WHITE%%NAME%%MAP-97%%RED%
+ItemDisplay[NMAG CL3 ELT ETH (RES>20 AND RES<30) !SOCK=1]:%GREEN%Res %WHITE%%NAME%%MAP-97%%RED%
+ItemDisplay[NMAG CL3 ELT ETH RES=30 !SOCK=1]:%YELLOW%MAX %GREEN%Res %WHITE%%NAME%%MAP-97%%RED%
 ItemDisplay[NMAG CL3 RES>25 SOCK=2 !ETH CLVL<85]:%DARK_GREEN%%NAME% %YELLOW%
 ItemDisplay[NMAG CL3 RES>25 SOCK=0 !ETH CLVL<85]:%DARK_GREEN%%NAME% %YELLOW%
 ItemDisplay[NMAG CL3 RES>25 SOCK=4 !ETH CLVL<85]:%DARK_GREEN%%NAME% %YELLOW%
@@ -1199,29 +1237,34 @@ ItemDisplay[NMAG CL3 RES>20 SOCK=0 !ETH CLVL<85]:%DARK_GREEN%%NAME% %GRAY%
 ItemDisplay[NMAG CL3 RES>20 SOCK=4 !ETH CLVL<85]:%DARK_GREEN%%NAME% %GRAY%
 ItemDisplay[NMAG CL3 RES>20 SOCK=3 !ETH CLVL<85]:%DARK_GREEN%%NAME% %GRAY%
 ItemDisplay[NMAG CL3 SOCK=4 CLVL<69]:%GRAY%%NAME% 
-ItemDisplay[NMAG CL3 !ETH RES=30 SOCK=4]:%ORANGE%30 Res %GREEN%%NAME%%GRAY%
-ItemDisplay[NMAG CL3 !ETH RES=30 SOCK=3]:%ORANGE%30 Res %GREEN%%NAME%%GRAY%
-ItemDisplay[NMAG CL3 !ETH RES=30 SOCK=0]:%ORANGE%30 Res %GREEN%%NAME%%GRAY%
+ItemDisplay[NMAG CL3 !ETH RES=30 SOCK=4]:%YELLOW%MAX %GREEN%Res %WHITE%%NAME%%GRAY%
+ItemDisplay[NMAG CL3 !ETH RES=30 SOCK=3]:%YELLOW%MAX %GREEN%Res %WHITE%%NAME%%GRAY%
+ItemDisplay[NMAG CL3 !ETH RES=30 SOCK=0]:%YELLOW%MAX %GREEN%Res %WHITE%%NAME%%GRAY%
 //
 //Claws
-ItemDisplay[CL5 NMAG SOCK=3 (SK277=3 AND SK278<0)]:%RED%Blade Shield & Venom %GREEN%%NAME% %RED%
-ItemDisplay[CL5 NMAG !9cs !7xf !7cs SOCK=0 (SK277=3 AND SK278<0)]:%RED%Blade Shield & Venom %GREEN%%NAME% %RED%
-ItemDisplay[CL5 NMAG SOCK=3 (SK277=3)]:%RED%Blade Shield %GREEN%%NAME% %RED%
-ItemDisplay[CL5 NMAG !9cs !7xf !7cs SOCK=0 (SK277=3)]:%RED%Blade Shield %GREEN%%NAME% %RED%
-ItemDisplay[CL5 NMAG SOCK=3 (SK278=3)]:%RED%Venom %GREEN%%NAME% %RED%
-ItemDisplay[CL5 NMAG !9cs !7xf !7cs SOCK=0 (SK278=3)]:%RED%Venom %GREEN%%NAME% %RED%
-ItemDisplay[NMAG CL5 (SK262=3) SOCK=3]:%DARK_GREEN%+3 Wake Fire %NAME%%GRAY%
-ItemDisplay[NMAG CL5 (SK261=3) SOCK=3]:%DARK_GREEN%+3 Bolt Sentry %NAME%%GRAY%
-ItemDisplay[NMAG CL5 (SK366=3) SOCK=3]:%DARK_GREEN%+3 Lite Sentry %NAME%%GRAY%
-ItemDisplay[NMAG CL5 (SK273=3) SOCK=3]:%DARK_GREEN%+3 Mind Blast %NAME%%GRAY%
-ItemDisplay[NMAG CL5 !9cs !7xf !7cs (SK262=3) SOCK=0]:%DARK_GREEN%+3 Wake Fire %NAME%%GRAY%
-ItemDisplay[NMAG CL5 !9cs !7xf !7cs (SK261=3) SOCK=0]:%DARK_GREEN%+3 Bolt Sentry %NAME%%GRAY%
-ItemDisplay[NMAG CL5 !9cs !7xf !7cs (SK273=3) SOCK=0]:%DARK_GREEN%+3 Mind Blast %NAME%%GRAY%
-ItemDisplay[NMAG CL5 !9cs !7xf !7cs (SK366=3) SOCK=0]:%DARK_GREEN%+3 Lite Sentry %NAME%%GRAY%
-ItemDisplay[CL5 (SK262=3)]:%DARK_GREEN%+3 Wake Fire Claw%GRAY%
-ItemDisplay[CL5 (SK261=3)]:%DARK_GREEN%+3 Bolt Sentry Claw%GRAY%
-ItemDisplay[CL5 (SK366=3)]:%DARK_GREEN%+3 Lite Sentry Claw%GRAY%
-ItemDisplay[CL5 (SK273=3)]:%DARK_GREEN%+3 Mind Blast Claw%GRAY%
+ItemDisplay[NMAG CL5 (SK266=3) SOCK=3]:%PURPLE%+3 BF %GREEN%%NAME%%GRAY%
+ItemDisplay[CL5 NMAG SOCK=3 (SK277=3)]:%PURPLE%+3 BS %GREEN%%NAME% %RED%
+ItemDisplay[NMAG CL5 (SK265=3) SOCK=3]:%RED%+3 Cobra %GREEN%%NAME%%GRAY%
+ItemDisplay[NMAG CL5 (SK280=3) SOCK=3]:%RED%+3 Phoenix %GREEN%%NAME%%GRAY%
+ItemDisplay[NMAG CL5 (SK266=3) SOCK=0]:%RED%+3 BF %GREEN%%NAME%%GRAY%
+ItemDisplay[CL5 NMAG SOCK=3 (SK277=3)]:%RED%+3 BS %GREEN%%NAME% %RED%
+ItemDisplay[NMAG CL5 (SK265=3) SOCK=0]:%RED%+3 Cobra %GREEN%%NAME%%GRAY%
+ItemDisplay[NMAG CL5 (SK280=3) SOCK=0]:%RED%+3 Phoenix %GREEN%%NAME%%GRAY%
+ItemDisplay[CL5 NMAG !9cs !7xf !7cs SOCK=0 (SK277=3)]:%RED%+3 BS %GREEN%%NAME% %RED%
+ItemDisplay[CL5 NMAG SOCK=3 (SK278=3)]:%RED%+3 Venom %GREEN%%NAME% %RED%
+ItemDisplay[CL5 NMAG !9cs !7xf !7cs SOCK=0 (SK278=3)]:%RED%+3 Venom %GREEN%%NAME% %RED%
+ItemDisplay[NMAG CL5 (SK262=3) SOCK=3]:%PURPLE%+3 WoF %GREEN%%NAME%%GRAY%
+ItemDisplay[NMAG CL5 (SK261=3) SOCK=3]:%RED%+3 CBS %GREEN%%NAME%%GRAY%
+ItemDisplay[NMAG CL5 (SK366=3) SOCK=3]:%RED%+3 LS %GREEN%%NAME%%GRAY%
+ItemDisplay[NMAG CL5 (SK273=3) SOCK=3]:%RED%+3 MB %GREEN%%NAME%%GRAY%
+ItemDisplay[NMAG CL5 !9cs !7xf !7cs (SK262=3) SOCK=0]:%RED%+3 WoF %GREEN%%NAME%%GRAY%
+ItemDisplay[NMAG CL5 !9cs !7xf !7cs (SK261=3) SOCK=0]:%RED%+3 CBS %GREEN%%NAME%%GRAY%
+ItemDisplay[NMAG CL5 !9cs !7xf !7cs (SK273=3) SOCK=0]:%RED%+3 MB %GREEN%%NAME%%GRAY%
+ItemDisplay[NMAG CL5 !9cs !7xf !7cs (SK366=3) SOCK=0]:%RED%+3 LS %GREEN%%NAME%%GRAY%
+ItemDisplay[CL5 (SK262=3)]:%DARK_GREEN%+3 WoF%GRAY%
+ItemDisplay[CL5 (SK261=3)]:%DARK_GREEN%+3 CBS%GRAY%
+ItemDisplay[CL5 (SK366=3)]:%DARK_GREEN%+3 LS%GRAY%
+ItemDisplay[CL5 (SK273=3)]:%DARK_GREEN%+3 MB%GRAY%
 ItemDisplay[CL5 ELT NMAG (SOCK=3 OR SOCK=2)]:%WHITE%%NAME%
 
 //
@@ -1478,14 +1521,14 @@ ItemDisplay[7gi ETH NMAG SOCK=0]:%GRAY%%NAME% %GRAY%
 ItemDisplay[7gi ETH NMAG SOCK=5]:%GRAY%%NAME% %GRAY%
 //
 //Bow Bases
-ItemDisplay[amc (SOCK=3 OR SOCK=4 OR SOCK=5) SUP NMAG TABSK0=3]:%DARK_GREEN%+3 %NAME%%MAP-97% %YELLOW%
-ItemDisplay[amb (SOCK=3 OR SOCK=4 OR SOCK=5) SUP NMAG TABSK0=3]:%DARK_GREEN%+3 %NAME% %YELLOW%
-ItemDisplay[amc (SOCK=3 OR SOCK=4 OR SOCK=5) !SUP NMAG TABSK0=3]:%DARK_GREEN%+3 %NAME%%MAP-97% %YELLOW%
-ItemDisplay[amb (SOCK=3 OR SOCK=4 OR SOCK=5) !SUP NMAG TABSK0=3]:%DARK_GREEN%+3 %NAME% %YELLOW%
-ItemDisplay[amb SOCK=0 !SUP NMAG TABSK0=3]:%DARK_GREEN%+3 %NAME% %GRAY%
-ItemDisplay[amc SOCK=0 !SUP NMAG TABSK0=3]:%DARK_GREEN%+3 %NAME% %GRAY%
-ItemDisplay[amc NMAG SOCK=4]://%GRAY%GM Bow
-ItemDisplay[amc !SUP NMAG SOCK=0]://%GRAY%GM Bow
+ItemDisplay[amc (SOCK=3 OR SOCK=4 OR SOCK=5) SUP NMAG TABSK0=3]:%DARK_GREEN%+3 %RED%Sup %DARK_GREEN%%NAME% %YELLOW%
+ItemDisplay[amb (SOCK=3 OR SOCK=4 OR SOCK=5) SUP NMAG TABSK0=3]:%DARK_GREEN%+3 %RED%Sup %DARK_GREEN%%NAME% %YELLOW%
+ItemDisplay[amb (SOCK=0 OR SOCK=3 OR SOCK=4 OR SOCK=5) !SUP NMAG TABSK0=3]:%DARK_GREEN%+3 %NAME% %GRAY%
+ItemDisplay[amc (SOCK=0 OR SOCK=3 OR SOCK=4 OR SOCK=5) !SUP NMAG TABSK0=3]:%DARK_GREEN%+3 %NAME% %GRAY%
+ItemDisplay[amc NMAG SOCK=4]://%GRAY%%NAME%
+ItemDisplay[amc !SUP NMAG SOCK=0]://%GRAY%%NAME%
+ItemDisplay[(am1 OR am2 OR am6 OR am7) NMAG (SOCK=3 OR SOCK=4 OR SOCK=5)]:%GRAY%%NAME%
+ItemDisplay[(am1 OR am2 OR am6 OR am7) NMAG (SOCK=3 OR SOCK=4 OR SOCK=5)]:%GRAY%%NAME%
 ItemDisplay[NMAG 6hx SOCK=4]:%GRAY%%NAME%
 ItemDisplay[6lb NMAG SOCK=4]:%GRAY%%NAME%
 ItemDisplay[6l7 NMAG SOCK=4]:%GRAY%%NAME%
@@ -1528,24 +1571,24 @@ ItemDisplay[7fl ETH NMAG SOCK=4]:%DARK_GREEN%%NAME% %YELLOW%
 ItemDisplay[72a ETH NMAG SOCK=4]:%DARK_GREEN%%NAME% %YELLOW%
 //
 //non-magic wands 
-ItemDisplay[WP12 NMAG !wnd !ywn !9wn !SOCK=1 (SK74=3)]:%DARK_GREEN%+3 Corpse Explosion wand%GRAY%
-ItemDisplay[WP12 NMAG !wnd !ywn !9wn !SOCK=1 (SK84=3)]:%DARK_GREEN%+3 Bone Spear wand%GRAY%
-ItemDisplay[WP12 NMAG !wnd !ywn !9wn !SOCK=1 (SK83=3)]:%DARK_GREEN%+3 Desecrate wand%GRAY%
-ItemDisplay[WP12 NMAG !wnd !ywn !9wn !SOCK=1 (SK92=3)]:%GRAY%+3 poison nova wand%GRAY%
-ItemDisplay[WP12 NMAG !wnd !ywn !9wn !SOCK=1 (SK67=3)]:%DARK_GREEN%+3 teeth wand%GRAY%
-ItemDisplay[WP12 NMAG !wnd !ywn !9wn !SOCK=1 (SK80=3)]:%GRAY%+3 skele mage wand%GRAY%
-ItemDisplay[WP12 NMAG !wnd !ywn !9wn !SOCK=1 (SK70=3)]:%GRAY%+3 skele war wand%GRAY%
+ItemDisplay[WP12 NMAG !wnd !ywn !9wn !SOCK=1 (SK74=3)]:%GRAY%+3 Corpse Explosion wand%GRAY%
+ItemDisplay[WP12 NMAG !wnd !ywn !9wn !SOCK=1 (SK84=3)]:%GRAY%+3 Bone Spear wand%GRAY%
+ItemDisplay[WP12 NMAG !wnd !ywn !9wn !SOCK=1 (SK83=3)]:%GRAY%+3 Desecrate wand%GRAY%
+ItemDisplay[WP12 NMAG !wnd !ywn !9wn !SOCK=1 (SK92=3)]:%GRAY%+3 Poison nova wand%GRAY%
+ItemDisplay[WP12 NMAG !wnd !ywn !9wn !SOCK=1 (SK67=3)]:%GRAY%+3 Teeth wand%GRAY%
+ItemDisplay[WP12 NMAG !wnd !ywn !9wn !SOCK=1 (SK80=3)]:%GRAY%+3 Skele mage wand%GRAY%
+ItemDisplay[WP12 NMAG !wnd !ywn !9wn !SOCK=1 (SK70=3)]:%GRAY%+3 Skele war wand%GRAY%
 //
 //non-magic necro heads 
-ItemDisplay[CL4 NMAG (SK74=3) !ETH !SOCK=1]:%DARK_GREEN%+3 Corpse Explosion head%GRAY%
-ItemDisplay[CL4 NMAG (SK80=3) !ETH !SOCK=1]:%GRAY%+3 skele mage head%GRAY%
-ItemDisplay[CL4 NMAG (SK70=3) !ETH !SOCK=1]:%GRAY%+3 skele head%GRAY%
-ItemDisplay[CL4 NMAG (SK69=3) !ETH !SOCK=1]:%GRAY%+3 mastery head%GRAY%
-ItemDisplay[CL4 NMAG (SK67=3) !ETH !SOCK=1]:%GRAY%+3 teeth head%GRAY%
-ItemDisplay[CL4 NMAG (SK83=3) !ETH !SOCK=1]:%GRAY%+3 desecrate head%GRAY%
-ItemDisplay[CL4 NMAG (SK84=3) !ETH !SOCK=1]:%GRAY%+3 bone spear head%GRAY%
-ItemDisplay[CL4 NMAG (SK92=3) !ETH !SOCK=1]:%GRAY%+3 poison nova head%GRAY%
-ItemDisplay[CL4 NMAG (SK75=3) !ETH !SOCK=1]:%GRAY%+3 Clay golem head%GRAY%
+ItemDisplay[CL4 NMAG (SK74=3) !ETH !SOCK=1]:%GRAY%+3 Corpse Explosion%GRAY%
+ItemDisplay[CL4 NMAG (SK80=3) !ETH !SOCK=1]:%GRAY%+3 Skele mage%GRAY%
+ItemDisplay[CL4 NMAG (SK70=3) !ETH !SOCK=1]:%GRAY%+3 Skele warrior%GRAY%
+ItemDisplay[CL4 NMAG (SK69=3) !ETH !SOCK=1]:%GRAY%+3 Skele mastery %GRAY%
+ItemDisplay[CL4 NMAG (SK67=3) !ETH !SOCK=1]:%GRAY%+3 Teeth %GRAY%
+ItemDisplay[CL4 NMAG (SK83=3) !ETH !SOCK=1]:%GRAY%+3 Desecrate%GRAY%
+ItemDisplay[CL4 NMAG (SK84=3) !ETH !SOCK=1]:%GRAY%+3 Bone spear%GRAY%
+ItemDisplay[CL4 NMAG (SK92=3) !ETH !SOCK=1]:%GRAY%+3 Poison nova%GRAY%
+ItemDisplay[CL4 NMAG (SK75=3) !ETH !SOCK=1]:%GRAY%+3 Clay golem%GRAY%
 //
 //non-magic druid pelts and clubs
 ItemDisplay[(CL1 OR clb OR spc OR 9cl OR 9sp OR 7cl OR 7sp) NMAG (SK244=3) !SOCK=1]:%GRAY%+3 Volcano %NAME% %GRAY%
