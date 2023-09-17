@@ -203,33 +203,37 @@ ItemDisplay[ubtm]:%RED%o %PURPLE%Pandemonium Talisman %RED%o{%TAN%Use by Blood F
 //║   Season 8 New Items  ║
 //╚═══════════════════════╝
 //Fire Pots
-ItemDisplay[tpfs CLVL<16]:%RED%%NAME%
+ItemDisplay[tpfs CLVL<16]:%RED%%NAME%{%RED%%NAME%}
 ItemDisplay[tpfs CLVL>15]:
-ItemDisplay[tpfm CLVL<30]:%RED%%NAME%
+ItemDisplay[tpfm CLVL<30]:%RED%%NAME%{%RED%%NAME%}
 ItemDisplay[tpfm CLVL>29]:
-ItemDisplay[tpfl CLVL<50]:%RED%%NAME%
-ItemDisplay[tpfl CLVL>49]:%RED%*F
+ItemDisplay[tpfl CLVL<50]:%RED%%NAME%{%RED%%NAME%}
+ItemDisplay[tpfl CLVL>49]:%RED%*F%WHITE%(x %QTY%){%RED%%NAME%}
+ItemDisplay[tpfl CLVL>69]:
 //Poison Pots
-ItemDisplay[tpgs CLVL<16]:%GREEN%%NAME%
+ItemDisplay[tpgs CLVL<16]:%GREEN%%NAME%{%GREEN%%NAME%}
 ItemDisplay[tpgs CLVL>15]:
-ItemDisplay[tpgm CLVL<30]:%GREEN%%NAME%
+ItemDisplay[tpgm CLVL<30]:%GREEN%%NAME%{%GREEN%%NAME%}
 ItemDisplay[tpgm CLVL>29]:
-ItemDisplay[tpgl CLVL<50]:%GREEN%%NAME%
-ItemDisplay[tpgl CLVL>49]:%GREEN%*P
+ItemDisplay[tpgl CLVL<50]:%GREEN%%NAME%{%GREEN%%NAME%}
+ItemDisplay[tpgl CLVL>49]:%GREEN%*P%WHITE%(x %QTY%){%GREEN%%NAME%}
+ItemDisplay[tpgl CLVL>69]:
 //Cold Pots
-ItemDisplay[tpcs CLVL<16]:%BLUE%%NAME%
+ItemDisplay[tpcs CLVL<16]:%BLUE%%NAME%{%BLUE%%NAME%}
 ItemDisplay[tpcs CLVL>15]:
-ItemDisplay[tpcm CLVL<30]:%BLUE%%NAME%
+ItemDisplay[tpcm CLVL<30]:%BLUE%%NAME%{%BLUE%%NAME%}
 ItemDisplay[tpcm CLVL>29]:
-ItemDisplay[tpcl CLVL<50]:%BLUE%%NAME%
-ItemDisplay[tpcl CLVL>49]:%BLUE%*C
+ItemDisplay[tpcl CLVL<50]:%BLUE%%NAME%{%BLUE%%NAME%}
+ItemDisplay[tpcl CLVL>49]:%BLUE%*C%WHITE%(x %QTY%){%BLUE%%NAME%}
+ItemDisplay[tpcl CLVL>69]:
 //Lightning Pots
-ItemDisplay[tpls CLVL<16]:%YELLOW%%NAME%
+ItemDisplay[tpls CLVL<16]:%YELLOW%%NAME%{%YELLOW%%NAME%}
 ItemDisplay[tpls CLVL>15]:
-ItemDisplay[tplm CLVL<30]:%YELLOW%%NAME%
+ItemDisplay[tplm CLVL<30]:%YELLOW%%NAME%{%YELLOW%%NAME%}
 ItemDisplay[tplm CLVL>29]:
-ItemDisplay[tpll CLVL<60]:%YELLOW%%NAME%
-ItemDisplay[tpll CLVL>59]:%YELLOW%*L
+ItemDisplay[tpll CLVL<50]:%YELLOW%%NAME%{%YELLOW%%NAME%}
+ItemDisplay[tpll CLVL>49]:%YELLOW%*L%WHITE%(x %QTY%){%YELLOW%%NAME%}
+ItemDisplay[tpll CLVL>69]:
 //
 ItemDisplay[t53]:%RED%o %PURPLE%Fallen Gardens %RED%o%MAP-62%
 ItemDisplay[7st UNI]:%RED%o %PURPLE%Uldyssian's Awakening %RED%o%MAP-62%
