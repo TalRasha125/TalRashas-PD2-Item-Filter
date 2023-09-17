@@ -1,7 +1,7 @@
 # TalRashas-PD2-Item-Filter <br>
-TalRasha's PD2 Item Filter updated April 19, 2023 <br>
+TalRasha's PD2 Item Filter updated September 16, 2023 <br>
 
-Updated for Season 7.<br>
+Updated for Season 8.<br>
 
 -Highlights good items in bright colors and adds design elements to names.<br>-Shows crafting recipes on magic/rare items and maps.<br>-Reveals names of most uniques and sets unidentified.<br>
 
