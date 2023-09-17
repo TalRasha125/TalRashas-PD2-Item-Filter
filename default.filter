@@ -225,11 +225,11 @@ ItemDisplay[tpcl CLVL<50]:%BLUE%%NAME%
 ItemDisplay[tpcl CLVL>49]:%BLUE%*C
 //Lightning Pots
 ItemDisplay[tpls CLVL<16]:%YELLOW%%NAME%
-ItemDisplay[tpls CLVL>15]:%YELLOW%*L
+ItemDisplay[tpls CLVL>15]:
 ItemDisplay[tplm CLVL<30]:%YELLOW%%NAME%
 ItemDisplay[tplm CLVL>29]:
 ItemDisplay[tpll CLVL<60]:%YELLOW%%NAME%
-ItemDisplay[tpll CLVL>59]:
+ItemDisplay[tpll CLVL>59]:%YELLOW%*L
 //
 ItemDisplay[t53]:%RED%o %PURPLE%Fallen Gardens %RED%o%MAP-62%
 ItemDisplay[7st UNI]:%RED%o %PURPLE%Uldyssian's Awakening %RED%o%MAP-62%
