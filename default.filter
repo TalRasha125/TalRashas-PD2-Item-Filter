@@ -2263,7 +2263,7 @@ ItemDisplay[NMAG !RW CL2 SOCK>1 !ETH]:
 ItemDisplay[NMAG !RW CL3 (SOCK=1 OR RES<20) ILVL>55]:
 //Assassin Claws
 ItemDisplay[NMAG ktr ILVL>26]:
-ItemDisplay[NMAG !RW !RW wrb ILVL>26]:
+ItemDisplay[NMAG !RW wrb ILVL>26]:
 ItemDisplay[NMAG !RW axf ILVL>26]:
 ItemDisplay[NMAG !RW ces ILVL>26]:
 ItemDisplay[NMAG !RW clw ILVL>26]:
