@@ -25,10 +25,15 @@ ItemDisplay[NMAG SOCK>0]:%NAME% %RED%[%SOCKETS%]%CONTINUE%
 //║ Gold ║
 //╚══════╝
 //35K
-ItemDisplay[NMAG PRICE>34999 !(pk1 OR pk2 OR pk3)]:%GREEN%$ %WHITE%%NAME%%CONTINUE%
-ItemDisplay[MAG PRICE>34999]:%GREEN%$ %BLUE%%NAME%%CONTINUE%
-ItemDisplay[RARE PRICE>34999]:%GREEN%$ %YELLOW%%NAME%%CONTINUE%
-ItemDisplay[UNI PRICE>34999]:%GREEN%$ %GOLD%%NAME%%CONTINUE%
+ItemDisplay[NMAG DIFF=2 PRICE>34999 !(pk1 OR pk2 OR pk3)]:%GREEN%$ %WHITE%%NAME%%CONTINUE%
+ItemDisplay[MAG DIFF=2 PRICE>34999]:%GREEN%$ %BLUE%%NAME%%CONTINUE%
+ItemDisplay[RARE DIFF=2 PRICE>34999]:%GREEN%$ %YELLOW%%NAME%%CONTINUE%
+ItemDisplay[UNI DIFF=2 PRICE>34999]:%GREEN%$ %GOLD%%NAME%%CONTINUE%
+//
+ItemDisplay[NMAG DIFF=1 PRICE>24999 !(pk1 OR pk2 OR pk3)]:%GREEN%$ %WHITE%%NAME%%CONTINUE%
+ItemDisplay[MAG DIFF=1 PRICE>24999]:%GREEN%$ %BLUE%%NAME%%CONTINUE%
+ItemDisplay[RARE DIFF=1 PRICE>24999]:%GREEN%$ %YELLOW%%NAME%%CONTINUE%
+ItemDisplay[UNI DIFF=1 PRICE>24999]:%GREEN%$ %GOLD%%NAME%%CONTINUE%
 //Gold
 // If you want all gold to show just comment out all of these lines by adding "// " at the start of each line and uncomment the first line
 //ItemDisplay[GOLD>0]: %NAME% // Show all gold (if you uncomment this line comment out all the other gold lines below)
@@ -215,7 +220,7 @@ ItemDisplay[tpgs CLVL<16]:%DARK_GREEN%*p{%GREEN%%NAME%}
 ItemDisplay[tpgs CLVL>15]:
 ItemDisplay[tpgm CLVL<30]:%DARK_GREEN%*P{%GREEN%%NAME%}
 ItemDisplay[tpgm CLVL>29]:
-ItemDisplay[tpgl CLVL<30]:%DARK_GREEN%*P{%GREEN%%NAME%}
+ItemDisplay[tpgl CLVL<30]:%DARK_GREEN%*P+{%GREEN%%NAME%}
 ItemDisplay[tpgl (CLVL>29 AND CLVL<50)]:%GREEN%*P+{%GREEN%%NAME%}
 ItemDisplay[tpgl CLVL>49]:
 //Cold Pots
@@ -1743,11 +1748,11 @@ ItemDisplay[MAG xtg !ID ILVL>60]:
 //
 //Normal
 //Vendor Items
-ItemDisplay[NMAG WP11 PRICE<35000]:
-ItemDisplay[NMAG WP12 PRICE<35000]:
-ItemDisplay[NMAG WP13 PRICE<35000]:
-ItemDisplay[NMAG CL4 PRICE<35000]:
-ItemDisplay[NMAG CL6 PRICE<35000]:
+ItemDisplay[NMAG WP11 DIFF=2 PRICE<35000]:
+ItemDisplay[NMAG WP12 DIFF=2 PRICE<35000]:
+ItemDisplay[NMAG WP13 DIFF=2 PRICE<35000]:
+ItemDisplay[NMAG CL4 DIFF=2 PRICE<35000]:
+ItemDisplay[NMAG CL6 DIFF=2 PRICE<35000]:
  //
 //None of the Above
 //Weapons:Axe, Mace, Sword, Dagger, Throwing Weapon, Javelin, Spear, Polearm, Bow, Crossbow
