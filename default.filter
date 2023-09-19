@@ -211,11 +211,11 @@ ItemDisplay[tpfl CLVL<30]:%RED%%NAME%{%RED%%NAME%}
 ItemDisplay[tpfl (CLVL>29 AND CLVL<50)]:%RED%*F%WHITE%(x %QTY%){%RED%%NAME%}
 ItemDisplay[tpfl CLVL>49]:
 //Poison Pots
-ItemDisplay[tpgs CLVL<16]:%DARKGREEN%%NAME%{%GREEN%%NAME%}
+ItemDisplay[tpgs CLVL<16]:%DARK_GREEN%%NAME%{%GREEN%%NAME%}
 ItemDisplay[tpgs CLVL>15]:
-ItemDisplay[tpgm CLVL<30]:%DARKGREEN%%NAME%{%GREEN%%NAME%}
+ItemDisplay[tpgm CLVL<30]:%DARK_GREEN%%NAME%{%GREEN%%NAME%}
 ItemDisplay[tpgm CLVL>29]:
-ItemDisplay[tpgl CLVL<30]:%DARKGREEN%%NAME%{%GREEN%%NAME%}
+ItemDisplay[tpgl CLVL<30]:%DARK_GREEN%%NAME%{%GREEN%%NAME%}
 ItemDisplay[tpgl (CLVL>29 AND CLVL<50)]:%GREEN%*P%WHITE%(x %QTY%){%GREEN%%NAME%}
 ItemDisplay[tpgl CLVL>49]:
 //Cold Pots
