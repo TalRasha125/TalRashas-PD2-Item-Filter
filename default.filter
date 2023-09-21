@@ -1539,8 +1539,8 @@ ItemDisplay[amc NMAG SOCK=4]://%GRAY%%NAME%
 ItemDisplay[amc !SUP NMAG SOCK=0]://%GRAY%%NAME%
 ItemDisplay[(am1 OR am2 OR am6 OR am7) NMAG (SOCK=3 OR SOCK=4 OR SOCK=5)]:%GRAY%%NAME%
 ItemDisplay[(am1 OR am2 OR am6 OR am7) NMAG (SOCK=3 OR SOCK=4 OR SOCK=5)]:%GRAY%%NAME%
-ItemDisplay[(6rx OR 8rx) NMAG !SUP (SOCK=4 OR SOCK=4 OR SOCK=5)]:%GRAY%%NAME%
-ItemDisplay[(6rx OR 8rx) NMAG SUP (SOCK=4 OR SOCK=4 OR SOCK=5)]:%DARK_GREEN%%NAME%
+ItemDisplay[(6rx OR 8rx) NMAG !SUP (SOCK=3 OR SOCK=4 OR SOCK=5)]:%GRAY%%NAME%
+ItemDisplay[(6rx OR 8rx) NMAG SUP (SOCK=3 OR SOCK=4 OR SOCK=5)]:%DARK_GREEN%%NAME%
 ItemDisplay[NMAG 6hx SOCK=4]:%GRAY%%NAME%
 ItemDisplay[6lb NMAG SOCK=4]:%GRAY%%NAME%
 ItemDisplay[6l7 NMAG SOCK=4]:%GRAY%%NAME%
