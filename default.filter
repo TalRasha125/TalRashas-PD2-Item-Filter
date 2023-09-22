@@ -1,7 +1,7 @@
 //++++++++++++++++++++++++++
 //TalRasha's PD2 Item Filter
 //++++++++++++++++++++++++++
-//Updated September 19, 2023
+//Updated September 22, 2023
 //
 //╔════════════════╗
 //║ Global Filters ║
@@ -1560,6 +1560,8 @@ ItemDisplay[NMAG 7wa !ETH SOCK=6]:%DARK_GREEN%%NAME% %GRAY%
 ItemDisplay[NMAG 7gm !ETH SOCK=6]:%DARK_GREEN%%NAME% %GRAY%
 //
 //Lawbringer
+ItemDisplay[NMAG !RW SOCK=3 7wa]:%DARK_GREEN%%NAME% %YELLOW%
+ItemDisplay[NMAG !RW SOCK=3 7wh]:%DARK_GREEN%%NAME% %YELLOW%
 ItemDisplay[7cr NMAG SOCK=3]:%DARK_GREEN%%NAME% %YELLOW%
 ItemDisplay[72h ETH NMAG SOCK=3]:%DARK_GREEN%%NAME% %YELLOW%
 ItemDisplay[72h ETH NMAG SOCK=0]:%DARK_GREEN%%NAME% %YELLOW%
