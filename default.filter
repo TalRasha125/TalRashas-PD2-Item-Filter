@@ -1,7 +1,7 @@
 //++++++++++++++++++++++++++
 //TalRasha's PD2 Item Filter
 //++++++++++++++++++++++++++
-//Updated September 22, 2023
+//Updated September 23, 2023
 //
 //╔════════════════╗
 //║ Global Filters ║
@@ -107,7 +107,7 @@ ItemDisplay[gpl]:
 ItemDisplay[hdm]:*%NAME%*%MAP-00% // Horadric Malus
 ItemDisplay[bks]:*%NAME%*%MAP-00% // Scroll of Inifuss
 ItemDisplay[bkd]:*%NAME%*%MAP-00% // Scroll of Inifuss, deciphered
-ItemDisplay[leg]:*%NAME%*%MAP-00% // Wirt's Leg
+ItemDisplay[leg]:*%NAME%*%MAP-00%//Wirt's Leg
 ItemDisplay[ass]:%GOLD%*Book of Skill*{%TAN%Right click to add +1 skill pt}%MAP-00% // Book of Skill
 ItemDisplay[tr1]:
 ItemDisplay[box]:*%NAME%*%MAP-00% // Horadric Cube
