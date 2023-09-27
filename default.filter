@@ -706,6 +706,7 @@ ItemDisplay[r16s]:%NAME%{%TAN%All Sockets: %WHITE%+10 %BLUE%to Vit%NAME%}
 ItemDisplay[r17s]:%NAME%{%TAN%All Sockets: %WHITE%+10 %BLUE%to Ene%NAME%}
 ItemDisplay[r18s]:%NAME%{%TAN%All Sockets: %WHITE%+10 %BLUE%to Dex%NAME%}
 ItemDisplay[r19s]:%NAME%{%TAN%Armor/Helm/Shield: %WHITE%50% %BLUE%GF%NL%%TAN%Weapon: %WHITE%75% %BLUE%GF%NAME%}
+ItemDisplay[r20s]:%NAME%{%TAN%Armor/Helm/Shield: %WHITE%50% %BLUE%Gold Find%NL%%TAN%Weapon: %WHITE%75% %BLUE%Gold Find%NAME%}
 ItemDisplay[r21s]:%NAME%{%TAN%Armor/Helm/Shield: %WHITE%30% %BLUE%ED%NL%%TAN%Weapon: %WHITE%+75% %BLUE%Dmg, %WHITE%+100 %BLUE%AR Vs Dem%NAME%}
 ItemDisplay[r22s]:%NAME%{%TAN%Shield: %BLUE%All Res %WHITE%+22%%NL%%TAN%Armor/Helm: %BLUE%All Res %WHITE%+15%%NL%+120 %BLUE%OW Dmg Over %WHITE%5 %BLUE%Sec%NL%%TAN%Weapon: %WHITE%10% %BLUE%Chance of OW,%NAME%}
 ItemDisplay[r23s]:%NAME%{%TAN%Armor/Helm/Shield: %BLUE%MDR By %WHITE%7%NL%%TAN%Weapon: %BLUE%PMH%NAME%}
