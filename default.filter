@@ -2114,7 +2114,7 @@ ItemDisplay[72a ETH NMAG SOCK=4]:%DARK_GREEN%%NAME% %YELLOW%
 //non-magic wands 
 ItemDisplay[WP12 NMAG !wnd !ywn !9wn !SOCK=1 (SK74=3)]:%GRAY%+3 CE %NAME%%GRAY%
 ItemDisplay[WP12 NMAG !wnd !ywn !9wn !SOCK=1 (SK84=3)]:%GRAY%+3 BS %NAME%%GRAY%
-ItemDisplay[WP12 NMAG !wnd !ywn !9wn !SOCK=1 (SK83=3)]:%GRAY%+3 Desee %NAME%%GRAY%
+ItemDisplay[WP12 NMAG !wnd !ywn !9wn !SOCK=1 (SK83=3)]:%GRAY%+3 Dese %NAME%%GRAY%
 ItemDisplay[WP12 NMAG !wnd !ywn !9wn !SOCK=1 (SK92=3)]:%GRAY%+3 Psn nova %NAME%%GRAY%
 ItemDisplay[WP12 NMAG !wnd !ywn !9wn !SOCK=1 (SK67=3)]:%GRAY%+3 Teeth %NAME%%GRAY%
 ItemDisplay[WP12 NMAG !wnd !ywn !9wn !SOCK=1 (SK80=3)]:%GRAY%+3 SkM %NAME%%GRAY%
