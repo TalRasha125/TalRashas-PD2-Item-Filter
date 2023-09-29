@@ -1,7 +1,7 @@
 //++++++++++++++++++++++++++
 //TalRasha's PD2 Item Filter
 //++++++++++++++++++++++++++
-//Updated September 24, 2023
+//Updated September 29, 2023
 //
 //╔════════════════╗
 //║ Global Filters ║
@@ -766,8 +766,8 @@ ItemDisplay[tpll (CLVL>29 AND CLVL<50)]:%YELLOW%*L+{%YELLOW%%NAME%}
 ItemDisplay[tpll CLVL>49]:
 //
 ItemDisplay[t53]:%RED%o %PURPLE%Fallen Gardens %RED%o%MAP-62%
-ItemDisplay[7st UNI]:%RED%ooo %PURPLE%Uldyssian's Awakening %RED%ooo%MAP-62%
-ItemDisplay[7cm UNI]:%RED%ooo %PURPLE%Leoric's Mithril Bane %RED%ooo%MAP-62%
+ItemDisplay[7st !ID UNI]:%RED%ooo %PURPLE%Uldyssian's Awakening %RED%ooo%MAP-62%
+ItemDisplay[7cm !ID UNI]:%RED%ooo %PURPLE%Leoric's Mithril Bane %RED%ooo%MAP-62%
 //╔═══════════════════════╗
 //║   Season 7 New Items  ║
 //╚═══════════════════════╝
