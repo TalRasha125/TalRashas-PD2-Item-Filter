@@ -2728,8 +2728,8 @@ ItemDisplay[NMAG !RW ILVL>44 xar]:
 ItemDisplay[NMAG ETH !RW SOCK=3 ush]://%DARK_GREEN%%NAME% %YELLOW%
 ItemDisplay[NMAG ETH !RW SOCK=3 urg]://%NAME% 
 ItemDisplay[NMAG ETH !RW SOCK=0 ush]://%DARK_GREEN%%NAME% %YELLOW%
-ItemDisplay[NMAG !ETH !RW SOCK=3 ush]://%GRAY%%NAME% 
-ItemDisplay[NMAG !ETH !RW SOCK=2 ush]://%GRAY%%NAME% 
+ItemDisplay[NMAG !ETH !RW SOCK=3 ush]:%GRAY%%NAME% 
+ItemDisplay[NMAG !ETH !RW SOCK=2 ush]:%GRAY%%NAME% 
 ItemDisplay[NMAG !ETH !RW SOCK=3 urg]://%GRAY%%NAME% 
 ItemDisplay[NMAG !ETH !RW SOCK=2 urg]://%GRAY%%NAME% 
 ItemDisplay[NMAG !ETH !RW SOCK=0 ush]://%GRAY%%NAME%
