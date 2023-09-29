@@ -1804,18 +1804,6 @@ ItemDisplay[CL5 (SK261=3)]:%DARK_GREEN%+3 CBS %NAME%%GRAY%
 ItemDisplay[CL5 (SK366=3)]:%DARK_GREEN%+3 LS %NAME%%GRAY%
 ItemDisplay[CL5 (SK273=3)]:%DARK_GREEN%+3 MB %NAME%%GRAY%
 ItemDisplay[CL5 ELT NMAG (SOCK=3 OR SOCK=2)]:%WHITE%%NAME%
-
-//
-//Spirit Sword
-ItemDisplay[crs NMAG SOCK=4 CLVL<80]:%DARK_GREEN%%NAME%%MAP-97% 
-ItemDisplay[bsd NMAG SOCK=4 CLVL<80]:%DARK_GREEN%%NAME%%MAP-97% 
-ItemDisplay[lsd NMAG SOCK=4 CLVL<80]:%DARK_GREEN%%NAME%%MAP-97% 
-ItemDisplay[crs NMAG SOCK=0 (ILVL>25 AND ILVL<41) CLVL<80]:%DARK_GREEN%%NAME%%WHITE% 4 soc from larzuk
-ItemDisplay[bsd NMAG SOCK=0 (ILVL>25 AND ILVL<75) CLVL<80]:%DARK_GREEN%%NAME%%WHITE% 4 soc from larzuk
-ItemDisplay[lsd NMAG SOCK=0 (ILVL>25 AND ILVL<75) CLVL<80]:%DARK_GREEN%%NAME%%WHITE% 4 soc from larzuk
-ItemDisplay[crs NMAG CLVL>79]:
-ItemDisplay[bsd NMAG CLVL>79]:
-ItemDisplay[lsd NMAG CLVL>79]:
 //
 //Insight/Infinity
 ItemDisplay[NMAG ETH (SOCK=4 OR SOCK=0) 7vo]:%DARK_GREEN%%NAME% %RED%
@@ -1960,6 +1948,16 @@ ItemDisplay[wsp NMAG SOCK=5]:%GRAY%%NAME% %GRAY%
 ItemDisplay[fla NMAG SOCK=5]:%GRAY%%NAME% %GRAY%
 ItemDisplay[2ax NMAG SOCK=5]:%GRAY%%NAME% %GRAY%
 ItemDisplay[72a NMAG SOCK=5]:%GRAY%%NAME% %GRAY%
+//Spirit Sword
+ItemDisplay[crs NMAG SOCK=4 CLVL<80]:%DARK_GREEN%%NAME%%MAP-97% 
+ItemDisplay[bsd NMAG SOCK=4 CLVL<80]:%DARK_GREEN%%NAME%%MAP-97% 
+ItemDisplay[lsd NMAG SOCK=4 CLVL<80]:%DARK_GREEN%%NAME%%MAP-97% 
+ItemDisplay[crs NMAG SOCK=0 (ILVL>25 AND ILVL<41) CLVL<80]:%DARK_GREEN%%NAME%%WHITE% 4 soc from larzuk
+ItemDisplay[bsd NMAG SOCK=0 (ILVL>25 AND ILVL<75) CLVL<80]:%DARK_GREEN%%NAME%%WHITE% 4 soc from larzuk
+ItemDisplay[lsd NMAG SOCK=0 (ILVL>25 AND ILVL<75) CLVL<80]:%DARK_GREEN%%NAME%%WHITE% 4 soc from larzuk
+ItemDisplay[crs NMAG CLVL>79]:
+ItemDisplay[bsd NMAG CLVL>79]:
+ItemDisplay[lsd NMAG CLVL>79]:
 //Merc Beast
 ItemDisplay[7gm ETH NMAG SOCK=5]:%GREEN%%NAME%%MAP-97% %RED%
 //
