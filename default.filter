@@ -1,7 +1,7 @@
 //++++++++++++++++++++++++++
 //TalRasha's PD2 Item Filter
 //++++++++++++++++++++++++++
-//Updated September 29, 2023
+//Updated October 1, 2023
 //
 //╔════════════════╗
 //║ Global Filters ║
@@ -590,8 +590,8 @@ ItemDisplay[yps]:%GREEN%!%WHITE%A
 ItemDisplay[vps CLVL<55]:%GREEN%!%WHITE%Stamina
 ItemDisplay[vps CLVL>54]:
 //Keys for Locked Chests
-ItemDisplay[key CLVL<41]:%GRAY%Key %WHITE%(x %QTY%)
-ItemDisplay[key CLVL>40]:
+ItemDisplay[key CLVL<41]:%GRAY%Key %WHITE%(x %QTY%){%TAN%You Need A Key}
+ItemDisplay[key CLVL>40]:{%TAN%You Need A Key}
 //Tomes
 ItemDisplay[tbk]:%WHITE%Tome of Town Portal
 ItemDisplay[ibk]:%WHITE%Tome of Identify
@@ -775,42 +775,43 @@ ItemDisplay[t51]:%RED%o %PURPLE%Zhar's Sanctum %RED%o%MAP-62%
 ItemDisplay[t52]:%RED%o %PURPLE%The Stygian Caverns %RED%o%MAP-62%
 ItemDisplay[cm2f]:%RED%o %PURPLE%Hellfire Ashes %RED%o %WHITE%(x %QTY%)%MAP-4B%//Vision of Terror
 ItemDisplay[pvpp]:%BLUE%!%WHITE%M
-ItemDisplay[iwss]:%RED%o %PURPLE%Catalyst Shard%RED% o %WHITE%(x %QTY%)%MAP-62%
+ItemDisplay[iwss]:%RED%o %PURPLE%Catalyst Shard%RED% o %WHITE%(x %QTY%)%MAP-62%{%TAN%Guarantee An Event%NL%Cube With Any Map}
 //╔═══════════════════════╗
 //║   Season 5 New Items  ║
 //╚═══════════════════════╝
-ItemDisplay[rid]:%RED%*%YELLOW%*%GREEN%*%BLUE%* %RED%ooo %PURPLE%Horadric Almanac %RED%ooo %RED%*%YELLOW%*%GREEN%*%BLUE%*%MAP-4B%//unlimited id tome (Horadric Almanac)
-ItemDisplay[rtp]:%RED%*%YELLOW%*%GREEN%*%BLUE%* %RED%ooo %PURPLE%Horadric Navigator %RED%ooo %RED%*%YELLOW%*%GREEN%*%BLUE%*%MAP-4B%//unlimited tp tome (Horadric Navigator)
-ItemDisplay[rkey]:%RED%*%YELLOW%*%GREEN%*%BLUE%* %RED%ooo %PURPLE%Skeleton Key %RED%ooo %RED%*%YELLOW%*%GREEN%*%BLUE%*%MAP-4B%//Skeleton Key
-ItemDisplay[llmr]:%RED%*%YELLOW%*%GREEN%*%BLUE%* %RED%ooo %PURPLE%Lilith's Mirror %RED%ooo %RED%*%YELLOW%*%GREEN%*%BLUE%*%MAP-4B%//Lilith's Mirror
-ItemDisplay[lsvl]:%RED%*%YELLOW%*%GREEN%*%BLUE%* %RED%ooo %PURPLE%Vial of Lightsong %RED%ooo %RED%*%YELLOW%*%GREEN%*%BLUE%*%MAP-4B%//Vial of Lightsong
-ItemDisplay[lpp]:%RED%o %GOLD%Puzzlepiece %RED%o %WHITE%(x %QTY%)%MAP-4B%//Larzuk's Puzzlepiece
+ItemDisplay[rid]:%RED%*%YELLOW%*%GREEN%*%BLUE%* %RED%ooo %PURPLE%Horadric Almanac %RED%ooo %RED%*%YELLOW%*%GREEN%*%BLUE%*%MAP-4B%{%TAN%As a Token of My Gratitude...}//unlimited id tome (Horadric Almanac)
+ItemDisplay[rtp]:%RED%*%YELLOW%*%GREEN%*%BLUE%* %RED%ooo %PURPLE%Horadric Navigator %RED%ooo %RED%*%YELLOW%*%GREEN%*%BLUE%*%MAP-4B%{%TAN%There's No Place Like Home}//unlimited tp tome (Horadric Navigator)
+ItemDisplay[rkey]:%RED%*%YELLOW%*%GREEN%*%BLUE%* %RED%ooo %PURPLE%Skeleton Key %RED%ooo %RED%*%YELLOW%*%GREEN%*%BLUE%*%MAP-4B%{%TAN%Alohomora}//Skeleton Key
+ItemDisplay[llmr]:%RED%*%YELLOW%*%GREEN%*%BLUE%* %RED%ooo %PURPLE%Lilith's Mirror %RED%ooo %RED%*%YELLOW%*%GREEN%*%BLUE%*%MAP-4B%{%TAN%To Create Two Mirrored Items%NL%Cube With Any Item}//Lilith's Mirror
+ItemDisplay[lsvl]:%RED%*%YELLOW%*%GREEN%*%BLUE%* %RED%ooo %PURPLE%Vial of Lightsong %RED%ooo %RED%*%YELLOW%*%GREEN%*%BLUE%*%MAP-4B%{%TAN%To Make it Ethereal%NL%Cube With Any Item}//Vial of Lightsong
+ItemDisplay[lpp]:%RED%o %GOLD%Larzuk's Puzzlepiece %RED%o %WHITE%(x %QTY%)%MAP-4B%{%TAN%1-2 Sockets to Other Items%NL%2-4 Sockets to 2H Weapons%NL%to Add:%NL%Cube with Non-Set/Unique Items}//Larzuk's Puzzlepiece
+ItemDisplay[lmal]:%GOLD%Larzuk's Malus{%TAN%To Add 1 Socket%NL%Cube With Any Item}
 //╔═════════════════╗
 //║   Uber Ancients ║
 //╚═════════════════╝
 ItemDisplay[ubaa]:%RED%o %GOLD%Sigil of Madawc %RED%o%MAP-4B%{%TAN%to create Relic of the Ancients%NL%Combine with other Sigils}//Sigil of Madawc
 ItemDisplay[ubab]:%RED%o %GOLD%Sigil of Talic %RED%o%MAP-4B%{%TAN%to create Relic of the Ancients%NL%Combine with other Sigils}//Sigil of Talic
 ItemDisplay[ubac]:%RED%o %GOLD%Sigil of Korlic %RED%o%MAP-4B%{%TAN%to create Relic of the Ancients%NL%Combine with other Sigils}//Sigil of Korlic
-ItemDisplay[uba]:%RED%o %GOLD%Relic of the Ancients %RED%o%MAP-4B%{%TAN%to Summon Uber Ancients%NL%Use by Blood Fountain Act 5}//Relic of the Ancients
+ItemDisplay[uba]:%RED%o %GOLD%Relic of the Ancients %RED%o%MAP-4B%{%TAN%to Summon Uber Ancients%NL%Use by the Blood Fountain in Act 5}//Relic of the Ancients
 //╔═══════════╗
 //║   Rathma  ║
 //╚═══════════╝
 ItemDisplay[rtmf]:%RED%ooo %PURPLE%Ancient Bone Fragment %RED%ooo %WHITE%(x %QTY%)%MAP-4B%{%TAN%to create a Trang-Oul's Jawbone%NL%Cube 2 of these w/ Hellfire Torch}// Ancient Bone Fragment
-ItemDisplay[rtmo]:%RED%o %PURPLE%Trang-Oul's Jawbone %RED%o %WHITE%(x %QTY%)%MAP-4B%{%TAN%and Hellfire Torch to create a Voidstone%NL%Cube w/ Splinter of the Void}// Trang-Oul's Jawbone
-ItemDisplay[rtmv]:%RED%o %PURPLE%Splinter of the Void %RED%o %WHITE%(x %QTY%)%MAP-4B%{%TAN%and Hellfire Torch to create a Voidstone%NL%Cube w/ Trang-Oul's Jawbone}// Splinter of the Void
-ItemDisplay[rtma]:%RED%o %PURPLE%Voidstone %RED%o%MAP-4B%{%TAN%to Summon Rathma from the Void%NL%Use by Blood Fountain Act 5}//Voidstone
+ItemDisplay[rtmo]:%RED%o %PURPLE%Trang-Oul's Jawbone %RED%o %WHITE%(x %QTY%)%MAP-4B%{%TAN%To Create a Voidstone%NL%and Hellfire Torch%NL%Cube w/ Splinter of the Void}// Trang-Oul's Jawbone
+ItemDisplay[rtmv]:%RED%o %PURPLE%Splinter of the Void %RED%o %WHITE%(x %QTY%)%MAP-4B%{%TAN%To Create a Voidstone%NL%and Hellfire Torch%NL%Cube w/ Trang-Oul's Jawbone}// Splinter of the Void
+ItemDisplay[rtma]:%RED%o %PURPLE%Voidstone %RED%o%MAP-4B%{%TAN%To Summon Rathma from the Void%NL%Use by the Blood Fountain in Act 5}//Voidstone
 //╔══════════════╗ 
 //║ Diablo Clone ║
 //╚══════════════╝
-ItemDisplay[dcma]:%RED%ooo %PURPLE%Vision of Terror %RED%ooo{%TAN%Use by Blood Fountain Act 5 to open Dclone}%MAP-4B%//Vision of Terror
-ItemDisplay[dcbl]:%RED%o %GOLD%Pure Demonic Essence %RED%o %WHITE%(x %QTY%){%TAN%and Black Soulstone to create Vision of Terror%NL%Combine with Prime Evil Soul}%MAP-4B%//Pure Demonic Essence
-ItemDisplay[dcho]:%RED%ooo %PURPLE%Black Soulstone %RED%ooo %WHITE%(x %QTY%){%TAN%and Prime Evil Soul to create Vision of Terror%NL%Combine with Pure Demonic Essence}%MAP-4B%//Black Soulstone
-ItemDisplay[dcso]:%RED%ooo %PURPLE%Prime Evil Soul %RED%ooo %WHITE%(x %QTY%){%TAN%and Black Soulstone to create Vision of Terror%NL%Combine with Pure Demonic Essence}%MAP-4B%//Prime Evil Soul
+ItemDisplay[dcma]:%RED%ooo %PURPLE%Vision of Terror %RED%ooo{%TAN%To Summon Diablo Clone from the Depths%NL%Use by the Blood Fountain in Act 5}%MAP-4B%//Vision of Terror
+ItemDisplay[dcbl]:%RED%o %GOLD%Pure Demonic Essence %RED%o %WHITE%(x %QTY%){%TAN%to create a Vision of Terror%NL%and Black Soulstone%NL%Cube with Prime Evil Soul}%MAP-4B%//Pure Demonic Essence
+ItemDisplay[dcho]:%RED%ooo %PURPLE%Black Soulstone %RED%ooo %WHITE%(x %QTY%){%TAN%to create a Vision of Terror%NL%and Prime Evil Soul%NL%Cube with Pure Demonic Essence}%MAP-4B%//Black Soulstone
+ItemDisplay[dcso]:%RED%o %PURPLE%Prime Evil Soul %RED%o %WHITE%(x %QTY%){%TAN%to create a Vision of Terror%NL%and Black Soulstone%NL%Cube with Pure Demonic Essence}%MAP-4B%//Prime Evil Soul
 //╔══════════════════╗
 //║ Corruption Items ║
 //╚══════════════════╝
-ItemDisplay[wss]:%RED%o %PURPLE%Worldstone Shard%RED% o %WHITE%(x %QTY%)%MAP-62%%PX-20%
-ItemDisplay[lbox]:%RED%*%YELLOW%*%GREEN%*%BLUE%* %RED%ooo %PURPLE%Larzuk's Puzzle Box %RED%ooo %RED%*%YELLOW%*%GREEN%*%BLUE%* %WHITE%(x %QTY%)%DOT-62%%BORDER-4B%
+ItemDisplay[wss]:%RED%o %PURPLE%Worldstone Shard%RED% o %WHITE%(x %QTY%)%MAP-62%%PX-20%{%BLUE%+1 to Luck} 
+ItemDisplay[lbox]:%RED%*%YELLOW%*%GREEN%*%BLUE%* %RED%ooo %PURPLE%Larzuk's Puzzle Box %RED%ooo %RED%*%YELLOW%*%GREEN%*%BLUE%* %WHITE%(x %QTY%)%DOT-62%%BORDER-4B%{%TAN%1-2 Sockets to Other Items%NL%2-4 Sockets to 2H Weapons%NL%to Add:%NL%Cube with Any Item}
 ItemDisplay[cwss]:%RED%*%YELLOW%*%GREEN%*%BLUE%* %RED%ooo %PURPLE%Tainted Worldstone Shard %RED%ooo %RED%*%YELLOW%*%GREEN%*%BLUE%*%DOT-62%%BORDER-4B%
 //╔══════════════╗
 //║ Map Upgrades ║
@@ -914,34 +915,34 @@ ItemDisplay[gsy CLVL>50]:
 ItemDisplay[sku CLVL>50]:
 //Gems flawless
 ItemDisplay[gzv]:%PURPLE%* %ORANGE%Amethyst %PURPLE%*%WHITE%
-ItemDisplay[gzvs]:%PURPLE%* %ORANGE%Amethyst %PURPLE%*%WHITE% (x %QTY%)
+ItemDisplay[gzvs]:%PURPLE%* %ORANGE%Amethyst %PURPLE%*%WHITE% (x %QTY%){%TAN%Shields:+24 Defense%NL%Helms:+8 to Strength%NL%Armor:+8 to Strength%NL%Weapons:+100 to Attack Rating}
 ItemDisplay[glw]:%WHITE%* %ORANGE%Diamond %WHITE%*%WHITE%
-ItemDisplay[glws]:%WHITE%* %ORANGE%Diamond %WHITE%*%WHITE% (x %QTY%)
+ItemDisplay[glws]:%WHITE%* %ORANGE%Diamond %WHITE%*%WHITE% (x %QTY%){%TAN%Shields:All Resistance +14 %NL%Helms:+80 Attack to Rating %NL%Armor:+80 to Attack Rating %NL% Weapons:+54% Dmg to Undead }
 ItemDisplay[glg]:%GREEN%* %ORANGE%Emerald %GREEN%*%WHITE%
-ItemDisplay[glgs]:%GREEN%* %ORANGE%Emerald %GREEN%*%WHITE% (x %QTY%)
+ItemDisplay[glgs]:%GREEN%* %ORANGE%Emerald %GREEN%*%WHITE% (x %QTY%){%TAN%Shields:Poison Res +28% %NL%Helms:+8 to Dexterity %NL%Armor:+8 to Dexterity %NL% Weapons:+60 Psn Dmg Over 6 Seconds }
 ItemDisplay[glr]:%RED%* %ORANGE%Ruby %RED%*%WHITE%
-ItemDisplay[glrs]:%RED%* %ORANGE%Ruby %RED%*%WHITE% (x %QTY%)
+ItemDisplay[glrs]:%RED%* %ORANGE%Ruby %RED%*%WHITE% (x %QTY%){%TAN%Shields:Fire Resist +28% %NL%Helms:+31 to Life %NL%Armor:+31 to Life %NL% Weapons:Adds 10-16 Fire Dmg }
 ItemDisplay[glb]:%BLUE%* %ORANGE%Sapphire %BLUE%*%WHITE%
-ItemDisplay[glbs]:%BLUE%* %ORANGE%Sapphire %BLUE%*%WHITE% (x %QTY%)
+ItemDisplay[glbs]:%BLUE%* %ORANGE%Sapphire %BLUE%*%WHITE% (x %QTY%){%TAN%Shields:Cold Resist +28% %NL%Helms:+31 to Mana %NL%Armor:+31 to Mana %NL% Weapons:Adds 6-10 Cold Dmg }
 ItemDisplay[gly]:%YELLOW%* %ORANGE%Topaz %YELLOW%*%WHITE%
-ItemDisplay[glys]:%YELLOW%* %ORANGE%Topaz %YELLOW%*%WHITE% (x %QTY%)
+ItemDisplay[glys]:%YELLOW%* %ORANGE%Topaz %YELLOW%*%WHITE% (x %QTY%){%TAN%Shields:Lightning Resist +28% %NL%Helms:20% Better Chance of Getting Magic Items %NL%Armor:20% Better Chance of Getting Magic Items %NL% Weapons:Adds 1-30 Lightning Dmg }
 ItemDisplay[skl]:%GRAY%* %ORANGE%Skull %GRAY%*%WHITE%
-ItemDisplay[skls]:%GRAY%* %ORANGE%Skull %GRAY%*%WHITE% (x %QTY%)
+ItemDisplay[skls]:%GRAY%* %ORANGE%Skull %GRAY%*%WHITE% (x %QTY%){%TAN%Shields:Attacker Takes Dmg of 16 %NL%Helms:Regenerate Mana 12%, Replenish Life +4 %NL%Armor:Regenerate Mana 12%, Replenish Life +4 %NL% Weapons:3% Life Stolen Per Hit, 3% Mana Stolen Per Hit }
 //Gems Perfect
 ItemDisplay[gpv]:%PURPLE%* %ORANGE%P Amethyst %PURPLE%*%WHITE%
-ItemDisplay[gpvs]:%PURPLE%* %ORANGE%P Amethyst %PURPLE%*%WHITE% (x %QTY%)
+ItemDisplay[gpvs]:%PURPLE%* %ORANGE%P Amethyst %PURPLE%*%WHITE% (x %QTY%){%TAN%Shields:+30 Defense%NL%Helms:+10 to Strength%NL%Armor:+10 to Strength%NL%Weapons:+150 to Attack Rating}
 ItemDisplay[gpw]:%WHITE%* %ORANGE%P Diamond %WHITE%*%WHITE%
-ItemDisplay[gpws]:%WHITE%* %ORANGE%P Diamond %WHITE%*%WHITE% (x %QTY%)
+ItemDisplay[gpws]:%WHITE%* %ORANGE%P Diamond %WHITE%*%WHITE% (x %QTY%){%TAN%Shields:All Resistance +19 %NL%Helms:+100 Attack to Rating %NL%Armor:+100 to Attack Rating %NL% Weapons:+68% Dmg to Undead}
 ItemDisplay[gpg]:%GREEN%* %ORANGE%P Emerald %GREEN%*%WHITE%
-ItemDisplay[gpgs]:%GREEN%* %ORANGE%P Emerald %GREEN%*%WHITE% (x %QTY%)
+ItemDisplay[gpgs]:%GREEN%* %ORANGE%P Emerald %GREEN%*%WHITE% (x %QTY%){%TAN%Shields:Poison Res +40% %NL%Helms:+10 to Dexterity %NL%Armor:+10 to Dexterity %NL% Weapons:+100 Psn Dmg Over 7 Seconds }
 ItemDisplay[gpr]:%RED%* %ORANGE%P Ruby %RED%*%WHITE%
-ItemDisplay[gprs]:%RED%* %ORANGE%P Ruby %RED%*%WHITE% (x %QTY%)
+ItemDisplay[gprs]:%RED%* %ORANGE%P Ruby %RED%*%WHITE% (x %QTY%){%TAN%Shields:Fire Resist +40% %NL%Helms:+38 to Life %NL%Armor:+38 to Life %NL% Weapons:Adds 15-20 Fire Dmg }
 ItemDisplay[gpb]:%BLUE%* %ORANGE%P Sapphire %BLUE%*%WHITE%
-ItemDisplay[gpbs]:%BLUE%* %ORANGE%P Sapphire %BLUE%*%WHITE% (x %QTY%)
+ItemDisplay[gpbs]:%BLUE%* %ORANGE%P Sapphire %BLUE%*%WHITE% (x %QTY%){%TAN%Shields:Cold Resist +40% %NL%Helms:+38 to Mana %NL%Armor:+38 to Mana %NL% Weapons:Adds 10-14 Cold Dmg }
 ItemDisplay[gpy]:%YELLOW%* %ORANGE%P Topaz %YELLOW%*%WHITE%
-ItemDisplay[gpys]:%YELLOW%* %ORANGE%P Topaz %YELLOW%*%WHITE% (x %QTY%)
+ItemDisplay[gpys]:%YELLOW%* %ORANGE%P Topaz %YELLOW%*%WHITE% (x %QTY%){%TAN%Shields:Lightning Resist +40% %NL%Helms:24% Better Chance of Getting Magic Items %NL%Armor:24% Better Chance of Getting Magic Items %NL% Weapons:Adds 1-40 Lightning Dmg }
 ItemDisplay[skz]:%GRAY%* %ORANGE%P Skull %GRAY%*%WHITE%
-ItemDisplay[skzs]:%GRAY%* %ORANGE%P Skull %GRAY%*%WHITE% (x %QTY%)
+ItemDisplay[skzs]:%GRAY%* %ORANGE%P Skull %GRAY%*%WHITE% (x %QTY%){%TAN%Shields:Attacker Takes Dmg of 20 %NL%Helms:Regenerate Mana 19%, Replenish Life +5 %NL%Armor:Regenerate Mana 19%, Replenish Life +5 %NL% Weapons:4% Life Stolen Per Hit, 3% Mana Stolen Per Hit}
 //╔═════════╗
 //║ Uniques ║
 //╚═════════╝
