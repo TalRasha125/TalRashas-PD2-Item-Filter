@@ -1398,64 +1398,64 @@ ItemDisplay[MAG (CLSK6>1 AND SK254>2) SIN]: %NAME% %GREEN%(+5 TS)%BLUE%%CONTINUE
 ItemDisplay[MAG (CLSK6>1 AND SK265>2) SIN]: %NAME% %GREEN%(+5 CS)%BLUE% %CONTINUE%// +2 Assassin, +3 Cobra Strike katar
 ItemDisplay[MAG (CLSK6>1 AND SK269>2) SIN]: %NAME% %GREEN%(+5 CoT)%BLUE%%CONTINUE% // +2 Assassin, +3 Claws of Thunder katar
 ItemDisplay[MAG (CLSK6>1 AND SK275>2) SIN]: %NAME% %GREEN%(+5 DF)%BLUE%%CONTINUE% // +2 Assassin, +3 Dragon Flight katar
-ItemDisplay[MAG (CLSK6>1 AND SK280>2) SIN]: %NAME% %GREEN%(+5 PS)%BLUE%%CONTINUE% // +2 Assassin, +3 Phoenix Strike katar
+ItemDisplay[MAG (CLSK6>1 AND SK280>2) SIN]: %NAME% %GREEN%(+5 PS)%BLUE%{%RED%ooo %PURPLE%+5 PS %RED%ooo} // +2 Assassin, +3 Phoenix Strike katar
 ItemDisplay[MAG (CLSK6>1 AND SK252>2) SIN]: %NAME% %GREEN%(+5 DCM)%BLUE%%CONTINUE% // +2 Assassin, +3 Dagger & Claw Mastery katar
 ItemDisplay[MAG (CLSK6>1 AND SK253>2) SIN]: %NAME% %GREEN%(+5 PH)%BLUE%%CONTINUE% // +2 Assassin, +3 Psychic Hammer katar
 ItemDisplay[MAG (CLSK6>1 AND SK273>2) SIN]: %NAME% %GREEN%(+5 MB)%BLUE%%CONTINUE%// +2 Assassin, +3 Mind Blast katar
 ItemDisplay[MAG (CLSK6>1 AND SK278>2) SIN]: %NAME% %GREEN%(+5 Ven)%BLUE%%CONTINUE% // +2 Assassin, +3 Venom katar
-ItemDisplay[MAG (CLSK6>1 AND SK262>2) SIN]: %NAME% %GREEN%(+5 WoF)%BLUE%%CONTINUE% // +2 Assassin, +3 Wake of Fire katar
+ItemDisplay[MAG (CLSK6>1 AND SK262>2) SIN]: %NAME% %GREEN%(+5 WoF)%BLUE%{%RED%ooo %PURPLE%+5 WoF %RED%ooo} // +2 Assassin, +3 Wake of Fire katar
 ItemDisplay[MAG (CLSK6>1 AND SK276>2) SIN]: %NAME% %GREEN%(+5 DS)%BLUE%%CONTINUE% // +2 Assassin, +3 Death Sentry katar
-ItemDisplay[MAG (CLSK6>1 AND SK271>2) SIN]: %NAME% %GREEN%(+5 CLS)%BLUE%%CONTINUE% // +2 Assassin, +3 Chain Lightning Sentry katar
+ItemDisplay[MAG (CLSK6>1 AND SK271>2) SIN]: %NAME% %GREEN%(+5 CLS)%BLUE%{%RED%ooo %PURPLE%+5 CLS %RED%ooo} // +2 Assassin, +3 Chain Lightning Sentry katar
 ItemDisplay[MAG (CLSK6>1 AND SK366>2) SIN]: %NAME% %GREEN%(+5 LS)%BLUE%%CONTINUE% // +2 Assassin, +3 Lightning Sentry katar
 //  +2 tab / +3 skill
 ItemDisplay[MAG (TABSK50=2 AND SK254=3) SIN]: %NAME% %GREEN%(+5 TS)%BLUE%%CONTINUE% // +2 Martial Arts, +3 Tiger Strike katar
 ItemDisplay[MAG (TABSK50=2 AND SK265=3) SIN]: %NAME% %GREEN%(+5 CS)%BLUE%%CONTINUE% // +2 Martial Arts, +3 Cobra Strike katar
 ItemDisplay[MAG (TABSK50=2 AND SK269=3) SIN]: %NAME% %GREEN%(+5 CoT)%BLUE%%CONTINUE% // +2 Martial Arts, +3 Claws of Thunder katar
 ItemDisplay[MAG (TABSK50=2 AND SK275=3) SIN]: %NAME% %GREEN%(+5 DF)%BLUE%%CONTINUE% // +2 Martial Arts, +3 Dragon Flight katar
-ItemDisplay[MAG (TABSK50=2 AND SK280=3) SIN]: %NAME% %GREEN%(+5 PS)%BLUE%%CONTINUE% // +2 Martial Arts, +3 Phoenix Strike katar
+ItemDisplay[MAG (TABSK50=2 AND SK280=3) SIN]: %NAME% %GREEN%(+5 PS)%BLUE%{%RED%ooo %PURPLE%+5 PS %RED%ooo} // +2 Martial Arts, +3 Phoenix Strike katar
 ItemDisplay[MAG (TABSK49=2 AND SK252=3) SIN]: %NAME% %GREEN%(+5 DCM)%BLUE%%CONTINUE% // +2 Shadow Disciplines, +3 Dagger & Claw Mastery katar
 ItemDisplay[MAG (TABSK49=2 AND SK253=3) SIN]: %NAME% %GREEN%(+5 PH)%BLUE%%CONTINUE% // +2 Shadow Disciplines, +3 Psychic Hammer katar
 ItemDisplay[MAG (TABSK49=2 AND SK273=3) SIN]: %NAME% %GREEN%(+5 MB)%BLUE%%CONTINUE% // +2 Shadow Disciplines, +3 Mind Blast katar
 ItemDisplay[MAG (TABSK49=2 AND SK278=3) SIN]: %NAME% %GREEN%(+5 Ven)%BLUE%%CONTINUE%// +2 Shadow Disciplines, +3 Venom katar
-ItemDisplay[MAG (TABSK48=2 AND SK262=3) SIN]: %NAME% %GREEN%(+5 WoF)%BLUE%%CONTINUE% // +2 Trap, +3 Wake of Fire katar
+ItemDisplay[MAG (TABSK48=2 AND SK262=3) SIN]: %NAME% %GREEN%(+5 WoF)%BLUE%{%RED%ooo %PURPLE%+5 WoF %RED%ooo} // +2 Trap, +3 Wake of Fire katar
 ItemDisplay[MAG (TABSK48=2 AND SK276=3) SIN]: %NAME% %GREEN%(+5 DS)%BLUE%%CONTINUE% // +2 Trap, +3 Death Sentry katar
-ItemDisplay[MAG (TABSK48=2 AND SK271=3) SIN]: %NAME% %GREEN%(+5 CLS)%BLUE%%CONTINUE% // +2 Trap, +3 Chain Lightning Sentry katar
+ItemDisplay[MAG (TABSK48=2 AND SK271=3) SIN]: %NAME% %GREEN%(+5 CLS)%BLUE%{%RED%ooo %PURPLE%+5 CLS %RED%ooo} // +2 Trap, +3 Chain Lightning Sentry katar
 ItemDisplay[MAG (TABSK48=2 AND SK366=3) SIN]: %NAME% %GREEN%(+5 LS)%BLUE%%CONTINUE% // +2 Trap, +3 Lightning Sentry katar
 //  +3 tab / +2 skill
 ItemDisplay[MAG (TABSK50=3 AND SK254=2) SIN]: %NAME% %GREEN%(+5 TS)%BLUE%%CONTINUE% // +3 Martial Arts, +2 Tiger Strike katar
 ItemDisplay[MAG (TABSK50=3 AND SK265=2) SIN]: %NAME% %GREEN%(+5 CS)%BLUE%%CONTINUE% // +3 Martial Arts, +2 Cobra Strike katar
 ItemDisplay[MAG (TABSK50=3 AND SK269=2) SIN]: %NAME% %GREEN%(+5 CoT)%BLUE%%CONTINUE% // +3 Martial Arts, +2 Claws of Thunder katar
 ItemDisplay[MAG (TABSK50=3 AND SK275=2) SIN]: %NAME% %GREEN%(+5 DF)%BLUE%%CONTINUE% // +3 Martial Arts, +2 Dragon Flight katar
-ItemDisplay[MAG (TABSK50=3 AND SK280=2) SIN]: %NAME% %GREEN%(+5 PS)%BLUE%%CONTINUE% // +3 Martial Arts, +2 Phoenix Strike katar
+ItemDisplay[MAG (TABSK50=3 AND SK280=2) SIN]: %NAME% %GREEN%(+5 PS)%BLUE%{%RED%ooo %PURPLE%+5 PS %RED%ooo} // +3 Martial Arts, +2 Phoenix Strike katar
 ItemDisplay[MAG (TABSK49=3 AND SK252=2) SIN]: %NAME% %GREEN%(+5 DCM)%BLUE%%CONTINUE% // +3 Shadow Disciplines, +2 Dagger & Claw Mastery katar
 ItemDisplay[MAG (TABSK49=3 AND SK253=2) SIN]: %NAME% %GREEN%(+5 PH)%BLUE%%CONTINUE% // +3 Shadow Disciplines, +2 Psychic Hammer katar
 ItemDisplay[MAG (TABSK49=3 AND SK273=2) SIN]: %NAME% %GREEN%(+5 MB)%BLUE% %CONTINUE%// +3 Shadow Disciplines, +2 Mind Blast katar
 ItemDisplay[MAG (TABSK49=3 AND SK278=2) SIN]: %NAME% %GREEN%(+5 Ven)%BLUE%%CONTINUE% // +3 Shadow Disciplines, +2 Venom katar
-ItemDisplay[MAG (TABSK48=3 AND SK262=2) SIN]: %NAME% %GREEN%(+5 WoF)%BLUE%%CONTINUE% // +3 Trap, +2 Wake of Fire katar
+ItemDisplay[MAG (TABSK48=3 AND SK262=2) SIN]: %NAME% %GREEN%(+5 WoF)%BLUE%{%RED%ooo %PURPLE%+5 WoF %RED%ooo} // +3 Trap, +2 Wake of Fire katar
 ItemDisplay[MAG (TABSK48=3 AND SK276=2) SIN]: %NAME% %GREEN%(+5 DS)%BLUE%%CONTINUE% // +3 Trap, +2 Death Sentry katar
-ItemDisplay[MAG (TABSK48=3 AND SK271=2) SIN]: %NAME% %GREEN%(+5 CLS)%BLUE%%CONTINUE% // +3 Trap, +2 Chain Lightning Sentry katar
+ItemDisplay[MAG (TABSK48=3 AND SK271=2) SIN]: %NAME% %GREEN%(+5 CLS)%BLUE%{%RED%ooo %PURPLE%+5 CLS %RED%ooo} // +3 Trap, +2 Chain Lightning Sentry katar
 ItemDisplay[MAG (TABSK48=3 AND SK366=2) SIN]: %NAME% %GREEN%(+5 LS)%BLUE%%CONTINUE% // +3 Trap, +2 Lightning Sentry katar
 //  +3 tab / +3 skill
 ItemDisplay[MAG (TABSK50=3 AND SK254=3) SIN]: %NAME% %GREEN%(+5 TS)%BLUE%%CONTINUE% // +3 Martial Arts, +3 Tiger Strike katar
 ItemDisplay[MAG (TABSK50=3 AND SK265=3) SIN]: %NAME% %GREEN%(+5 CS)%BLUE%%CONTINUE% // +3 Martial Arts, +3 Cobra Strike katar
 ItemDisplay[MAG (TABSK50=3 AND SK269=3) SIN]: %NAME% %GREEN%(+5 CoT)%BLUE%%CONTINUE% // +3 Martial Arts, +3 Claws of Thunder katar
 ItemDisplay[MAG (TABSK50=3 AND SK275=3) SIN]: %NAME% %GREEN%(+5 DF)%BLUE%%CONTINUE% // +3 Martial Arts, +3 Dragon Flight katar
-ItemDisplay[MAG (TABSK50=3 AND SK280=3) SIN]: %NAME% %GREEN%(+5 PS)%BLUE%%CONTINUE% // +3 Martial Arts, +3 Phoenix Strike katar
+ItemDisplay[MAG (TABSK50=3 AND SK280=3) SIN]: %NAME% %GREEN%(+5 PS)%BLUE%{%RED%*%YELLOW%*%GREEN%*%BLUE%* %RED%ooooooo %PURPLE%+6 PS%RED% ooooooo %RED%*%YELLOW%*%GREEN%*%BLUE%*%RED%*} // +3 Martial Arts, +3 Phoenix Strike katar
 ItemDisplay[MAG (TABSK49=3 AND SK252=3) SIN]: %NAME% %GREEN%(+5 DCM)%BLUE%%CONTINUE% // +3 Shadow Disciplines, +3 Dagger & Claw Mastery katar
 ItemDisplay[MAG (TABSK49=3 AND SK253=3) SIN]: %NAME% %GREEN%(+6 PH)%BLUE%%CONTINUE% // +3 Shadow Disciplines, +3 Psychic Hammer katar
 ItemDisplay[MAG (TABSK49=3 AND SK273=3) SIN]: %NAME% %GREEN%(+6 MB)%BLUE%%CONTINUE% // +3 Shadow Disciplines, +3 Mind Blast katar
 ItemDisplay[MAG (TABSK49=3 AND SK278=3) SIN]: %NAME% %GREEN%(+6 Ven)%BLUE%%CONTINUE% // +3 Shadow Disciplines, +3 Venom katar
-ItemDisplay[MAG (TABSK48=3 AND SK262=3) SIN]: %NAME% %GREEN%(+6 WoF)%BLUE%%CONTINUE% // +3 Trap, +3 Wake of Fire katar
+ItemDisplay[MAG (TABSK48=3 AND SK262=3) SIN]: %NAME% %GREEN%(+6 WoF)%BLUE%{%RED%*%YELLOW%*%GREEN%*%BLUE%* %RED%ooooooo %PURPLE%+6 WoF%RED% ooooooo %RED%*%YELLOW%*%GREEN%*%BLUE%*%RED%*} // +3 Trap, +3 Wake of Fire katar
 ItemDisplay[MAG (TABSK48=3 AND SK276=3) SIN]: %NAME% %GREEN%(+6 DS)%BLUE%%CONTINUE% // +3 Trap, +3 Death Sentry katar
-ItemDisplay[MAG (TABSK48=3 AND SK271=3) SIN]: %NAME% %GREEN%(+6 CLS)%BLUE%%CONTINUE% // +3 Trap, +3 Chain Lightning Sentry katar
+ItemDisplay[MAG (TABSK48=3 AND SK271=3) SIN]: %NAME% %GREEN%(+6 CLS)%BLUE%{%RED%*%YELLOW%*%GREEN%*%BLUE%* %RED%ooooooo %PURPLE%+6 CLS%RED% ooooooo %RED%*%YELLOW%*%GREEN%*%BLUE%*%RED%*} // +3 Trap, +3 Chain Lightning Sentry katar
 ItemDisplay[MAG (TABSK48=3 AND SK366=3) SIN]: %NAME% %GREEN%(+6 LS)%BLUE%%CONTINUE%// +3 Trap, +3 Lightning Sentry katar
 // Barbarian helms
 ItemDisplay[MAG (CLSK4>1 AND SK149>2) BAR]: %NAME% %GREEN%(+2/3 BO)%BLUE%%CONTINUE% // +2 Barbarian, +3 Battle Orders Barb helm
 ItemDisplay[MAG (CLSK4>1 AND SK154>2) BAR]: %NAME% %GREEN%(+2/3 Warcry)%BLUE% %CONTINUE%// +2 Barbarian, +3 Warcry Barb helm
 // Gloves
-ItemDisplay[MAG (TABSK2>2 AND IAS>19) GLOVES]: %NAME% %GREEN%(3/20)%BLUE%%CONTINUE% // +3 Javelin Skills, 20 IAS Gloves
+ItemDisplay[MAG (TABSK2>2 AND IAS>19) GLOVES]: %NAME% %GREEN%(3/20)%BLUE%{%RED%*%YELLOW%*%GREEN%*%BLUE%* %RED%ooooooo %PURPLE%3/20 Jav%RED% ooooooo %RED%*%YELLOW%*%GREEN%*%BLUE%*%RED%*} // +3 Javelin Skills, 20 IAS Gloves
 ItemDisplay[MAG (TABSK0=2 OR TABSK1=2 OR TABSK2=2 OR TABSK50=2) IAS>19 GLOVES]: %NAME% %GREEN%(2/20)%BLUE% %CONTINUE%// +2 tab skills, 20 IAS Gloves
-ItemDisplay[MAG (TABSK0=3 OR TABSK1=3 OR TABSK2=3 OR TABSK50=3) IAS>19 GLOVES]: %NAME% %GREEN%(3/20)%BLUE% %CONTINUE%// +3 tab skills, 20 IAS Gloves
+ItemDisplay[MAG (TABSK0=3 OR TABSK1=3 OR TABSK2=3 OR TABSK50=3) IAS>19 GLOVES]: %NAME% %GREEN%(3/20)%BLUE%{%RED%*%YELLOW%*%GREEN%*%BLUE%* %RED%ooooooo %PURPLE%3/20%RED% ooooooo %RED%*%YELLOW%*%GREEN%*%BLUE%*%RED%*}// +3 tab skills, 20 IAS Gloves
 ItemDisplay[MAG TABSK34>2 WEAPON]: %NAME% %GREEN%(+3 Warcries)%BLUE% %CONTINUE%// +3 Warcries weapon
 // Staves with charges
 ItemDisplay[MAG CHSK54>0 STAFF]: %NAME% %GREEN%(Teleport)%BLUE% %CONTINUE%// Teleport charges
