@@ -1359,10 +1359,12 @@ ItemDisplay[SET]:%NAME%%MAP-84%
 //╚═════════════╝
 //
 //Amulets
-ItemDisplay[MAG amu !ID]:%BLUE%*** %NAME%%MAP-97%%PX-62%%BLUE% ***%WHITE%
+ItemDisplay[MAG CLVL<90 amu !ID]:%BLUE%*** %NAME%%MAP-97%%PX-62%%BLUE% ***%WHITE%
+ItemDisplay[MAG CLVL>89 amu !ID]:%BLUE%*** %NAME%%BLUE% ***%WHITE%
 //
 //Rings
-ItemDisplay[MAG !ID rin]:%BLUE%* %NAME% *%WHITE%
+ItemDisplay[MAG CLVL<90 !ID rin]:%BLUE%* %NAME% *%WHITE%
+ItemDisplay[MAG CLVL>89 !ID rin]:
 //
 //Blue Jewels for crafting
 ItemDisplay[MAG !ID jew]:%BLUE%* %BLUE%o Jewel o %BLUE%*%MAP-97%%PX-62%
@@ -1604,7 +1606,7 @@ ItemDisplay[MAG ID cm1 MFIND>5]:%PURPLE%Mf Small Charm%WHITE%[%ILVL%]
 /////////////
 //Rerolling//
 /////////////
-ItemDisplay[MAG cm3 ID ILVL>90]:%ORANGE%Reroll %BLUE%%NAME% %ORANGE%[%ILVL%]%MAP-97%%PX-62%
+ItemDisplay[MAG cm3 ID ILVL>90]:%ORANGE%91+ Reroll %BLUE%%NAME% %ORANGE%[%ILVL%]%MAP-97%%PX-62%
 /////////////
 //Runewords//
 /////////////
@@ -1616,7 +1618,7 @@ ItemDisplay[MAG !ID cm1]:%WHITE%%BLUE%*** %BLUE%o %NAME%%GRAY%[%ILVL%]%BLUE% o %
 ItemDisplay[MAG !ID cm2 CLVL<80]:%WHITE%%BLUE%* %BLUE%o %NAME%%GRAY%[%ILVL%]%BLUE% o %BLUE%*%WHITE%%MAP-97%%PX-62%
 ItemDisplay[MAG !ID cm2 CLVL>79]:%BLUE%o %NAME%%BLUE% o
 ItemDisplay[MAG !ID ILVL<91 cm3]:%WHITE%%BLUE%*** %BLUE%o %NAME%%GRAY%[%ILVL%]%BLUE% o %BLUE%***%WHITE%%MAP-97%%PX-62%
-ItemDisplay[MAG !ID ILVL>90 cm3]:%WHITE%%BLUE%*** %BLUE%o %ORANGE%Reroll %BLUE%%NAME%%ORANGE%[%ILVL%]%BLUE% o %BLUE%***%WHITE%%MAP-97%%PX-62%
+ItemDisplay[MAG !ID ILVL>90 cm3]:%WHITE%%RED%*** %BLUE%o %NAME%%RED%[%ILVL%]%BLUE% o %RED%***%WHITE%%MAP-97%%PX-62%
 //╔═══════╗
 //║ Rares ║
 //╚═══════╝
