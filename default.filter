@@ -1,7 +1,7 @@
 //++++++++++++++++++++++++++
 //TalRasha's PD2 Item Filter
 //++++++++++++++++++++++++++
-//Updated October 1, 2023
+//Updated October 5, 2023
 //
 //╔════════════════╗
 //║ Global Filters ║
@@ -541,10 +541,10 @@ ItemDisplay[MAG DIFF=2 PRICE>34999]:%GREEN%$ %BLUE%%NAME%%CONTINUE%
 ItemDisplay[RARE DIFF=2 PRICE>34999]:%GREEN%$ %YELLOW%%NAME%%CONTINUE%
 ItemDisplay[UNI DIFF=2 PRICE>34999]:%GREEN%$ %GOLD%%NAME%%CONTINUE%
 //
-ItemDisplay[NMAG DIFF=1 PRICE>24999 !(pk1 OR pk2 OR pk3)]:%GREEN%$ %WHITE%%NAME%%CONTINUE%
-ItemDisplay[MAG DIFF=1 PRICE>24999]:%GREEN%$ %BLUE%%NAME%%CONTINUE%
-ItemDisplay[RARE DIFF=1 PRICE>24999]:%GREEN%$ %YELLOW%%NAME%%CONTINUE%
-ItemDisplay[UNI DIFF=1 PRICE>24999]:%GREEN%$ %GOLD%%NAME%%CONTINUE%
+ItemDisplay[NMAG DIFF=1 PRICE>29999 !(pk1 OR pk2 OR pk3)]:%GREEN%$ %WHITE%%NAME%%CONTINUE%
+ItemDisplay[MAG DIFF=1 PRICE>29999]:%GREEN%$ %BLUE%%NAME%%CONTINUE%
+ItemDisplay[RARE DIFF=1 PRICE>29999]:%GREEN%$ %YELLOW%%NAME%%CONTINUE%
+ItemDisplay[UNI DIFF=1 PRICE>29999]:%GREEN%$ %GOLD%%NAME%%CONTINUE%
 //Gold
 // If you want all gold to show just comment out all of these lines by adding "// " at the start of each line and uncomment the first line
 //ItemDisplay[GOLD>0]: %NAME% // Show all gold (if you uncomment this line comment out all the other gold lines below)
@@ -712,10 +712,10 @@ ItemDisplay[r12s]:%NAME%{%TAN%Armor/Helm/Shield: %BLUE%PDR By %WHITE%7%NL%%TAN%W
 ItemDisplay[r13s]:%NAME%{%TAN%Shield: %WHITE%20% %BLUE%FBR%NL%%TAN%Armor/Helm: %WHITE%20% %BLUE%FHR%NL%%TAN%Weapon: %WHITE%20% %BLUE%IAS%NAME%}
 ItemDisplay[r14s]:%NAME%{%TAN%Armor/Helm/Shield: %BLUE%Rep Life %WHITE%+10%NL%%TAN%Weapon: %WHITE%20% %BLUE%ED%NAME%}
 ItemDisplay[r15s]:%NAME%{%TAN%Armor/Helm/Shield: %BLUE%Req %WHITE%-15%%NL%%TAN%Weapon: %BLUE%Req %WHITE%-20%%NAME%}
-ItemDisplay[r16s]:%NAME%{%TAN%All Sockets: %WHITE%+10 %BLUE%to Vit%NAME%}
-ItemDisplay[r17s]:%NAME%{%TAN%All Sockets: %WHITE%+10 %BLUE%to Ene%NAME%}
-ItemDisplay[r18s]:%NAME%{%TAN%All Sockets: %WHITE%+10 %BLUE%to Dex%NAME%}
-ItemDisplay[r19s]:%NAME%{%TAN%Armor/Helm/Shield: %WHITE%50% %BLUE%GF%NL%%TAN%Weapon: %WHITE%75% %BLUE%GF%NAME%}
+ItemDisplay[r16s]:%NAME%{%TAN%All Sockets: %WHITE%+10 %BLUE%to Vitality%NAME%}
+ItemDisplay[r17s]:%NAME%{%TAN%All Sockets: %WHITE%+10 %BLUE%to Energy%NAME%}
+ItemDisplay[r18s]:%NAME%{%TAN%All Sockets: %WHITE%+10 %BLUE%to Dexterity%NAME%}
+ItemDisplay[r19s]:%NAME%{%TAN%Armor/Helm/Shield: All Sockets: %WHITE%+10 %BLUE%to Strength%NAME%}
 ItemDisplay[r20s]:%NAME%{%TAN%Armor/Helm/Shield: %WHITE%50% %BLUE%Gold Find%NL%%TAN%Weapon: %WHITE%75% %BLUE%Gold Find%NAME%}
 ItemDisplay[r21s]:%NAME%{%TAN%Armor/Helm/Shield: %WHITE%30% %BLUE%ED%NL%%TAN%Weapon: %WHITE%+75% %BLUE%Dmg, %WHITE%+100 %BLUE%AR Vs Dem%NAME%}
 ItemDisplay[r22s]:%NAME%{%TAN%Shield: %BLUE%All Res %WHITE%+22%%NL%%TAN%Armor/Helm: %BLUE%All Res %WHITE%+15%%NL%+120 %BLUE%OW Dmg Over %WHITE%5 %BLUE%Sec%NL%%TAN%Weapon: %WHITE%10% %BLUE%Chance of OW,%NAME%}
