@@ -994,7 +994,7 @@ ItemDisplay[UNI !ID ulb]:%PURPLE%* %RED%ooo %GOLD%Merman's Sprocket %RED%ooo %PU
 ItemDisplay[UNI !ID ned]:%PURPLE%* %RED%ooo %GOLD%Martyrdom %RED%ooo %PURPLE%* %BORDER-A5%%DOT-62%
 ItemDisplay[UNI !ID 6bs]:%PURPLE%* %RED%ooo %GOLD%Brimstone Rain %RED%ooo %PURPLE%* %BORDER-A5%%DOT-62%
 ItemDisplay[UNI !ID 7qs]:%PURPLE%* %RED%ooo %GOLD%Akarat's Devotion %RED%ooo %PURPLE%* %BORDER-A5%%DOT-62%
-ItemDisplay[UNI !ID 7tw]:%PURPLE%* %RED%ooo %GOLD%Stalker's Call %RED%ooo %PURPLE%* %BORDER-A5%%DOT-62%
+ItemDisplay[UNI !ID 7tw]:%PURPLE%* %RED%ooo %GOLD%Stalker's Cull %RED%ooo %PURPLE%* %BORDER-A5%%DOT-62%
 ItemDisplay[UNI !ID baf]:%PURPLE%* %RED%ooo %GOLD%Raekor's Virtue %RED%ooo %PURPLE%* %BORDER-A5%%DOT-62%
 ItemDisplay[UNI !ID utp]:%PURPLE%* %RED%ooo %GOLD%Purgatory %RED%ooo %PURPLE%* %BORDER-A5%%DOT-62%
 ItemDisplay[UNI !ID drf]:%PURPLE%* %RED%ooo %GOLD%Ursa's Nightmare %RED%ooo %PURPLE%* %BORDER-A5%%DOT-62%
