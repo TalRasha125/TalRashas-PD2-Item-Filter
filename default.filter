@@ -1,7 +1,7 @@
 //++++++++++++++++++++++++++
 //TalRasha's PD2 Item Filter
 //++++++++++++++++++++++++++
-//Updated October 5, 2023
+//Updated October 12, 2023
 //
 //╔════════════════╗
 //║ Global Filters ║
@@ -775,17 +775,17 @@ ItemDisplay[tpll CLVL<30]:%YELLOW%*L+{%YELLOW%%NAME%}
 ItemDisplay[tpll (CLVL>29 AND CLVL<50)]:%YELLOW%*L+{%YELLOW%%NAME%}
 ItemDisplay[tpll CLVL>49]:
 //
-ItemDisplay[t53]:%RED%o %PURPLE%Fallen Gardens %RED%o%MAP-62%
-ItemDisplay[7st !ID UNI]:%RED%ooo %PURPLE%Uldyssian's Awakening %RED%ooo%MAP-62%
-ItemDisplay[7cm !ID UNI]:%RED%ooo %PURPLE%Leoric's Mithril Bane %RED%ooo%MAP-62%
+ItemDisplay[t53]:%RED%o %PURPLE%Fallen Gardens Map%RED%o%MAP-62%
+ItemDisplay[7st !ID UNI]:%RED%o %PURPLE%Uldyssian's Awakening %RED%o%MAP-62%
+ItemDisplay[7cm !ID UNI]:%RED%o %PURPLE%Leoric's Mithril Bane %RED%o%MAP-62%
 //╔═══════════════════════╗
 //║   Season 7 New Items  ║
 //╚═══════════════════════╝
-ItemDisplay[t51]:%RED%o %PURPLE%Zhar's Sanctum %RED%o%MAP-62%
-ItemDisplay[t52]:%RED%o %PURPLE%The Stygian Caverns %RED%o%MAP-62%
+ItemDisplay[t51]:%RED%o %PURPLE%Zhar's Sanctum Map%RED%o%MAP-62%
+ItemDisplay[t52]:%RED%o %PURPLE%The Stygian Caverns Map%RED%o%MAP-62%
 ItemDisplay[cm2f]:%RED%o %PURPLE%Hellfire Ashes %RED%o %WHITE%(x %QTY%)%MAP-4B%//Vision of Terror
 ItemDisplay[pvpp]:%BLUE%!%WHITE%M
-ItemDisplay[iwss]:%RED%o %PURPLE%Catalyst Shard%RED% o %WHITE%(x %QTY%)%MAP-62%{%TAN%Guarantee An Event%NL%Cube With Any Map}
+ItemDisplay[iwss]:%RED%o %PURPLE%Catalyst Shard%RED% o %WHITE%(x %QTY%)%MAP-62%{%TAN%Guarantee An Event%NL%Cube With Any Map To}
 //╔═══════════════════════╗
 //║   Season 5 New Items  ║
 //╚═══════════════════════╝
@@ -799,9 +799,9 @@ ItemDisplay[lmal]:%GOLD%Larzuk's Malus{%TAN%To Add 1 Socket%NL%Cube With Any Ite
 //╔═════════════════╗
 //║   Uber Ancients ║
 //╚═════════════════╝
-ItemDisplay[ubaa]:%RED%o %GOLD%Sigil of Madawc %RED%o%MAP-4B%{%TAN%to create Relic of the Ancients%NL%Combine with other Sigils}//Sigil of Madawc
-ItemDisplay[ubab]:%RED%o %GOLD%Sigil of Talic %RED%o%MAP-4B%{%TAN%to create Relic of the Ancients%NL%Combine with other Sigils}//Sigil of Talic
-ItemDisplay[ubac]:%RED%o %GOLD%Sigil of Korlic %RED%o%MAP-4B%{%TAN%to create Relic of the Ancients%NL%Combine with other Sigils}//Sigil of Korlic
+ItemDisplay[ubaa]:%RED%o %GOLD%Sigil of Madawc %RED%o%MAP-4B%{%TAN%to create Relic of the Ancients%NL%Combine with other Sigils%NL%%RED%Obtain from T1 maps}//Sigil of Madawc
+ItemDisplay[ubab]:%RED%o %GOLD%Sigil of Talic %RED%o%MAP-4B%{%TAN%to create Relic of the Ancients%NL%Combine with other Sigils%NL%%RED%Obtain from T2 maps}//Sigil of Talic
+ItemDisplay[ubac]:%RED%o %GOLD%Sigil of Korlic %RED%o%MAP-4B%{%TAN%to create Relic of the Ancients%NL%Combine with other Sigils%NL%%RED%Obtain from T3 maps}//Sigil of Korlic
 ItemDisplay[uba]:%RED%o %GOLD%Relic of the Ancients %RED%o%MAP-4B%{%TAN%to Summon Uber Ancients%NL%Use by the Blood Fountain in Act 5}//Relic of the Ancients
 //╔═══════════╗
 //║   Rathma  ║
